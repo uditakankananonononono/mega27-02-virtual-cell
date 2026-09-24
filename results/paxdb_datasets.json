@@ -1,0 +1,171 @@
+{
+ "n_datasets": 19,
+ "n_scored": 19,
+ "n_auroc_gt_0.5": 19,
+ "sign_test_p": 3.814697265625e-06,
+ "pooled_auroc_ivw": 0.6106777934021163,
+ "pooled_ci95": [
+  0.5986888684527328,
+  0.6226667183514997
+ ],
+ "spearman_auroc_vs_coverage": 0.5,
+ "auroc_range": [
+  0.5356793743890518,
+  0.7107201309328969
+ ],
+ "per_dataset": {
+  "511145-E_coli_Wisniewski_2014_cpc.txt": {
+   "paxdb_id": "1651745281",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Cpc (Wisniewski,J_Proteomics,2014)",
+   "n_covered": 846,
+   "n_essential_covered": 181,
+   "auroc": 0.6419723341502928,
+   "se": 0.02425415778734563
+  },
+  "511145-Ecoli_APEX_arike_2012.txt": {
+   "paxdb_id": "4057863993",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Apex (Arike, J_Proteomics,2012)",
+   "n_covered": 520,
+   "n_essential_covered": 124,
+   "auroc": 0.5356793743890518,
+   "se": 0.030009090702758767
+  },
+  "511145-Ecoli_Krug_2013.txt": {
+   "paxdb_id": "936332856",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (Krug,MCP,2013)",
+   "n_covered": 971,
+   "n_essential_covered": 192,
+   "auroc": 0.626852000427899,
+   "se": 0.023485171916068772
+  },
+  "511145-Ecoli_Krug_2013_emPAI.txt": {
+   "paxdb_id": "4291339386",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Empai (Krug,MCP,2013)",
+   "n_covered": 952,
+   "n_essential_covered": 190,
+   "auroc": 0.6346871114794861,
+   "se": 0.023574710375216197
+  },
+  "511145-Ecoli_emPAI_arike_2012.txt": {
+   "paxdb_id": "40289017",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Empai (Arike, J_Proteomics,2012)",
+   "n_covered": 560,
+   "n_essential_covered": 135,
+   "auroc": 0.5501350762527233,
+   "se": 0.02885710202064078
+  },
+  "511145-Ecoli_iBAQ_arike_2012.txt": {
+   "paxdb_id": "61742278",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Ibaq (Arike, J_Proteomics,2012)",
+   "n_covered": 574,
+   "n_essential_covered": 140,
+   "auroc": 0.537664581961817,
+   "se": 0.02834272714955305
+  },
+  "511145-Ecoli_strainK12_PRIDE.txt": {
+   "paxdb_id": "3128119420",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (Wright, MCP,2012)",
+   "n_covered": 837,
+   "n_essential_covered": 163,
+   "auroc": 0.6722979738217035,
+   "se": 0.02499520535408421
+  },
+  "511145-Escherichia_coli_SC_biomart_12189_E__2reps.txt": {
+   "paxdb_id": "121480451",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (Valgepea,BMC_Syst_Biol,2010)",
+   "n_covered": 981,
+   "n_essential_covered": 193,
+   "auroc": 0.6301090187001919,
+   "se": 0.023392106852160283
+  },
+  "511145-Escherichia_coli_SC_biomart_17112_E__2reps.txt": {
+   "paxdb_id": "2121262705",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (PRIDE,PRD000418,2011)",
+   "n_covered": 612,
+   "n_essential_covered": 143,
+   "auroc": 0.547646383467279,
+   "se": 0.02790641247444823
+  },
+  "511145-Escherichia_coli_SC_biomart_18119_E__5reps.txt": {
+   "paxdb_id": "4122816359",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (PRIDE,PRD000485,2012)",
+   "n_covered": 780,
+   "n_essential_covered": 169,
+   "auroc": 0.6054290667157343,
+   "se": 0.02538627835694441
+  },
+  "511145-Escherichia_coli_SC_biomart_29780_E_BTO0000214cellculture_2reps.txt": {
+   "paxdb_id": "748372494",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (Arike, J_Proteomics,2012)",
+   "n_covered": 769,
+   "n_essential_covered": 158,
+   "auroc": 0.6066212268743915,
+   "se": 0.02610300678874762
+  },
+  "511145-GPM_201408.txt": {
+   "paxdb_id": "2424694404",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (GPM,Aug,2014)",
+   "n_covered": 1036,
+   "n_essential_covered": 199,
+   "auroc": 0.623193626435643,
+   "se": 0.023028449562681554
+  },
+  "511145-Lu_ecoli_2007.txt": {
+   "paxdb_id": "4198203700",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, APEX (Lu, Nat_Biotechnol,2007)",
+   "n_covered": 240,
+   "n_essential_covered": 72,
+   "auroc": 0.5608465608465609,
+   "se": 0.04102882576315531
+  },
+  "511145-PXD014877_Mueller_Nature_2020_Escherichia_coli.txt": {
+   "paxdb_id": "2230462687",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Escherichia coli, NSAF (M\u00fcller JB,Nature,2020)",
+   "n_covered": 729,
+   "n_essential_covered": 169,
+   "auroc": 0.6066620879120879,
+   "se": 0.025579237198123765
+  },
+  "511145-PXD020761_Midha_Sci_Data_2020_Ecoli_DIA-SWATH.txt": {
+   "paxdb_id": "3375035034",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Ecoli dia-swath, DIA, SWATHMS (Midha et al, Sci Data 2020)",
+   "n_covered": 774,
+   "n_essential_covered": 181,
+   "auroc": 0.6361463855477811,
+   "se": 0.02453743866565292
+  },
+  "511145-Taniguchi_2010_Table_S6.txt": {
+   "paxdb_id": "3381792233",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Yfp fusion library, YFP normalized data (Taniguchi,Science,2010)",
+   "n_covered": 354,
+   "n_essential_covered": 94,
+   "auroc": 0.7107201309328969,
+   "se": 0.03300196782521662
+  },
+  "511145-WT-lewis-peptide_count.txt": {
+   "paxdb_id": "4073365",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Gly and lac substrate, SC (Lewis,Mol_Syst_Biol,2010)",
+   "n_covered": 409,
+   "n_essential_covered": 100,
+   "auroc": 0.5546763754045307,
+   "se": 0.03361938340803737
+  },
+  "511145-ecoli1_HCD_CID_PRIDE.txt": {
+   "paxdb_id": "3677031225",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, Hcd,cid, SC (Mancuso,J-Proteomics,2012)",
+   "n_covered": 471,
+   "n_essential_covered": 117,
+   "auroc": 0.5967574484523638,
+   "se": 0.031080150847826973
+  },
+  "511145-ecoli2_resolutionCombination_PRIDE.txt": {
+   "paxdb_id": "3321265269",
+   "name": "E.coli str. K-12 substr. MG1655 - Whole organism, SC (PRIDE,PRD000485,2012)",
+   "n_covered": 841,
+   "n_essential_covered": 173,
+   "auroc": 0.625484579973002,
+   "se": 0.024845282031590962
+  }
+ },
+ "verdict": "ROBUST (pre-registered)"
+}

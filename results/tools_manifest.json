@@ -553,6 +553,82 @@
   [
    "Fitness Browser Feb 2024 db.StrainFitness.pseudo6_N2E2 (figshare 25236931, file 44580568)",
    "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "PaxDb v5 dataset 1651745281 (511145-E_coli_Wisniewski_2014_cpc.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Cpc (Wisniewski,J_Proteomics,2014)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 4057863993 (511145-Ecoli_APEX_arike_2012.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Apex (Arike, J_Proteomics,2012)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 936332856 (511145-Ecoli_Krug_2013.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (Krug,MCP,2013)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 4291339386 (511145-Ecoli_Krug_2013_emPAI.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Empai (Krug,MCP,2013)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 40289017 (511145-Ecoli_emPAI_arike_2012.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Empai (Arike, J_Proteomics,2012)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 61742278 (511145-Ecoli_iBAQ_arike_2012.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Ibaq (Arike, J_Proteomics,2012)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 3128119420 (511145-Ecoli_strainK12_PRIDE.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (Wright, MCP,2012)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 121480451 (511145-Escherichia_coli_SC_biomart_12189_E__2reps.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (Valgepea,BMC_Syst_Biol,2010)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 2121262705 (511145-Escherichia_coli_SC_biomart_17112_E__2reps.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (PRIDE,PRD000418,2011)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 4122816359 (511145-Escherichia_coli_SC_biomart_18119_E__5reps.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (PRIDE,PRD000485,2012)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 748372494 (511145-Escherichia_coli_SC_biomart_29780_E_BTO0000214cellculture_2reps.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (Arike, J_Proteomics,2012)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 2424694404 (511145-GPM_201408.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (GPM,Aug,2014)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 4198203700 (511145-Lu_ecoli_2007.txt): E.coli str. K-12 substr. MG1655 - Whole organism, APEX (Lu, Nat_Biotechnol,2007)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 2230462687 (511145-PXD014877_Mueller_Nature_2020_Escherichia_coli.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Escherichia coli, NSAF (M\u00fcller JB,Nature,2020)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 3375035034 (511145-PXD020761_Midha_Sci_Data_2020_Ecoli_DIA-SWATH.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Ecoli dia-swath, DIA, SWATHMS (Midha et al, Sci Data 2020)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 3381792233 (511145-Taniguchi_2010_Table_S6.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Yfp fusion library, YFP normalized data (Taniguchi,Science,2010)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 4073365 (511145-WT-lewis-peptide_count.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Gly and lac substrate, SC (Lewis,Mol_Syst_Biol,2010)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 3677031225 (511145-ecoli1_HCD_CID_PRIDE.txt): E.coli str. K-12 substr. MG1655 - Whole organism, Hcd,cid, SC (Mancuso,J-Proteomics,2012)",
+   "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 3321265269 (511145-ecoli2_resolutionCombination_PRIDE.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (PRIDE,PRD000485,2012)",
+   "protein abundance (per-dataset robustness)"
   ]
  ],
  "infrastructure_not_counted": [

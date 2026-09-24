@@ -279,4 +279,15 @@ def story_bern(story, R):
                 f"percentile against {100*pa['median_pct_off']:.0f}th for off-pathway genes (p = {pa['mwu_p']:.2f}): {pa['verdict']}. Without "
                 f"SAM rescues the difference is {ns['diff']:+.3f} (p = {ns['mwu_p']:.2f}): {ns['verdict']} (results/cross_species_xs7.json). "
                 "Outside E. coli the supplement-bypass signal is carried, if at all, by SAM alone.", BODY)]
+    px = R('paxdb_datasets.json')
+    story += [P('H.19 The abundance signal holds in every proteomics dataset (pre-registered)', H2),
+              P(f"Integrated PaxDb abundance is a v3 feature. To check it is not an artefact of integration we scored each of the "
+                f"{px['n_datasets']} individual E. coli K-12 datasets in PaxDb v5 separately (notes/prereg_paxdb_datasets.md). Highly "
+                f"abundant proteins are more often essential in all {px['n_auroc_gt_0.5']} of {px['n_scored']} datasets (sign test "
+                f"p = {px['sign_test_p']:.1e}; AUROC range {px['auroc_range'][0]:.3f} to {px['auroc_range'][1]:.3f}; inverse-variance pooled "
+                f"AUROC {px['pooled_auroc_ivw']:.3f}, 95% CI {px['pooled_ci95'][0]:.3f} to {px['pooled_ci95'][1]:.3f}): "
+                f"{px['verdict']} (results/paxdb_datasets.json). The effect is modest and the Spearman correlation of AUROC with coverage "
+                f"is {px['spearman_auroc_vs_coverage']:.2f}, so deeper datasets show it somewhat more clearly. A parsing error (some files "
+                "carry a fourth raw-count column) initially left 11 datasets empty; it was fixed before interpretation and is noted in "
+                "the script.", BODY)]
     return story
