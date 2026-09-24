@@ -184,6 +184,21 @@
    "PSAMM 1.x (psamm-model sbmlexport)",
    "model format conversion",
    "converted the iMR1_799 YAML model to SBML for the MR-1 replication (scripts/run_cross_species_mr1.py)"
+  ],
+  [
+   "CarveMe 1.6.6",
+   "automated GEM reconstruction",
+   "built 6 Fitness Browser organism models (data/cross/carve) for the pre-registered replication"
+  ],
+  [
+   "DIAMOND 2.1.9",
+   "protein alignment",
+   "CarveMe homology search against BiGG proteins"
+  ],
+  [
+   "SCIP (PySCIPOpt 6.2.1)",
+   "MILP solver",
+   "CarveMe reconstruction solver"
   ]
  ],
  "datasets": [
@@ -302,6 +317,58 @@
   [
    "KEGG link/pathway/ppu",
    "gene-pathway map"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Caulo (figshare 25236931)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/ccs",
+   "gene-pathway map"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Cola (figshare 25236931)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/evi",
+   "gene-pathway map"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.PS (figshare 25236931)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/dsu",
+   "gene-pathway map"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Ponti (figshare 25236931)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/pact",
+   "gene-pathway map"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Smeli (figshare 25236931)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/sme",
+   "gene-pathway map"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.SyringaeB728a (figshare 25236931)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/psb",
+   "gene-pathway map"
+  ],
+  [
+   "Fitness Browser Feb 2024 aaseqs (protein sequences, figshare 25236931)",
+   "protein sequences for CarveMe"
   ]
  ]
 }

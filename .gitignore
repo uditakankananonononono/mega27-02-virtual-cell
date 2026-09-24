@@ -2,3 +2,6 @@ results/*.partial.csv
 __pycache__/
 *.pyc
 .pytest_cache/
+data/cross/carve/*.xml
+data/cross/*_strainfit.gz
+data/cross/FB_aaseqs.gz
