@@ -225,4 +225,21 @@ def story_bern(story, R):
                 f"pre-registered verdict is {v8['verdict']} (results/v8_cog_pdb.json). Dropping the PDB count, the leakage-prone term, "
                 f"leaves the gain unchanged ({v8['secondary_v8_noPDB_minus_v2']['diff']:+.4f}). The v2 model already absorbs most of what "
                 "conservation and function categories say about metabolic-gene essentiality.", BODY)]
+    v9 = R('v9_precise1k.json')
+    story += [P('H.15 Transcriptome features: primary null, positive secondaries (pre-registered)', H2),
+              P(f"The fourth feature test used the PRECISE-1K E. coli RNA-seq compendium ({v9['n_samples']} QC-passed samples) and its "
+                f"iModulon decomposition (notes/prereg_precise1k.md): mean log-TPM, SD of log-TPM across conditions and the number of "
+                f"iModulons a gene belongs to. Essential genes are highly expressed (univariate AUROC {v9['univariate_auroc']['expr_mean']:.3f}), "
+                f"stable across conditions (SD AUROC {v9['univariate_auroc']['expr_sd']:.3f}, i.e. lower variability predicts essentiality) "
+                f"and belong to fewer iModulons ({v9['univariate_auroc']['n_imod']:.3f}). Together the three features reach "
+                f"AUROC {v9['auroc']['new_features_only']:.3f} alone, the strongest external block tested. Added to v2, the pre-registered primary "
+                f"AUROC gain is {v9['primary_auroc_v9_minus_v2']['diff']:+.4f} (95% CI {v9['primary_auroc_v9_minus_v2']['ci95'][0]:+.4f} to "
+                f"{v9['primary_auroc_v9_minus_v2']['ci95'][1]:+.4f}): {v9['verdict']}. Two pre-registered secondaries exclude zero: AUPRC "
+                f"{v9['secondary_auprc_v9_minus_v2']['diff']:+.4f} ({v9['secondary_auprc_v9_minus_v2']['ci95'][0]:+.4f} to "
+                f"{v9['secondary_auprc_v9_minus_v2']['ci95'][1]:+.4f}) and AUROC on the independent Rousset CRISPRi labels "
+                f"{v9['secondary_rousset_auroc_v9_minus_v2']['diff']:+.4f} ({v9['secondary_rousset_auroc_v9_minus_v2']['ci95'][0]:+.4f} to "
+                f"{v9['secondary_rousset_auroc_v9_minus_v2']['ci95'][1]:+.4f}). These are secondary endpoints without multiplicity correction, "
+                "so we report them as supporting evidence that expression carries signal v2 lacks, not as a confirmed improvement. "
+                "One iModulon name differed between files (Superoxide in M.csv, SoxS in the thresholds) and was matched by hand "
+                "(results/v9_precise1k.json).", BODY)]
     return story

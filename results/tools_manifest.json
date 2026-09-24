@@ -184,6 +184,11 @@
    "Protein Data Bank (PDB entries via UniProt xref_pdb)",
    "experimental structure database",
    "PDB entry counts for 703 model genes; v8 test"
+  ],
+  [
+   "iModulonDB / PRECISE-1K iModulon compendium (SBRG; Lamoureux et al. 2023)",
+   "transcriptome regulatory-module database",
+   "expression level, variability and iModulon membership for 1248 model genes; pre-registered v9 test (results/v9_precise1k.json)"
   ]
  ],
  "datasets": [
@@ -378,6 +383,10 @@
   [
    "UniProt UP000000625 PDB cross-references (data/external/uniprot_ecoli_pdb.tsv)",
    "structure coverage"
+  ],
+  [
+   "PRECISE-1K release (github.com/SBRG/precise1k commit 4829b83): log_tpm_qc (1035 RNA-seq samples), M matrix, iModulon thresholds",
+   "transcriptome compendium"
   ]
  ],
  "infrastructure_not_counted": [

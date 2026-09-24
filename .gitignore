@@ -6,3 +6,4 @@ data/cross/carve/*.xml
 data/cross/*_strainfit.gz
 data/cross/FB_aaseqs.gz
 data/external/cog/cog-20.cog.csv
+data/external/precise1k/precise1k.json.gz
