@@ -1,0 +1,7 @@
+{
+  "n": 180,
+  "n_essential": 69,
+  "auroc": 0.5680898289593943,
+  "auprc": 0.4598072062926753,
+  "caveat": "S2 is a consensus-focused 692-gene subset, not genome-wide; biased toward conflicted/interesting genes"
+}

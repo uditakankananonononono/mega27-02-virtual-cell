@@ -1,0 +1,10 @@
+{
+  "biomass_rxn": "BIOMASS_Ec_iJO1366_WT_53p95M",
+  "moco_in_biomass": [
+    "bmocogdp_c",
+    "mococdp_c",
+    "mocogdp_c"
+  ],
+  "wt_no_moco_biomass": 0.982371812726988,
+  "moaD_ko_no_moco_biomass": 0.0
+}
