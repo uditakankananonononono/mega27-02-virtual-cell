@@ -68,6 +68,12 @@ def story_v2(story, R):
                 f'smaller but still above zero. The primary model was fixed as LR before seeing results. The rank-average '
                 'models score slightly higher but were chosen afterwards and are reported as secondary. Averaged over '
                 f'five CV seeds, v2 LR scores {e.get("best_5seed_auroc", float("nan")):.3f}.', BODY),
+              P(f'A further feature block (v3) was tested and did not help: PaxDb integrated protein abundance and the '
+                f'codon adaptation index (CAI, Sharp and Li 1987; w<sub>c</sub> = f<sub>c</sub>/max<sub>c\' syn c</sub> f<sub>c\'</sub>, '
+                f'CAI = exp(mean log w) against the ribosomal-protein reference set) with GC3. Abundance alone is '
+                f'associated with essentiality (Table 15), but adding it changes v2 LR by {e["paired_v3lr_vs_v2lr"]["mean"]:+.3f} '
+                f'AUROC [{e["paired_v3lr_vs_v2lr"]["ci95"][0]:.3f}, {e["paired_v3lr_vs_v2lr"]["ci95"][1]:.3f}]. Its signal is '
+                'already captured by network degree and localization. v2 stays the primary model.', BODY),
               P('What this is not: it is not a state-of-the-art claim. Published machine-learning essentiality '
                 'predictors for E. coli use different gene sets, labels and splits, so we have no like-for-like number '
                 'to beat. The claim is only the internal, paired comparison above.', BODY)]
