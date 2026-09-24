@@ -181,3 +181,17 @@ def test_cli_audit_biomass_core(tmp_path):
     df = pd.read_csv(out)
     assert set(df.gene) == {"b2415", "b1136"}
     assert set(df.verdict) <= {"biomass_forced", "network_forced", "network_forced_no_biomass_link", "not_essential"}
+
+
+def test_bernstein_prauc_perfect_and_bootstrap():
+    import numpy as np
+    from vcell.bernstein import bernstein_prauc, paired_gene_bootstrap, greedy_select
+    fit = np.array([[-3.0, 0.1], [-2.5, 0.0], [0.2, -0.1], [0.1, 0.3]])
+    sim = np.array([[0.0, 1.0], [0.0, 1.0], [1.0, 1.0], [1.0, 1.0]])  # no-growth exactly where fitness lowest
+    assert abs(bernstein_prauc(sim, fit) - 1.0) < 1e-9
+    # a supplement that wrongly rescues gene 0 on carbon 0 must be rejected by greedy selection
+    pairs = np.array([[0, 0], [1, 0]]); R = np.array([[1, 0], [0, 0]], dtype=np.int8)
+    S, trace, apply = greedy_select(sim, fit, pairs, R, ["bad", "inert"], [0, 1])
+    assert S == []
+    bs = paired_gene_bootstrap((sim > 0.001).astype(int), (sim > 0.001).astype(int), fit, [0, 1], n=50)
+    assert bs["diff"] == 0.0
