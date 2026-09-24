@@ -119,3 +119,15 @@ for SAM (and for NAD, which also carries adenosine). Consequences, fixed now: (1
 reported exactly as written; (2) the pre-specified secondary excluding SAM-only rescues is the closer analogue of H.7 and
 will be reported beside it; (3) the E. coli consistency check is reported as uninformative (degenerate label), not as a
 failure or success of the finding. No other change.
+
+## Amendment 7 (new confirmatory test, written after amendment 5/6 results; before any KEGG link for the new organisms is fetched)
+Amendment 5's label was degenerate, so the KEGG-label test of amendment 3 is extended to every amendment-5 organism
+that satisfies amendment-4 criterion (a). Organism discovery: KEGG REST `find/genes/<locusId>` on three sample
+Fitness Browser locusIds per organism (first, middle, last in the fitness table); the KEGG organism code is the one
+returned for a sample locus with an exact id match. Criterion (a): >= 50% of that code's link/pathway gene ids are FB
+locusIds. The six amendment-3 organisms are re-used as analysed there (not re-run). Models: the amendment-5 CarveMe
+models (data/cross/carve/*.xml, FB_ prefix stripped), medium M9 glucose, exactly as amendment 3.
+Labelling, outcome, per-organism rules, pooling and verdict thresholds exactly as amendment 3.
+PRIMARY: pooled one-sided Mann-Whitney on within-organism percentiles over ALL included organisms (the 6 of amendment 3
+plus the new ones), on > off. Secondary: the same excluding SAM-only rescues; the new organisms alone.
+All organisms, inclusions and exclusions are reported.
