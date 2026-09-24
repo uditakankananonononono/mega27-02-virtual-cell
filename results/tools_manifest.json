@@ -797,6 +797,22 @@
   [
    "Griffin et al. 2011 PLoS Pathog Table 2 (M. tuberculosis H37Rv Tn-seq essentiality; mirror github.com/ajinich/mtb_tn_db data/SI_datasets/2011_Griffin_Sassetti)",
    "essentiality labels, Mtb (label replication)"
+  ],
+  [
+   "Turner K.H. et al. 2015 (PNAS, PA14 Tn-seq) essential calls, via Poulsen 2019 PNAS Dataset S6 compilation",
+   "essentiality labels, P. aeruginosa (label replication)"
+  ],
+  [
+   "Lee S.A. et al. 2015 (Genome Res, PAO1 Tn-seq) essential calls, via Poulsen 2019 PNAS Dataset S6 compilation",
+   "essentiality labels, P. aeruginosa (label replication)"
+  ],
+  [
+   "Skurnik D. et al. 2013 (PNAS, PA14 Tn-seq) essential calls, via Poulsen 2019 PNAS Dataset S6 compilation",
+   "essentiality labels, P. aeruginosa (label replication)"
+  ],
+  [
+   "Liberati N.T. et al. 2006 (PNAS, PA14 transposon library) essential calls, via Poulsen 2019 PNAS Dataset S6 compilation",
+   "essentiality labels, P. aeruginosa (label replication)"
   ]
  ],
  "infrastructure_not_counted": [

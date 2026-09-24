@@ -336,4 +336,12 @@ def story_bern(story, R):
                 f"{qg['n_auroc_above_half']} of {qg['n']} (sign test p = {qg['sign_test_p']:.4f}, median AUROC {qg['median_auroc']:.3f}): {qg['verdict']} "
                 "(results/paxdb_mtb_griffin.json). AUROCs are lower than with DeJesus labels, as expected from the older, less saturated screen; "
                 "the same 201-gene dataset is again the exception.", BODY)]
+    pl = R('paxdb_pao1_labels.json')
+    story += [P('H.25 The P. aeruginosa result survives four older screens (pre-registered)', H2),
+              P("Poulsen et al. (2019) Dataset S6 lists the essential calls of four earlier screens (Turner 2015, Lee 2015, Skurnik 2013, "
+                "Liberati 2006). Using each screen's calls in turn as the label, abundance predicted essentiality in "
+                + "; ".join(f"{k.split(' et al')[0].split(' ')[0]} {v['n_auroc_above_half']}/{v['n_studies']} (median AUROC {v['median_auroc']:.2f})" for k, v in pl['screens'].items())
+                + f", each with sign test p = {min(v['sign_test_p'] for v in pl['screens'].values()):.4f}: {pl['n_replicating']} of 4 screens REPLICATE "
+                "(results/paxdb_pao1_labels.json; notes/prereg_paxdb_pao1_labels.md). These labels overlap heavily, so they are not four "
+                "independent confirmations of the biology, only of robustness to the choice of screen.", BODY)]
     return story

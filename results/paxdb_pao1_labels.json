@@ -1,0 +1,37 @@
+{
+ "screens": {
+  "Turner K.H. et al 2015": {
+   "n_essential_named": 227,
+   "n_studies": 8,
+   "n_auroc_above_half": 8,
+   "sign_test_p": 0.00390625,
+   "median_auroc": 0.730069648058646,
+   "verdict": "REPLICATES"
+  },
+  "Lee S.A. et al 2015": {
+   "n_essential_named": 281,
+   "n_studies": 8,
+   "n_auroc_above_half": 8,
+   "sign_test_p": 0.00390625,
+   "median_auroc": 0.7367365255938818,
+   "verdict": "REPLICATES"
+  },
+  "Skurnik D. et al 2013": {
+   "n_essential_named": 339,
+   "n_studies": 8,
+   "n_auroc_above_half": 8,
+   "sign_test_p": 0.00390625,
+   "median_auroc": 0.7196356990346704,
+   "verdict": "REPLICATES"
+  },
+  "Liberati N.T. et al 2006": {
+   "n_essential_named": 191,
+   "n_studies": 8,
+   "n_auroc_above_half": 8,
+   "sign_test_p": 0.00390625,
+   "median_auroc": 0.7100410495741246,
+   "verdict": "REPLICATES"
+  }
+ },
+ "n_replicating": 4
+}
