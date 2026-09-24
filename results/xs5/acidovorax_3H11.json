@@ -1,0 +1,119 @@
+{
+ "org": "acidovorax_3H11",
+ "wt": 1.4062911230286999,
+ "n_genes_model": 1266,
+ "n_rescue_pairs": 17,
+ "missing_supplements": [
+  "thm_c"
+ ],
+ "genes": {
+  "Ac3H11_3836": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.0541666666666666,
+   "percentile": 0.5031941031941032
+  },
+  "Ac3H11_1232": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Ac3H11_1805": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Ac3H11_3824": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.1973684210526315,
+   "percentile": 0.12555282555282554
+  },
+  "Ac3H11_2612": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Ac3H11_443": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Ac3H11_2960": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.2,
+   "percentile": 0.002334152334152334
+  },
+  "Ac3H11_4813": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Ac3H11_3839": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.0576923076923076,
+   "percentile": 0.48574938574938575
+  },
+  "Ac3H11_3838": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.1666666666666666,
+   "percentile": 0.14815724815724815
+  },
+  "Ac3H11_679": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Ac3H11_3837": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.1403225806451613,
+   "percentile": 0.18255528255528256
+  },
+  "Ac3H11_4099": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  }
+ }
+}

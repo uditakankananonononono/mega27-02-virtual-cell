@@ -1,0 +1,124 @@
+{
+ "org": "azobra",
+ "wt": 1.406246264658376,
+ "n_genes_model": 1358,
+ "n_rescue_pairs": 17,
+ "missing_supplements": [],
+ "genes": {
+  "AZOBR_RS06445": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.0999999999999999,
+   "percentile": 0.33634199563578654
+  },
+  "AZOBR_RS23800": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.1333333333333333,
+   "percentile": 0.22941876611783377
+  },
+  "AZOBR_RS04385": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "AZOBR_RS10680": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "AZOBR_RS07940": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -1.2625,
+   "percentile": 0.013092640349137076
+  },
+  "AZOBR_RS06145": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "AZOBR_RS18685": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": 0.1333333333333333,
+   "percentile": 0.9237254512993454
+  },
+  "AZOBR_RS00510": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "AZOBR_RS07035": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "AZOBR_RS05735": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -5.8432790769745086e-18,
+   "percentile": 0.6552271374727237
+  },
+  "AZOBR_RS07045": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "AZOBR_RS00640": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": 0.1,
+   "percentile": 0.8927792104741122
+  },
+  "AZOBR_RS09715": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.0571428571428571,
+   "percentile": 0.46865701249752034
+  },
+  "AZOBR_RS18690": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": 0.16,
+   "percentile": 0.9404879984130133
+  }
+ }
+}
