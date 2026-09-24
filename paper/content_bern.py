@@ -125,7 +125,18 @@ def story_bern(story, R):
         pv = f"{x['mwu_p_one_sided']:.2f}" if 'mwu_p_one_sided' in x else 'n/a'
         t4.append([name, f"{x[gk]:.2f}", str(x['n_rescue_pairs']), f"{x['genes_on']} / {x['genes_off']}",
                    f"{x['with_fitness_on']} / {x['with_fitness_off']}", mo, pv, x['verdict'].split(' (')[0]])
-    story += tbl(t4, 'Table 22. Cross-species test of the supplement-bypass finding. genes, w/ fitness and median f are on / off; WT = wild-type growth (1/h); lac/glc = lactate/glucose medium; one-sided Mann-Whitney on gene medians (results/cross_species_mr1.json, results/cross_species_putida.json).',
+    cm = R('cross_species_carveme.json')
+    NAMES = {'Caulo': 'Caulobacter', 'Cola': 'Echinicola', 'PS': 'Dechlorosoma', 'Ponti': 'Pontibacter',
+             'Smeli': 'S. meliloti', 'SyringaeB728a': 'P. syringae'}
+    for o, x in cm['per_organism'].items():
+        mo = f"{x['median_on']:.2f} / {x['median_off']:.2f}" if 'median_on' in x else 'n/a'
+        pv = f"{x['mwu_p']:.2f}" if 'mwu_p' in x else 'n/a'
+        t4.append([NAMES[o] + ', CM, glc', f"{x['wt']:.2f}", str(x['n_rescue_pairs']), f"{x['genes_on']} / {x['genes_off']}",
+                   f"{x['with_fitness_on']} / {x['with_fitness_off']}", mo, pv, x['verdict'].split(' (')[0]])
+    pp, ns = cm['primary_pooled_percentile'], cm['secondary_pooled_excluding_SAM']
+    for lab, x in (('pooled CM (primary)', pp), ('pooled CM, no SAM', ns)):
+        t4.append([lab, '', '', '', f"{x['n_on']} / {x['n_off']}", f"pct {x['median_pct_on']:.2f} / {x['median_pct_off']:.2f}", f"{x['mwu_p']:.2f}", x['verdict'].split(' (')[0]])
+    story += tbl(t4, 'Table 22. Cross-species test of the supplement-bypass finding. genes, w/ fitness and median f are on / off; WT = wild-type growth (1/h); lac/glc = lactate/glucose medium; CM = CarveMe-built model; pct = within-organism fitness percentile; one-sided Mann-Whitney on gene medians (results/cross_species_mr1.json, results/cross_species_putida.json, results/cross_species_carveme.json).',
                  widths=[1.45 * inch, 0.4 * inch, 0.45 * inch, 0.6 * inch, 0.7 * inch, 0.95 * inch, 0.4 * inch, 1.35 * inch])
     story += [P(f"In MR-1 every rescue was on-pathway, so the test could not run (underpowered, no claim). The PSAMM export of "
                 "iMR1_799 also left three multi-compound pseudo-exchanges (casamino acids, gelatin, Tween 20) open in both directions, "
@@ -134,8 +145,16 @@ def story_bern(story, R):
                 f"genes lack any fitness value, often a mark of essentiality, versus {100*pu['absent_frac_on']:.0f}% on-pathway) but p = "
                 f"{pu['mwu_p_one_sided']:.2f} fails the pre-registered bar. All 12 off-pathway P. putida rescues come from SAM, the same "
                 "supplement behind most E. coli off-pathway rescues, so the supplement-identity confound is not broken by the second "
-                "species. iJN1463 has no free thiamine metabolite, so thiamine was not tested there. Honest status: supported in E. coli; "
-                "direction-consistent but not significant in P. putida; untestable in MR-1. Not yet a general law.", BODY)]
+                "species. iJN1463 has no free thiamine metabolite, so thiamine was not tested there. "
+                f"Amendments 3-4 widened the test to six Fitness Browser organisms with models built by CarveMe (DIAMOND, SCIP). The "
+                f"inclusion rule for KEGG identifier matching was mis-specified as written (it excluded every organism by construction) and was "
+                f"corrected, with disclosure, before any model was built. The pooled pre-registered primary on within-organism fitness "
+                f"percentiles is not significant (difference {pp['diff']:+.2f}, p = {pp['mwu_p']:.2f}), nor is the test without SAM-only "
+                f"rescues (p = {ns['mwu_p']:.2f}); an exploratory count goes against the hypothesis ("
+                f"{100*cm['exploratory_absent_fraction']['off'][2]:.0f}% of off-pathway vs {100*cm['exploratory_absent_fraction']['on'][2]:.0f}% of "
+                f"on-pathway genes lack fitness values). Honest status: strongly supported in E. coli, not replicated in eight other "
+                f"bacteria (same direction, not significant). We therefore state the finding as E. coli-specific, most likely tied to how "
+                f"iML1515 metabolises SAM, and not as a general law.", BODY)]
     story += [P('H.9 Tool: vcell rescue-audit', H2),
               P('The finding is packaged as a command that runs on any COBRA model: python -m vcell rescue-audit MODEL --supplement '
                 'btn_c=00780 thf_c=00790,00670 ... --gene-pathways kegg_links.tsv --out rescues.csv. It knocks out each gene, supplies '
