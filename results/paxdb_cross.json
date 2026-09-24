@@ -1,0 +1,146 @@
+{
+ "datasets": {
+  "160488-PXD003826_Lidbury_Environ_Microbiol_2016_P_putida": {
+   "organism": "Putida",
+   "n_mapped_detected": 2034,
+   "n_essential": 431,
+   "n_nonessential": 1603,
+   "auroc": 0.7170017643831968,
+   "se": 0.014987453326443053,
+   "spearman_abund_vs_fitness": -0.08082657049686746,
+   "logit_coef_abundance": 0.9061967421252557,
+   "logit_coef_length": -0.24272298024469977
+  },
+  "1140-PXD000510_Guerreiro_Mol_Cell_Proteomics_2014_Synechococcus_elongatus": {
+   "organism": "SynE",
+   "n_mapped_detected": 1778,
+   "n_essential": 490,
+   "n_nonessential": 1288,
+   "auroc": 0.5884348459880847,
+   "se": 0.015428687643272664,
+   "spearman_abund_vs_fitness": -0.04287361384702232,
+   "logit_coef_abundance": 0.6026877550106364,
+   "logit_coef_length": 0.4993207977945503
+  },
+  "211586-GPM_201408": {
+   "organism": "MR1",
+   "n_mapped_detected": 1205,
+   "n_essential": 263,
+   "n_nonessential": 942,
+   "auroc": 0.6919405358714167,
+   "se": 0.019622886783265812,
+   "spearman_abund_vs_fitness": -0.11826973850763338,
+   "logit_coef_abundance": 0.7511098829900735,
+   "logit_coef_length": -0.10694062436879895
+  },
+  "226186-GPM_201408": {
+   "organism": "Btheta",
+   "n_mapped_detected": 757,
+   "n_essential": 212,
+   "n_nonessential": 545,
+   "auroc": 0.7067379262593041,
+   "se": 0.02217447769909215,
+   "spearman_abund_vs_fitness": 0.02117215384214814,
+   "logit_coef_abundance": 0.6564452348634591,
+   "logit_coef_length": -0.3934507982360872
+  },
+  "226186-PXD014877_Mueller_Nature_2020_Bacteroides_thetaiotaomicron": {
+   "organism": "Btheta",
+   "n_mapped_detected": 2236,
+   "n_essential": 427,
+   "n_nonessential": 1809,
+   "auroc": 0.7396811156292439,
+   "se": 0.014622259733813325,
+   "spearman_abund_vs_fitness": -0.07264734536062047,
+   "logit_coef_abundance": 0.9437622780175543,
+   "logit_coef_length": -0.09824472654593414
+  },
+  "882-Desulfo_Form_Exp_SC_zhang_2006": {
+   "organism": "DvH",
+   "n_mapped_detected": 703,
+   "n_essential": 242,
+   "n_nonessential": 461,
+   "auroc": 0.6406661766551335,
+   "se": 0.022454230858226055,
+   "spearman_abund_vs_fitness": 0.10580197780979374,
+   "logit_coef_abundance": 0.5301382519241543,
+   "logit_coef_length": -0.16434005871845528
+  },
+  "882-Desulfo_Form_Stat_SC_zhang_2006": {
+   "organism": "DvH",
+   "n_mapped_detected": 706,
+   "n_essential": 238,
+   "n_nonessential": 468,
+   "auroc": 0.5937567334626158,
+   "se": 0.022960884136617832,
+   "spearman_abund_vs_fitness": 0.06514571590783347,
+   "logit_coef_abundance": 0.3442440998245592,
+   "logit_coef_length": -0.10403410823219893
+  },
+  "882-Desulfo_Lac_Exp_SC_zhang_2006": {
+   "organism": "DvH",
+   "n_mapped_detected": 683,
+   "n_essential": 250,
+   "n_nonessential": 433,
+   "auroc": 0.620406466512702,
+   "se": 0.022606663453729844,
+   "spearman_abund_vs_fitness": 0.05337266071734129,
+   "logit_coef_abundance": 0.4561537144800631,
+   "logit_coef_length": -0.15179325143830183
+  },
+  "882-Desulfo_Lac_Stat_SC_zhang_2006": {
+   "organism": "DvH",
+   "n_mapped_detected": 749,
+   "n_essential": 249,
+   "n_nonessential": 500,
+   "auroc": 0.6402208835341365,
+   "se": 0.021990889767088493,
+   "spearman_abund_vs_fitness": -0.010672740333437555,
+   "logit_coef_abundance": 0.48379555199813595,
+   "logit_coef_length": -0.1195032131700418
+  }
+ },
+ "per_organism": {
+  "Putida": {
+   "n_datasets": 1,
+   "n_string_mapped": 5510,
+   "pooled_auroc": 0.7170017643831968,
+   "pooled_se": 0.014987453326443054
+  },
+  "SynE": {
+   "n_datasets": 1,
+   "n_string_mapped": 2133,
+   "pooled_auroc": 0.5884348459880847,
+   "pooled_se": 0.015428687643272664
+  },
+  "MR1": {
+   "n_datasets": 1,
+   "n_string_mapped": 3393,
+   "pooled_auroc": 0.6919405358714167,
+   "pooled_se": 0.019622886783265812
+  },
+  "Btheta": {
+   "n_datasets": 2,
+   "n_string_mapped": 4712,
+   "pooled_auroc": 0.7296975295090881,
+   "pooled_se": 0.012207138220972838
+  },
+  "DvH": {
+   "n_datasets": 4,
+   "n_string_mapped": 2960,
+   "pooled_auroc": 0.6242783247124761,
+   "pooled_se": 0.011247522643883635
+  }
+ },
+ "primary": {
+  "n_datasets": 9,
+  "n_auroc_above_half": 9.0,
+  "sign_test_p": 0.001953125,
+  "verdict": "GENERALISES"
+ },
+ "secondary": {
+  "n_spearman_negative": 5.0,
+  "n_abundance_coef_positive_after_length": 9,
+  "n": 9
+ }
+}

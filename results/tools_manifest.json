@@ -629,6 +629,42 @@
   [
    "PaxDb v5 dataset 3321265269 (511145-ecoli2_resolutionCombination_PRIDE.txt): E.coli str. K-12 substr. MG1655 - Whole organism, SC (PRIDE,PRD000485,2012)",
    "protein abundance (per-dataset robustness)"
+  ],
+  [
+   "PaxDb v5 dataset 160488-PXD003826_Lidbury_Environ_Microbiol_2016_P_putida.txt (Putida)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 1140-PXD000510_Guerreiro_Mol_Cell_Proteomics_2014_Synechococcus_elongatus.txt (SynE)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 211586-GPM_201408.txt (MR1)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 226186-GPM_201408.txt (Btheta)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 226186-PXD014877_Mueller_Nature_2020_Bacteroides_thetaiotaomicron.txt (Btheta)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 882-Desulfo_Form_Exp_SC_zhang_2006.txt (DvH)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 882-Desulfo_Form_Stat_SC_zhang_2006.txt (DvH)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 882-Desulfo_Lac_Exp_SC_zhang_2006.txt (DvH)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 882-Desulfo_Lac_Stat_SC_zhang_2006.txt (DvH)",
+   "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
   ]
  ],
  "infrastructure_not_counted": [

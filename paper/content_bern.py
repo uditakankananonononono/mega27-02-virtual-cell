@@ -288,4 +288,17 @@ def story_bern(story, R):
                 f"AUROC {px['pooled_auroc_ivw']:.3f}, 95% CI {px['pooled_ci95'][0]:.3f} to {px['pooled_ci95'][1]:.3f}): "
                 f"{px['verdict']} (results/paxdb_datasets.json); AUROC rises with coverage (Spearman {px['spearman_auroc_vs_coverage']:.2f}). "
                 "A parsing error (a fourth column in some files) first left 11 datasets empty; it was fixed before interpretation.", BODY)]
+    pc = R('paxdb_cross.json'); pp = pc['primary']; po = pc['per_organism']
+    story += [P('H.20 Abundance predicts essentiality in five other bacteria (pre-registered)', H2),
+              P(f"H.19 is E. coli only. We matched {pp['n_datasets']} PaxDb v5 datasets from five Fitness Browser organisms "
+                "(P. putida, S. elongatus, S. oneidensis, B. thetaiotaomicron, D. vulgaris) to RB-TnSeq data by exact protein sequence "
+                "via STRING v12 (notes/prereg_paxdb_cross.md). Genes with no fitness row were labelled putatively essential. "
+                f"Abundant proteins were more often essential in {pp['n_auroc_above_half']} of {pp['n_datasets']} datasets "
+                f"(sign test p = {pp['sign_test_p']:.3f}): {pp['verdict']}. Pooled AUROC per organism ranged from "
+                f"{min(v['pooled_auroc'] for v in po.values()):.2f} (S. elongatus) to {max(v['pooled_auroc'] for v in po.values()):.2f} "
+                f"(B. thetaiotaomicron). The abundance effect stayed positive after adjusting for protein length in "
+                f"{pc['secondary']['n_abundance_coef_positive_after_length']} of {pc['secondary']['n']} datasets. Negative: among non-essential "
+                f"genes, abundance was negatively correlated with median fitness in only {pc['secondary']['n_spearman_negative']} of "
+                f"{pc['secondary']['n']} datasets, so the signal separates essential from non-essential genes but does not grade fitness "
+                "(results/paxdb_cross.json). The label is a proxy: short genes can lack fitness rows for technical reasons.", BODY)]
     return story
