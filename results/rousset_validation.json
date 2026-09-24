@@ -1,0 +1,24 @@
+{
+ "n_rousset_genes": 4213,
+ "n_mapped": 3867,
+ "n_evaluated": 1214,
+ "n_crispri_essential": 70,
+ "auroc_v2_lr": 0.8760739260739261,
+ "auroc_fba_min": 0.6947115384615384,
+ "paired_v2_minus_fba": {
+  "mean": 0.18136204826357513,
+  "ci95": [
+   0.10698540675101274,
+   0.2610545272391698
+  ]
+ },
+ "spearman_v2_vs_depletion": 0.34178057068095186,
+ "gerdes_nonessential_subset": {
+  "n": 1004,
+  "n_crispri_essential": 7,
+  "auroc_v2_lr": 0.8860868319243445,
+  "spearman": 0.1640089783413472
+ },
+ "exploratory_agreement_with_authors_call": 0.9505766062602965,
+ "verdict": "GENERALISES"
+}

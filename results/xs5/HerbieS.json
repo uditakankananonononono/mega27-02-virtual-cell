@@ -1,0 +1,137 @@
+{
+ "org": "HerbieS",
+ "wt": 1.355460518445337,
+ "n_genes_model": 1387,
+ "n_rescue_pairs": 16,
+ "missing_supplements": [],
+ "genes": {
+  "HSERO_RS07665": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.1107142857142857,
+   "percentile": 0.28436958137230617
+  },
+  "HSERO_RS03425": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS14750": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS02120": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": 0.0386363636363636,
+   "percentile": 0.7804062422591033
+  },
+  "HSERO_RS16460": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS22005": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS06950": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS02140": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.05,
+   "percentile": 0.47510527619519444
+  },
+  "HSERO_RS00455": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -2.8675,
+   "percentile": 0.008422095615556105
+  },
+  "HSERO_RS03085": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": 0.13,
+   "percentile": 0.9224671785979688
+  },
+  "HSERO_RS11070": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.8666666666666665,
+   "percentile": 0.01634877384196185
+  },
+  "HSERO_RS15520": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS03360": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS19570": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HSERO_RS11065": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.7000000000000002,
+   "percentile": 0.01758731731483775
+  },
+  "HSERO_RS16830": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  }
+ }
+}
