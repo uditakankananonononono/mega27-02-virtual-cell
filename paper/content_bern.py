@@ -176,4 +176,20 @@ def story_bern(story, R):
                 f"source; without it the rescue remains at {rg['HCYSMT (homocysteine S-methyltransferase)']:.2f} per h. Two practical "
                 "rules follow and are built into vcell rescue-audit: flag off-pathway rescues, and flag any rescue whose growth exceeds the "
                 "unmodified model (column exceeds_wt), because a cofactor supplied at trace need cannot raise growth above wild type.", BODY)]
+    rv = R('rousset_validation.json')
+    story += [P('H.11 External validation on genome-wide CRISPRi (pre-registered)', H2),
+              P(f"To test whether the v2 model generalises beyond the Gerdes 2003 transposon labels it was trained on, we scored its "
+                f"out-of-fold predictions against an independent assay: the genome-wide CRISPRi screen of Rousset et al. 2018 (S12 table, "
+                f"gene-level median log2 fold-change of coding-strand guides). The test was written down before scoring "
+                f"(notes/prereg_rousset_validation.md): label CRISPRi-essential if median log2FC <= -5; primary metric AUROC of v2 LR with a "
+                f"paired 2000-sample gene bootstrap against FBA. Of {rv['n_rousset_genes']} CRISPRi genes, {rv['n_mapped']} mapped to "
+                f"b-numbers and {rv['n_evaluated']} overlap the model gene set ({rv['n_crispri_essential']} CRISPRi-essential). v2 LR reaches "
+                f"AUROC {rv['auroc_v2_lr']:.3f} against {rv['auroc_fba_min']:.3f} for FBA (paired difference "
+                f"{rv['paired_v2_minus_fba']['mean']:.3f}, 95% CI {rv['paired_v2_minus_fba']['ci95'][0]:.3f} to "
+                f"{rv['paired_v2_minus_fba']['ci95'][1]:.3f}); the pre-registered verdict is {rv['verdict']} "
+                f"(results/rousset_validation.json). Spearman between score and depletion is {rv['spearman_v2_vs_depletion']:.2f}. "
+                f"Limits: the labels overlap heavily with Gerdes (only {rv['gerdes_nonessential_subset']['n_crispri_essential']} "
+                f"CRISPRi-essential genes are Gerdes-nonessential, so the AUROC of {rv['gerdes_nonessential_subset']['auroc_v2_lr']:.3f} on that "
+                "subset rests on very few positives), and CRISPRi is polar within operons. This is agreement across assays, not a new "
+                "state of the art.", BODY)]
     return story

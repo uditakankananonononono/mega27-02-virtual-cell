@@ -329,6 +329,10 @@
   [
    "Fitness Browser Feb 2024 aaseqs (protein sequences, figshare 25236931)",
    "protein sequences for CarveMe"
+  ],
+  [
+   "Rousset et al. 2018 PLoS Genet S12 genome-wide CRISPRi gene table (doi:10.1371/journal.pgen.1007749.s012, PMC6242692)",
+   "external essentiality benchmark"
   ]
  ],
  "infrastructure_not_counted": [
