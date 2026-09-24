@@ -31,7 +31,13 @@ def story_audit(story, R):
                 'no existing tool that does this; that is a statement about our search, not a proof of absence.', BODY),
               P('E.2 Verdict census', H2)]
     story += tbl([['verdict', 'genes']] + [[k, str(v)] for k, v in vc.items()], 'Table 10. Rescue-test verdicts.')
-    story += [P('E.3 A methods catch: raw biomass_forced over-calls artifacts', H2),
+    story += [P(f'Negative result 1: the binary verdict does not discriminate. All {len(aud)} iJO1366 essential genes are '
+                'biomass_forced. Every lethal knockout on glucose minimal medium makes at least one biomass constituent '
+                'unproducible, and removing those constituents always restores some growth. Proposition 1 is true but '
+                'uninformative here: the set U_g ranges from 1 to 50 compounds (median 2), and when U_g is large the '
+                'rescued objective is a different, much easier objective. The rescue test therefore needs a second '
+                'axis before it says anything about artifacts.', BODY),
+              P('E.3 A methods catch: raw biomass_forced over-calls artifacts', H2),
               P('A raw biomass_forced label means only that stripping the unproducible compounds rescues growth. For '
                 'a gene such as fabD that stops lipid synthesis this is trivially true and says nothing about artifacts: '
                 'lipids are really required. The artifact hypothesis only makes sense for compounds a mutant might '
@@ -48,15 +54,24 @@ def story_audit(story, R):
                 'non-essential genes relative to all other FBA-essential genes. One-sided Fisher exact test (eqs. C18-C19) '
                 f'on [[non-ess, ess], [non-ess, ess]] = {t2}: odds ratio {cb["fisher_cofactor_odds"]:.2f}, '
                 f'p = {cb["fisher_cofactor_p_one_sided"]:.3g}. For the raw (unstratified) biomass_forced label the table is '
-                f'{t1}: odds ratio {cb["fisher_odds_ratio"]:.2f}, p = {cb["fisher_p_one_sided"]:.3g}.', BODY),
+                f'{t1} (degenerate: the network_forced row is empty, so no test is possible): odds ratio {cb["fisher_odds_ratio"]:.2f}, p = {cb["fisher_p_one_sided"]:.3g}.', BODY),
+              P('Negative result 2: the cofactor-artifact hypothesis fails on this yardstick. Cofactor-only genes are '
+                'more often essential in Gerdes 2003 than bulk-precursor genes, the opposite of the prediction, and '
+                'the one-sided test is nowhere near significant. The likely reason is a condition mismatch. Gerdes '
+                'screened on rich LB medium, where amino acids and nucleotide precursors are supplied, so bulk-precursor '
+                'biosynthesis genes are dispensable, while most cofactors are not supplied at useful levels, so cofactor '
+                'genes stay essential. The model was simulated on glucose minimal medium. A condition-matched test '
+                '(RB-TnSeq on defined carbon sources, Appendix H) is the right place to test the hypothesis. We keep '
+                'the failed test in the paper because it shows that the yardstick has to match the condition before '
+                'essentiality errors can be attributed.', BODY),
               P('E.5 Corrected benchmark', H2)]
     story += tbl([['metric', 'FBA iJO1366 (original)', 'after cofactor_only correction']] +
                  [[k, f'{b0[k]:.3f}', f'{b1[k]:.3f}'] for k in ['auroc', 'auprc', 'precision', 'recall', 'f1', 'mcc']],
                  'Table 12. iJO1366 minimal-medium FBA vs Gerdes 2003 before and after flipping cofactor_only biomass_forced '
                  'genes to non-essential.')
-    story += [P(f'Corrected AUROC 95% CI: [{b1["auroc_ci"][0]:.3f}, {b1["auroc_ci"][1]:.3f}]. This correction uses the '
-                'audit only, never the Gerdes labels, so it is not fitted to the benchmark; it is still a single '
-                'benchmark and should be re-tested on an independent essentiality screen.', BODY)]
+    story += [P(f'Corrected AUROC 95% CI: [{b1["auroc_ci"][0]:.3f}, {b1["auroc_ci"][1]:.3f}]. The correction uses only '
+                'the audit, never the Gerdes labels, and it makes the model worse on this yardstick, consistent with '
+                'negative result 2. It is not adopted.', BODY)]
     cc = cb['biomass_forced_compound_census']
     story += tbl([['biomass compound', 'genes whose knockout makes it unproducible']] + [[k, str(v)] for k, v in cc.items()],
                  'Table 13. Compound census over biomass_forced genes.')

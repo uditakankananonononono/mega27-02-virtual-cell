@@ -1,0 +1,18 @@
+{
+  "model": "iML1515",
+  "variant": "iML1515_bernstein_vitamins",
+  "supplements_added": [
+    "btn",
+    "pnto__R",
+    "thm",
+    "thf",
+    "nad"
+  ],
+  "n_genes": 1326,
+  "n_carbon": 25,
+  "n_pairs": 33150,
+  "n_model_nogrowth": 1621,
+  "pr_auc_bernstein_metric": 0.6929433962617998,
+  "roc_auc": 0.9815482682149855,
+  "seconds": 404.2
+}

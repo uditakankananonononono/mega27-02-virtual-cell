@@ -45,19 +45,25 @@ def R(name):
 
 
 def main():
-    import content_a, content_b, content_c, content_math, content_ext
+    import content_a, content_b, content_c, content_math, content_ext, content_v2, content_audit
     story = []
     story = content_a.story_a(story, R)
     story = content_c.story_c(story, R)
     story = content_b.story_b(story, R)
     story = content_math.story_math(story, R)
     story = content_ext.story_ext(story, R)
+    story = content_audit.story_audit(story, R)
+    story = content_v2.story_v2(story, R)
     doc = SimpleDocTemplate(os.path.join(ROOT, 'paper', 'VC2_virtual_cell_paper.pdf'),
                             pagesize=letter,
                             leftMargin=0.9*inch, rightMargin=0.9*inch,
                             topMargin=0.9*inch, bottomMargin=0.9*inch,
                             title='VC-2: A Modular Virtual Cell for E. coli K-12')
-    doc.build(story)
+    from reportlab.pdfgen.canvas import Canvas
+    class TNRCanvas(Canvas):
+        def __init__(self, *a, **k):
+            k.setdefault('initialFontName', 'Times-Roman'); super().__init__(*a, **k)
+    doc.build(story, canvasmaker=TNRCanvas)
     from pypdf import PdfReader
     n = len(PdfReader(os.path.join(ROOT, 'paper', 'VC2_virtual_cell_paper.pdf')).pages)
     print('PAGES:', n)
