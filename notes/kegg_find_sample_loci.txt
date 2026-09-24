@@ -1,0 +1,41 @@
+ANA3 7022960 -> 
+BFirm BPHYT_RS00235 -> 
+Btheta 349728 -> 
+Burk376 H281DRAFT_00203 -> 
+Caulo CCNA_00195 -> ccs,
+Cola Echvi_0206 -> evi,
+Cup4G11 RR42_RS01005 -> 
+Dda3937 DDA3937_RS01035 -> 
+Ddia6719 HGI48_RS01065 -> 
+DdiaME23 DZA65_RS01035 -> 
+Dino 3606771 -> 
+DvH 209137 -> 
+Dyella79 N515DRAFT_0204 -> 
+HerbieS HSERO_RS01025 -> 
+Kang B158DRAFT_0204 -> 
+Korea Ga0059261_0208 -> 
+Koxy BWI76_RS01080 -> 
+Magneto AMB_RS01005 -> 
+Marino GFF201 -> 
+Miya 8499430 -> 
+PS Dsui_0205 -> dsu,
+PV4 5207679 -> 
+Pedo557 CA265_RS01060 -> 
+Phaeo GFF207 -> 
+Ponti CA264_01010 -> pact,
+RalstoniaBSBF1503 RALBFv3_RS01050 -> 
+RalstoniaGMI1000 RS_RS01005 -> 
+RalstoniaPSI07 RPSI07_RS08900 -> 
+RalstoniaUW163 UW163_RS01060 -> 
+SB2B 6935996 -> 
+Smeli SMc02875 -> sme,
+SyringaeB728a Psyr_0201 -> psb,
+WCS417 GFF202 -> 
+acidovorax_3H11 Ac3H11_201 -> 
+azobra AZOBR_RS01220 -> 
+psRCH2 GFF201 -> 
+pseudo13_GW456_L13 PfGW456L13_200 -> 
+pseudo1_N1B4 Pf1N1B4_200 -> 
+pseudo3_N2E3 AO353_01000 -> 
+pseudo5_N2C3_1 AO356_01020 -> 
+pseudo6_N2E2 Pf6N2E2_200 -> 

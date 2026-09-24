@@ -82,3 +82,13 @@ the Fitness Browser Feb 2024 release (aaseqs.gz; headers are Fitness Browser loc
 - Secondary: per-organism verdicts (rules above); the same pooled test excluding SAM rescues
   (addresses the supplement-identity confound; UNDERPOWERED rule applies).
 All organisms and outcomes are reported whatever the result.
+
+## Amendment 4 (deviation, disclosed). Criterion (a) of amendment 3 was mis-specified.
+KEGG link/pathway covers only pathway genes (about 20-35% of a genome), so "matches >= 50% of the
+organism's locusIds" excludes every organism by construction. Observed before any model was built
+or any fitness compared (notes/kegg_find_sample_loci.txt; KEGG find/genes on one sample locus per
+organism matched only Caulo=ccs, Cola=evi, PS=dsu, Ponti=pact, Smeli=sme, SyringaeB728a=psb).
+Corrected criterion (a): >= 50% of the KEGG link/pathway gene ids are Fitness Browser locusIds
+(identifier-namespace match). Observed: ccs 0.954, evi 0.945, dsu 0.949, pact 0.936, sme 0.969,
+psb 0.956 (fractions of FB locusIds: 0.31, 0.22, 0.34, 0.23, 0.33, 0.35). All other rules unchanged.
+Included pending criterion (b): Caulo, Cola, PS, Ponti, Smeli, SyringaeB728a.
