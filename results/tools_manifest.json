@@ -164,6 +164,11 @@
    "PaxDb",
    "database",
    "integrated whole-organism protein abundance (v3 feature test)"
+  ],
+  [
+   "ESM-2 t6-8M (fair-esm 2.0; Lin et al. 2023)",
+   "deep-learning model",
+   "protein language-model embeddings for all 4,300 CDS; v4 essentiality feature test (negative)"
   ]
  ],
  "datasets": [
