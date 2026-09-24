@@ -179,6 +179,11 @@
    "MEMOTE 0.17 (memote report snapshot)",
    "model QC suite",
    "standardised quality report of iML1515 (total score 0.906)"
+  ],
+  [
+   "PSAMM 1.x (psamm-model sbmlexport)",
+   "model format conversion",
+   "converted the iMR1_799 YAML model to SBML for the MR-1 replication (scripts/run_cross_species_mr1.py)"
   ]
  ],
  "datasets": [
@@ -273,6 +278,18 @@
   [
    "GO Consortium EcoCyc GAF (taxon 83333)",
    "GO annotations"
+  ],
+  [
+   "iMR1_799 S. oneidensis GEM (Pinchuk 2010; zhanglab/psamm-model-collection)",
+   "metabolic model"
+  ],
+  [
+   "Price 2018 RB-TnSeq S. oneidensis MR-1 fitness matrix (genomics.lbl.gov/supplemental/bigfit/html/MR1)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/son",
+   "gene-pathway map"
   ]
  ]
 }
