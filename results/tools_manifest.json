@@ -793,6 +793,10 @@
   [
    "Poulsen et al. 2019 PNAS Dataset S5 Essential Genes (doi:10.1073/pnas.1900570116; Europe PMC PMC6525520 supplementary)",
    "essentiality labels, P. aeruginosa"
+  ],
+  [
+   "Griffin et al. 2011 PLoS Pathog Table 2 (M. tuberculosis H37Rv Tn-seq essentiality; mirror github.com/ajinich/mtb_tn_db data/SI_datasets/2011_Griffin_Sassetti)",
+   "essentiality labels, Mtb (label replication)"
   ]
  ],
  "infrastructure_not_counted": [

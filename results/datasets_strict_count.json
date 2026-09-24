@@ -1,7 +1,7 @@
 {
  "rule": "one per source study; re-deposits, quantification variants and fractions of one study collapse; derived/integrated tables and deposit metadata not counted",
- "n_manifest_entries": 148,
- "n_strict": 119,
+ "n_manifest_entries": 149,
+ "n_strict": 120,
  "collapsed": {
   "model:iML1515": [
    2,

@@ -329,4 +329,11 @@ def story_bern(story, R):
                 f"study averaged first; sign test p = {qa['sign_test_p']:.4f}; study AUROC {qa['auroc_range'][0]:.2f} to {qa['auroc_range'][1]:.2f}): "
                 f"{qa['verdict']} (results/paxdb_pao1.json; notes/prereg_paxdb_pao1.md). PAO1 was not among the nine strains Poulsen screened "
                 "and unnamed genes were dropped, so this label favours well-studied genes. Nine species now show the link.", BODY)]
+    pg = R('paxdb_mtb_griffin.json'); qg = pg['primary']
+    story += [P('H.24 The Mtb result survives an independent essentiality label (pre-registered)', H2),
+              P(f"Re-scoring the {qg['n']} Mtb datasets of H.21 against Griffin et al. (2011) Tn-seq calls ({pg['n_griffin_essential']} essential of "
+                f"{pg['n_griffin_labelled']}; agreement with DeJesus kappa = {pg['label_agreement']['cohen_kappa']:.2f}) gives AUROC > 0.5 in "
+                f"{qg['n_auroc_above_half']} of {qg['n']} (sign test p = {qg['sign_test_p']:.4f}, median AUROC {qg['median_auroc']:.3f}): {qg['verdict']} "
+                "(results/paxdb_mtb_griffin.json). AUROCs are lower than with DeJesus labels, as expected from the older, less saturated screen; "
+                "the same 201-gene dataset is again the exception.", BODY)]
     return story

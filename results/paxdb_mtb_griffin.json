@@ -1,0 +1,87 @@
+{
+ "datasets": {
+  "GPM_201408": {
+   "n_genes": 2963,
+   "n_essential": 717,
+   "auroc": 0.6335822804775513
+  },
+  "M.tuberculosis_atlas_build_330": {
+   "n_genes": 3207,
+   "n_essential": 736,
+   "auroc": 0.6458087730719828
+  },
+  "Mtuberculosis_Albrethsen_2013": {
+   "n_genes": 1163,
+   "n_essential": 334,
+   "auroc": 0.5701787017039504
+  },
+  "My_PXD000483_Cortes_2013": {
+   "n_genes": 1436,
+   "n_essential": 454,
+   "auroc": 0.5536238190512933
+  },
+  "MycobacteriumTuberculosis": {
+   "n_genes": 239,
+   "n_essential": 96,
+   "auroc": 0.4139350233100233
+  },
+  "PXD000111_Albrethsen_Mol_Cell_Proteomics_2013_M-tuberculosis_log_phase": {
+   "n_genes": 1257,
+   "n_essential": 359,
+   "auroc": 0.6376968937471695
+  },
+  "PXD000111_Albrethsen_Mol_Cell_Proteomics_2013_M-tuberculosis_starvation_phase": {
+   "n_genes": 1265,
+   "n_essential": 356,
+   "auroc": 0.624062125313655
+  },
+  "PXD000259_Schubert_Cell_Host_Microbe_2014_Mtuberculosis_complete_proteome": {
+   "n_genes": 1864,
+   "n_essential": 572,
+   "auroc": 0.6029939487756826
+  },
+  "PXD009676_late_exponential_Mtb_culture": {
+   "n_genes": 3178,
+   "n_essential": 736,
+   "auroc": 0.5530105513121818
+  },
+  "PXD011081_whole_cell_lysate": {
+   "n_genes": 1712,
+   "n_essential": 523,
+   "auroc": 0.5785353953625249
+  },
+  "PXD013677_Mtb_H37Rv_control": {
+   "n_genes": 2515,
+   "n_essential": 680,
+   "auroc": 0.6580381471389646
+  },
+  "PXD013677_Mtb_SAMMtb_control": {
+   "n_genes": 2508,
+   "n_essential": 677,
+   "auroc": 0.6539375614620031
+  },
+  "PXD016006_ctrl": {
+   "n_genes": 2898,
+   "n_essential": 712,
+   "auroc": 0.6213400264194002
+  },
+  "PXD020383_mtbc_lineage_pool": {
+   "n_genes": 3212,
+   "n_essential": 741,
+   "auroc": 0.5765902007142503
+  }
+ },
+ "n_griffin_essential": 773,
+ "n_griffin_labelled": 3946,
+ "primary": {
+  "n": 14,
+  "n_auroc_above_half": 13,
+  "sign_test_p": 0.00091552734375,
+  "median_auroc": 0.6121669875975414,
+  "verdict": "REPLICATES"
+ },
+ "label_agreement": {
+  "n_both": 3436,
+  "cohen_kappa": 0.73260975677702
+ }
+}
