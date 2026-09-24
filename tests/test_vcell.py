@@ -221,3 +221,16 @@ def test_rescue_audit_on_off_pathway(tmp_path):
     assert main(["rescue-audit", str(mp), "--supplement", "akg_c=00020", "--gene-pathways", str(kg),
                  "--genes", "b1136", "--out", str(out)]) == 0
     assert "on_pathway" in out.read_text()
+
+
+def test_rescue_audit_production_label():
+    """Hermetic: icd (b1136) knockout blocks 2-oxoglutarate synthesis, so its akg rescue is on-pathway."""
+    import warnings
+    warnings.filterwarnings("ignore")
+    from pathlib import Path
+    from vcell import metabolism as vm
+    from vcell.rescue import rescue_audit_production, can_produce
+    m = vm.load_model(str(Path(__file__).resolve().parents[1] / "data" / "e_coli_core.json"))
+    assert can_produce(m, "akg_c")
+    rows = rescue_audit_production(m, ["akg_c"], genes=["b1136", "b0008"])
+    assert [(r["gene"], r["label"]) for r in rows] == [("b1136", "on_pathway")]

@@ -68,3 +68,41 @@ def load_kegg_links(path: str) -> dict[str, set[str]]:
         p = p[-5:] if p[-5:].isdigit() else p
         out.setdefault(g, set()).add(p)
     return out
+
+
+def can_produce(model: cobra.Model, met_id: str, eps: float = 1e-6) -> bool:
+    """True if the model (current bounds/medium) can make a positive net amount of met_id."""
+    with model:
+        dm = model.add_boundary(model.metabolites.get_by_id(met_id), type="demand", reaction_id=f"DMTEST_{met_id}")
+        model.objective = dm
+        v = model.slim_optimize(error_value=0.0)
+    return v is not None and v == v and v > eps
+
+
+def rescue_audit_production(model: cobra.Model, supplements: list[str], genes: list[str] | None = None,
+                            tol: float = 0.01, supply_rate: float = 10.0) -> list[dict]:
+    """KEGG-free variant: a rescue of gene g by supplement s is on_pathway when knocking out g
+    abolishes de-novo production of s (g is needed to make s), else off_pathway (bypass)."""
+    wt = _grow(model)
+    thr = tol * wt
+    genes = genes if genes is not None else [g.id for g in model.genes]
+    rows = []
+    for gid in genes:
+        with model:
+            model.genes.get_by_id(gid).knock_out()
+            base = _grow(model)
+            if base >= thr:
+                continue
+            for met in supplements:
+                if met not in model.metabolites:
+                    continue
+                with model:
+                    model.add_boundary(model.metabolites.get_by_id(met), type="sink",
+                                       reaction_id=f"SUPPLY_{met}", lb=-supply_rate, ub=0.0)
+                    gr = _grow(model)
+                if gr >= thr:
+                    on = not can_produce(model, met)
+                    rows.append({"gene": gid, "supplement": met, "growth_ko": base, "growth_rescued": gr,
+                                 "label": "on_pathway" if on else "off_pathway",
+                                 "flag": "" if on else "likely_artifact"})
+    return rows
