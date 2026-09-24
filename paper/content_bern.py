@@ -286,8 +286,6 @@ def story_bern(story, R):
                 f"abundant proteins are more often essential in all {px['n_auroc_gt_0.5']} of {px['n_scored']} datasets (sign test "
                 f"p = {px['sign_test_p']:.1e}; AUROC range {px['auroc_range'][0]:.3f} to {px['auroc_range'][1]:.3f}; inverse-variance pooled "
                 f"AUROC {px['pooled_auroc_ivw']:.3f}, 95% CI {px['pooled_ci95'][0]:.3f} to {px['pooled_ci95'][1]:.3f}): "
-                f"{px['verdict']} (results/paxdb_datasets.json). The effect is modest and the Spearman correlation of AUROC with coverage "
-                f"is {px['spearman_auroc_vs_coverage']:.2f}, so deeper datasets show it somewhat more clearly. A parsing error (some files "
-                "carry a fourth raw-count column) initially left 11 datasets empty; it was fixed before interpretation and is noted in "
-                "the script.", BODY)]
+                f"{px['verdict']} (results/paxdb_datasets.json); AUROC rises with coverage (Spearman {px['spearman_auroc_vs_coverage']:.2f}). "
+                "A parsing error (a fourth column in some files) first left 11 datasets empty; it was fixed before interpretation.", BODY)]
     return story
