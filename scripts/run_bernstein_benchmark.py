@@ -20,8 +20,10 @@ model_arg, tag, supplements = sys.argv[1], sys.argv[2], sys.argv[3:]
 t0 = time.time()
 if model_arg.endswith('.xml'):
     model = cobra.io.read_sbml_model(model_arg)
+    # keep exchanges the saved model supplies (Bernstein saved allcorr with EX_btn_e/EX_thm_e/EX_pnto__R_e open);
+    # closing them (bug fixed 10:24 PM) silently removed their vitamin correction
     for ex in model.exchanges:
-        ex.lower_bound = 0; ex.upper_bound = 1000
+        ex.lower_bound = min(ex.lower_bound, 0) if ex.lower_bound < 0 else 0; ex.upper_bound = 1000
 else:
     model = g['load_model'](model_arg, BASE)
 med, carb, carb_exp = g['load_environment'](BASE)
