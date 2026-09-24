@@ -17,6 +17,8 @@ out = {'selected': sel['selected'], 'test_carbons': sel['test_carbons'],
        'bootstrap_all25': paired_gene_bootstrap(bs, ba, fa, allc, n=2000, seed=0),
        'n_calls_flipped_to_growth': int(((bs == 1) & (ba == 0)).sum()), 'n_calls_flipped_to_nogrowth': int(((bs == 0) & (ba == 1)).sum())}
 lo = out['bootstrap_heldout']['ci95'][0]
-out['verdict'] = ('BREAK: held-out PR-AUC above published all-corrections model, paired gene bootstrap 95% CI excludes 0'
-                  if out['heldout_prauc_selected'] > out['heldout_prauc_allcorr'] and lo > 0 else 'NEGATIVE: pre-registered criterion not met')
+out['verdict'] = ('SECONDARY (first-round, per pre-reg addendum): significant gain over the all-corrections model WITHOUT vitamins '
+                  '(held-out CI excludes 0); NOT a break of the published full correction (allcorr + 5 vitamins, PR-AUC 0.843), '
+                  'which is tested separately' if out['heldout_prauc_selected'] > out['heldout_prauc_allcorr'] and lo > 0
+                  else 'NEGATIVE: first-round criterion not met')
 json.dump(out, open('results/bernstein_selected_verdict.json', 'w'), indent=1); print(json.dumps(out, indent=1))

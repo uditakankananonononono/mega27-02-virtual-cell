@@ -1,0 +1,44 @@
+{
+ "selected": [
+  "btn",
+  "thmpp",
+  "coa"
+ ],
+ "test_carbons": [
+  "acgam",
+  "fru",
+  "g6p",
+  "galur",
+  "glc__D",
+  "glcur",
+  "glyclt",
+  "mal__L",
+  "mnl",
+  "rib__D",
+  "ser__D",
+  "tre"
+ ],
+ "heldout_prauc_selected": 0.850713260505611,
+ "heldout_prauc_allcorr": 0.7799902592197019,
+ "all25_prauc_selected": 0.8392430049591563,
+ "all25_prauc_allcorr": 0.7642940162026393,
+ "bootstrap_heldout": {
+  "diff": 0.07072300128590914,
+  "ci95": [
+   0.03739589989785659,
+   0.1107247056580564
+  ],
+  "n_boot": 2000
+ },
+ "bootstrap_all25": {
+  "diff": 0.07494898875651701,
+  "ci95": [
+   0.040302497889337256,
+   0.1155321261154971
+  ],
+  "n_boot": 2000
+ },
+ "n_calls_flipped_to_growth": 425,
+ "n_calls_flipped_to_nogrowth": 0,
+ "verdict": "SECONDARY (first-round, per pre-reg addendum): significant gain over the all-corrections model WITHOUT vitamins (held-out CI excludes 0); NOT a break of the published full correction (allcorr + 5 vitamins, PR-AUC 0.843), which is tested separately"
+}
