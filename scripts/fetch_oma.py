@@ -10,6 +10,8 @@ H = {'Accept-Encoding': 'gzip', 'User-Agent': 'curl/8.5'}
 def get(url):
     r = urllib.request.urlopen(urllib.request.Request(url, headers=H), timeout=60); raw = r.read()
     return json.loads(gzip.decompress(raw) if r.headers.get('Content-Encoding') == 'gzip' else raw)
+g = pd.read_csv('data/external/oma/oma_ecoli_genome.tsv', sep='\t'); nm = pd.read_csv('data/external/uniprot_ecoli_names.tsv', sep='\t')
+u2e = dict(zip(nm.Entry, nm['Entry Name'].map(dict(zip(g.canonicalid, g.entry_nr)))))
 done = set()
 if os.path.exists(out):
     t = pd.read_csv(out, sep='\t'); t = t[~t.status.astype(str).str.startswith('ERR')]; t.to_csv(out, sep='\t', index=False); done = set(t.bnumber)
@@ -20,14 +22,17 @@ with open(out, 'a') as f:
         u = b2u.get(b); row = [b, u or '', '', 0, '', 'no_uniprot']
         if u:
             try:
-                xr = [x for x in get(f'https://omabrowser.org/api/xref/?search={u}') if str(x.get('omaid', '')).startswith('ECOLI')]
-                if not xr: row = [b, u, '', 0, '', 'no_ECOLI_entry']
+                e = u2e.get(u)
+                if e is None or pd.isna(e):
+                    xr = [x for x in get(f'https://omabrowser.org/api/xref/?search={u}') if str(x.get('omaid', '')).startswith('ECOLI')]
+                    e = xr[0]['entry_nr'] if xr else None
+                if e is None: row = [b, u, '', 0, '', 'no_ECOLI_entry']
                 else:
-                    p = get(f"https://omabrowser.org/api/protein/{xr[0]['entry_nr']}/")
+                    p = get(f"https://omabrowser.org/api/protein/{int(e)}/")
                     lv = p.get('hog_levels') or []
                     row = [b, u, p['omaid'], len(lv), (lv[-1] if lv else ''), 'ok']
             except urllib.error.HTTPError as e:
                 row = [b, u, '', '', '', f'ERR:http{e.code}']
             except Exception as e:
                 row = [b, u, '', '', '', 'ERR:' + type(e).__name__]
-        f.write('\t'.join(map(str, row)) + '\n'); f.flush(); time.sleep(0.2)
+        f.write('\t'.join(map(str, row)) + '\n'); f.flush(); time.sleep(0.1)

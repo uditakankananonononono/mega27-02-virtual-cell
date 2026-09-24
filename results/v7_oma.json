@@ -1,0 +1,40 @@
+{
+ "n_genes": 1249,
+ "oma_found": 1249,
+ "oma_nonzero": 1222,
+ "v2_lr_reproduced_max_abs_dev_vs_committed": 1.1102230246251565e-16,
+ "auroc": {
+  "v2_lr": 0.7966758130538437,
+  "v7_lr": 0.796122531600018,
+  "new_features_only": 0.5756061355764474
+ },
+ "auprc": {
+  "v2_lr": 0.4980492966530802,
+  "v7_lr": 0.4898954084622664
+ },
+ "primary_auroc_v7_minus_v2": {
+  "diff": -0.0005532814538257158,
+  "ci95": [
+   -0.00509873002008486,
+   0.003313229934797194
+  ]
+ },
+ "secondary_auprc_v7_minus_v2": {
+  "diff": -0.008153888190813752,
+  "ci95": [
+   -0.01874635570384257,
+   0.002480755427675898
+  ]
+ },
+ "univariate_auroc": {
+  "log_orth": 0.5819283882866267
+ },
+ "secondary_rousset_auroc_v7_minus_v2": {
+  "diff": 0.0007711757269278641,
+  "ci95": [
+   -0.0026504334654246036,
+   0.004210382640116255
+  ]
+ },
+ "verdict": "NO SIGNIFICANT IMPROVEMENT (pre-registered null)"
+}

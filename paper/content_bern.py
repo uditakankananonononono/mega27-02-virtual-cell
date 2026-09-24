@@ -204,4 +204,14 @@ def story_bern(story, R):
                 f"{v6['primary_auroc_v6_minus_v2']['ci95'][1]:+.4f}); AUPRC and the Rousset CRISPRi check are also flat. Verdict: "
                 f"{v6['verdict']} (results/v6_structure_domain.json). Nearly all E. coli proteins in the model are well folded "
                 f"(median pLDDT near 95), so order does not separate essential from non-essential enzymes.", BODY)]
+    v7 = R('v7_oma.json')
+    story += [P('H.13 Evolutionary conservation adds nothing either (pre-registered negative)', H2),
+              P(f"Conserved genes are often said to be essential. We tested this against v2 using the depth of each gene's hierarchical "
+                f"orthologous group in the OMA Browser (number of taxonomic levels, from E. coli up to LUCA; notes/prereg_oma_conservation.md, "
+                f"with amendment 1 made before scoring because the 1:1-ortholog endpoint was too slow). {v7['oma_nonzero']} of "
+                f"{v7['n_genes']} genes have a HOG; most of the model's genes are ancient (356 reach LUCA, 702 Bacteria). Alone the "
+                f"feature reaches AUROC {v7['univariate_auroc']['log_orth']:.3f}; added to v2 the AUROC changes by "
+                f"{v7['primary_auroc_v7_minus_v2']['diff']:+.4f} (95% CI {v7['primary_auroc_v7_minus_v2']['ci95'][0]:+.4f} to "
+                f"{v7['primary_auroc_v7_minus_v2']['ci95'][1]:+.4f}). Verdict: {v7['verdict']} (results/v7_oma.json). Within metabolic "
+                "genes, conservation carries weak signal that v2 already captures through its network and sequence features.", BODY)]
     return story

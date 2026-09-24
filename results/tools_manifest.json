@@ -169,6 +169,11 @@
    "Pfam (family annotations via UniProt xref_pfam)",
    "protein family database",
    "Pfam families for 1245 model genes; fold-internal family essentiality feature"
+  ],
+  [
+   "OMA Browser REST API (hierarchical orthologous groups)",
+   "orthology database",
+   "HOG depth for 1222 model genes; pre-registered v7 conservation test (results/v7_oma.json)"
   ]
  ],
  "datasets": [
@@ -351,6 +356,10 @@
   [
    "UniProt UP000000625 Pfam cross-references (data/external/uniprot_ecoli_pfam.tsv)",
    "protein families"
+  ],
+  [
+   "OMA Browser genome ECOLI (E. coli K-12 MG1655) proteins + per-protein HOG levels (data/external/oma/)",
+   "orthology / conservation"
   ]
  ],
  "infrastructure_not_counted": [
