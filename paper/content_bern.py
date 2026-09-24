@@ -32,8 +32,9 @@ def story_bern(story, R):
                 'external/E_coli_GEM_validation) for model loading, gene and carbon-source matching, the BW25113 strain '
                 'correction, removal of non-conditionally essential genes, carbon-source mapping, FBA simulation '
                 '(carbon uptake -10, other media -1000 mmol/gDW/h, growth threshold 0.001) and the metric. We changed '
-                'only one thing: their model_adjustments function reads a notebook-global variable, which we bind '
-                'explicitly. The metric is their precision-recall AUC, where labels are the model growth calls, the '
+                'two things: their model_adjustments function reads a notebook-global variable, which we bind '
+                'explicitly; and when a saved SBML model is loaded, exchanges that the file leaves open are re-opened after '
+                'model_adjustments (which switches all exchanges off), exactly as their own all-corrections cell does. The metric is their precision-recall AUC, where labels are the model growth calls, the '
                 'score is negative fitness and the positive class is no-growth:', BODY),
               P('AUC<sub>PR</sub> = &int; P(r) dr, &nbsp; P(t) = |{ f &lt; -t } &cap; {model no-growth}| / |{ f &lt; -t }|, &nbsp; R(t) = |{ f &lt; -t } &cap; {no-growth}| / |{no-growth}|    (H1)', EQ),
               P('Supplements are added as intracellular exchange reactions, the same construction as their Part 6. Our '
@@ -49,4 +50,36 @@ def story_bern(story, R):
     if os.path.exists(fp):
         story += fig(fp, 5.6 * inch, 'Figure 11. PR-AUC on the Bernstein benchmark by model variant.')
     story += [P('H.3 Reading', H2), P(R('bernstein_verdict.json')['text'], BODY)]
+    story += [P('H.4 A reproduction error, kept on the record', H2),
+              P('Our first run of the released all-corrections model scored 0.764. The cause was our loader: it closed every '
+                'exchange in the saved file, and their model_adjustments also switches exchanges off, so the three vitamin '
+                'uptakes the authors saved open (EX_btn_e, EX_thm_e, EX_pnto__R_e) were silently removed. Biotin, thiamin and '
+                'pantothenate synthesis knockouts (b0775, b0776, b3990, b0133, b0134) then showed zero growth on every carbon '
+                'source. A split-half search over our 19 audit-derived cofactors selected biotin, thiamin diphosphate and CoA '
+                'and appeared to beat the model by +0.071 PR-AUC on held-out carbons (95% CI 0.037-0.111). That gain only '
+                'restored the removed vitamins: after the fix the all-corrections model scores 0.839 on its own, identical to '
+                'the "selected" run. The rows marked INVALID in Table 19 are kept so the error stays auditable. Lesson: an '
+                'apparent benchmark win that re-discovers the benchmark authors\' own fix is a symptom of a broken baseline.', BODY)]
+    v4 = R('ensemble_v4_esm.json')
+    story += [P('H.5 Protein language model feature (pre-registered negative)', H2),
+              P(f"ESM-2 (t6, 8M parameters; fair-esm) mean-pooled embeddings were computed for all 4,300 CDS of U00096.3. "
+                f"Pre-registered test (notes/prereg_esm_v4.md): v2 features plus a 16-component PCA of the embedding fit inside "
+                f"each training fold. AUROC {v4['v4_lr']['auroc']:.3f} vs {v4['v2_lr']['auroc']:.3f} for v2; paired bootstrap "
+                f"difference {v4['paired_v4lr_vs_v2lr']['mean']:+.3f} (95% CI {v4['paired_v4lr_vs_v2lr']['ci95'][0]:+.3f} to "
+                f"{v4['paired_v4lr_vs_v2lr']['ci95'][1]:+.3f}). The embedding alone reaches AUROC {v4['esm_only_lr']['auroc']:.3f}: "
+                f"real signal, but redundant with the existing features. Verdict: negative.", BODY)]
+    go = R('go_error_enrichment.json')
+    story += [P('H.6 Where the ensemble is confidently wrong: GO enrichment', H2),
+              P('Hard errors of the v2 ensemble were tested for Gene Ontology enrichment (goatools, propagated annotations '
+                'from the EcoCyc GAF, universe = annotated benchmark genes) with the one-sided hypergeometric test and '
+                'Benjamini-Hochberg correction:', BODY),
+              P('p = &Sigma;<sub>i&ge;k</sub> C(K,i) C(N-K,n-i) / C(N,n), &nbsp; q<sub>(j)</sub> = min<sub>l&ge;j</sub> ( m p<sub>(l)</sub> / l )    (H2)', EQ)]
+    t2 = [['error set', 'GO term', 'study', 'universe', 'BH q']]
+    for x in go['false_positives'][:8]:
+        t2.append(['confident FP', x['name'][:62], x['study'], x['pop'], f"{x['p_fdr_bh']:.1e}"])
+    story += tbl(t2, f"Table 20. GO terms enriched among confident false positives (non-essential genes in the top 10% of v2 scores; n={go['n_fp']}). False negatives (n={go['n_fn']}): no term at q<0.05.",
+                 widths=[1.0 * inch, 3.0 * inch, 0.7 * inch, 0.8 * inch, 0.8 * inch])
+    story += [P('Molybdopterin cofactor biosynthesis and the ATP synthase are required only anaerobically or are bypassed by '
+                'fermentation in rich medium; the ensemble inherits a condition mismatch from its FBA inputs, the same class '
+                'of error Bernstein et al. fixed with vitamins. This is a hypothesis for condition-aware features, not a claim.', BODY)]
     return story
