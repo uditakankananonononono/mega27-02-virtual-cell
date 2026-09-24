@@ -1,0 +1,96 @@
+{
+ "datasets": {
+  "GPM_201408": {
+   "study": "GPM_201408",
+   "n_named": 1125,
+   "n_essential": 250,
+   "n_nonessential": 875,
+   "auroc": 0.6887451428571428
+  },
+  "MSV000096603_Pseudomonas_aeruginosa-DSMZ50071": {
+   "study": "MSV000096603_Pseudomonas_aeruginosa-DSMZ50071",
+   "n_named": 1686,
+   "n_essential": 268,
+   "n_nonessential": 1418,
+   "auroc": 0.7287105551228343
+  },
+  "PXD004560_WT": {
+   "study": "PXD004560_WT",
+   "n_named": 1502,
+   "n_essential": 272,
+   "n_nonessential": 1230,
+   "auroc": 0.8005544595887135
+  },
+  "PXD009705_Pa": {
+   "study": "PXD009705",
+   "n_named": 1064,
+   "n_essential": 252,
+   "n_nonessential": 812,
+   "auroc": 0.6761572445069982
+  },
+  "PXD009705_neg": {
+   "study": "PXD009705",
+   "n_named": 1270,
+   "n_essential": 265,
+   "n_nonessential": 1005,
+   "auroc": 0.6979273444100254
+  },
+  "PXD009705_pos": {
+   "study": "PXD009705",
+   "n_named": 1278,
+   "n_essential": 265,
+   "n_nonessential": 1013,
+   "auroc": 0.7112797779805919
+  },
+  "PXD021907_wt": {
+   "study": "PXD021907_wt",
+   "n_named": 788,
+   "n_essential": 219,
+   "n_nonessential": 569,
+   "auroc": 0.6869979375817544
+  },
+  "PXD025827_PAO1": {
+   "study": "PXD025827_PAO1",
+   "n_named": 1259,
+   "n_essential": 263,
+   "n_nonessential": 996,
+   "auroc": 0.7396754317650831
+  },
+  "Pseudomonas-aeruginosa_PA_2021-1": {
+   "study": "Pseudomonas-aeruginosa_PA_2021-1",
+   "n_named": 1614,
+   "n_essential": 271,
+   "n_nonessential": 1343,
+   "auroc": 0.7619225559344202
+  },
+  "Pseudomonas_aeruginosa_SC_biomart_22024_E__1reps": {
+   "study": "Pseudomonas_aeruginosa_SC_biomart_22024_E__1reps",
+   "n_named": 908,
+   "n_essential": 223,
+   "n_nonessential": 685,
+   "auroc": 0.6698667801381297
+  }
+ },
+ "study_auroc": {
+  "GPM_201408": 0.6887451428571428,
+  "MSV000096603_Pseudomonas_aeruginosa-DSMZ50071": 0.7287105551228343,
+  "PXD004560_WT": 0.8005544595887135,
+  "PXD009705": 0.6951214556325386,
+  "PXD021907_wt": 0.6869979375817544,
+  "PXD025827_PAO1": 0.7396754317650831,
+  "Pseudomonas-aeruginosa_PA_2021-1": 0.7619225559344202,
+  "Pseudomonas_aeruginosa_SC_biomart_22024_E__1reps": 0.6698667801381297
+ },
+ "n_core_named": 313,
+ "primary": {
+  "n_studies": 8,
+  "n_auroc_above_half": 8,
+  "sign_test_p": 0.00390625,
+  "median_study_auroc": 0.7119160053776865,
+  "auroc_range": [
+   0.6698667801381297,
+   0.8005544595887135
+  ],
+  "verdict": "HOLDS IN P. AERUGINOSA"
+ }
+}

@@ -14,6 +14,8 @@ def key(i, name):
     if i == 41: return None                       # FB aaseqs: metadata of the same figshare deposit
     if i in (24, 66): return 'price2018:MR1'
     if 'PXD014877_Mueller' in n: return 'mueller2020:PXD014877'
+    if 'MSV000096603' in n: return 'MSV000096603'
+    if 'PXD009705' in n: return 'PXD009705'
     if 'arike_2012' in n: return 'arike2012'
     if 'Krug_2013' in n: return 'krug2013'
     if 'ecoli1_HCD' in n or 'ecoli2_resolution' in n: return 'pride:ecoli1-2'

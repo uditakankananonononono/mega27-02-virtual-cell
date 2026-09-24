@@ -317,9 +317,16 @@ def story_bern(story, R):
               P(f"Against the {pb['n_essential_list']} SubtiWiki essential genes, abundant proteins were more often essential in "
                 f"{qb['n_auroc_above_half']} of {qb['n']} B. subtilis PaxDb datasets (sign test p = {qb['sign_test_p']:.3f}, the smallest "
                 f"possible with five; pooled AUROC {qb['pooled_auroc']:.3f}, 95% CI {qb['ci95'][0]:.3f} to {qb['ci95'][1]:.3f}): {qb['verdict']} "
-                "(results/paxdb_bsub.json; notes/prereg_paxdb_bsub.md). This makes eight species. "
+                "(results/paxdb_bsub.json; notes/prereg_paxdb_bsub.md). "
                 f"Dataset counting: the manifest lists {sc['n_manifest_entries']} accession-level entries. Counting one per source study "
                 "(re-deposits, quantification variants and fractions of one study collapse; derived tables not counted) gives "
                 f"{sc['n_strict']}; that strict number is the one we report. The rule and the collapsed groups are in "
                 "results/datasets_strict_count.json.", BODY)]
+    pa = R('paxdb_pao1.json'); qa = pa['primary']
+    story += [P('H.23 P. aeruginosa (pre-registered)', H2),
+              P(f"Against the {pa['n_core_named']} named core essential genes of Poulsen et al. (2019), matched to PAO1 by gene name, "
+                f"abundant proteins were more often essential in {qa['n_auroc_above_half']} of {qa['n_studies']} PaxDb studies (files from one "
+                f"study averaged first; sign test p = {qa['sign_test_p']:.4f}; study AUROC {qa['auroc_range'][0]:.2f} to {qa['auroc_range'][1]:.2f}): "
+                f"{qa['verdict']} (results/paxdb_pao1.json; notes/prereg_paxdb_pao1.md). PAO1 was not among the nine strains Poulsen screened "
+                "and unnamed genes were dropped, so this label favours well-studied genes. Nine species now show the link.", BODY)]
     return story

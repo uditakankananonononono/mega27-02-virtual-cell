@@ -749,6 +749,50 @@
   [
    "SubtiWiki Essential genes page (retrieved 2026-09-25; Koo et al. 2017 based), 260 gene names",
    "essentiality labels, B. subtilis"
+  ],
+  [
+   "PaxDb v5 dataset 208964-GPM_201408.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-MSV000096603_Pseudomonas_aeruginosa-DSMZ50071.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-PXD004560_WT.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-PXD009705_Pa.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-PXD009705_neg.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-PXD009705_pos.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-PXD021907_wt.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-PXD025827_PAO1.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-Pseudomonas-aeruginosa_PA_2021-1.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 208964-Pseudomonas_aeruginosa_SC_biomart_22024_E__1reps.txt (P. aeruginosa PAO1)",
+   "protein abundance vs Poulsen 2019 core essentiality"
+  ],
+  [
+   "Poulsen et al. 2019 PNAS Dataset S5 Essential Genes (doi:10.1073/pnas.1900570116; Europe PMC PMC6525520 supplementary)",
+   "essentiality labels, P. aeruginosa"
   ]
  ],
  "infrastructure_not_counted": [
