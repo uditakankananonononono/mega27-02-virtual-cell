@@ -16,9 +16,10 @@ df = df.merge(v1, on='bnumber')
 y = df.essential.values
 base = ['fba_min', 'fba_rich', 'gnn', 'cnn', 'kmer']
 extc_all = [c for c in ext.columns if c != 'bnumber']
-extc = [c for c in extc_all if not c.startswith('strctx')]
+NEW3 = ['pax_log_ppm', 'cai', 'gc3']  # added 9:17 PM (PaxDb + codon usage) -> v3; v2 set frozen as first reported
+extc = [c for c in extc_all if not c.startswith('strctx') and c not in NEW3]
 # leakage-controlled set: STRING genomic-context+coexpression channels only, no UniProt annotation score
-extc_clean = [c for c in extc_all if not c.startswith('string_') and c != 'up_annot']
+extc_clean = [c for c in extc_all if not c.startswith('string_') and c != 'up_annot' and c not in NEW3]
 skf = StratifiedKFold(3, shuffle=True, random_state=7)
 def oof(model_fn, cols, seeds=(7,)):
     X = df[cols].values; out = np.zeros(len(y))
@@ -32,6 +33,7 @@ res = {}
 S = {'v1_stack_reproduced': oof(lr, base), 'ext_only_lr': oof(lr, extc), 'v2_lr': oof(lr, base + extc),
      'v2_gbm': oof(gb, base + extc),
      'v2clean_lr': oof(lr, base + extc_clean), 'v2clean_gbm': oof(gb, base + extc_clean)}
+S['v3_lr'] = oof(lr, base + extc + NEW3); S['v3clean_lr'] = oof(lr, base + extc_clean + NEW3)
 S['v2clean_avg'] = (pd.Series(S['v2clean_lr']).rank().values + pd.Series(S['v2clean_gbm']).rank().values) / 2
 S['v2_avg'] = (pd.Series(S['v2_lr']).rank().values + pd.Series(S['v2_gbm']).rank().values) / 2
 for k, s in S.items():
@@ -47,6 +49,8 @@ def paired(a, b, n=2000):
 best = 'v2_lr'  # pre-specified primary model (simplest; avg/gbm are secondary)
 res['paired_v2lr_vs_v1published'] = paired(S['v2_lr'], df.ensemble.values)
 res['paired_v2lr_vs_v1reproduced'] = paired(S['v2_lr'], S['v1_stack_reproduced'])
+res['paired_v3lr_vs_v2lr'] = paired(S['v3_lr'], S['v2_lr'])
+res['paired_v3cleanlr_vs_v1reproduced'] = paired(S['v3clean_lr'], S['v1_stack_reproduced'])
 res['paired_v2cleanlr_vs_v1reproduced'] = paired(S['v2clean_lr'], S['v1_stack_reproduced'])
 # multi-seed robustness of best
 seeds = (7, 11, 23, 42, 99)

@@ -71,5 +71,48 @@ def kegg_features() -> pd.DataFrame:
 
 def all_features() -> pd.DataFrame:
     f = string_features().merge(string_features(channels=CONTEXT_CHANNELS, prefix='strctx'), on='bnumber', how='outer')
+    f = f.merge(paxdb_features(), on='bnumber', how='outer').merge(codon_features(), on='bnumber', how='outer')
     f = f.merge(uniprot_features(), on='bnumber', how='outer').merge(kegg_features(), on='bnumber', how='outer')
     return f.fillna(0)
+
+
+def paxdb_features() -> pd.DataFrame:
+    """PaxDb integrated whole-organism protein abundance (ppm), log10-transformed."""
+    p = pd.read_csv(EXT + 'paxdb_511145_integrated.txt', sep='\t', comment='#', header=None, names=['name', 'sid', 'ppm'])
+    p['bnumber'] = p.sid.str.split('.').str[1]
+    return pd.DataFrame({'bnumber': p.bnumber, 'pax_log_ppm': np.log10(p.ppm.astype(float) + 0.01)})
+
+
+def codon_features(gb_path: str = 'data/U00096.3.gb') -> pd.DataFrame:
+    """Codon Adaptation Index (Sharp & Li 1987) against ribosomal-protein reference set, plus GC3.
+    w_c = f_c / max_{c' syn c} f_c'; CAI = exp(mean log w)."""
+    from Bio import SeqIO
+    from Bio.Data.CodonTable import standard_dna_table
+    fwd = standard_dna_table.forward_table
+    syn = {}
+    for c, aa in fwd.items():
+        syn.setdefault(aa, []).append(c)
+    cds = {}
+    for rec in SeqIO.parse(gb_path, 'genbank'):
+        for f in rec.features:
+            if f.type == 'CDS' and 'locus_tag' in f.qualifiers and 'pseudo' not in f.qualifiers:
+                s = str(f.extract(rec.seq)).upper()
+                if len(s) % 3 == 0 and len(s) >= 90:
+                    cds[f.qualifiers['locus_tag'][0]] = (s, f.qualifiers.get('product', [''])[0])
+    ref = [s for s, prod in cds.values() if prod.startswith(('50S ribosomal protein', '30S ribosomal protein'))]
+    cnt = {}
+    for s in ref:
+        for i in range(0, len(s) - 3, 3):
+            cnt[s[i:i + 3]] = cnt.get(s[i:i + 3], 0) + 1
+    w = {}
+    for aa, cs in syn.items():
+        m = max(cnt.get(c, 0) for c in cs) or 1
+        for c in cs:
+            w[c] = max(cnt.get(c, 0), 0.5) / m
+    rows = []
+    for b, (s, _) in cds.items():
+        cod = [s[i:i + 3] for i in range(0, len(s) - 3, 3)]
+        lw = [np.log(w[c]) for c in cod if c in w and len(syn[fwd[c]]) > 1]
+        gc3 = np.mean([c[2] in 'GC' for c in cod])
+        rows.append({'bnumber': b, 'cai': float(np.exp(np.mean(lw))) if lw else 0.0, 'gc3': gc3})
+    return pd.DataFrame(rows)
