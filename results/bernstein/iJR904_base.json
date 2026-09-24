@@ -1,0 +1,12 @@
+{
+  "model": "iJR904",
+  "variant": "iJR904_base",
+  "supplements_added": [],
+  "n_genes": 712,
+  "n_carbon": 25,
+  "n_pairs": 17800,
+  "n_model_nogrowth": 1846,
+  "pr_auc_bernstein_metric": 0.6593896427970566,
+  "roc_auc": 0.9208898898254476,
+  "seconds": 74.3
+}
