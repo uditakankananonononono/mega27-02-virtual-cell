@@ -60,3 +60,25 @@ Add Synechococcus elongatus PCC 7942 under the same protocol and criteria:
 - Gene -> pathway: KEGG link/pathway/syf. Supplements: same seven BiGG cofactor ids.
 Verdict rules unchanged; reported separately. A pooled analysis across organisms is NOT
 pre-registered and, if shown, will be labelled exploratory.
+
+## Amendment 3 (written before any CarveMe model was built for analysis or compared with fitness;
+## git commit time is authoritative). Multi-organism test with automatically built models.
+Curated models exist for few Fitness Browser organisms, so the test is widened with models built
+by CarveMe 1.6.6 (universal bacterial model, DIAMOND 2.1.9, SCIP solver, gap-filled and initialised
+on M9 glucose: `carve ORG.faa -g M9 -i M9 --fbc2 --solver scip`) from each organism's protein set in
+the Fitness Browser Feb 2024 release (aaseqs.gz; headers are Fitness Browser locusIds).
+- Organism inclusion rule (fixed now): every bacterial organism in the Feb 2024 release, except
+  Keio (the discovery organism), MR1, Putida, SynE (tested with curated models above),
+  SyringaeB728a_mexBdelta (duplicate strain) and the two Methanococcus archaea, for which
+  (a) KEGG REST has a genome whose link/pathway gene ids match the Fitness Browser locusIds for
+  >= 50% of that organism's locusIds, and (b) the CarveMe model grows on its M9 glucose init
+  medium. Organisms failing (a) or (b) are listed with the reason.
+- Rescue audit, labelling and gene outcome exactly as in the protocol above (medium = the CarveMe
+  M9 init medium with no vitamins; strain fitness aggregated as for P. putida).
+- PRIMARY (pooled): convert each gene's median fitness into its percentile among all genes with
+  fitness in that organism; one-sided Mann-Whitney on pooled percentiles, on > off. REPLICATED if
+  p < 0.05 and median percentile difference > 0; FALSIFIED if the difference <= 0; UNDERPOWERED if
+  fewer than 10 genes with fitness in either pooled group.
+- Secondary: per-organism verdicts (rules above); the same pooled test excluding SAM rescues
+  (addresses the supplement-identity confound; UNDERPOWERED rule applies).
+All organisms and outcomes are reported whatever the result.
