@@ -1,0 +1,133 @@
+{
+ "org": "MR1",
+ "wt": 0.9128102541884368,
+ "n_genes_model": 1063,
+ "n_rescue_pairs": 19,
+ "missing_supplements": [],
+ "genes": {
+  "199801": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.00625,
+   "percentile": 0.462905317769131
+  },
+  "201372": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": 0.0818181818181818,
+   "percentile": 0.8994811932555123
+  },
+  "201773": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "202656": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.2944444444444445,
+   "percentile": 0.0840466926070039
+  },
+  "202655": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.4833333333333333,
+   "percentile": 0.05330739299610895
+  },
+  "200516": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.4562499999999999,
+   "percentile": 0.055771725032425425
+  },
+  "202186": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "203335": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "200056": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.45,
+   "percentile": 0.057068741893644616
+  },
+  "370246": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.6,
+   "percentile": 0.04202334630350195
+  },
+  "200055": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "202021": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "200526": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "203150": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.545,
+   "percentile": 0.04695201037613489
+  },
+  "201486": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.62,
+   "percentile": 0.04085603112840467
+  }
+ }
+}
