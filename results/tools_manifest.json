@@ -189,6 +189,16 @@
    "iModulonDB / PRECISE-1K iModulon compendium (SBRG; Lamoureux et al. 2023)",
    "transcriptome regulatory-module database",
    "expression level, variability and iModulon membership for 1248 model genes; pre-registered v9 test (results/v9_precise1k.json)"
+  ],
+  [
+   "Transporter Classification Database (TCDB) substrate table",
+   "transporter database",
+   "which rescue-audit supplements have an E. coli K-12 uptake system (results/uptake_plausibility.json)"
+  ],
+  [
+   "ChEBI ontology via EBI OLS4 API",
+   "chemical ontology",
+   "expanded supplement ChEBI IDs through tautomer/conjugate/enantiomer/has-part links and secondary IDs"
   ]
  ],
  "datasets": [
@@ -387,6 +397,14 @@
   [
    "PRECISE-1K release (github.com/SBRG/precise1k commit 4829b83): log_tpm_qc (1035 RNA-seq samples), M matrix, iModulon thresholds",
    "transcriptome compendium"
+  ],
+  [
+   "TCDB getSubstrates.py table (TC -> ChEBI substrates, retrieved 2026-09-25)",
+   "transporter substrates"
+  ],
+  [
+   "UniProt UP000000625 TCDB cross-references (data/external/uniprot_ecoli_tcdb.tsv)",
+   "transporter assignments"
   ]
  ],
  "infrastructure_not_counted": [

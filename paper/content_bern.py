@@ -242,4 +242,18 @@ def story_bern(story, R):
                 "so we report them as supporting evidence that expression carries signal v2 lacks, not as a confirmed improvement. "
                 "One iModulon name differed between files (Superoxide in M.csv, SoxS in the thresholds) and was matched by hand "
                 "(results/v9_precise1k.json).", BODY)]
+    up = R('uptake_plausibility.json'); ps = up['per_supplement']
+    story += [P('H.16 Can E. coli take the rescuing supplements up? (exploratory)', H2),
+              P(f"A supplement rescue in the model is only meaningful if the cell can import the compound. We asked, for the seven "
+                f"supplements in the iML1515 rescue audit, whether E. coli K-12 has a transporter in the Transporter Classification "
+                f"Database whose curated substrates include the compound (notes/prereg_uptake_plausibility.md; ChEBI IDs expanded "
+                f"through the ChEBI ontology). Amendment 1, disclosed in the note, added secondary ChEBI IDs after the first run missed "
+                f"ThiBPQ because TCDB uses CHEBI:9530 for thiamine. Result (results/uptake_plausibility.json): only pantothenate (PanF, "
+                f"TC 2.A.21.1.1) and thiamine (ThiBPQ, TC 3.A.1.19.1) have a K-12 uptake system. SAM, NAD, tetrahydrofolate and "
+                f"pyridoxal 5'-phosphate have none, as expected in advance; biotin was expected to be supported but has no K-12 entry in "
+                f"TCDB (its E. coli uptake route is not characterised there). {up['off_pathway_rescues_without_uptake']} of "
+                f"{up['off_pathway_rescues_total']} off-pathway rescues use a supplement with no known K-12 uptake system, including all "
+                f"{ps['amet_c']['rescues'].get('off_pathway', 0)} SAM rescues. This is independent support that the SAM rescues are artifacts "
+                "of supplying an intracellular metabolite. With seven supplements it is descriptive, not a test, and absence from TCDB is "
+                "weaker evidence than presence.", BODY)]
     return story

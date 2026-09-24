@@ -1,0 +1,94 @@
+{
+ "per_supplement": {
+  "amet_c": {
+   "n_chebi_model": 13,
+   "n_chebi_expanded": 14,
+   "k12_tcdb_systems": {},
+   "uptake_supported": false,
+   "rescues": {
+    "off_pathway": 5,
+    "on_pathway": 3
+   }
+  },
+  "btn_c": {
+   "n_chebi_model": 7,
+   "n_chebi_expanded": 8,
+   "k12_tcdb_systems": {},
+   "uptake_supported": false,
+   "rescues": {
+    "on_pathway": 9,
+    "off_pathway": 1
+   }
+  },
+  "nad_c": {
+   "n_chebi_model": 10,
+   "n_chebi_expanded": 10,
+   "k12_tcdb_systems": {},
+   "uptake_supported": false,
+   "rescues": {
+    "on_pathway": 5
+   }
+  },
+  "pnto__R_c": {
+   "n_chebi_model": 10,
+   "n_chebi_expanded": 11,
+   "k12_tcdb_systems": {
+    "2.A.21.1.1": [
+     "panF"
+    ]
+   },
+   "uptake_supported": true,
+   "rescues": {
+    "on_pathway": 3
+   }
+  },
+  "pydx5p_c": {
+   "n_chebi_model": 8,
+   "n_chebi_expanded": 8,
+   "k12_tcdb_systems": {},
+   "uptake_supported": false,
+   "rescues": {
+    "on_pathway": 2
+   }
+  },
+  "thf_c": {
+   "n_chebi_model": 10,
+   "n_chebi_expanded": 10,
+   "k12_tcdb_systems": {},
+   "uptake_supported": false,
+   "rescues": {
+    "on_pathway": 7
+   }
+  },
+  "thm_c": {
+   "n_chebi_model": 1,
+   "n_chebi_expanded": 6,
+   "k12_tcdb_systems": {
+    "3.A.1.19.1": [
+     "thiB",
+     "thiQ",
+     "thiP"
+    ]
+   },
+   "uptake_supported": true,
+   "rescues": {
+    "on_pathway": 8,
+    "off_pathway": 1
+   }
+  }
+ },
+ "n_k12_tc_systems": 575,
+ "n_tcdb_systems_with_substrates": 9223,
+ "matches_expectation": {
+  "amet_c": true,
+  "btn_c": false,
+  "nad_c": true,
+  "pnto__R_c": true,
+  "pydx5p_c": true,
+  "thf_c": true,
+  "thm_c": true
+ },
+ "off_pathway_rescues_without_uptake": 6,
+ "off_pathway_rescues_total": 7,
+ "note": "exploratory, descriptive, n=7 supplements; TCDB substrate curation is incomplete, so absence is weaker evidence than presence"
+}
