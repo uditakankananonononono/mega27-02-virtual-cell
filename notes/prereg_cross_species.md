@@ -1,6 +1,6 @@
 # Pre-registration: cross-species replication of the supplement-bypass finding
 
-Written 2026-09-24 23:50 IST, before any fitness value of the second organism is
+Written 2026-09-24 ~23:49 IST (git commit 00e7a9d is the authoritative time), before any fitness value of the second organism is
 compared against rescue labels. Committed before the analysis script is run.
 
 ## Hypothesis (from H.7, E. coli, results/pathway_concordance.json)
@@ -36,7 +36,7 @@ KEGG pathway have near-neutral measured fitness; off-pathway rescues are deleter
 - fewer than 5 genes with fitness in either group -> UNDERPOWERED (reported as such, no claim).
 - Secondary: fraction of genes absent from the fitness table, off vs on (prediction: off higher).
 
-## Amendment 1 (2026-09-24 23:54 IST, after MR-1 was UNDERPOWERED; before any P. putida analysis)
+## Amendment 1 (2026-09-24 23:53 IST; see git commit 999b51c for the authoritative time, after MR-1 was UNDERPOWERED; before any P. putida analysis)
 MR-1 gave zero off-pathway rescues, so the test could not run. Add Pseudomonas putida
 KT2440 under the same protocol and criteria, with these organism-specific inputs:
 - GEM iJN1463 (BiGG, bigg.ucsd.edu/static/models/iJN1463.json.gz); medium: the model's

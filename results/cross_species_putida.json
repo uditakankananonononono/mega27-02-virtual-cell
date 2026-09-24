@@ -1,0 +1,209 @@
+{
+ "wt_growth_glucose": 0.9796368101803936,
+ "supplements_missing_from_model": [
+  "thm_c"
+ ],
+ "n_rescue_pairs": 37,
+ "genes_on": 25,
+ "genes_off": 12,
+ "with_fitness_on": 16,
+ "with_fitness_off": 6,
+ "absent_frac_on": 0.36,
+ "absent_frac_off": 0.5,
+ "labels": {
+  "PP_1602": "on_pathway",
+  "PP_4984": "on_pathway",
+  "PP_0363": "on_pathway",
+  "PP_0366": "on_pathway",
+  "PP_1426": "on_pathway",
+  "PP_1997": "on_pathway",
+  "PP_1917": "on_pathway",
+  "PP_4717": "on_pathway",
+  "PP_2329": "on_pathway",
+  "PP_1304": "off_pathway",
+  "PP_1303": "off_pathway",
+  "PP_2328": "off_pathway",
+  "PP_4016": "off_pathway",
+  "PP_0362": "on_pathway",
+  "PP_4889": "off_pathway",
+  "PP_4964": "on_pathway",
+  "PP_5335": "off_pathway",
+  "PP_5336": "off_pathway",
+  "PP_4967": "on_pathway",
+  "PP_4699": "on_pathway",
+  "PP_5097": "on_pathway",
+  "PP_5098": "off_pathway",
+  "PP_4869": "on_pathway",
+  "PP_4810": "on_pathway",
+  "PP_0787": "on_pathway",
+  "PP_1129": "on_pathway",
+  "PP_0402": "on_pathway",
+  "PP_1436": "on_pathway",
+  "PP_2117": "on_pathway",
+  "PP_0365": "on_pathway",
+  "PP_4700": "on_pathway",
+  "PP_0364": "on_pathway",
+  "PP_2371": "off_pathway",
+  "PP_0860": "off_pathway",
+  "PP_1240": "off_pathway",
+  "PP_1231": "on_pathway",
+  "PP_5150": "off_pathway"
+ },
+ "gene_median_fitness": {
+  "PP_1602": null,
+  "PP_4984": -0.3484375,
+  "PP_0363": -0.3284090909090909,
+  "PP_0366": -0.2727272727272727,
+  "PP_1426": -0.4480392156862745,
+  "PP_1997": null,
+  "PP_1917": -0.0833333333333333,
+  "PP_4717": null,
+  "PP_2329": -0.0211538461538461,
+  "PP_1304": -0.4984848484848485,
+  "PP_1303": -0.425,
+  "PP_2328": -1.393181818181818,
+  "PP_4016": null,
+  "PP_0362": -0.7944444444444445,
+  "PP_4889": null,
+  "PP_4964": -0.025,
+  "PP_5335": null,
+  "PP_5336": null,
+  "PP_4967": null,
+  "PP_4699": -0.6923076923076923,
+  "PP_5097": -2.5431372549019606,
+  "PP_5098": -2.5227272727272725,
+  "PP_4869": null,
+  "PP_4810": null,
+  "PP_0787": -2.0583333333333336,
+  "PP_1129": 0.2,
+  "PP_0402": null,
+  "PP_1436": null,
+  "PP_2117": null,
+  "PP_0365": -0.3107142857142857,
+  "PP_4700": -0.8928571428571429,
+  "PP_0364": -0.388095238095238,
+  "PP_2371": -1.9411764705882355,
+  "PP_0860": -0.0515151515151515,
+  "PP_1240": null,
+  "PP_1231": -1.826923076923077,
+  "PP_5150": null
+ },
+ "rescue_supplements": {
+  "PP_1602": [
+   "btn_c"
+  ],
+  "PP_4984": [
+   "btn_c"
+  ],
+  "PP_0363": [
+   "btn_c"
+  ],
+  "PP_0366": [
+   "btn_c"
+  ],
+  "PP_1426": [
+   "nad_c"
+  ],
+  "PP_1997": [
+   "thf_c"
+  ],
+  "PP_1917": [
+   "thf_c"
+  ],
+  "PP_4717": [
+   "thf_c"
+  ],
+  "PP_2329": [
+   "thf_c"
+  ],
+  "PP_1304": [
+   "amet_c"
+  ],
+  "PP_1303": [
+   "amet_c"
+  ],
+  "PP_2328": [
+   "amet_c"
+  ],
+  "PP_4016": [
+   "amet_c"
+  ],
+  "PP_0362": [
+   "btn_c"
+  ],
+  "PP_4889": [
+   "amet_c"
+  ],
+  "PP_4964": [
+   "pydx5p_c"
+  ],
+  "PP_5335": [
+   "amet_c"
+  ],
+  "PP_5336": [
+   "amet_c"
+  ],
+  "PP_4967": [
+   "amet_c"
+  ],
+  "PP_4699": [
+   "pnto__R_c"
+  ],
+  "PP_5097": [
+   "amet_c"
+  ],
+  "PP_5098": [
+   "amet_c"
+  ],
+  "PP_4869": [
+   "nad_c"
+  ],
+  "PP_4810": [
+   "nad_c"
+  ],
+  "PP_0787": [
+   "nad_c"
+  ],
+  "PP_1129": [
+   "pydx5p_c"
+  ],
+  "PP_0402": [
+   "pydx5p_c"
+  ],
+  "PP_1436": [
+   "pydx5p_c"
+  ],
+  "PP_2117": [
+   "pydx5p_c"
+  ],
+  "PP_0365": [
+   "btn_c"
+  ],
+  "PP_4700": [
+   "pnto__R_c"
+  ],
+  "PP_0364": [
+   "btn_c"
+  ],
+  "PP_2371": [
+   "amet_c"
+  ],
+  "PP_0860": [
+   "amet_c"
+  ],
+  "PP_1240": [
+   "amet_c"
+  ],
+  "PP_1231": [
+   "nad_c"
+  ],
+  "PP_5150": [
+   "amet_c"
+  ]
+ },
+ "median_on": -0.368266369047619,
+ "median_off": -0.9458333333333333,
+ "median_diff": 0.5775669642857143,
+ "mwu_p_one_sided": 0.130567059359629,
+ "verdict": "NOT SIGNIFICANT (direction consistent)"
+}
