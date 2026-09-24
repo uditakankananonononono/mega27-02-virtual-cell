@@ -1,0 +1,12 @@
+{
+  "model": "iJO1366",
+  "variant": "iJO1366_base",
+  "supplements_added": [],
+  "n_genes": 1148,
+  "n_carbon": 25,
+  "n_pairs": 28700,
+  "n_model_nogrowth": 2221,
+  "pr_auc_bernstein_metric": 0.6210533351281922,
+  "roc_auc": 0.9204139479402595,
+  "seconds": 524.3
+}

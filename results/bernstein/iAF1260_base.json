@@ -1,0 +1,12 @@
+{
+  "model": "iAF1260",
+  "variant": "iAF1260_base",
+  "supplements_added": [],
+  "n_genes": 1056,
+  "n_carbon": 25,
+  "n_pairs": 26400,
+  "n_model_nogrowth": 1976,
+  "pr_auc_bernstein_metric": 0.637633012887112,
+  "roc_auc": 0.9407848012540927,
+  "seconds": 475.0
+}
