@@ -37,15 +37,19 @@ def prepare(model_arg: str, base_dir: str):
         model = cobra.io.read_sbml_model(model_arg)
         # keep exchanges the saved model supplies (Bernstein saved allcorr with EX_btn_e/EX_thm_e/EX_pnto__R_e open);
         # closing them (bug fixed 10:24 PM) silently removed their vitamin correction
+        file_open = [ex.id for ex in model.exchanges if ex.lower_bound < 0]
         for ex in model.exchanges:
-            ex.lower_bound = min(ex.lower_bound, 0) if ex.lower_bound < 0 else 0; ex.upper_bound = 1000
+            ex.lower_bound = 0; ex.upper_bound = 1000
     else:
+        file_open = []
         model = g['load_model'](model_arg, base_dir)
     med, carb, carb_exp = g['load_environment'](base_dir)
     dexp, dgenes, dfit = g['load_data'](base_dir)
     gm, cem, cmm, fm = g['match_model_data'](model, carb, carb_exp, dexp, dgenes, dfit)
     g['name_genes_matched'] = gm
     m, gma, cema, cmma, fma = g['model_adjustments'](1, 1, 1, model, gm, cem, cmm, fm)
+    for rid in file_open:  # their model_adjustments turns exchanges off; restore the saved model's supplies
+        m.reactions.get_by_id(rid).lower_bound = -1000
     return g, m, med, list(gma), list(cmma), np.asarray(fma)
 
 

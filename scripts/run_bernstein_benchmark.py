@@ -22,9 +22,12 @@ if model_arg.endswith('.xml'):
     model = cobra.io.read_sbml_model(model_arg)
     # keep exchanges the saved model supplies (Bernstein saved allcorr with EX_btn_e/EX_thm_e/EX_pnto__R_e open);
     # closing them (bug fixed 10:24 PM) silently removed their vitamin correction
+    FILE_OPEN = [ex.id for ex in model.exchanges if ex.lower_bound < 0]
     for ex in model.exchanges:
-        ex.lower_bound = min(ex.lower_bound, 0) if ex.lower_bound < 0 else 0; ex.upper_bound = 1000
+        ex.lower_bound = 0; ex.upper_bound = 1000
 else:
+    FILE_OPEN = []
+if not model_arg.endswith('.xml'):
     model = g['load_model'](model_arg, BASE)
 med, carb, carb_exp = g['load_environment'](BASE)
 dexp, dgenes, dfit = g['load_data'](BASE)
@@ -32,6 +35,8 @@ gm, cem, cmm, fm = g['match_model_data'](model, carb, carb_exp, dexp, dgenes, df
 # their model_adjustments body reads the notebook-global name_genes_matched (param is names_genes_matched)
 g['name_genes_matched'] = gm
 model_adj, gma, cema, cmma, fma = g['model_adjustments'](1, 1, 1, model, gm, cem, cmm, fm)
+for rid in FILE_OPEN:  # model_adjustments resets exchanges; restore the saved model's supplies
+    model_adj.reactions.get_by_id(rid).lower_bound = -1000
 added = []
 for mid in supplements:  # intracellular exchange, same construction as Bernstein Part 6
     if mid + '_c' in model_adj.metabolites:

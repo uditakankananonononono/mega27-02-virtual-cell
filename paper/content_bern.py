@@ -7,10 +7,10 @@ from reportlab.lib.units import inch
 DESC = {'iML1515_base': 'iML1515 as released (their pipeline)',
         'iML1515_bernstein_vitamins': 'iML1515 + 5 hand-picked vitamins (Bernstein Part 6)',
         'iML1515_auto_cofactors': 'iML1515 + 19 audit-derived cofactors (ours, label-free)',
-        'iML1515_bernstein_allcorr': 'Bernstein all-corrections model file, no vitamins',
+        'iML1515_bernstein_allcorr': 'INVALID: all-corrections file with its vitamin exchanges closed (our loader bug)',
         'iML1515_allcorr_plus_auto': 'all-corrections + audit-derived cofactors (ours)',
-        'iML1515_allcorr_vit5': 'all-corrections + 5 vitamins (their full correction, reproduced)',
-        'iML1515_allcorr_selected': 'all-corrections + btn, thmpp, coa (split-half selected, ours)',
+        'iML1515_bernstein_allcorr_fixed': 'Bernstein all-corrections model, their saved vitamins kept (published SOTA, reproduced)',
+        'iML1515_allcorr_selected': 'INVALID: same bug; btn/thmpp/coa re-added the removed vitamins',
         'iJO1366_base': 'iJO1366 (their pipeline)', 'iJR904_base': 'iJR904 (their pipeline)', 'iAF1260_base': 'iAF1260 (their pipeline)'}
 
 
