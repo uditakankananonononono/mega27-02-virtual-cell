@@ -14,7 +14,7 @@ for org in sys.argv[1:]:
     xml = D + f'carve/{org}.xml'
     if not os.path.exists(xml):
         faa = f'/tmp/{org}.faa'
-        subprocess.run(f"zcat {D}FB_aaseqs.gz | awk -v o='{org}' '/^>/{{split(substr($0,2),a,\":\"); p=(a[1]==o); if(p) print \">\"a[2]; next}} p' > {faa}", shell=True, check=True)
+        subprocess.run(f"zcat {D}FB_aaseqs.gz | awk -v o='{org}' '/^>/{{split(substr($0,2),a,\":\"); p=(a[1]==o); if(p) print \">FB_\"a[2]; next}} p' > {faa}", shell=True, check=True)
         subprocess.run(['carve', faa, '-o', xml, '-g', 'M9', '-i', 'M9', '--fbc2', '--solver', 'scip'], env=env, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         os.remove(faa)
     if not os.path.exists(xml):
@@ -31,6 +31,8 @@ for org in sys.argv[1:]:
     if wt < 1e-6:
         json.dump({'org': org, 'excluded': 'no growth on M9 glucose', 'wt': wt}, open(out, 'w')); continue
     rows = rescue_audit_production(m, SUP)
+    for r in rows:  # CarveMe breaks on numeric protein ids, so FASTA ids carry an FB_ prefix
+        r['gene'] = r['gene'][3:] if r['gene'].startswith('FB_') else r['gene']
     fit = pd.read_csv(fitf, sep='\t', dtype={'locusId': str}).dropna(subset=['median_fitness'])
     pct = dict(zip(fit.locusId, fit.median_fitness.rank(pct=True))); medf = dict(zip(fit.locusId, fit.median_fitness))
     genes = {}
