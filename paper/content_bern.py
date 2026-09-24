@@ -301,4 +301,15 @@ def story_bern(story, R):
                 f"genes, abundance was negatively correlated with median fitness in only {pc['secondary']['n_spearman_negative']} of "
                 f"{pc['secondary']['n']} datasets, so the signal separates essential from non-essential genes but does not grade fitness "
                 "(results/paxdb_cross.json). The label is a proxy: short genes can lack fitness rows for technical reasons.", BODY)]
+    pm = R('paxdb_mtb.json'); q = pm['primary']
+    story += [P('H.21 The abundance signal holds in M. tuberculosis (pre-registered)', H2),
+              P(f"We scored all 16 PaxDb v5 M. tuberculosis H37Rv datasets against the DeJesus et al. (2017) saturating Tn-seq calls "
+                f"({pm['label_counts']['essential']} essential, {pm['label_counts']['nonessential']} non-essential; notes/prereg_paxdb_mtb.md). "
+                f"Two files were re-releases of the PeptideAtlas build and were merged by the pre-registered duplicate rule, leaving {q['n_unique']}. "
+                f"Abundant proteins were more often essential in {q['n_auroc_above_half']} of {q['n_unique']} (sign test p = {q['sign_test_p']:.4f}; "
+                f"pooled AUROC {q['pooled_auroc']:.3f}, 95% CI {q['ci95'][0]:.3f} to {q['ci95'][1]:.3f}): {q['verdict']} (results/paxdb_mtb.json). "
+                f"The one exception is a 201-gene dataset (AUROC {q['auroc_range'][0]:.2f}). Growth-defect genes sat between essential and "
+                f"non-essential genes in median abundance in {pm['secondary_gd_between']} of {q['n_unique']} datasets. Together with H.19 and H.20 "
+                "the abundance-essentiality link holds across seven bacterial species from four phyla, which makes it a general feature "
+                "rather than an E. coli quirk; it is, however, a known correlate, and what is new here is its per-dataset robustness, not its existence.", BODY)]
     return story

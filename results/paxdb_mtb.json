@@ -1,0 +1,200 @@
+{
+ "datasets": {
+  "GPM_201408": {
+   "n_genes": 2628,
+   "n_essential": 474,
+   "n_nonessential": 2154,
+   "auroc": 0.693378328612453,
+   "se": 0.014383839400117308,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.3010299956639813,
+   "median_log_ab_GD": 2.12057393120585,
+   "median_log_ab_NE": 1.739572344450092
+  },
+  "M.tuberculosis_atlas_build_330": {
+   "n_genes": 2836,
+   "n_essential": 480,
+   "n_nonessential": 2356,
+   "auroc": 0.7162267437747595,
+   "se": 0.013994364839722174,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.285557309007774,
+   "median_log_ab_GD": 2.1037902573827156,
+   "median_log_ab_NE": 1.74779853009687
+  },
+  "Mtuberculosis_Albrethsen_2013": {
+   "n_genes": 1031,
+   "n_essential": 250,
+   "n_nonessential": 781,
+   "auroc": 0.6248373879641486,
+   "se": 0.021044652801697327,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.6789540894883306,
+   "median_log_ab_GD": 2.7015679850559273,
+   "median_log_ab_NE": 2.3541084391474008
+  },
+  "My_PXD000483_Cortes_2013": {
+   "n_genes": 1272,
+   "n_essential": 314,
+   "n_nonessential": 958,
+   "auroc": 0.6070751831708842,
+   "se": 0.018906926492423475,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.7079488724005802,
+   "median_log_ab_GD": 2.7965743332104296,
+   "median_log_ab_NE": 2.505827505362389
+  },
+  "Mycobacterium-tuberculosis_PA_2013-7": {
+   "n_genes": 2825,
+   "n_essential": 479,
+   "n_nonessential": 2346,
+   "auroc": 0.7124306108029125,
+   "se": 0.01405390826394765,
+   "duplicate_of": "M.tuberculosis_atlas_build_330",
+   "median_log_ab_ES": 2.250420002308894,
+   "median_log_ab_GD": 2.0644579892269186,
+   "median_log_ab_NE": 1.717670503002262
+  },
+  "MycobacteriumTuberculosis": {
+   "n_genes": 201,
+   "n_essential": 78,
+   "n_nonessential": 123,
+   "auroc": 0.46560350218886803,
+   "se": 0.04155243214299246,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.3654879848909,
+   "median_log_ab_GD": 2.796538866485274,
+   "median_log_ab_NE": 2.575187844927661
+  },
+  "PA_201307": {
+   "n_genes": 2825,
+   "n_essential": 479,
+   "n_nonessential": 2346,
+   "auroc": 0.7124306108029125,
+   "se": 0.01405390826394765,
+   "duplicate_of": "M.tuberculosis_atlas_build_330",
+   "median_log_ab_ES": 2.250420002308894,
+   "median_log_ab_GD": 2.0644579892269186,
+   "median_log_ab_NE": 1.717670503002262
+  },
+  "PXD000111_Albrethsen_Mol_Cell_Proteomics_2013_M-tuberculosis_log_phase": {
+   "n_genes": 1096,
+   "n_essential": 263,
+   "n_nonessential": 833,
+   "auroc": 0.6659036238069372,
+   "se": 0.020133886542044472,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.814913181275074,
+   "median_log_ab_GD": 2.6263403673750423,
+   "median_log_ab_NE": 2.3502480183341627
+  },
+  "PXD000111_Albrethsen_Mol_Cell_Proteomics_2013_M-tuberculosis_starvation_phase": {
+   "n_genes": 1098,
+   "n_essential": 261,
+   "n_nonessential": 837,
+   "auroc": 0.6236536251985516,
+   "se": 0.020553824120810547,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.6665179805548807,
+   "median_log_ab_GD": 2.39765840332806,
+   "median_log_ab_NE": 2.361727836017593
+  },
+  "PXD000259_Schubert_Cell_Host_Microbe_2014_Mtuberculosis_complete_proteome": {
+   "n_genes": 1646,
+   "n_essential": 402,
+   "n_nonessential": 1244,
+   "auroc": 0.6334005215082146,
+   "se": 0.016559680593078465,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.399673721481038,
+   "median_log_ab_GD": 2.2227164711475833,
+   "median_log_ab_NE": 2.2227164711475833
+  },
+  "PXD009676_late_exponential_Mtb_culture": {
+   "n_genes": 2821,
+   "n_essential": 479,
+   "n_nonessential": 2342,
+   "auroc": 0.6325544785339512,
+   "se": 0.014654386672784087,
+   "duplicate_of": null,
+   "median_log_ab_ES": 1.877371345869774,
+   "median_log_ab_GD": 1.881099124525682,
+   "median_log_ab_NE": 1.6117233080073419
+  },
+  "PXD011081_whole_cell_lysate": {
+   "n_genes": 1499,
+   "n_essential": 371,
+   "n_nonessential": 1128,
+   "auroc": 0.6307241784710673,
+   "se": 0.017282694275504957,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.2041199826559246,
+   "median_log_ab_GD": 2.2479732663618064,
+   "median_log_ab_NE": 1.8075350280688534
+  },
+  "PXD013677_Mtb_H37Rv_control": {
+   "n_genes": 2237,
+   "n_essential": 461,
+   "n_nonessential": 1776,
+   "auroc": 0.7085537951183287,
+   "se": 0.014563674902274662,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.2278867046136734,
+   "median_log_ab_GD": 2.0253058652647704,
+   "median_log_ab_NE": 1.5982428463443137
+  },
+  "PXD013677_Mtb_SAMMtb_control": {
+   "n_genes": 2230,
+   "n_essential": 459,
+   "n_nonessential": 1771,
+   "auroc": 0.697582326738337,
+   "se": 0.014717956624934874,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.1931245983544616,
+   "median_log_ab_GD": 2.0718664115693466,
+   "median_log_ab_NE": 1.608526033577194
+  },
+  "PXD016006_ctrl": {
+   "n_genes": 2566,
+   "n_essential": 477,
+   "n_nonessential": 2089,
+   "auroc": 0.684859195566675,
+   "se": 0.01444825870676861,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.0530784434834195,
+   "median_log_ab_GD": 1.9429995933660404,
+   "median_log_ab_NE": 1.5954962218255742
+  },
+  "PXD020383_mtbc_lineage_pool": {
+   "n_genes": 2849,
+   "n_essential": 481,
+   "n_nonessential": 2368,
+   "auroc": 0.6521205294431646,
+   "se": 0.014524460725514322,
+   "duplicate_of": null,
+   "median_log_ab_ES": 2.0569048513364727,
+   "median_log_ab_GD": 1.9259018134684551,
+   "median_log_ab_NE": 1.7180860959347681
+  }
+ },
+ "label_counts": {
+  "essential": 490,
+  "nonessential": 3008
+ },
+ "primary": {
+  "n_unique": 14,
+  "n_auroc_above_half": 13,
+  "sign_test_p": 0.00091552734375,
+  "pooled_auroc": 0.6638934184839109,
+  "ci95": [
+   0.6552076587539993,
+   0.6725791782138225
+  ],
+  "auroc_range": [
+   0.46560350218886803,
+   0.7162267437747595
+  ],
+  "verdict": "HOLDS IN MTB"
+ },
+ "secondary_gd_between": 9
+}

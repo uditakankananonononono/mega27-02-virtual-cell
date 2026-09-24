@@ -665,6 +665,66 @@
   [
    "PaxDb v5 dataset 882-Desulfo_Lac_Stat_SC_zhang_2006.txt (DvH)",
    "protein abundance vs RB-TnSeq putative essentiality (cross-species)"
+  ],
+  [
+   "PaxDb v5 dataset 83332-GPM_201408.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-M.tuberculosis_atlas_build_330.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-Mtuberculosis_Albrethsen_2013.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-My_PXD000483_Cortes_2013.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-MycobacteriumTuberculosis.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD000111_Albrethsen_Mol_Cell_Proteomics_2013_M-tuberculosis_log_phase.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD000111_Albrethsen_Mol_Cell_Proteomics_2013_M-tuberculosis_starvation_phase.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD000259_Schubert_Cell_Host_Microbe_2014_Mtuberculosis_complete_proteome.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD009676_late_exponential_Mtb_culture.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD011081_whole_cell_lysate.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD013677_Mtb_H37Rv_control.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD013677_Mtb_SAMMtb_control.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD016006_ctrl.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 83332-PXD020383_mtbc_lineage_pool.txt (M. tuberculosis H37Rv)",
+   "protein abundance vs DeJesus 2017 Tn-seq essentiality"
+  ],
+  [
+   "DeJesus et al. 2017 mBio Table S3 (M. tuberculosis H37Rv HMM essentiality calls; mirror github.com/ajinich/mtb_tn_db)",
+   "essentiality labels, Mtb"
   ]
  ],
  "infrastructure_not_counted": [
