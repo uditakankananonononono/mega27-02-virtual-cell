@@ -23,3 +23,12 @@ Honest positioning:
   We are not aware of an existing tool that does this per-gene attribution; this is a hedge, not a proof.
 - The MoCo cluster (bmocogdp_c, mobd_c) is a compound class outside Bernstein's five - an extension, to be
   quantified by the full audit.
+
+## Supplement-bypass artifact (pathway concordance), checked 11:44 PM IST
+Searches (web_search, 4 queries): GEM supplementation false rescue off-pathway; SAM supplementation FBA spurious rescue;
+metabolite supplementation essentiality cross-feeding RB-TnSeq; Bernstein follow-ups.
+Closest work: Bernstein et al. 2023 (vitamin/cofactor cross-feeding, on-pathway only; https://pmc.ncbi.nlm.nih.gov/articles/PMC10698504/);
+Parente et al.-type SAM catabolism biology ("Excess S-adenosylmethionine inhibits methylation via catabolism to adenine",
+https://www.nature.com/articles/s42003-022-03280-5) shows SAM is catabolised in vivo, consistent with the model using it as a nutrient;
+"Model-driven analysis of mutant fitness experiments" (https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1008137).
+No paper found that tests on- vs off-pathway rescue concordance against fitness. Not exhaustive: novelty is PROBABLE, not proven.
