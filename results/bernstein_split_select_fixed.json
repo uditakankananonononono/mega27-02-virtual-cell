@@ -1,0 +1,63 @@
+{
+ "selected": [],
+ "trace": [
+  {
+   "set": [],
+   "sel_prauc": 0.8269079437366048
+  }
+ ],
+ "sel_carbons": [
+  "ac",
+  "akg",
+  "fuc__L",
+  "gal",
+  "gam",
+  "glcn",
+  "glyc",
+  "lac__D",
+  "malt",
+  "pyr",
+  "sbt__D",
+  "succ",
+  "xyl__D"
+ ],
+ "test_carbons": [
+  "acgam",
+  "fru",
+  "g6p",
+  "galur",
+  "glc__D",
+  "glcur",
+  "glyclt",
+  "mal__L",
+  "mnl",
+  "rib__D",
+  "ser__D",
+  "tre"
+ ],
+ "approx_test_prauc_selected": 0.850713260505611,
+ "test_prauc_allcorr": 0.850713260505611,
+ "approx_all_prauc_selected": 0.8392430049591563,
+ "all_prauc_allcorr": 0.8392430049591563,
+ "per_cof_rescues": {
+  "btn": 0,
+  "bmocogdp": 0,
+  "thmpp": 0,
+  "coa": 0,
+  "10fthf": 47,
+  "mlthf": 47,
+  "thf": 0,
+  "amet": 322,
+  "fad": 0,
+  "nadp": 0,
+  "ribflv": 0,
+  "2ohph": 0,
+  "nad": 0,
+  "pheme": 0,
+  "sheme": 0,
+  "udcpdp": 0,
+  "2fe2s": 0,
+  "4fe4s": 0,
+  "pydx5p": 50
+ }
+}

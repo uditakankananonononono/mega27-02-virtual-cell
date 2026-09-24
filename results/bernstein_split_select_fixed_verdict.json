@@ -1,0 +1,12 @@
+{
+ "prereg": "notes/prereg_cofactor_split.md (addendum 66dfdd3)",
+ "base": "iML1515_bernstein_allcorr_fixed (PR-AUC 0.839; published 0.843)",
+ "candidates_rescuing_any_pair": {
+  "amet": 322,
+  "pydx5p": 50,
+  "10fthf": 47,
+  "mlthf": 47
+ },
+ "greedy_selected": [],
+ "verdict": "NEGATIVE: no single supplement beyond the Bernstein corrections improves PR-AUC on the selection carbons; the pre-registered search selects nothing, so no break of the published 0.843."
+}

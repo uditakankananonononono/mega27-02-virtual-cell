@@ -1,0 +1,13 @@
+{
+ "model": "iML1515 (Bernstein repo copy)",
+ "memote": "0.17.0",
+ "total_score": 0.9060384928327713,
+ "sections": {
+  "consistency": 0.98403631661419,
+  "annotation_met": 0.7878142102968955,
+  "annotation_rxn": 0.8085975909537857,
+  "annotation_gene": 0.633245382585752,
+  "annotation_sbo": 0.9079969368778034
+ },
+ "tests": "69 failed, 81 passed, 6 skipped (pytest summary, /tmp/memote.log)"
+}

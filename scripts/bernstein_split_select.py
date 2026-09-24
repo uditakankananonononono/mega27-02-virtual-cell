@@ -3,9 +3,12 @@ Uses single-cofactor rescue attribution (approximation); the selected set is the
 import json, numpy as np
 from sklearn.metrics import precision_recall_curve as pre_rec, auc as sk_auc
 B = 'results/bernstein/'
-base = 'iML1515_bernstein_allcorr'
+import sys
+base = sys.argv[1] if len(sys.argv) > 1 else 'iML1515_bernstein_allcorr'
+atag = sys.argv[2] if len(sys.argv) > 2 else 'allcorr'
+OUT = sys.argv[3] if len(sys.argv) > 3 else 'results/bernstein_split_select.json'
 sim = np.load(B + base + '_sim.npy'); fit = np.load(B + base + '_fit.npy'); ids = json.load(open(B + base + '_ids.json'))
-A = np.load(B + 'attrib_allcorr.npz'); pairs, R, cofs = A['pairs'], A['R'], list(A['cofs'])
+A = np.load(B + 'attrib_' + atag + '.npz'); pairs, R, cofs = A['pairs'], A['R'], list(A['cofs'])
 order = sorted(range(len(ids['carbon'])), key=lambda i: (ids['carbon'][i], i))
 sel_c = set(order[0::2]); test_c = set(order[1::2])
 def prauc(bmat, cols):
@@ -32,4 +35,4 @@ out = {'selected': S, 'trace': trace, 'sel_carbons': [ids['carbon'][i] for i in 
        'approx_test_prauc_selected': prauc(apply(S), test_c), 'test_prauc_allcorr': prauc(b0, test_c),
        'approx_all_prauc_selected': prauc(apply(S), range(fit.shape[1])), 'all_prauc_allcorr': prauc(b0, range(fit.shape[1])),
        'per_cof_rescues': dict(zip(cofs, R.sum(0).tolist()))}
-json.dump(out, open('results/bernstein_split_select.json', 'w'), indent=1); print(json.dumps({k: v for k, v in out.items() if k not in ('trace',)}, indent=1))
+json.dump(out, open(OUT, 'w'), indent=1); print(json.dumps({k: v for k, v in out.items() if k not in ('trace',)}, indent=1))
