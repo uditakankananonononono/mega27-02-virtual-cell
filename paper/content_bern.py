@@ -110,4 +110,39 @@ def story_bern(story, R):
                 '(notes/novelty_check.md); novelty is probable, not proven. Falsifier: a supplement whose off-pathway rescues have '
                 'near-neutral fitness in an independent fitness dataset. Practical consequence: a supplement correction should be '
                 'accepted only for on-pathway rescues; this rule would have rejected our own 19-compound blanket set (PR-AUC 0.548).', BODY)]
+
+    mr = R('cross_species_mr1.json'); pu = R('cross_species_putida.json')
+    story += [P('H.8 Cross-species replication (pre-registered; underpowered / not significant)', H2),
+              P('The protocol was fixed in notes/prereg_cross_species.md (git 00e7a9d, before any MR-1 fitness value was compared; '
+                'amendment 1 adding P. putida in git 999b51c, before that analysis ran). Each organism uses its own genome-scale model on '
+                'a vitamin-free minimal medium, the same seven cofactor supplements supplied as cytosolic sinks with vcell rescue-audit, '
+                'KEGG gene-pathway links for that organism, and RB-TnSeq fitness from the Fitness Browser (Price et al. 2018). A gene is '
+                'on-pathway if any supplement that rescues it shares a KEGG pathway with it. The outcome is the median log2 fitness of the '
+                'gene over all experiments; criteria as in (H3) at gene level, with fewer than 5 genes per group declared underpowered.', BODY)]
+    t4 = [['organism', 'WT', 'pairs', 'genes', 'w/ fitness', 'median f', 'p', 'verdict']]
+    for name, x, gk in (('MR-1, iMR1_799, lac', mr, 'wt_growth_lactate'), ('KT2440, iJN1463, glc', pu, 'wt_growth_glucose')):
+        mo = f"{x['median_on']:.2f} / {x['median_off']:.2f}" if 'median_on' in x else 'n/a'
+        pv = f"{x['mwu_p_one_sided']:.2f}" if 'mwu_p_one_sided' in x else 'n/a'
+        t4.append([name, f"{x[gk]:.2f}", str(x['n_rescue_pairs']), f"{x['genes_on']} / {x['genes_off']}",
+                   f"{x['with_fitness_on']} / {x['with_fitness_off']}", mo, pv, x['verdict'].split(' (')[0]])
+    story += tbl(t4, 'Table 22. Cross-species test of the supplement-bypass finding. genes, w/ fitness and median f are on / off; WT = wild-type growth (1/h); lac/glc = lactate/glucose medium; one-sided Mann-Whitney on gene medians (results/cross_species_mr1.json, results/cross_species_putida.json).',
+                 widths=[1.45 * inch, 0.4 * inch, 0.45 * inch, 0.6 * inch, 0.7 * inch, 0.95 * inch, 0.4 * inch, 1.35 * inch])
+    story += [P(f"In MR-1 every rescue was on-pathway, so the test could not run (underpowered, no claim). The PSAMM export of "
+                "iMR1_799 also left three multi-compound pseudo-exchanges (casamino acids, gelatin, Tween 20) open in both directions, "
+                "which let the model grow with no carbon source; we closed them and report it as a model defect. In P. putida the "
+                f"difference points the predicted way (+{pu['median_diff']:.2f} log2 units; {100*pu['absent_frac_off']:.0f}% of off-pathway "
+                f"genes lack any fitness value, often a mark of essentiality, versus {100*pu['absent_frac_on']:.0f}% on-pathway) but p = "
+                f"{pu['mwu_p_one_sided']:.2f} fails the pre-registered bar. All 12 off-pathway P. putida rescues come from SAM, the same "
+                "supplement behind most E. coli off-pathway rescues, so the supplement-identity confound is not broken by the second "
+                "species. iJN1463 has no free thiamine metabolite, so thiamine was not tested there. Honest status: supported in E. coli; "
+                "direction-consistent but not significant in P. putida; untestable in MR-1. Not yet a general law.", BODY)]
+    story += [P('H.9 Tool: vcell rescue-audit', H2),
+              P('The finding is packaged as a command that runs on any COBRA model: python -m vcell rescue-audit MODEL --supplement '
+                'btn_c=00780 thf_c=00790,00670 ... --gene-pathways kegg_links.tsv --out rescues.csv. It knocks out each gene, supplies '
+                'each supplement through a sink, and labels every rescue on_pathway or off_pathway (flag likely_artifact). It is covered '
+                'by a hermetic test on the E. coli core model (icd rescued by 2-oxoglutarate is on-pathway; enolase rescued by pyruvate '
+                'is off-pathway). On iML1515 with glucose minimal medium it reports 44 rescues, 7 off-pathway: SAM rescuing five purine '
+                'biosynthesis genes (purK, purE, purB, purA, purC), biotin rescuing fabH and thiamine rescuing b4407 '
+                '(results/rescue_audit_iML1515_M9.csv). Neither COBRApy nor MEMOTE, the tools used here, labels '
+                'supplement rescues by pathway concordance.', BODY)]
     return story
