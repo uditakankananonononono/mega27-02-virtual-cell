@@ -1,0 +1,127 @@
+{
+ "v2_lr": {
+  "auroc": 0.7966758130538437,
+  "auprc": 0.4980492966530802
+ },
+ "v5_lr": {
+  "auroc": 0.792051639602357,
+  "auprc": 0.4940874469183152
+ },
+ "paired_v5_vs_v2": {
+  "mean": -0.00457336532803004,
+  "ci95": [
+   -0.008897518896330068,
+   -0.0003497934899292146
+  ],
+  "p_le_0": 0.9815
+ },
+ "terms_kept_per_fold": [
+  [
+   [
+    "GO:0009058",
+    "biosynthetic process"
+   ],
+   [
+    "GO:0019720",
+    "Mo-molybdopterin cofactor metabolic process"
+   ],
+   [
+    "GO:0032324",
+    "molybdopterin cofactor biosynthetic process"
+   ],
+   [
+    "GO:0043545",
+    "molybdopterin cofactor metabolic process"
+   ],
+   [
+    "GO:0006777",
+    "Mo-molybdopterin cofactor biosynthetic process"
+   ],
+   [
+    "GO:0044769",
+    "ATPase activity, coupled to transmembrane movement of ions, rotational mechanism"
+   ],
+   [
+    "GO:0042625",
+    "ATPase-coupled ion transmembrane transporter activity"
+   ],
+   [
+    "GO:0046961",
+    "proton-transporting ATPase activity, rotational mechanism"
+   ],
+   [
+    "GO:0009150",
+    "purine ribonucleotide metabolic process"
+   ],
+   [
+    "GO:0051189",
+    "prosthetic group metabolic process"
+   ]
+  ],
+  [
+   [
+    "GO:0009058",
+    "biosynthetic process"
+   ],
+   [
+    "GO:0072330",
+    "monocarboxylic acid biosynthetic process"
+   ],
+   [
+    "GO:0015940",
+    "pantothenate biosynthetic process"
+   ],
+   [
+    "GO:0015939",
+    "pantothenate metabolic process"
+   ],
+   [
+    "GO:0005737",
+    "cytoplasm"
+   ]
+  ],
+  [
+   [
+    "GO:0009201",
+    "ribonucleoside triphosphate biosynthetic process"
+   ],
+   [
+    "GO:0009142",
+    "nucleoside triphosphate biosynthetic process"
+   ],
+   [
+    "GO:0009150",
+    "purine ribonucleotide metabolic process"
+   ],
+   [
+    "GO:0006793",
+    "phosphorus metabolic process"
+   ],
+   [
+    "GO:0019637",
+    "organophosphate metabolic process"
+   ],
+   [
+    "GO:0090407",
+    "organophosphate biosynthetic process"
+   ],
+   [
+    "GO:1901135",
+    "carbohydrate derivative metabolic process"
+   ],
+   [
+    "GO:0009259",
+    "ribonucleotide metabolic process"
+   ],
+   [
+    "GO:1901137",
+    "carbohydrate derivative biosynthetic process"
+   ],
+   [
+    "GO:0046961",
+    "proton-transporting ATPase activity, rotational mechanism"
+   ]
+  ]
+ ],
+ "verdict": "no significant gain (negative)"
+}
