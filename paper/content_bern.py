@@ -256,4 +256,17 @@ def story_bern(story, R):
                 f"{ps['amet_c']['rescues'].get('off_pathway', 0)} SAM rescues. This is independent support that the SAM rescues are artifacts "
                 "of supplying an intracellular metabolite. With seven supplements it is descriptive, not a test, and absence from TCDB is "
                 "weaker evidence than presence.", BODY)]
+    x5 = R('cross_species_xs5.json'); ec = R('xs5_ecoli_consistency.json')
+    story += [P('H.17 Forty-four organisms: the model-internal label is degenerate (pre-registered, UNDERPOWERED)', H2),
+              P(f"Amendment 5 replaced the KEGG pathway label with a model-internal one (a rescue is on-pathway if the knockout abolishes "
+                f"production of the supplement) so that every Fitness Browser bacterium could be tested. We built CarveMe models for all "
+                f"{x5['n_organisms_analysed']} eligible organisms (none excluded; results/xs5/). The label did not separate anything: all "
+                f"{x5['primary_pooled_percentile']['n_on']} rescued genes with fitness data were labelled on-pathway and none off-pathway, in "
+                f"every organism, so the pre-registered primary and the no-SAM secondary are both {x5['primary_pooled_percentile']['verdict']} by "
+                f"their own rule (results/cross_species_xs5.json). The E. coli consistency check shows why ({ec['n_rows_labelled']} of "
+                f"{ec['n_rows_H7']} H.7 rows labelled, all on-pathway; results/xs5_ecoli_consistency.json): a lethal knockout that a supplement "
+                "rescues nearly always also blocks de-novo synthesis of that supplement, because the supplement shares precursors with the "
+                "blocked product (SAM and NAD contain adenosine, so every purine gene is needed to make them). We documented this in "
+                "amendment 6 before computing the primary. The negative is informative for method design: production-blocked labels cannot "
+                "stand in for pathway membership, and the E. coli finding (H.7) remains tested only with the KEGG label in eight organisms (H.8).", BODY)]
     return story

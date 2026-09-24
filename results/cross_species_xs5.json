@@ -1,0 +1,330 @@
+{
+ "n_organisms_analysed": 44,
+ "excluded": {},
+ "primary_pooled_percentile": {
+  "n_on": 389,
+  "n_off": 0,
+  "n_organisms": 44,
+  "verdict": "UNDERPOWERED"
+ },
+ "secondary_pooled_excluding_SAM": {
+  "n_on": 303,
+  "n_off": 0,
+  "n_organisms": 43,
+  "verdict": "UNDERPOWERED"
+ },
+ "per_organism_verdict_counts": {
+  "UNDERPOWERED": 44
+ },
+ "per_organism": {
+  "ANA3": {
+   "wt": 0.9128121627784669,
+   "n_rescue_pairs": 24,
+   "with_fitness_on": 7,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "BFirm": {
+   "wt": 1.4062977152420149,
+   "n_rescue_pairs": 21,
+   "with_fitness_on": 6,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Btheta": {
+   "wt": 0.9230478732635083,
+   "n_rescue_pairs": 23,
+   "with_fitness_on": 7,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Burk376": {
+   "wt": 1.4062977152420228,
+   "n_rescue_pairs": 18,
+   "with_fitness_on": 6,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Caulo": {
+   "wt": 0.7646757769926406,
+   "n_rescue_pairs": 27,
+   "with_fitness_on": 10,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Cola": {
+   "wt": 1.3638684072476697,
+   "n_rescue_pairs": 19,
+   "with_fitness_on": 6,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Cup4G11": {
+   "wt": 1.4062977152420246,
+   "n_rescue_pairs": 20,
+   "with_fitness_on": 3,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Dda3937": {
+   "wt": 1.3470300395444417,
+   "n_rescue_pairs": 26,
+   "with_fitness_on": 20,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Ddia6719": {
+   "wt": 1.3470485324748371,
+   "n_rescue_pairs": 20,
+   "with_fitness_on": 16,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "DdiaME23": {
+   "wt": 1.3469862059183726,
+   "n_rescue_pairs": 25,
+   "with_fitness_on": 16,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Dino": {
+   "wt": 1.4062911230287094,
+   "n_rescue_pairs": 25,
+   "with_fitness_on": 5,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "DvH": {
+   "wt": 0.446460246262349,
+   "n_rescue_pairs": 24,
+   "with_fitness_on": 8,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Dyella79": {
+   "wt": 0.3310905486979953,
+   "n_rescue_pairs": 13,
+   "with_fitness_on": 6,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "HerbieS": {
+   "wt": 1.355460518445337,
+   "n_rescue_pairs": 16,
+   "with_fitness_on": 7,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Kang": {
+   "wt": 1.4062462646583525,
+   "n_rescue_pairs": 32,
+   "with_fitness_on": 10,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Korea": {
+   "wt": 1.4062756645309098,
+   "n_rescue_pairs": 36,
+   "with_fitness_on": 9,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Koxy": {
+   "wt": 0.9866601058222667,
+   "n_rescue_pairs": 24,
+   "with_fitness_on": 14,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "MR1": {
+   "wt": 0.9128102541884368,
+   "n_rescue_pairs": 19,
+   "with_fitness_on": 9,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Magneto": {
+   "wt": 1.4062396729300546,
+   "n_rescue_pairs": 26,
+   "with_fitness_on": 2,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Marino": {
+   "wt": 1.4062396729274178,
+   "n_rescue_pairs": 21,
+   "with_fitness_on": 7,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Miya": {
+   "wt": 1.4062462646583838,
+   "n_rescue_pairs": 16,
+   "with_fitness_on": 8,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "PS": {
+   "wt": 1.4062462646583924,
+   "n_rescue_pairs": 24,
+   "with_fitness_on": 4,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "PV4": {
+   "wt": 1.4062297854468548,
+   "n_rescue_pairs": 17,
+   "with_fitness_on": 3,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Pedo557": {
+   "wt": 0.9562750729478773,
+   "n_rescue_pairs": 19,
+   "with_fitness_on": 5,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Phaeo": {
+   "wt": 1.4062977152420308,
+   "n_rescue_pairs": 20,
+   "with_fitness_on": 10,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Ponti": {
+   "wt": 1.0168253455624965,
+   "n_rescue_pairs": 28,
+   "with_fitness_on": 11,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Putida": {
+   "wt": 1.347067600533243,
+   "n_rescue_pairs": 29,
+   "with_fitness_on": 13,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "RalstoniaBSBF1503": {
+   "wt": 1.4062977152420106,
+   "n_rescue_pairs": 19,
+   "with_fitness_on": 4,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "RalstoniaGMI1000": {
+   "wt": 1.4062977152420213,
+   "n_rescue_pairs": 23,
+   "with_fitness_on": 6,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "RalstoniaPSI07": {
+   "wt": 1.4062977152420058,
+   "n_rescue_pairs": 15,
+   "with_fitness_on": 3,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "RalstoniaUW163": {
+   "wt": 1.406297715242036,
+   "n_rescue_pairs": 13,
+   "with_fitness_on": 3,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "SB2B": {
+   "wt": 0.672216738671558,
+   "n_rescue_pairs": 33,
+   "with_fitness_on": 12,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "Smeli": {
+   "wt": 1.4062977152419889,
+   "n_rescue_pairs": 17,
+   "with_fitness_on": 10,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "SynE": {
+   "wt": 0.3741753316027622,
+   "n_rescue_pairs": 19,
+   "with_fitness_on": 9,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "SyringaeB728a": {
+   "wt": 1.3639405533784348,
+   "n_rescue_pairs": 16,
+   "with_fitness_on": 10,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "WCS417": {
+   "wt": 1.3638921554106067,
+   "n_rescue_pairs": 29,
+   "with_fitness_on": 13,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "acidovorax_3H11": {
+   "wt": 1.4062911230286999,
+   "n_rescue_pairs": 17,
+   "with_fitness_on": 6,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "azobra": {
+   "wt": 1.406246264658376,
+   "n_rescue_pairs": 17,
+   "with_fitness_on": 8,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "psRCH2": {
+   "wt": 0.9785172190124314,
+   "n_rescue_pairs": 20,
+   "with_fitness_on": 9,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "pseudo13_GW456_L13": {
+   "wt": 0.9131143991945914,
+   "n_rescue_pairs": 21,
+   "with_fitness_on": 11,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "pseudo1_N1B4": {
+   "wt": 0.9248026039498339,
+   "n_rescue_pairs": 28,
+   "with_fitness_on": 15,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "pseudo3_N2E3": {
+   "wt": 1.3470421362525833,
+   "n_rescue_pairs": 27,
+   "with_fitness_on": 12,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "pseudo5_N2C3_1": {
+   "wt": 1.3639355459982332,
+   "n_rescue_pairs": 26,
+   "with_fitness_on": 14,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  },
+  "pseudo6_N2E2": {
+   "wt": 1.3639232679956168,
+   "n_rescue_pairs": 32,
+   "with_fitness_on": 16,
+   "with_fitness_off": 0,
+   "verdict": "UNDERPOWERED"
+  }
+ },
+ "complete": true
+}

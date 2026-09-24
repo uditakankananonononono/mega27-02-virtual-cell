@@ -1,0 +1,161 @@
+{
+ "org": "SynE",
+ "wt": 0.3741753316027622,
+ "n_genes_model": 719,
+ "n_rescue_pairs": 19,
+ "missing_supplements": [],
+ "genes": {
+  "Synpcc7942_0489": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.2640625,
+   "percentile": 0.25501002004008017
+  },
+  "Synpcc7942_1335": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -1.45,
+   "percentile": 0.03206412825651302
+  },
+  "Synpcc7942_2454": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": 0.0461538461538461,
+   "percentile": 0.8078657314629258
+  },
+  "Synpcc7942_1096": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_0370": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": 0.0241379310344827,
+   "percentile": 0.7600200400801603
+  },
+  "Synpcc7942_1881": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.36969696969697,
+   "percentile": 0.04208416833667335
+  },
+  "Synpcc7942_1151": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_2303": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_0944": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_0040": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_1717": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.13,
+   "percentile": 0.39253507014028055
+  },
+  "Synpcc7942_1718": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": 0.088,
+   "percentile": 0.8667334669338678
+  },
+  "Synpcc7942_0576": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_1597": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_2381": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_0105": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Synpcc7942_0951": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.1,
+   "percentile": 0.07289579158316634
+  },
+  "Synpcc7942_1448": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.44,
+   "percentile": 0.034569138276553106
+  },
+  "Synpcc7942_1058": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  }
+ }
+}

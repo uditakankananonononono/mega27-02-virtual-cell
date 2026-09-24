@@ -1,0 +1,231 @@
+{
+ "org": "SB2B",
+ "wt": 0.672216738671558,
+ "n_genes_model": 1069,
+ "n_rescue_pairs": 33,
+ "missing_supplements": [],
+ "genes": {
+  "6939342": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.0201438848920863,
+   "percentile": 0.7906472592133788
+  },
+  "6937904": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.6111111111111112,
+   "percentile": 0.04459585010839269
+  },
+  "6938912": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.0516129032258064,
+   "percentile": 0.5670486218643543
+  },
+  "6937923": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6938971": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6936889": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -1.2735849056603774,
+   "percentile": 0.006813254877671105
+  },
+  "6936890": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -1.4666666666666668,
+   "percentile": 0.0034066274388355527
+  },
+  "6936686": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6937867": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.3595238095238095,
+   "percentile": 0.08950139362031588
+  },
+  "6938016": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6938655": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.43125,
+   "percentile": 0.07308764323319913
+  },
+  "6937930": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.3074712643678161,
+   "percentile": 0.09848250232270053
+  },
+  "6936125": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6937204": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.3853448275862069,
+   "percentile": 0.08175905853205327
+  },
+  "6936588": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6937387": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6936463": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.0470108695652173,
+   "percentile": 0.6011148962527099
+  },
+  "6938472": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6936182": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6937577": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6936587": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6937820": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6936696": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6938020": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6936302": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -1.0732558139534882,
+   "percentile": 0.010839269123567669
+  },
+  "6937556": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "6939073": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.825,
+   "percentile": 0.0257045524930319
+  }
+ }
+}

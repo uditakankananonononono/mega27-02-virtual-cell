@@ -405,6 +405,154 @@
   [
    "UniProt UP000000625 TCDB cross-references (data/external/uniprot_ecoli_tcdb.tsv)",
    "transporter assignments"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.ANA3 (figshare 25236931, file 44580469)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.BFirm (figshare 25236931, file 44580472)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Btheta (figshare 25236931, file 44580583)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Burk376 (figshare 25236931, file 44580448)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Cup4G11 (figshare 25236931, file 44580511)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Dda3937 (figshare 25236931, file 44580505)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Ddia6719 (figshare 25236931, file 44580478)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.DdiaME23 (figshare 25236931, file 44580541)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Dino (figshare 25236931, file 44580517)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.DvH (figshare 25236931, file 44580571)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Dyella79 (figshare 25236931, file 44580493)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.HerbieS (figshare 25236931, file 44580481)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Kang (figshare 25236931, file 44580490)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Korea (figshare 25236931, file 44580562)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Koxy (figshare 25236931, file 44580535)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.MR1 (figshare 25236931, file 44580547)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Magneto (figshare 25236931, file 44580451)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Marino (figshare 25236931, file 44580520)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Miya (figshare 25236931, file 44580454)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.PV4 (figshare 25236931, file 44580484)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Pedo557 (figshare 25236931, file 44580556)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.Phaeo (figshare 25236931, file 44580580)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.RalstoniaBSBF1503 (figshare 25236931, file 44580457)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.RalstoniaGMI1000 (figshare 25236931, file 44580460)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.RalstoniaPSI07 (figshare 25236931, file 44580463)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.RalstoniaUW163 (figshare 25236931, file 44580466)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.SB2B (figshare 25236931, file 44580589)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.SynE (figshare 25236931, file 44580526)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.WCS417 (figshare 25236931, file 44580538)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.acidovorax_3H11 (figshare 25236931, file 44580532)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.azobra (figshare 25236931, file 44580475)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.psRCH2 (figshare 25236931, file 44580586)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.pseudo13_GW456_L13 (figshare 25236931, file 44580550)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.pseudo1_N1B4 (figshare 25236931, file 44580559)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.pseudo3_N2E3 (figshare 25236931, file 44580592)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.pseudo5_N2C3_1 (figshare 25236931, file 44580574)",
+   "mutant fitness (xs5 amendment 5)"
+  ],
+  [
+   "Fitness Browser Feb 2024 db.StrainFitness.pseudo6_N2E2 (figshare 25236931, file 44580568)",
+   "mutant fitness (xs5 amendment 5)"
   ]
  ],
  "infrastructure_not_counted": [

@@ -37,7 +37,7 @@ python -m vcell rescue-audit MODEL.xml --supplement btn_c=00780 thf_c=00790,0067
 results/pathway_concordance.json): in-silico rescues whose knocked-out gene is
 not on the supplement's own KEGG pathway had median measured fitness -4.24 vs
 -0.97 for on-pathway rescues on the Bernstein 2023 benchmark, so off-pathway
-rescues are flagged `likely_artifact`. Caveats: confounded with supplement identity (mostly SAM), and not replicated in 8 other bacteria (paper H.8, results/cross_species_*.json: same direction, not significant), so treat the flag as an E. coli-validated heuristic.
+rescues are flagged `likely_artifact`. Caveats: confounded with supplement identity (mostly SAM), and not replicated in 8 other bacteria (paper H.8, results/cross_species_*.json: same direction, not significant; a 44-organism test with a model-internal label was uninformative, paper H.17), so treat the flag as an E. coli-validated heuristic.
 `--no-known-uptake` adds a `no_known_uptake` column for supplements the organism has no known transporter for;
 `vcell.uptake.uptake_systems` computes this from the TCDB substrate table and UniProt TCDB cross-references
 (paper H.16, results/uptake_plausibility.json: in E. coli K-12, SAM, NAD, THF and PLP have none; 6 of 7 off-pathway rescues use them).

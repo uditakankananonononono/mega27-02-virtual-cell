@@ -1,0 +1,137 @@
+{
+ "org": "SyringaeB728a",
+ "wt": 1.3639405533784348,
+ "n_genes_model": 1527,
+ "n_rescue_pairs": 16,
+ "missing_supplements": [],
+ "genes": {
+  "Psyr_1650": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.7166666666666668,
+   "percentile": 0.02046654929577465
+  },
+  "Psyr_2080": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.5904761904761905,
+   "percentile": 0.028609154929577465
+  },
+  "Psyr_1669": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.3117647058823529,
+   "percentile": 0.07504401408450705
+  },
+  "Psyr_3959": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.1018072289156626,
+   "percentile": 0.2634242957746479
+  },
+  "Psyr_1665": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Psyr_4636": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Psyr_4186": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Psyr_4340": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -1.4766666666666668,
+   "percentile": 0.002640845070422535
+  },
+  "Psyr_4794": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Psyr_0828": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.6,
+   "percentile": 0.028058978873239437
+  },
+  "Psyr_4368": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Psyr_0815": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.16875,
+   "percentile": 0.15702024647887325
+  },
+  "Psyr_0827": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -1.04,
+   "percentile": 0.008802816901408451
+  },
+  "Psyr_1542": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.2102564102564102,
+   "percentile": 0.12015845070422536
+  },
+  "Psyr_4457": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "Psyr_4341": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -1.575,
+   "percentile": 0.0022007042253521128
+  }
+ }
+}
