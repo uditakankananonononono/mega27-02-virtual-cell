@@ -1,0 +1,12 @@
+{
+  "model": "external/E_coli_GEM_validation/Analysis/iML1515_model_adjusted_all_corrections.xml",
+  "variant": "iML1515_bernstein_allcorr",
+  "supplements_added": [],
+  "n_genes": 1326,
+  "n_carbon": 25,
+  "n_pairs": 33150,
+  "n_model_nogrowth": 2293,
+  "pr_auc_bernstein_metric": 0.7642940162026393,
+  "roc_auc": 0.9599662998149067,
+  "seconds": 481.5
+}

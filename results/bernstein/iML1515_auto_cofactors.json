@@ -1,0 +1,32 @@
+{
+  "model": "iML1515",
+  "variant": "iML1515_auto_cofactors",
+  "supplements_added": [
+    "btn",
+    "bmocogdp",
+    "thmpp",
+    "coa",
+    "10fthf",
+    "mlthf",
+    "thf",
+    "amet",
+    "fad",
+    "nadp",
+    "ribflv",
+    "2ohph",
+    "nad",
+    "pheme",
+    "sheme",
+    "udcpdp",
+    "2fe2s",
+    "4fe4s",
+    "pydx5p"
+  ],
+  "n_genes": 1326,
+  "n_carbon": 25,
+  "n_pairs": 33150,
+  "n_model_nogrowth": 1249,
+  "pr_auc_bernstein_metric": 0.547928491225929,
+  "roc_auc": 0.9773771181454113,
+  "seconds": 484.6
+}

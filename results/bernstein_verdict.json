@@ -1,0 +1,10 @@
+{
+ "text": "Reproduction with the authors' code (PR-AUC, 1,326 genes x 25 carbon sources = 33,150 pairs): iML1515 base 0.613; + Bernstein 5 vitamins 0.693; Bernstein all-corrections model 0.764 (reproduces their corrected-model improvement). Our automatically derived 19-compound cofactor supplementation set scored 0.548 PR-AUC (ROC-AUC 0.977): supplementing every cofactor in the biomass/cofactor closure suppresses true essential-gene calls (model no-growth pairs fall from 2,171 to 1,249) and lowers precision-recall performance below the unsupplemented model. Verdict: NEGATIVE. The blanket cofactor-rescue hypothesis does not beat the published curated 5-vitamin correction (0.693) nor the all-corrections model (0.764). No SOTA claim is made on this benchmark. Negative preserved.",
+ "verdict": "negative",
+ "pr_auc": {
+  "base": 0.6134,
+  "vitamins5": 0.6929,
+  "auto19": 0.5479,
+  "allcorr": 0.7643
+ }
+}

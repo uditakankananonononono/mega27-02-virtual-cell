@@ -45,7 +45,7 @@ def R(name):
 
 
 def main():
-    import content_a, content_b, content_c, content_math, content_ext, content_v2, content_audit
+    import content_a, content_b, content_c, content_math, content_ext, content_v2, content_audit, content_bern
     story = []
     story = content_a.story_a(story, R)
     story = content_c.story_c(story, R)
@@ -54,6 +54,7 @@ def main():
     story = content_ext.story_ext(story, R)
     story = content_audit.story_audit(story, R)
     story = content_v2.story_v2(story, R)
+    story = content_bern.story_bern(story, R)
     doc = SimpleDocTemplate(os.path.join(ROOT, 'paper', 'VC2_virtual_cell_paper.pdf'),
                             pagesize=letter,
                             leftMargin=0.9*inch, rightMargin=0.9*inch,
