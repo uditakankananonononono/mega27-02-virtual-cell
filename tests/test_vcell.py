@@ -195,3 +195,29 @@ def test_bernstein_prauc_perfect_and_bootstrap():
     assert S == []
     bs = paired_gene_bootstrap((sim > 0.001).astype(int), (sim > 0.001).astype(int), fit, [0, 1], n=50)
     assert bs["diff"] == 0.0
+
+
+def test_rescue_audit_on_off_pathway(tmp_path):
+    """Hermetic: icd (b1136) knockout rescued by 2-oxoglutarate is on-pathway (TCA);
+    enolase (b2779) rescued by pyruvate is off-pathway when pyruvate is tagged TCA only."""
+    import warnings
+    warnings.filterwarnings("ignore")
+    from pathlib import Path
+    from vcell import metabolism as vm
+    from vcell.rescue import rescue_audit, load_kegg_links
+    from vcell.cli import main
+    mp = Path(__file__).resolve().parents[1] / "data" / "e_coli_core.json"
+    m = vm.load_model(str(mp))
+    kg = tmp_path / "links.tsv"
+    kg.write_text("eco:b1136\tpath:eco00020\neco:b2779\tpath:eco00010\n")
+    gp = load_kegg_links(str(kg))
+    assert gp == {"b1136": {"00020"}, "b2779": {"00010"}}
+    rows = rescue_audit(m, {"akg_c": {"00020"}, "pyr_c": {"00020"}}, gp, genes=["b1136", "b2779", "b0008"])
+    lab = {(r["gene"], r["supplement"]): r["label"] for r in rows}
+    assert lab[("b1136", "akg_c")] == "on_pathway"
+    assert lab[("b2779", "pyr_c")] == "off_pathway"
+    assert not any(r["gene"] == "b0008" for r in rows)  # non-essential gene is never a rescue
+    out = tmp_path / "r.csv"
+    assert main(["rescue-audit", str(mp), "--supplement", "akg_c=00020", "--gene-pathways", str(kg),
+                 "--genes", "b1136", "--out", str(out)]) == 0
+    assert "on_pathway" in out.read_text()

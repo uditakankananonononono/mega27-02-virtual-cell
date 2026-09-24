@@ -49,7 +49,29 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--bernstein-dir", default="external/E_coli_GEM_validation")
     b.add_argument("--supplement", nargs="*", default=[], help="intracellular metabolite ids to supply (e.g. btn thf)")
     b.add_argument("--out", default=None, help="write JSON summary here")
+    r = sub.add_parser("rescue-audit", help="flag supplement rescues whose gene is off the supplement's pathway (likely FBA artifacts)")
+    r.add_argument("model")
+    r.add_argument("--supplement", nargs="+", required=True, help="MET=PW1,PW2 e.g. btn_c=00780")
+    r.add_argument("--gene-pathways", required=True, help="KEGG link TSV: 'eco:b0001<TAB>path:eco00290'")
+    r.add_argument("--genes", nargs="*", default=None)
+    r.add_argument("--tol", type=float, default=0.01)
+    r.add_argument("--out", default=None, help="write CSV here")
     args = p.parse_args(argv)
+    if args.cmd == "rescue-audit":
+        import csv
+        from vcell.rescue import rescue_audit, load_kegg_links
+        sup = {}
+        for item in args.supplement:
+            met, _, pws = item.partition("=")
+            sup[met] = {x for x in pws.split(",") if x}
+        rows = rescue_audit(load_model(args.model), sup, load_kegg_links(args.gene_pathways), args.genes, args.tol)
+        if args.out:
+            with open(args.out, "w", newline="") as fh:
+                w = csv.DictWriter(fh, fieldnames=["gene", "supplement", "growth_ko", "growth_rescued", "label", "flag"])
+                w.writeheader(); w.writerows(rows)
+        n_off = sum(r_["label"] == "off_pathway" for r_ in rows)
+        print(f"{len(rows)} rescues: {len(rows) - n_off} on_pathway, {n_off} off_pathway (likely artifacts)")
+        return 0
     if args.cmd == "bernstein-score":
         import json
         from vcell.bernstein import run_benchmark
