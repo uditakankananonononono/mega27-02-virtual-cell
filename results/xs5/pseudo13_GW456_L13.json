@@ -1,0 +1,179 @@
+{
+ "org": "pseudo13_GW456_L13",
+ "wt": 0.9131143991945914,
+ "n_genes_model": 1574,
+ "n_rescue_pairs": 21,
+ "missing_supplements": [
+  "thm_c"
+ ],
+ "genes": {
+  "PfGW456L13_2108": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.1499999999999999,
+   "percentile": 0.1674434087882823
+  },
+  "PfGW456L13_4123": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.0527027027027027,
+   "percentile": 0.5031069684864625
+  },
+  "PfGW456L13_3934": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -3.0662162162162163,
+   "percentile": 0.0004438526409232135
+  },
+  "PfGW456L13_3938": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_1191": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_1065": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.825,
+   "percentile": 0.02796271637816245
+  },
+  "PfGW456L13_1007": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -2.632432432432432,
+   "percentile": 0.0039946737683089215
+  },
+  "PfGW456L13_1006": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -2.4733333333333336,
+   "percentile": 0.006435863293386595
+  },
+  "PfGW456L13_1061": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_1521": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.1833333333333333,
+   "percentile": 0.1280514869063471
+  },
+  "PfGW456L13_130": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_1357": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_5082": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.9,
+   "percentile": 0.02463382157123835
+  },
+  "PfGW456L13_2175": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_1520": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.0428571428571428,
+   "percentile": 0.5709054593874834
+  },
+  "PfGW456L13_4620": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_4837": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_1201": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "PfGW456L13_4048": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -1.2666666666666666,
+   "percentile": 0.01775410563692854
+  },
+  "PfGW456L13_1863": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.138,
+   "percentile": 0.019529516200621395
+  },
+  "PfGW456L13_5091": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  }
+ }
+}
