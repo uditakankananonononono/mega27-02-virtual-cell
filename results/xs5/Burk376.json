@@ -1,0 +1,125 @@
+{
+ "org": "Burk376",
+ "wt": 1.4062977152420228,
+ "n_genes_model": 1715,
+ "n_rescue_pairs": 18,
+ "missing_supplements": [],
+ "genes": {
+  "H281DRAFT_04702": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": 0.1546875,
+   "percentile": 0.8164111812443643
+  },
+  "H281DRAFT_04274": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_00527": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_04186": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -2.333333333333333,
+   "percentile": 0.006762849413886384
+  },
+  "H281DRAFT_00395": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -2.4035714285714285,
+   "percentile": 0.0064923354373309285
+  },
+  "H281DRAFT_06063": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_04409": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_04703": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_04519": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_04070": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.8625,
+   "percentile": 0.02236248872858431
+  },
+  "H281DRAFT_00150": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_04135": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "H281DRAFT_04187": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -1.65,
+   "percentile": 0.011722272317403066
+  },
+  "H281DRAFT_04071": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -1.097826086956522,
+   "percentile": 0.018394950405770966
+  }
+ }
+}

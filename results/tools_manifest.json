@@ -61,41 +61,6 @@
    "GenBank CDS extraction for U00096.3"
   ],
   [
-   "matplotlib",
-   "package",
-   "all figures"
-  ],
-  [
-   "Pillow",
-   "package",
-   "figure sizing and visual QA composites"
-  ],
-  [
-   "ReportLab",
-   "package",
-   "Times-Roman PDF typesetting"
-  ],
-  [
-   "pypdf",
-   "package",
-   "page-count verification"
-  ],
-  [
-   "poppler pdffonts",
-   "CLI",
-   "embedded-font verification"
-  ],
-  [
-   "pytest",
-   "package",
-   "hermetic test suite"
-  ],
-  [
-   "git",
-   "CLI",
-   "version control, bundles"
-  ],
-  [
    "BiGG Models",
    "database",
    "e_coli_core and iJO1366 model downloads"
@@ -144,21 +109,6 @@
    "PubMed Central",
    "literature",
    "novelty check, benchmark protocols"
-  ],
-  [
-   "MEMOTE documentation",
-   "tool docs",
-   "novelty check of biomass tests"
-  ],
-  [
-   "GitHub",
-   "platform",
-   "repository hosting, Bernstein code"
-  ],
-  [
-   "Google Drive",
-   "platform",
-   "paper and results delivery"
   ],
   [
    "PaxDb",
@@ -370,5 +320,58 @@
    "Fitness Browser Feb 2024 aaseqs (protein sequences, figshare 25236931)",
    "protein sequences for CarveMe"
   ]
- ]
+ ],
+ "infrastructure_not_counted": [
+  [
+   "matplotlib",
+   "package",
+   "all figures"
+  ],
+  [
+   "Pillow",
+   "package",
+   "figure sizing and visual QA composites"
+  ],
+  [
+   "ReportLab",
+   "package",
+   "Times-Roman PDF typesetting"
+  ],
+  [
+   "pypdf",
+   "package",
+   "page-count verification"
+  ],
+  [
+   "poppler pdffonts",
+   "CLI",
+   "embedded-font verification"
+  ],
+  [
+   "pytest",
+   "package",
+   "hermetic test suite"
+  ],
+  [
+   "git",
+   "CLI",
+   "version control, bundles"
+  ],
+  [
+   "MEMOTE documentation",
+   "tool docs",
+   "novelty check of biomass tests"
+  ],
+  [
+   "GitHub",
+   "platform",
+   "repository hosting, Bernstein code"
+  ],
+  [
+   "Google Drive",
+   "platform",
+   "paper and results delivery"
+  ]
+ ],
+ "tool_gate_convention": "Program ruling 2026-09-25 01:18 IST: infrastructure (git, GitHub, Google Drive, pytest, file-format/typesetting/figure plumbing) does not count toward the 40-tool gate. MEMOTE documentation removed as duplicate of MEMOTE."
 }

@@ -1,0 +1,192 @@
+{
+ "org": "Caulo",
+ "wt": 0.7646757769926406,
+ "n_genes_model": 929,
+ "n_rescue_pairs": 27,
+ "missing_supplements": [
+  "thm_c"
+ ],
+ "genes": {
+  "CCNA_01723": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_03047": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.069047619047619,
+   "percentile": 0.5356614382953536
+  },
+  "CCNA_01550": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.3125,
+   "percentile": 0.24800236756436816
+  },
+  "CCNA_02572": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.8,
+   "percentile": 0.016129032258064516
+  },
+  "CCNA_03201": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.3442307692307692,
+   "percentile": 0.21308079313406333
+  },
+  "CCNA_03393": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.445,
+   "percentile": 0.12844036697247707
+  },
+  "CCNA_03007": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_01491": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": 0.016,
+   "percentile": 0.6291802308375259
+  },
+  "CCNA_03655": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_03332": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_03358": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_01462": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.2340425531914893,
+   "percentile": 0.33767386800828647
+  },
+  "CCNA_00491": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_03322": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.016,
+   "percentile": 0.5921870375850844
+  },
+  "CCNA_02224": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.3935897435897436,
+   "percentile": 0.16809707013909442
+  },
+  "CCNA_03544": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_03009": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_02247": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_00966": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.35,
+   "percentile": 0.20701390944066292
+  },
+  "CCNA_03006": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_00100": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "CCNA_02388": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  }
+ }
+}
