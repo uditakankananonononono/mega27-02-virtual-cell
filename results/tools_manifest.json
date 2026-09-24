@@ -149,6 +149,11 @@
    "SCIP (PySCIPOpt 6.2.1)",
    "MILP solver",
    "CarveMe reconstruction solver"
+  ],
+  [
+   "Rhea (rhea-db.org REST)",
+   "reaction database",
+   "verified the SAH nucleosidase reaction (RHEA:17805) behind the SAM purine bypass (results/sam_bypass_mechanism.json)"
   ]
  ],
  "datasets": [
@@ -373,5 +378,5 @@
    "paper and results delivery"
   ]
  ],
- "tool_gate_convention": "Program ruling 2026-09-25 01:18 IST: infrastructure (git, GitHub, Google Drive, pytest, file-format/typesetting/figure plumbing) does not count toward the 40-tool gate. MEMOTE documentation removed as duplicate of MEMOTE."
+ "tool_gate_convention": "Counting convention relayed by the coordinating (parent) agent on 2026-09-25 01:18 IST and applied conservatively here: infrastructure (git, GitHub, Google Drive, pytest) and file-format/typesetting/figure plumbing are not counted toward the 40-tool gate; MEMOTE documentation removed as a duplicate of MEMOTE."
 }

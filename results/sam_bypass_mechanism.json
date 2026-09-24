@@ -1,0 +1,56 @@
+{
+ "wt_growth": 0.87699721425716,
+ "rescued_growth": {
+  "b0523": {
+   "none": 2.0116,
+   "AHCYSNS (SAH nucleosidase)": 0.0,
+   "HCYSMT (homocysteine S-methyltransferase)": 0.8838,
+   "ADD (adenine deaminase)": 2.0116,
+   "ADPT (adenine phosphoribosyltransferase)": 2.0116,
+   "ADD+ADPT": 2.0116
+  },
+  "b0522": {
+   "none": 2.0116,
+   "AHCYSNS (SAH nucleosidase)": 0.0,
+   "HCYSMT (homocysteine S-methyltransferase)": 0.8838,
+   "ADD (adenine deaminase)": 2.0116,
+   "ADPT (adenine phosphoribosyltransferase)": 2.0116,
+   "ADD+ADPT": 2.0116
+  },
+  "b1131": {
+   "none": 2.0116,
+   "AHCYSNS (SAH nucleosidase)": -0.0,
+   "HCYSMT (homocysteine S-methyltransferase)": 0.8838,
+   "ADD (adenine deaminase)": 2.0116,
+   "ADPT (adenine phosphoribosyltransferase)": 2.0116,
+   "ADD+ADPT": 2.0116
+  },
+  "b4177": {
+   "none": 2.0116,
+   "AHCYSNS (SAH nucleosidase)": -0.0,
+   "HCYSMT (homocysteine S-methyltransferase)": 0.8861,
+   "ADD (adenine deaminase)": 2.0116,
+   "ADPT (adenine phosphoribosyltransferase)": 2.0116,
+   "ADD+ADPT": 2.0116
+  },
+  "b2476": {
+   "none": 2.0116,
+   "AHCYSNS (SAH nucleosidase)": 0.0,
+   "HCYSMT (homocysteine S-methyltransferase)": 0.8838,
+   "ADD (adenine deaminase)": 2.0116,
+   "ADPT (adenine phosphoribosyltransferase)": 2.0116,
+   "ADD+ADPT": 2.0116
+  }
+ },
+ "reaction_genes": {
+  "AHCYSNS": "b0159",
+  "HCYSMT": "b0261",
+  "ADD": "b3665",
+  "ADPT": "b0469"
+ },
+ "biochemical_verification": {
+  "Rhea": "RHEA:17805 S-adenosyl-L-homocysteine + H2O = S-(5-deoxy-D-ribos-5-yl)-L-homocysteine + adenine (EC 3.2.2.9); https://www.rhea-db.org/rhea/?query=ec:3.2.2.9",
+  "UniProt": "P0AF12 mtnN/pfs (b0159) MTA/SAH nucleosidase, catalytic activity Rhea:17805"
+ },
+ "interpretation": "Exploratory: every SAM rescue of the five purine genes needs AHCYSNS (b0159): SAM is methyl-transferred to SAH, SAH nucleosidase releases adenine, and adenine feeds purine salvage. With HCYSMT the rescued growth (2.01/h) exceeds wild type (0.88/h), i.e. the model eats SAM as a bulk nutrient. Not pre-registered."
+}
