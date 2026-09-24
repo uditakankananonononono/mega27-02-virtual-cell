@@ -214,4 +214,15 @@ def story_bern(story, R):
                 f"{v7['primary_auroc_v7_minus_v2']['diff']:+.4f} (95% CI {v7['primary_auroc_v7_minus_v2']['ci95'][0]:+.4f} to "
                 f"{v7['primary_auroc_v7_minus_v2']['ci95'][1]:+.4f}). Verdict: {v7['verdict']} (results/v7_oma.json). Within metabolic "
                 "genes, conservation carries weak signal that v2 already captures through its network and sequence features.", BODY)]
+    v8 = R('v8_cog_pdb.json')
+    story += [P('H.14 COG categories, phyletic spread and PDB coverage (pre-registered null with a positive trend)', H2),
+              P(f"The third feature test added NCBI COG 2020 functional-category indicators, the number of COG genomes carrying each "
+                f"gene's COG, and the number of PDB entries (notes/prereg_cog_pdb.md). {v8['cog_coverage']} of {v8['n_genes']} genes have a "
+                f"COG and {v8['pdb_nonzero']} have a PDB entry. These features are informative on their own (AUROC "
+                f"{v8['auroc']['new_features_only']:.3f}; COG spread alone {v8['univariate_auroc']['log_cog_spread']:.3f}), unlike pLDDT or "
+                f"OMA depth. Added to v2, AUROC rises from {v8['auroc']['v2_lr']:.3f} to {v8['auroc']['v8_lr']:.3f}, but the paired 95% CI "
+                f"({v8['primary_auroc_v8_minus_v2']['ci95'][0]:+.4f} to {v8['primary_auroc_v8_minus_v2']['ci95'][1]:+.4f}) includes zero, so the "
+                f"pre-registered verdict is {v8['verdict']} (results/v8_cog_pdb.json). Dropping the PDB count, the leakage-prone term, "
+                f"leaves the gain unchanged ({v8['secondary_v8_noPDB_minus_v2']['diff']:+.4f}). The v2 model already absorbs most of what "
+                "conservation and function categories say about metabolic-gene essentiality.", BODY)]
     return story

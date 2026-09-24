@@ -1,0 +1,48 @@
+{
+ "n_genes": 1249,
+ "cog_coverage": 1220,
+ "pdb_nonzero": 703,
+ "v2_lr_reproduced_max_abs_dev_vs_committed": 1.1102230246251565e-16,
+ "auroc": {
+  "v2_lr": 0.7966758130538437,
+  "v8_lr": 0.8057307363591381,
+  "new_features_only": 0.7133484773514462
+ },
+ "auprc": {
+  "v2_lr": 0.4980492966530802,
+  "v8_lr": 0.5026258100238754
+ },
+ "primary_auroc_v8_minus_v2": {
+  "diff": 0.009054923305294338,
+  "ci95": [
+   -0.009163005036973435,
+   0.026706177259147503
+  ]
+ },
+ "secondary_auprc_v8_minus_v2": {
+  "diff": 0.004576513370795232,
+  "ci95": [
+   -0.03794943310789918,
+   0.04989513613507058
+  ]
+ },
+ "secondary_v8_noPDB_minus_v2": {
+  "diff": 0.008569115199496102,
+  "ci95": [
+   -0.009055135390985522,
+   0.02610747374890084
+  ]
+ },
+ "univariate_auroc": {
+  "log_cog_spread": 0.6730129099005893,
+  "log_pdb": 0.6208020331968872
+ },
+ "secondary_rousset_auroc_v8_minus_v2": {
+  "diff": 0.010518331226295752,
+  "ci95": [
+   -0.0220192815541336,
+   0.03940503785645765
+  ]
+ },
+ "verdict": "NO SIGNIFICANT IMPROVEMENT (pre-registered null)"
+}
