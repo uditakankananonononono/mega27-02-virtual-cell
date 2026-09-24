@@ -290,6 +290,18 @@
   [
    "KEGG link/pathway/son",
    "gene-pathway map"
+  ],
+  [
+   "iJN1463 P. putida KT2440 GEM (BiGG)",
+   "metabolic model"
+  ],
+  [
+   "Fitness Browser Feb 2024 release, db.StrainFitness.Putida (figshare 10.6084/m9.figshare.25236931)",
+   "mutant fitness"
+  ],
+  [
+   "KEGG link/pathway/ppu",
+   "gene-pathway map"
   ]
  ]
 }
