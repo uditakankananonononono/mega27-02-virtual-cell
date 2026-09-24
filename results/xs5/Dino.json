@@ -1,0 +1,160 @@
+{
+ "org": "Dino",
+ "wt": 1.4062911230287094,
+ "n_genes_model": 1147,
+ "n_rescue_pairs": 25,
+ "missing_supplements": [],
+ "genes": {
+  "3610820": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.175,
+   "percentile": 0.1947839046199702
+  },
+  "3608446": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3609357": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3607266": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3606809": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.0599999999999999,
+   "percentile": 0.7399403874813711
+  },
+  "3609009": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3606701": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3609022": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3609582": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3608687": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3607180": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3606713": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.0499999999999999,
+   "percentile": 0.7824143070044709
+  },
+  "3608811": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3609568": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3607667": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.95,
+   "percentile": 0.009836065573770493
+  },
+  "3609623": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "3609353": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": -0.2,
+   "percentile": 0.1451564828614009
+  },
+  "3607744": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  }
+ }
+}

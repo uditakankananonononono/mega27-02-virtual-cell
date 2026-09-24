@@ -1,0 +1,209 @@
+{
+ "org": "DdiaME23",
+ "wt": 1.3469862059183726,
+ "n_genes_model": 1409,
+ "n_rescue_pairs": 25,
+ "missing_supplements": [],
+ "genes": {
+  "spontaneous": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS11635": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.2027777777777777,
+   "percentile": 0.30233153984114786
+  },
+  "DZA65_RS19655": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.38,
+   "percentile": 0.0058929028952088135
+  },
+  "DZA65_RS15995": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.1966666666666663,
+   "percentile": 0.009479887266205482
+  },
+  "DZA65_RS15990": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.5,
+   "percentile": 0.002434025108890597
+  },
+  "DZA65_RS16935": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.1690265486725664,
+   "percentile": 0.4573405073020753
+  },
+  "DZA65_RS15350": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS18265": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS03200": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS09695": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS16235": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.2166666666666666,
+   "percentile": 0.2606968998206508
+  },
+  "DZA65_RS17150": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS19610": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS17155": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.2633333333333333,
+   "percentile": 0.1662823469126313
+  },
+  "DZA65_RS11775": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS06575": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DZA65_RS19035": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.2609756097560975,
+   "percentile": 0.16986933128362797
+  },
+  "DZA65_RS09990": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.7666666666666666,
+   "percentile": 0.02792723545990264
+  },
+  "DZA65_RS17160": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.296875,
+   "percentile": 0.13656161926723034
+  },
+  "DZA65_RS13085": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.9384615384615383,
+   "percentile": 0.015885216500128106
+  },
+  "DZA65_RS16885": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.552,
+   "percentile": 0.05021778119395337
+  },
+  "DZA65_RS15380": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.6384615384615384,
+   "percentile": 0.034844991032539074
+  },
+  "DZA65_RS06470": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.425,
+   "percentile": 0.0039713041250320266
+  },
+  "DZA65_RS06945": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.2805970149253731,
+   "percentile": 0.1498847040737894
+  },
+  "DZA65_RS01210": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.1016666666666666,
+   "percentile": 0.8055342044581092
+  }
+ }
+}

@@ -154,6 +154,11 @@
    "Rhea (rhea-db.org REST)",
    "reaction database",
    "verified the SAH nucleosidase reaction (RHEA:17805) behind the SAM purine bypass (results/sam_bypass_mechanism.json)"
+  ],
+  [
+   "XGBoost 3.2 (incl. TreeSHAP pred_contribs)",
+   "gradient-boosting library",
+   "alternative learner on the v2 feature set (negative vs v2 LR) and per-feature attribution (results/xgb_shap.json)"
   ]
  ],
  "datasets": [

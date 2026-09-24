@@ -1,0 +1,169 @@
+{
+ "org": "Ddia6719",
+ "wt": 1.3470485324748371,
+ "n_genes_model": 1419,
+ "n_rescue_pairs": 20,
+ "missing_supplements": [],
+ "genes": {
+  "HGI48_RS11290": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.2,
+   "percentile": 0.8097368421052632
+  },
+  "HGI48_RS18520": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -2.45,
+   "percentile": 0.0002631578947368421
+  },
+  "HGI48_RS15190": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.153333333333333,
+   "percentile": 0.015
+  },
+  "HGI48_RS15185": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.6,
+   "percentile": 0.0022368421052631577
+  },
+  "HGI48_RS15855": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.3178571428571429,
+   "percentile": 0.5021052631578947
+  },
+  "HGI48_RS14420": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.5499999999999999,
+   "percentile": 0.105
+  },
+  "HGI48_RS17180": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HGI48_RS03205": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": 0.0499999999999999,
+   "percentile": 0.9711842105263158
+  },
+  "HGI48_RS09385": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -1.2,
+   "percentile": 0.012236842105263157
+  },
+  "HGI48_RS15410": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.3642857142857142,
+   "percentile": 0.3742105263157895
+  },
+  "HGI48_RS16065": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": 0.3,
+   "percentile": 0.9913157894736843
+  },
+  "HGI48_RS18475": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HGI48_RS16070": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.3555555555555555,
+   "percentile": 0.39460526315789474
+  },
+  "HGI48_RS11430": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HGI48_RS06230": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "HGI48_RS17890": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.5153846153846153,
+   "percentile": 0.1268421052631579
+  },
+  "HGI48_RS16075": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.1333333333333333,
+   "percentile": 0.8989473684210526
+  },
+  "HGI48_RS06120": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.4,
+   "percentile": 0.0059210526315789476
+  },
+  "HGI48_RS06595": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.3214285714285714,
+   "percentile": 0.49223684210526314
+  },
+  "HGI48_RS01165": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.3866666666666666,
+   "percentile": 0.3125
+  }
+ }
+}
