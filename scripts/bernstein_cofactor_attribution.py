@@ -19,7 +19,8 @@ g = {'cobra': cobra, 'pd': pd, 'np': np, 'copy': copy, 'pre_rec': pre_rec, 'sk_a
 for i in (9, 11, 13, 15, 17, 19, 21, 23):
     exec(src[i], g)
 model_arg, base_tag, tag = sys.argv[1], sys.argv[2], sys.argv[3]
-COF = json.load(open('results/auto_cofactor_set.json'))
+BASE_SUP = sys.argv[4:]  # supplements already open in the base run
+COF = [c for c in json.load(open('results/auto_cofactor_set.json')) if c not in BASE_SUP]
 t0 = time.time()
 if model_arg.endswith('.xml'):
     model = cobra.io.read_sbml_model(model_arg)
@@ -32,6 +33,10 @@ dexp, dgenes, dfit = g['load_data'](BASE)
 gm, cem, cmm, fm = g['match_model_data'](model, carb, carb_exp, dexp, dgenes, dfit)
 g['name_genes_matched'] = gm
 m, gma, cema, cmma, fma = g['model_adjustments'](1, 1, 1, model, gm, cem, cmm, fm)
+for mid in BASE_SUP:  # same construction as run_bernstein_benchmark.py
+    if mid + '_c' in m.metabolites:
+        r = cobra.Reaction('EX_' + mid + '_c'); r.lower_bound = -1000; r.upper_bound = 1000
+        r.add_metabolites({m.metabolites.get_by_id(mid + '_c'): -1.0}); m.add_reactions([r])
 mei, cei = g['check_environment'](m, med, cmma)
 ids = json.load(open(f'results/bernstein/{base_tag}_ids.json'))
 assert list(gma) == ids['genes'] and list(cmma) == ids['carbon'], 'gene/carbon order mismatch vs base run'

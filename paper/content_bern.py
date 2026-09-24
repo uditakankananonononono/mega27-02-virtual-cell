@@ -7,8 +7,10 @@ from reportlab.lib.units import inch
 DESC = {'iML1515_base': 'iML1515 as released (their pipeline)',
         'iML1515_bernstein_vitamins': 'iML1515 + 5 hand-picked vitamins (Bernstein Part 6)',
         'iML1515_auto_cofactors': 'iML1515 + 19 audit-derived cofactors (ours, label-free)',
-        'iML1515_bernstein_allcorr': 'Bernstein all-corrections model (published SOTA)',
+        'iML1515_bernstein_allcorr': 'Bernstein all-corrections model file, no vitamins',
         'iML1515_allcorr_plus_auto': 'all-corrections + audit-derived cofactors (ours)',
+        'iML1515_allcorr_vit5': 'all-corrections + 5 vitamins (their full correction, reproduced)',
+        'iML1515_allcorr_selected': 'all-corrections + btn, thmpp, coa (split-half selected, ours)',
         'iJO1366_base': 'iJO1366 (their pipeline)', 'iJR904_base': 'iJR904 (their pipeline)', 'iAF1260_base': 'iAF1260 (their pipeline)'}
 
 
@@ -23,7 +25,7 @@ def story_bern(story, R):
                 'compares FBA growth calls with RB-TnSeq fitness (Price et al. 2018, E. coli BW25113 Keio_ML9 library) '
                 'for every model gene on 25 defined carbon sources. They report that hand-supplying five vitamins '
                 '(biotin, R-pantothenate, thiamin, tetrahydrofolate, NAD+) fixes many false negatives in iML1515, and '
-                'they release an all-corrections model. It is the published state of the art for this task.', BODY),
+                'they release an all-corrections model. Their fully corrected analysis (all-corrections model plus the five vitamins) is reported at PR-AUC 0.843 (0.844 with transaldolase constrained); that is the published state of the art for this task. The all-corrections model file alone, without vitamins, scores lower in their pipeline.', BODY),
               P('H.2 Protocol', H2),
               P('To rule out any protocol drift, we do not re-implement their benchmark. scripts/run_bernstein_benchmark.py '
                 'executes the function cells of their released notebook (MIT licence, vendored under '
