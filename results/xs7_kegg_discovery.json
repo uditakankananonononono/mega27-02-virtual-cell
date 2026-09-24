@@ -1,0 +1,200 @@
+{
+ "ANA3": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "BFirm": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Btheta": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Burk376": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Cup4G11": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Dda3937": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Ddia6719": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "DdiaME23": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Dino": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "DvH": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Dyella79": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "HerbieS": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Kang": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Korea": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Koxy": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "MR1": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Magneto": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Marino": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Miya": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "PV4": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Pedo557": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Phaeo": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "Putida": {
+  "sample_hits": {
+   "ppu": 3
+  },
+  "kegg_code": "ppu",
+  "n_kegg_pathway_genes": 1834,
+  "frac_kegg_ids_in_fb": 0.7639040348964014,
+  "included": true
+ },
+ "RalstoniaBSBF1503": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "RalstoniaGMI1000": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "RalstoniaPSI07": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "RalstoniaUW163": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "SB2B": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "SynE": {
+  "sample_hits": {
+   "syf": 2
+  },
+  "kegg_code": "syf",
+  "n_kegg_pathway_genes": 946,
+  "frac_kegg_ids_in_fb": 0.46511627906976744,
+  "included": false
+ },
+ "WCS417": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "acidovorax_3H11": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "azobra": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "psRCH2": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "pseudo13_GW456_L13": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "pseudo1_N1B4": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "pseudo3_N2E3": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "pseudo5_N2C3_1": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ },
+ "pseudo6_N2E2": {
+  "sample_hits": {},
+  "included": false,
+  "reason": "no exact KEGG gene id match for sample loci"
+ }
+}

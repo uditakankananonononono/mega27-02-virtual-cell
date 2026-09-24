@@ -269,4 +269,14 @@ def story_bern(story, R):
                 "blocked product (SAM and NAD contain adenosine, so every purine gene is needed to make them). We documented this in "
                 "amendment 6 before computing the primary. The negative is informative for method design: production-blocked labels cannot "
                 "stand in for pathway membership, and the E. coli finding (H.7) remains tested only with the KEGG label in eight organisms (H.8).", BODY)]
+    x7 = R('cross_species_xs7.json'); pa = x7['primary_pooled_all']; ns = x7['secondary_pooled_all_excluding_SAM']
+    story += [P('H.18 KEGG-label test extended (amendment 7): not significant, and falsified without SAM', H2),
+              P(f"Because the model-internal label failed, amendment 7 extended the original KEGG-label test to every amendment-5 organism "
+                f"whose KEGG gene identifiers match Fitness Browser locus ids (results/xs7_kegg_discovery.json). Only P. putida qualified "
+                f"(76% of KEGG pathway genes match); the other organisms use numeric or RefSeq locus ids that KEGG does not index, and "
+                f"Synechococcus fell below the 50% rule. Pooled with the six amendment-3 organisms ({len(x7['organisms_in_pool'])} organisms, "
+                f"{pa['n_on']} on- vs {pa['n_off']} off-pathway genes), on-pathway genes sit at the {100*pa['median_pct_on']:.0f}th fitness "
+                f"percentile against {100*pa['median_pct_off']:.0f}th for off-pathway genes (p = {pa['mwu_p']:.2f}): {pa['verdict']}. Without "
+                f"SAM rescues the difference is {ns['diff']:+.3f} (p = {ns['mwu_p']:.2f}): {ns['verdict']} (results/cross_species_xs7.json). "
+                "Outside E. coli the supplement-bypass signal is carried, if at all, by SAM alone.", BODY)]
     return story

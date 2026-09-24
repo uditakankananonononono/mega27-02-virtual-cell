@@ -1,0 +1,256 @@
+{
+ "included_new": [
+  "Putida"
+ ],
+ "per_organism_new": {
+  "Putida": {
+   "wt": 1.347067600533243,
+   "n_genes_model": 1726,
+   "missing_supplements": [],
+   "n_rescue_pairs": 29,
+   "genes_on": 18,
+   "genes_off": 7,
+   "with_fitness_on": 10,
+   "with_fitness_off": 3,
+   "genes": {
+    "PP_1917": {
+     "label": "on_pathway",
+     "supplements": [
+      "thf_c"
+     ],
+     "median_fitness": -0.0833333333333333,
+     "percentile": 0.1783980582524272
+    },
+    "PP_2329": {
+     "label": "on_pathway",
+     "supplements": [
+      "thf_c"
+     ],
+     "median_fitness": -0.0211538461538461,
+     "percentile": 0.6180218446601942
+    },
+    "PP_1303": {
+     "label": "off_pathway",
+     "supplements": [
+      "amet_c"
+     ],
+     "median_fitness": -0.425,
+     "percentile": 0.02285598705501618
+    },
+    "PP_1304": {
+     "label": "off_pathway",
+     "supplements": [
+      "amet_c"
+     ],
+     "median_fitness": -0.4984848484848485,
+     "percentile": 0.019417475728155338
+    },
+    "PP_4016": {
+     "label": "off_pathway",
+     "supplements": [
+      "amet_c",
+      "nad_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_4889": {
+     "label": "off_pathway",
+     "supplements": [
+      "amet_c",
+      "nad_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_5335": {
+     "label": "off_pathway",
+     "supplements": [
+      "amet_c",
+      "nad_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_5336": {
+     "label": "off_pathway",
+     "supplements": [
+      "amet_c",
+      "nad_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_1426": {
+     "label": "on_pathway",
+     "supplements": [
+      "nad_c"
+     ],
+     "median_fitness": -0.4480392156862745,
+     "percentile": 0.021844660194174758
+    },
+    "PP_1997": {
+     "label": "on_pathway",
+     "supplements": [
+      "thf_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_0392": {
+     "label": "on_pathway",
+     "supplements": [
+      "thf_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_4717": {
+     "label": "on_pathway",
+     "supplements": [
+      "thf_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_4964": {
+     "label": "on_pathway",
+     "supplements": [
+      "pydx5p_c"
+     ],
+     "median_fitness": -0.025,
+     "percentile": 0.5793891585760518
+    },
+    "PP_5098": {
+     "label": "off_pathway",
+     "supplements": [
+      "amet_c"
+     ],
+     "median_fitness": -2.5227272727272725,
+     "percentile": 0.00465210355987055
+    },
+    "PP_5097": {
+     "label": "on_pathway",
+     "supplements": [
+      "amet_c"
+     ],
+     "median_fitness": -2.5431372549019606,
+     "percentile": 0.004449838187702265
+    },
+    "PP_4967": {
+     "label": "on_pathway",
+     "supplements": [
+      "amet_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_4699": {
+     "label": "on_pathway",
+     "supplements": [
+      "pnto__R_c"
+     ],
+     "median_fitness": -0.6923076923076923,
+     "percentile": 0.014967637540453074
+    },
+    "PP_4810": {
+     "label": "on_pathway",
+     "supplements": [
+      "nad_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_0787": {
+     "label": "on_pathway",
+     "supplements": [
+      "nad_c"
+     ],
+     "median_fitness": -2.0583333333333336,
+     "percentile": 0.007079288025889968
+    },
+    "PP_1768": {
+     "label": "on_pathway",
+     "supplements": [
+      "pydx5p_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_4700": {
+     "label": "on_pathway",
+     "supplements": [
+      "pnto__R_c"
+     ],
+     "median_fitness": -0.8928571428571429,
+     "percentile": 0.013349514563106795
+    },
+    "PP_1129": {
+     "label": "on_pathway",
+     "supplements": [
+      "pydx5p_c"
+     ],
+     "median_fitness": 0.2,
+     "percentile": 0.9797734627831716
+    },
+    "PP_1436": {
+     "label": "on_pathway",
+     "supplements": [
+      "pydx5p_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_0402": {
+     "label": "on_pathway",
+     "supplements": [
+      "pydx5p_c"
+     ],
+     "median_fitness": null,
+     "percentile": null
+    },
+    "PP_1231": {
+     "label": "on_pathway",
+     "supplements": [
+      "nad_c"
+     ],
+     "median_fitness": -1.826923076923077,
+     "percentile": 0.008090614886731391
+    }
+   },
+   "verdict": "UNDERPOWERED"
+  }
+ },
+ "primary_pooled_all": {
+  "n_on": 38,
+  "n_off": 26,
+  "median_pct_on": 0.1397767899061033,
+  "median_pct_off": 0.07525808318862151,
+  "diff": 0.06451870671748178,
+  "mwu_p": 0.2946161764081282,
+  "verdict": "NOT SIGNIFICANT (direction consistent)"
+ },
+ "secondary_pooled_all_excluding_SAM": {
+  "n_on": 32,
+  "n_off": 16,
+  "median_pct_on": 0.1677091523656502,
+  "median_pct_off": 0.17076058005327022,
+  "diff": -0.003051427687620012,
+  "mwu_p": 0.6571154030545779,
+  "verdict": "FALSIFIED"
+ },
+ "secondary_new_organisms_only": {
+  "n_on": 10,
+  "n_off": 3,
+  "verdict": "UNDERPOWERED"
+ },
+ "organisms_in_pool": [
+  "Caulo",
+  "Cola",
+  "PS",
+  "Ponti",
+  "Putida",
+  "Smeli",
+  "SyringaeB728a"
+ ]
+}
