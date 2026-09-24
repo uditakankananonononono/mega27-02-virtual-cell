@@ -1,0 +1,61 @@
+{
+ "primary_all_rescued": {
+  "n_on_pairs": 650,
+  "n_off_pairs": 272,
+  "n_on_genes": 26,
+  "n_off_genes": 52,
+  "median_on": -0.97,
+  "median_off": -4.23675,
+  "frac_gt_-2_on": 0.74,
+  "frac_gt_-2_off": 0.14705882352941177,
+  "mwu_p_one_sided": 5.738118490695971e-75,
+  "median_diff": 3.26675,
+  "cluster_boot_ci95": [
+   2.1564125,
+   3.82179375
+  ]
+ },
+ "secondary_within_vitamins": {
+  "n_on_pairs": 525,
+  "n_off_pairs": 25,
+  "n_on_genes": 21,
+  "n_off_genes": 1,
+  "median_on": -0.668,
+  "median_off": -1.6560000000000001,
+  "frac_gt_-2_on": 0.9028571428571428,
+  "frac_gt_-2_off": 0.72,
+  "mwu_p_one_sided": 1.1537336076847619e-05,
+  "median_diff": 0.9880000000000001,
+  "cluster_boot_ci95": [
+   0.6525000000000003,
+   1.2366875000000002
+  ]
+ },
+ "secondary_within_nonvitamin": {
+  "n_on_pairs": 125,
+  "n_off_pairs": 247,
+  "n_on_genes": 5,
+  "n_off_genes": 51,
+  "median_on": -3.436,
+  "median_off": -4.353,
+  "frac_gt_-2_on": 0.056,
+  "frac_gt_-2_off": 0.08906882591093117,
+  "mwu_p_one_sided": 1.8813542707818563e-11,
+  "median_diff": 0.9169999999999998,
+  "cluster_boot_ci95": [
+   0.34498125000000024,
+   1.3812000000000002
+  ]
+ },
+ "off_pathway_vitamin_genes": [
+  "b4407"
+ ],
+ "on_pathway_nonvitamin_genes": [
+  "b0052",
+  "b2564",
+  "b3008",
+  "b3939",
+  "b4013"
+ ],
+ "verdict": "SUPPORTED (pre-registered primary): on-pathway rescues have higher fitness, CI excludes 0"
+}
