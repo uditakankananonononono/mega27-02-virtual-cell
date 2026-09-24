@@ -35,3 +35,17 @@ KEGG pathway have near-neutral measured fitness; off-pathway rescues are deleter
 - median difference <= 0 -> FALSIFIED in MR-1.
 - fewer than 5 genes with fitness in either group -> UNDERPOWERED (reported as such, no claim).
 - Secondary: fraction of genes absent from the fitness table, off vs on (prediction: off higher).
+
+## Amendment 1 (2026-09-24 23:54 IST, after MR-1 was UNDERPOWERED; before any P. putida analysis)
+MR-1 gave zero off-pathway rescues, so the test could not run. Add Pseudomonas putida
+KT2440 under the same protocol and criteria, with these organism-specific inputs:
+- GEM iJN1463 (BiGG, bigg.ucsd.edu/static/models/iJN1463.json.gz); medium: the model's
+  own exchanges closed except glucose 10 (EX_glc__D_e), O2, NH4, Pi, SO4, water, protons,
+  CO2 and inorganic ions; no vitamins.
+- Fitness: Fitness Browser February 2024 release (figshare 10.6084/m9.figshare.25236931),
+  db.StrainFitness.Putida. Gene fitness per experiment = mean strain fitness over strains
+  with used == TRUE; gene outcome = median over experiments. (The gene-level table is only
+  in the 2.3 GB feba.db, so strain data are aggregated.)
+- Gene -> pathway: KEGG link/pathway/ppu.
+- Supplements: same seven cofactors, BiGG ids btn_c, thm_c, pnto__R_c, thf_c, nad_c, amet_c, pydx5p_c.
+Verdict rules unchanged; each organism is reported separately.
