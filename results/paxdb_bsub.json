@@ -1,0 +1,51 @@
+{
+ "datasets": {
+  "BacillusSubtilisSubsp_PRIDE": {
+   "n_named": 3973,
+   "n_essential": 232,
+   "n_nonessential": 3741,
+   "auroc": 0.7850870825613657,
+   "se": 0.018108177041942775
+  },
+  "GPM_201408": {
+   "n_named": 2561,
+   "n_essential": 224,
+   "n_nonessential": 2337,
+   "auroc": 0.7194319640564827,
+   "se": 0.019902286097593813
+  },
+  "MSV000096603_Bacillus_subtilis-DSMZ10": {
+   "n_named": 3272,
+   "n_essential": 217,
+   "n_nonessential": 3055,
+   "auroc": 0.7326781660343774,
+   "se": 0.019882086847128406
+  },
+  "PXD006444_control": {
+   "n_named": 1823,
+   "n_essential": 189,
+   "n_nonessential": 1634,
+   "auroc": 0.6527769682604444,
+   "se": 0.022575674210999135
+  },
+  "PXD014877_Mueller_Nature_2020_Bacillus_subtilis": {
+   "n_named": 788,
+   "n_essential": 122,
+   "n_nonessential": 666,
+   "auroc": 0.5997329296509625,
+   "se": 0.029012031406280614
+  }
+ },
+ "n_essential_list": 260,
+ "primary": {
+  "n": 5,
+  "n_auroc_above_half": 5,
+  "sign_test_p": 0.03125,
+  "pooled_auroc": 0.7159435198932474,
+  "ci95": [
+   0.6974678835470228,
+   0.7344191562394721
+  ],
+  "verdict": "HOLDS IN B. SUBTILIS"
+ }
+}

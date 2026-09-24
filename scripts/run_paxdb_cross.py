@@ -66,11 +66,11 @@ for taxid, org in ORGS.items():
     w = np.array([1 / s ** 2 for _, s in aucs]); m = float(np.sum(w * [a for a, _ in aucs]) / w.sum())
     out['per_organism'][org] = dict(n_datasets=len(aucs), n_string_mapped=len(str2loc), pooled_auroc=m, pooled_se=float(1 / math.sqrt(w.sum())))
 ds = out['datasets'].values()
-k = sum(d['auroc'] > 0.5 for d in ds); n = len(out['datasets'])
+k = int(sum(d['auroc'] > 0.5 for d in ds)); n = len(out['datasets'])
 p = binomtest(k, n, 0.5, alternative='greater').pvalue
 out['primary'] = dict(n_datasets=n, n_auroc_above_half=k, sign_test_p=p, verdict='GENERALISES' if p < 0.05 else 'NOT SHOWN')
-out['secondary'] = dict(n_spearman_negative=sum(d['spearman_abund_vs_fitness'] < 0 for d in ds),
-    n_abundance_coef_positive_after_length=sum(d['logit_coef_abundance'] > 0 for d in ds), n=n)
+out['secondary'] = dict(n_spearman_negative=int(sum(d['spearman_abund_vs_fitness'] < 0 for d in ds)),
+    n_abundance_coef_positive_after_length=int(sum(d['logit_coef_abundance'] > 0 for d in ds)), n=n)
 json.dump(out, open('results/paxdb_cross.json', 'w'), indent=1, default=float)
 for k2, d in out['datasets'].items(): print(k2[:45], d['organism'], d['n_mapped_detected'], d['n_essential'], round(d['auroc'], 3), round(d['spearman_abund_vs_fitness'], 3), round(d['logit_coef_abundance'], 2))
 print(out['per_organism']); print(out['primary'], out['secondary'])

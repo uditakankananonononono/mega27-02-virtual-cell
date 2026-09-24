@@ -312,4 +312,14 @@ def story_bern(story, R):
                 f"non-essential genes in median abundance in {pm['secondary_gd_between']} of {q['n_unique']} datasets. Together with H.19 and H.20 "
                 "the abundance-essentiality link holds across seven bacterial species from four phyla, which makes it a general feature "
                 "rather than an E. coli quirk; it is, however, a known correlate, and what is new here is its per-dataset robustness, not its existence.", BODY)]
+    pb = R('paxdb_bsub.json'); qb = pb['primary']; sc = R('datasets_strict_count.json')
+    story += [P('H.22 B. subtilis, and how datasets are counted (pre-registered)', H2),
+              P(f"Against the {pb['n_essential_list']} SubtiWiki essential genes, abundant proteins were more often essential in "
+                f"{qb['n_auroc_above_half']} of {qb['n']} B. subtilis PaxDb datasets (sign test p = {qb['sign_test_p']:.3f}, the smallest "
+                f"possible with five; pooled AUROC {qb['pooled_auroc']:.3f}, 95% CI {qb['ci95'][0]:.3f} to {qb['ci95'][1]:.3f}): {qb['verdict']} "
+                "(results/paxdb_bsub.json; notes/prereg_paxdb_bsub.md). This makes eight species. "
+                f"Dataset counting: the manifest lists {sc['n_manifest_entries']} accession-level entries. Counting one per source study "
+                "(re-deposits, quantification variants and fractions of one study collapse; derived tables not counted) gives "
+                f"{sc['n_strict']}; that strict number is the one we report. The rule and the collapsed groups are in "
+                "results/datasets_strict_count.json.", BODY)]
     return story

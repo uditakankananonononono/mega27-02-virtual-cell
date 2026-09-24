@@ -725,6 +725,30 @@
   [
    "DeJesus et al. 2017 mBio Table S3 (M. tuberculosis H37Rv HMM essentiality calls; mirror github.com/ajinich/mtb_tn_db)",
    "essentiality labels, Mtb"
+  ],
+  [
+   "PaxDb v5 dataset 224308-BacillusSubtilisSubsp_PRIDE.txt (B. subtilis 168)",
+   "protein abundance vs SubtiWiki essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 224308-GPM_201408.txt (B. subtilis 168)",
+   "protein abundance vs SubtiWiki essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 224308-MSV000096603_Bacillus_subtilis-DSMZ10.txt (B. subtilis 168)",
+   "protein abundance vs SubtiWiki essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 224308-PXD006444_control.txt (B. subtilis 168)",
+   "protein abundance vs SubtiWiki essentiality"
+  ],
+  [
+   "PaxDb v5 dataset 224308-PXD014877_Mueller_Nature_2020_Bacillus_subtilis.txt (B. subtilis 168)",
+   "protein abundance vs SubtiWiki essentiality"
+  ],
+  [
+   "SubtiWiki Essential genes page (retrieved 2026-09-25; Koo et al. 2017 based), 260 gene names",
+   "essentiality labels, B. subtilis"
   ]
  ],
  "infrastructure_not_counted": [
