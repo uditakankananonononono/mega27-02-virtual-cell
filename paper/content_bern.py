@@ -82,4 +82,32 @@ def story_bern(story, R):
     story += [P('Molybdopterin cofactor biosynthesis and the ATP synthase are required only anaerobically or are bypassed by '
                 'fermentation in rich medium; the ensemble inherits a condition mismatch from its FBA inputs, the same class '
                 'of error Bernstein et al. fixed with vitamins. This is a hypothesis for condition-aware features, not a claim.', BODY)]
+    v5 = R('ensemble_v5_go.json')
+    story += [P(f"A nested test turned this into a feature: GO terms enriched among training-fold confident false positives (selected "
+                f"inside each training fold only; notes/prereg_go_condition_feature.md) became a binary flag. AUROC {v5['v5_lr']['auroc']:.3f} vs "
+                f"{v5['v2_lr']['auroc']:.3f} (difference {v5['paired_v5_vs_v2']['mean']:+.3f}, 95% CI {v5['paired_v5_vs_v2']['ci95'][0]:+.4f} to "
+                f"{v5['paired_v5_vs_v2']['ci95'][1]:+.4f}): a small, significant loss. Negative.", BODY)]
+    pc = R('pathway_concordance.json'); a = pc['primary_all_rescued']; w = pc['secondary_within_vitamins']; n = pc['secondary_within_nonvitamin']
+    story += [P('H.7 Finding: the supplement-bypass artifact (pre-registered)', H2),
+              P('Every model no-growth call that a supplement turns into growth is a candidate correction. We asked which of these '
+                'rescues the experiment agrees with. Hypothesis (notes/prereg_pathway_concordance.md, committed before the split was '
+                'computed): a rescue is real when the knocked-out gene lies in the supplement\'s own KEGG biosynthesis pathway, and '
+                'spurious when the model rescues an off-pathway gene by metabolising the supplement as a nutrient or one-carbon source. '
+                'With f the RB-TnSeq fitness of a rescued gene-carbon pair and on(g,s) = 1 if gene g is in a KEGG pathway of supplement s:', BODY),
+              P('&Delta; = median{ f : on = 1 } - median{ f : on = 0 }, &nbsp; H<sub>0</sub>: &Delta; &le; 0, &nbsp; CI by resampling genes    (H3)', EQ)]
+    t3 = [['set', 'on: pairs (genes)', 'off: pairs (genes)', 'median f', 'f > -2', 'Delta [95% CI]', 'p']]
+    for lab, x in (('all rescues (primary)', a), ('vitamins only', w), ('SAM/PLP/folates only', n)):
+        t3.append([lab, f"{x['n_on_pairs']} ({x['n_on_genes']})", f"{x['n_off_pairs']} ({x['n_off_genes']})",
+                   f"{x['median_on']:.2f} / {x['median_off']:.2f}", f"{x['frac_gt_-2_on']:.2f} / {x['frac_gt_-2_off']:.2f}",
+                   f"{x['median_diff']:.2f} [{x['cluster_boot_ci95'][0]:.2f}, {x['cluster_boot_ci95'][1]:.2f}]", f"{x['mwu_p_one_sided']:.0e}"])
+    story += tbl(t3, 'Table 21. Pathway concordance of supplement rescue on the Bernstein benchmark. median f and f > -2 are given as on / off; one-sided Mann-Whitney; gene-cluster bootstrap CI.',
+                 widths=[1.3 * inch, 1.0 * inch, 1.0 * inch, 0.9 * inch, 0.8 * inch, 1.0 * inch, 0.5 * inch])
+    story += [P('The primary criterion is met: on-pathway rescues sit near neutral fitness, off-pathway rescues are almost all truly '
+                'deleterious. Caveats: the primary contrast is confounded with supplement identity (vitamin rescues are almost all '
+                'on-pathway; SAM and folate rescues almost all off-pathway, e.g. succinate dehydrogenase sdhCDAB and galactose genes '
+                'rescued by SAM). The within-group contrasts agree in direction but rest on 1 off-pathway vitamin gene and 5 on-pathway '
+                'non-vitamin genes. One organism, one benchmark. A literature search found no prior test of this concordance '
+                '(notes/novelty_check.md); novelty is probable, not proven. Falsifier: a supplement whose off-pathway rescues have '
+                'near-neutral fitness in an independent fitness dataset. Practical consequence: a supplement correction should be '
+                'accepted only for on-pathway rescues; this rule would have rejected our own 19-compound blanket set (PR-AUC 0.548).', BODY)]
     return story
