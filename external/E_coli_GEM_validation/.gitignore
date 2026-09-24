@@ -1,0 +1,10 @@
+# general mac
+*.DS_Store
+
+# jupyter notebook
+*.ipynb_checkpoints
+
+# data and plots (not enough room on github)
+Analysis/Plots/
+Analysis/*.npy
+Analysis/false_positives.tsv

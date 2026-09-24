@@ -1,0 +1,1234 @@
+{
+  "strata": [
+    {
+      "stratum": "biomass_forced:bulk_involved",
+      "count": 104,
+      "sum": 39
+    },
+    {
+      "stratum": "biomass_forced:cofactor_only",
+      "count": 79,
+      "sum": 42
+    }
+  ],
+  "fisher_cofactor_only_vs_rest": [
+    [
+      37,
+      42
+    ],
+    [
+      65,
+      39
+    ]
+  ],
+  "fisher_cofactor_odds": 0.5285714285714286,
+  "fisher_cofactor_p_one_sided": 0.98823998340916,
+  "verdict_table": [
+    {
+      "verdict": "biomass_forced",
+      "count": 183,
+      "gerdes_essential": 81,
+      "gerdes_essential_frac": 0.4426229508196721
+    }
+  ],
+  "fisher_2x2_[bf_noness,bf_ess],[nf_noness,nf_ess]": [
+    [
+      102,
+      81
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "fisher_odds_ratio": NaN,
+  "fisher_p_one_sided": 1.0,
+  "fba_baseline_on_aligned": {
+    "n_genes": 1249,
+    "n_essential": 215,
+    "prevalence": 0.1721377101681345,
+    "auroc": 0.6657865143268409,
+    "auprc": 0.3155154934917648,
+    "accuracy": 0.8086469175340272,
+    "precision": 0.4368421052631579,
+    "recall": 0.386046511627907,
+    "f1": 0.40987654320987654,
+    "mcc": 0.2970112583431659
+  },
+  "fba_corrected": {
+    "n_genes": 1249,
+    "n_essential": 215,
+    "prevalence": 0.1721377101681345,
+    "auroc": 0.5844451441680536,
+    "auprc": 0.2471669800663207,
+    "accuracy": 0.8046437149719776,
+    "precision": 0.36936936936936937,
+    "recall": 0.19069767441860466,
+    "f1": 0.25153374233128833,
+    "mcc": 0.16317361142237793,
+    "auroc_ci": [
+      0.5438635821350192,
+      0.6258434521779286
+    ],
+    "auprc_ci": [
+      0.20619992287296093,
+      0.3013904244183346
+    ],
+    "n_boot_used": 2000
+  },
+  "biomass_forced_compound_census": {
+    "btn_c": 37,
+    "bmocogdp_c": 28,
+    "thmpp_c": 28,
+    "coa_c": 27,
+    "10fthf_c": 26,
+    "mlthf_c": 26,
+    "thf_c": 26,
+    "amet_c": 23,
+    "murein5px4p_p": 22,
+    "fad_c": 19,
+    "nadp_c": 17,
+    "kdo2lipid4_e": 17,
+    "ribflv_c": 17,
+    "2ohph_c": 16,
+    "nad_c": 16,
+    "dgtp_c": 12,
+    "gtp_c": 12,
+    "met__L_c": 12,
+    "atp_c": 11,
+    "datp_c": 11,
+    "his__L_c": 11,
+    "pheme_c": 10,
+    "sheme_c": 10,
+    "udcpdp_c": 9,
+    "trp__L_c": 9,
+    "lys__L_c": 8,
+    "arg__L_c": 8,
+    "phe__L_c": 8,
+    "2fe2s_c": 8,
+    "4fe4s_c": 8,
+    "leu__L_c": 7,
+    "tyr__L_c": 7,
+    "dttp_c": 7,
+    "cys__L_c": 7,
+    "ile__L_c": 6,
+    "ctp_c": 6,
+    "dctp_c": 6,
+    "pydx5p_c": 5,
+    "pe160_p": 5,
+    "pe161_p": 5,
+    "utp_c": 5,
+    "pe160_c": 4,
+    "pe161_c": 4,
+    "thr__L_c": 3,
+    "pro__L_c": 3,
+    "gln__L_c": 2,
+    "glu__L_c": 2,
+    "val__L_c": 2,
+    "asn__L_c": 1,
+    "asp__L_c": 1,
+    "cobalt2_c": 1,
+    "cu2_c": 1,
+    "ca2_c": 1
+  },
+  "biomass_forced_genes": [
+    {
+      "bnumber": "b0004",
+      "gene_name": "thrC",
+      "essential": 0,
+      "unproducible": "['ile__L_c', 'thr__L_c']"
+    },
+    {
+      "bnumber": "b0009",
+      "gene_name": "mog",
+      "essential": 1,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b0025",
+      "gene_name": "ribF",
+      "essential": 1,
+      "unproducible": "['fad_c']"
+    },
+    {
+      "bnumber": "b0029",
+      "gene_name": "ispH*",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b0031",
+      "gene_name": "dapB",
+      "essential": 1,
+      "unproducible": "['lys__L_c', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0052",
+      "gene_name": "pdxA",
+      "essential": 0,
+      "unproducible": "['pydx5p_c']"
+    },
+    {
+      "bnumber": "b0071",
+      "gene_name": "leuD",
+      "essential": 0,
+      "unproducible": "['leu__L_c']"
+    },
+    {
+      "bnumber": "b0072",
+      "gene_name": "leuC",
+      "essential": 0,
+      "unproducible": "['leu__L_c']"
+    },
+    {
+      "bnumber": "b0073",
+      "gene_name": "leuB",
+      "essential": 0,
+      "unproducible": "['leu__L_c']"
+    },
+    {
+      "bnumber": "b0074",
+      "gene_name": "leuA",
+      "essential": 0,
+      "unproducible": "['leu__L_c']"
+    },
+    {
+      "bnumber": "b0085",
+      "gene_name": "murE",
+      "essential": 1,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0086",
+      "gene_name": "murF",
+      "essential": 0,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0087",
+      "gene_name": "mraY",
+      "essential": 0,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0088",
+      "gene_name": "murD",
+      "essential": 1,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0090",
+      "gene_name": "murG",
+      "essential": 1,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0091",
+      "gene_name": "murC",
+      "essential": 1,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0103",
+      "gene_name": "coaE",
+      "essential": 1,
+      "unproducible": "['coa_c']"
+    },
+    {
+      "bnumber": "b0109",
+      "gene_name": "nadC",
+      "essential": 0,
+      "unproducible": "['nad_c', 'nadp_c']"
+    },
+    {
+      "bnumber": "b0131",
+      "gene_name": "panD",
+      "essential": 0,
+      "unproducible": "['coa_c']"
+    },
+    {
+      "bnumber": "b0133",
+      "gene_name": "panC",
+      "essential": 0,
+      "unproducible": "['coa_c']"
+    },
+    {
+      "bnumber": "b0134",
+      "gene_name": "panB",
+      "essential": 0,
+      "unproducible": "['coa_c']"
+    },
+    {
+      "bnumber": "b0142",
+      "gene_name": "folK",
+      "essential": 1,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b0154",
+      "gene_name": "hemL",
+      "essential": 1,
+      "unproducible": "['pheme_c', 'sheme_c']"
+    },
+    {
+      "bnumber": "b0159",
+      "gene_name": "mtn",
+      "essential": 1,
+      "unproducible": "['btn_c', 'sheme_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b0166",
+      "gene_name": "dapD",
+      "essential": 1,
+      "unproducible": "['lys__L_c', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b0173",
+      "gene_name": "dxr",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b0174",
+      "gene_name": "uppS",
+      "essential": 1,
+      "unproducible": "['udcpdp_c']"
+    },
+    {
+      "bnumber": "b0175",
+      "gene_name": "cdsA",
+      "essential": 1,
+      "unproducible": "['pe160_c', 'pe160_p', 'pe161_c', 'pe161_p']"
+    },
+    {
+      "bnumber": "b0180",
+      "gene_name": "fabZ",
+      "essential": 1,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b0181",
+      "gene_name": "lpxA",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b0182",
+      "gene_name": "lpxB",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b0185",
+      "gene_name": "accA",
+      "essential": 1,
+      "unproducible": "['btn_c', 'kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b0369",
+      "gene_name": "hemB",
+      "essential": 1,
+      "unproducible": "['pheme_c', 'sheme_c']"
+    },
+    {
+      "bnumber": "b0386",
+      "gene_name": "proC",
+      "essential": 1,
+      "unproducible": "['pro__L_c']"
+    },
+    {
+      "bnumber": "b0414",
+      "gene_name": "ribD",
+      "essential": 1,
+      "unproducible": "['fad_c', 'ribflv_c']"
+    },
+    {
+      "bnumber": "b0415",
+      "gene_name": "ribH",
+      "essential": 1,
+      "unproducible": "['fad_c', 'ribflv_c']"
+    },
+    {
+      "bnumber": "b0417",
+      "gene_name": "thiL",
+      "essential": 1,
+      "unproducible": "['thmpp_c']"
+    },
+    {
+      "bnumber": "b0420",
+      "gene_name": "dxs",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'pydx5p_c', 'thmpp_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b0421",
+      "gene_name": "ispA",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b0423",
+      "gene_name": "thiI",
+      "essential": 0,
+      "unproducible": "['thmpp_c']"
+    },
+    {
+      "bnumber": "b0475",
+      "gene_name": "hemH",
+      "essential": 1,
+      "unproducible": "['pheme_c']"
+    },
+    {
+      "bnumber": "b0522",
+      "gene_name": "purK",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b0523",
+      "gene_name": "purE",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b0524",
+      "gene_name": "lpxH",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b0639",
+      "gene_name": "nadD",
+      "essential": 0,
+      "unproducible": "['nad_c', 'nadp_c']"
+    },
+    {
+      "bnumber": "b0720",
+      "gene_name": "gltA",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'arg__L_c', 'gln__L_c', 'glu__L_c', 'mlthf_c', 'murein5px4p_p', 'pheme_c', 'pro__L_c', 'sheme_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b0750",
+      "gene_name": "nadA",
+      "essential": 0,
+      "unproducible": "['nad_c', 'nadp_c']"
+    },
+    {
+      "bnumber": "b0774",
+      "gene_name": "bioA",
+      "essential": 0,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b0775",
+      "gene_name": "bioB",
+      "essential": 0,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b0776",
+      "gene_name": "bioF",
+      "essential": 0,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b0777",
+      "gene_name": "bioC",
+      "essential": 0,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b0778",
+      "gene_name": "bioD",
+      "essential": 0,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b0781",
+      "gene_name": "moaA",
+      "essential": 0,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b0783",
+      "gene_name": "moaC",
+      "essential": 0,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b0784",
+      "gene_name": "moaD",
+      "essential": 0,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b0785",
+      "gene_name": "moaE",
+      "essential": 0,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b0826",
+      "gene_name": "moeB",
+      "essential": 0,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b0827",
+      "gene_name": "moeA",
+      "essential": 0,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b0907",
+      "gene_name": "serC",
+      "essential": 0,
+      "unproducible": "['pydx5p_c']"
+    },
+    {
+      "bnumber": "b0908",
+      "gene_name": "aroA",
+      "essential": 0,
+      "unproducible": "['10fthf_c', '2ohph_c', 'mlthf_c', 'phe__L_c', 'thf_c', 'thmpp_c', 'trp__L_c', 'tyr__L_c']"
+    },
+    {
+      "bnumber": "b0914",
+      "gene_name": "msbA",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e', 'pe160_p', 'pe161_p']"
+    },
+    {
+      "bnumber": "b0915",
+      "gene_name": "lpxK",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b0918",
+      "gene_name": "kdsB",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b0928",
+      "gene_name": "aspC",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'arg__L_c', 'asn__L_c', 'asp__L_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'ctp_c', 'datp_c', 'dctp_c', 'dgtp_c', 'dttp_c', 'fad_c', 'gtp_c', 'his__L_c', 'ile__L_c', 'lys__L_c', 'met__L_c', 'mlthf_c', 'murein5px4p_p', 'nad_c', 'nadp_c', 'phe__L_c', 'ribflv_c', 'thf_c', 'thmpp_c', 'thr__L_c', 'tyr__L_c', 'utp_c']"
+    },
+    {
+      "bnumber": "b1062",
+      "gene_name": "pyrC",
+      "essential": 0,
+      "unproducible": "['ctp_c', 'dctp_c', 'dttp_c', 'utp_c']"
+    },
+    {
+      "bnumber": "b1069",
+      "gene_name": "mviN",
+      "essential": 1,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b1091",
+      "gene_name": "fabH",
+      "essential": 1,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b1092",
+      "gene_name": "fabD",
+      "essential": 1,
+      "unproducible": "['btn_c', 'kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b1093",
+      "gene_name": "fabG",
+      "essential": 1,
+      "unproducible": "['btn_c', 'kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b1096",
+      "gene_name": "pabC",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b1098",
+      "gene_name": "tmk",
+      "essential": 1,
+      "unproducible": "['dttp_c']"
+    },
+    {
+      "bnumber": "b1131",
+      "gene_name": "purB",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'his__L_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b1136",
+      "gene_name": "icd",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'arg__L_c', 'gln__L_c', 'glu__L_c', 'mlthf_c', 'murein5px4p_p', 'pheme_c', 'pro__L_c', 'sheme_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b1208",
+      "gene_name": "ispE",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b1260",
+      "gene_name": "trpA",
+      "essential": 0,
+      "unproducible": "['trp__L_c']"
+    },
+    {
+      "bnumber": "b1261",
+      "gene_name": "trpB",
+      "essential": 0,
+      "unproducible": "['trp__L_c']"
+    },
+    {
+      "bnumber": "b1262",
+      "gene_name": "trpC",
+      "essential": 0,
+      "unproducible": "['trp__L_c']"
+    },
+    {
+      "bnumber": "b1263",
+      "gene_name": "trpD",
+      "essential": 0,
+      "unproducible": "['trp__L_c']"
+    },
+    {
+      "bnumber": "b1264",
+      "gene_name": "trpE",
+      "essential": 0,
+      "unproducible": "['trp__L_c']"
+    },
+    {
+      "bnumber": "b1277",
+      "gene_name": "ribA",
+      "essential": 1,
+      "unproducible": "['fad_c', 'ribflv_c']"
+    },
+    {
+      "bnumber": "b1281",
+      "gene_name": "pyrF",
+      "essential": 1,
+      "unproducible": "['ctp_c', 'dctp_c', 'dttp_c', 'utp_c']"
+    },
+    {
+      "bnumber": "b1288",
+      "gene_name": "fabI",
+      "essential": 1,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b1415",
+      "gene_name": "aldA",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b1662",
+      "gene_name": "ribE",
+      "essential": 1,
+      "unproducible": "['fad_c', 'ribflv_c']"
+    },
+    {
+      "bnumber": "b1693",
+      "gene_name": "aroD",
+      "essential": 0,
+      "unproducible": "['10fthf_c', '2ohph_c', 'mlthf_c', 'phe__L_c', 'thf_c', 'thmpp_c', 'trp__L_c', 'tyr__L_c']"
+    },
+    {
+      "bnumber": "b1740",
+      "gene_name": "nadE",
+      "essential": 1,
+      "unproducible": "['nad_c', 'nadp_c']"
+    },
+    {
+      "bnumber": "b1812",
+      "gene_name": "pabB",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b2020",
+      "gene_name": "hisD",
+      "essential": 0,
+      "unproducible": "['his__L_c']"
+    },
+    {
+      "bnumber": "b2021",
+      "gene_name": "hisC",
+      "essential": 0,
+      "unproducible": "['his__L_c']"
+    },
+    {
+      "bnumber": "b2022",
+      "gene_name": "hisB",
+      "essential": 0,
+      "unproducible": "['his__L_c']"
+    },
+    {
+      "bnumber": "b2023",
+      "gene_name": "hisH",
+      "essential": 0,
+      "unproducible": "['his__L_c']"
+    },
+    {
+      "bnumber": "b2024",
+      "gene_name": "hisA",
+      "essential": 0,
+      "unproducible": "['his__L_c']"
+    },
+    {
+      "bnumber": "b2025",
+      "gene_name": "hisF",
+      "essential": 0,
+      "unproducible": "['his__L_c']"
+    },
+    {
+      "bnumber": "b2026",
+      "gene_name": "hisI",
+      "essential": 0,
+      "unproducible": "['his__L_c']"
+    },
+    {
+      "bnumber": "b2103",
+      "gene_name": "thiD",
+      "essential": 0,
+      "unproducible": "['thmpp_c']"
+    },
+    {
+      "bnumber": "b2153",
+      "gene_name": "folE",
+      "essential": 1,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b2311",
+      "gene_name": "ubiX",
+      "essential": 1,
+      "unproducible": "['2ohph_c']"
+    },
+    {
+      "bnumber": "b2312",
+      "gene_name": "purF",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2320",
+      "gene_name": "pdxB",
+      "essential": 0,
+      "unproducible": "['pydx5p_c']"
+    },
+    {
+      "bnumber": "b2323",
+      "gene_name": "fabB",
+      "essential": 1,
+      "unproducible": "['btn_c', 'kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b2329",
+      "gene_name": "aroC",
+      "essential": 0,
+      "unproducible": "['10fthf_c', '2ohph_c', 'mlthf_c', 'phe__L_c', 'thf_c', 'thmpp_c', 'trp__L_c', 'tyr__L_c']"
+    },
+    {
+      "bnumber": "b2400",
+      "gene_name": "gltX",
+      "essential": 1,
+      "unproducible": "['pheme_c', 'sheme_c']"
+    },
+    {
+      "bnumber": "b2472",
+      "gene_name": "dapE",
+      "essential": 1,
+      "unproducible": "['lys__L_c', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b2476",
+      "gene_name": "purC",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b2478",
+      "gene_name": "dapA",
+      "essential": 1,
+      "unproducible": "['lys__L_c', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b2499",
+      "gene_name": "purM",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2507",
+      "gene_name": "guaA",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'bmocogdp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'ribflv_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b2515",
+      "gene_name": "ispG*",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b2530",
+      "gene_name": "iscS",
+      "essential": 1,
+      "unproducible": "['bmocogdp_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2557",
+      "gene_name": "purL",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2564",
+      "gene_name": "pdxJ",
+      "essential": 1,
+      "unproducible": "['pydx5p_c']"
+    },
+    {
+      "bnumber": "b2574",
+      "gene_name": "nadB",
+      "essential": 0,
+      "unproducible": "['nad_c', 'nadp_c']"
+    },
+    {
+      "bnumber": "b2585",
+      "gene_name": "pssA",
+      "essential": 1,
+      "unproducible": "['pe160_c', 'pe160_p', 'pe161_c', 'pe161_p']"
+    },
+    {
+      "bnumber": "b2599",
+      "gene_name": "pheA",
+      "essential": 0,
+      "unproducible": "['phe__L_c', 'thmpp_c', 'tyr__L_c']"
+    },
+    {
+      "bnumber": "b2600",
+      "gene_name": "tyrA",
+      "essential": 0,
+      "unproducible": "['phe__L_c', 'thmpp_c', 'tyr__L_c']"
+    },
+    {
+      "bnumber": "b2615",
+      "gene_name": "ppnK",
+      "essential": 1,
+      "unproducible": "['nadp_c']"
+    },
+    {
+      "bnumber": "b2746",
+      "gene_name": "ispF",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b2747",
+      "gene_name": "ispD",
+      "essential": 1,
+      "unproducible": "['2ohph_c', 'udcpdp_c']"
+    },
+    {
+      "bnumber": "b2751",
+      "gene_name": "cysN",
+      "essential": 0,
+      "unproducible": "['2fe2s_c', '4fe4s_c', 'amet_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'cys__L_c', 'met__L_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2752",
+      "gene_name": "cysD",
+      "essential": 0,
+      "unproducible": "['2fe2s_c', '4fe4s_c', 'amet_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'cys__L_c', 'met__L_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2762",
+      "gene_name": "cysH",
+      "essential": 0,
+      "unproducible": "['2fe2s_c', '4fe4s_c', 'amet_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'cys__L_c', 'met__L_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2763",
+      "gene_name": "cysI",
+      "essential": 0,
+      "unproducible": "['2fe2s_c', '4fe4s_c', 'amet_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'cys__L_c', 'met__L_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2764",
+      "gene_name": "cysJ",
+      "essential": 0,
+      "unproducible": "['2fe2s_c', '4fe4s_c', 'amet_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'cys__L_c', 'met__L_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b2780",
+      "gene_name": "pyrG",
+      "essential": 1,
+      "unproducible": "['ctp_c', 'dctp_c']"
+    },
+    {
+      "bnumber": "b2818",
+      "gene_name": "argA",
+      "essential": 0,
+      "unproducible": "['arg__L_c']"
+    },
+    {
+      "bnumber": "b2827",
+      "gene_name": "thyA",
+      "essential": 1,
+      "unproducible": "['dttp_c']"
+    },
+    {
+      "bnumber": "b2838",
+      "gene_name": "lysA",
+      "essential": 0,
+      "unproducible": "['lys__L_c']"
+    },
+    {
+      "bnumber": "b2942",
+      "gene_name": "metK",
+      "essential": 1,
+      "unproducible": "['amet_c', 'btn_c', 'sheme_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b3018",
+      "gene_name": "plsC",
+      "essential": 1,
+      "unproducible": "['pe160_c', 'pe160_p', 'pe161_c', 'pe161_p']"
+    },
+    {
+      "bnumber": "b3040",
+      "gene_name": "zupT",
+      "essential": 0,
+      "unproducible": "['cobalt2_c', 'cu2_c']"
+    },
+    {
+      "bnumber": "b3041",
+      "gene_name": "ribB",
+      "essential": 1,
+      "unproducible": "['fad_c', 'ribflv_c']"
+    },
+    {
+      "bnumber": "b3058",
+      "gene_name": "folB",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b3172",
+      "gene_name": "argG",
+      "essential": 0,
+      "unproducible": "['arg__L_c']"
+    },
+    {
+      "bnumber": "b3176",
+      "gene_name": "mrsA",
+      "essential": 0,
+      "unproducible": "['kdo2lipid4_e', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b3177",
+      "gene_name": "folP",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b3187",
+      "gene_name": "ispB",
+      "essential": 1,
+      "unproducible": "['2ohph_c']"
+    },
+    {
+      "bnumber": "b3189",
+      "gene_name": "murA",
+      "essential": 0,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b3196",
+      "gene_name": "yrbG",
+      "essential": 0,
+      "unproducible": "['ca2_c']"
+    },
+    {
+      "bnumber": "b3201",
+      "gene_name": "yhbG",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b3360",
+      "gene_name": "pabA",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'mlthf_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b3389",
+      "gene_name": "aroB",
+      "essential": 0,
+      "unproducible": "['10fthf_c', '2ohph_c', 'mlthf_c', 'phe__L_c', 'thf_c', 'thmpp_c', 'trp__L_c', 'tyr__L_c']"
+    },
+    {
+      "bnumber": "b3412",
+      "gene_name": "bioH",
+      "essential": 0,
+      "unproducible": "['btn_c']"
+    },
+    {
+      "bnumber": "b3433",
+      "gene_name": "asd",
+      "essential": 1,
+      "unproducible": "['amet_c', 'btn_c', 'ile__L_c', 'lys__L_c', 'met__L_c', 'murein5px4p_p', 'thr__L_c']"
+    },
+    {
+      "bnumber": "b3607",
+      "gene_name": "cysE",
+      "essential": 1,
+      "unproducible": "['2fe2s_c', '4fe4s_c', 'amet_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'cys__L_c', 'met__L_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b3608",
+      "gene_name": "gpsA",
+      "essential": 0,
+      "unproducible": "['pe160_c', 'pe160_p', 'pe161_c', 'pe161_p']"
+    },
+    {
+      "bnumber": "b3633",
+      "gene_name": "kdtA",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b3634",
+      "gene_name": "coaD",
+      "essential": 1,
+      "unproducible": "['coa_c']"
+    },
+    {
+      "bnumber": "b3639",
+      "gene_name": "dfp",
+      "essential": 1,
+      "unproducible": "['coa_c']"
+    },
+    {
+      "bnumber": "b3642",
+      "gene_name": "pyrE",
+      "essential": 0,
+      "unproducible": "['ctp_c', 'dctp_c', 'dttp_c', 'utp_c']"
+    },
+    {
+      "bnumber": "b3648",
+      "gene_name": "gmk",
+      "essential": 1,
+      "unproducible": "['10fthf_c', 'bmocogdp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'ribflv_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b3729",
+      "gene_name": "glmS",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b3730",
+      "gene_name": "glmU",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b3770",
+      "gene_name": "ilvE",
+      "essential": 0,
+      "unproducible": "['ile__L_c', 'leu__L_c', 'phe__L_c']"
+    },
+    {
+      "bnumber": "b3771",
+      "gene_name": "ilvD",
+      "essential": 0,
+      "unproducible": "['coa_c', 'ile__L_c', 'leu__L_c', 'val__L_c']"
+    },
+    {
+      "bnumber": "b3774",
+      "gene_name": "ilvC",
+      "essential": 0,
+      "unproducible": "['coa_c', 'ile__L_c', 'leu__L_c', 'val__L_c']"
+    },
+    {
+      "bnumber": "b3804",
+      "gene_name": "hemD",
+      "essential": 1,
+      "unproducible": "['pheme_c', 'sheme_c']"
+    },
+    {
+      "bnumber": "b3805",
+      "gene_name": "hemC",
+      "essential": 1,
+      "unproducible": "['pheme_c', 'sheme_c']"
+    },
+    {
+      "bnumber": "b3807",
+      "gene_name": "cyaY",
+      "essential": 0,
+      "unproducible": "['2fe2s_c', '4fe4s_c']"
+    },
+    {
+      "bnumber": "b3809",
+      "gene_name": "dapF",
+      "essential": 1,
+      "unproducible": "['lys__L_c', 'murein5px4p_p']"
+    },
+    {
+      "bnumber": "b3843",
+      "gene_name": "ubiD",
+      "essential": 0,
+      "unproducible": "['2ohph_c']"
+    },
+    {
+      "bnumber": "b3850",
+      "gene_name": "hemG",
+      "essential": 1,
+      "unproducible": "['pheme_c']"
+    },
+    {
+      "bnumber": "b3857",
+      "gene_name": "mobA",
+      "essential": 0,
+      "unproducible": "['bmocogdp_c']"
+    },
+    {
+      "bnumber": "b3939",
+      "gene_name": "metB",
+      "essential": 0,
+      "unproducible": "['amet_c', 'btn_c', 'met__L_c']"
+    },
+    {
+      "bnumber": "b3941",
+      "gene_name": "metF",
+      "essential": 0,
+      "unproducible": "['amet_c', 'btn_c', 'met__L_c', 'sheme_c']"
+    },
+    {
+      "bnumber": "b3958",
+      "gene_name": "argC",
+      "essential": 1,
+      "unproducible": "['arg__L_c']"
+    },
+    {
+      "bnumber": "b3959",
+      "gene_name": "argB",
+      "essential": 0,
+      "unproducible": "['arg__L_c']"
+    },
+    {
+      "bnumber": "b3960",
+      "gene_name": "argH",
+      "essential": 0,
+      "unproducible": "['arg__L_c']"
+    },
+    {
+      "bnumber": "b3967",
+      "gene_name": "murI",
+      "essential": 1,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b3972",
+      "gene_name": "murB",
+      "essential": 0,
+      "unproducible": "['murein5px4p_p']"
+    },
+    {
+      "bnumber": "b3974",
+      "gene_name": "coaA",
+      "essential": 1,
+      "unproducible": "['coa_c']"
+    },
+    {
+      "bnumber": "b3992",
+      "gene_name": "thiF",
+      "essential": 0,
+      "unproducible": "['thmpp_c']"
+    },
+    {
+      "bnumber": "b3993",
+      "gene_name": "thiE",
+      "essential": 0,
+      "unproducible": "['thmpp_c']"
+    },
+    {
+      "bnumber": "b3994",
+      "gene_name": "thiC",
+      "essential": 0,
+      "unproducible": "['thmpp_c']"
+    },
+    {
+      "bnumber": "b3997",
+      "gene_name": "hemE",
+      "essential": 1,
+      "unproducible": "['pheme_c']"
+    },
+    {
+      "bnumber": "b4005",
+      "gene_name": "purD",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b4006",
+      "gene_name": "purH",
+      "essential": 0,
+      "unproducible": "['10fthf_c', 'amet_c', 'atp_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'datp_c', 'dgtp_c', 'fad_c', 'gtp_c', 'his__L_c', 'mlthf_c', 'nad_c', 'nadp_c', 'ribflv_c', 'thf_c']"
+    },
+    {
+      "bnumber": "b4013",
+      "gene_name": "metA",
+      "essential": 0,
+      "unproducible": "['amet_c', 'btn_c', 'met__L_c']"
+    },
+    {
+      "bnumber": "b4039",
+      "gene_name": "ubiC",
+      "essential": 0,
+      "unproducible": "['2ohph_c']"
+    },
+    {
+      "bnumber": "b4177",
+      "gene_name": "purA",
+      "essential": 0,
+      "unproducible": "['amet_c', 'atp_c', 'btn_c', 'coa_c', 'datp_c', 'fad_c', 'his__L_c', 'nad_c', 'nadp_c']"
+    },
+    {
+      "bnumber": "b4214",
+      "gene_name": "cysQ",
+      "essential": 0,
+      "unproducible": "['2fe2s_c', '4fe4s_c', 'amet_c', 'bmocogdp_c', 'btn_c', 'coa_c', 'cys__L_c', 'met__L_c', 'thmpp_c']"
+    },
+    {
+      "bnumber": "b4245",
+      "gene_name": "pyrB",
+      "essential": 0,
+      "unproducible": "['ctp_c', 'dctp_c', 'dttp_c', 'utp_c']"
+    },
+    {
+      "bnumber": "b4261",
+      "gene_name": "yjgP",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    },
+    {
+      "bnumber": "b4262",
+      "gene_name": "yjgQ",
+      "essential": 1,
+      "unproducible": "['kdo2lipid4_e']"
+    }
+  ]
+}
