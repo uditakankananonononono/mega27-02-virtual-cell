@@ -56,6 +56,7 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("--genes", nargs="*", default=None)
     r.add_argument("--tol", type=float, default=0.01)
     r.add_argument("--out", default=None, help="write CSV here")
+    r.add_argument("--no-known-uptake", nargs="*", default=[], help="supplement ids with no known uptake system in the organism (e.g. from vcell.uptake / TCDB); their rescues get no_known_uptake=True")
     args = p.parse_args(argv)
     if args.cmd == "rescue-audit":
         import csv
@@ -65,9 +66,12 @@ def main(argv: list[str] | None = None) -> int:
             met, _, pws = item.partition("=")
             sup[met] = {x for x in pws.split(",") if x}
         rows = rescue_audit(load_model(args.model), sup, load_kegg_links(args.gene_pathways), args.genes, args.tol)
+        nku = set(args.no_known_uptake)
+        for r_ in rows:
+            r_["no_known_uptake"] = r_["supplement"] in nku
         if args.out:
             with open(args.out, "w", newline="") as fh:
-                w = csv.DictWriter(fh, fieldnames=["gene", "supplement", "growth_ko", "growth_rescued", "label", "flag", "exceeds_wt"])
+                w = csv.DictWriter(fh, fieldnames=["gene", "supplement", "growth_ko", "growth_rescued", "label", "flag", "exceeds_wt", "no_known_uptake"])
                 w.writeheader(); w.writerows(rows)
         n_off = sum(r_["label"] == "off_pathway" for r_ in rows)
         print(f"{len(rows)} rescues: {len(rows) - n_off} on_pathway, {n_off} off_pathway (likely artifacts)")

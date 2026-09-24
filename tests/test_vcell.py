@@ -234,3 +234,28 @@ def test_rescue_audit_production_label():
     assert can_produce(m, "akg_c")
     rows = rescue_audit_production(m, ["akg_c"], genes=["b1136", "b0008"])
     assert [(r["gene"], r["label"]) for r in rows] == [("b1136", "on_pathway")]
+
+
+def test_uptake_systems_and_cli_flag(tmp_path):
+    """Hermetic: TCDB secondary-ID match finds ThiBPQ for thiamine; SAM has no system; CLI writes no_known_uptake."""
+    import warnings
+    warnings.filterwarnings("ignore")
+    from pathlib import Path
+    from vcell.uptake import load_tcdb_substrates, load_organism_tc, uptake_systems
+    from vcell.cli import main
+    t = tmp_path / "subs.tsv"
+    t.write_text("3.A.1.19.1\tCHEBI:9533;thiamine(1+) monophosphate|CHEBI:9530;thiamine(1+)\n2.A.21.1.1\tCHEBI:29032;pantothenate\n")
+    u = tmp_path / "up.tsv"
+    u.write_text("Entry\tGene Names (primary)\tTCDB\nP31550\tthiB\t3.A.1.19.1;\nP16256\tpanF\t2.A.21.1.1;\nA5A616\tmgtS\t\n")
+    tcdb, org = load_tcdb_substrates(str(t)), load_organism_tc(str(u))
+    assert uptake_systems({"CHEBI:18385", "CHEBI:9530"}, tcdb, org) == {"3.A.1.19.1": ["thiB"]}
+    assert uptake_systems({"CHEBI:18385"}, tcdb, org) == {}  # primary ID alone misses TCDB's secondary ID
+    assert uptake_systems({"CHEBI:59789"}, tcdb, org) == {}  # SAM: no system
+    mp = Path(__file__).resolve().parents[1] / "data" / "e_coli_core.json"
+    kg = tmp_path / "links.tsv"
+    kg.write_text("eco:b1136\tpath:eco00020\n")
+    out = tmp_path / "r.csv"
+    assert main(["rescue-audit", str(mp), "--supplement", "akg_c=00020", "--gene-pathways", str(kg),
+                 "--genes", "b1136", "--no-known-uptake", "akg_c", "--out", str(out)]) == 0
+    txt = out.read_text().splitlines()
+    assert txt[0].endswith("no_known_uptake") and txt[1].endswith("True")

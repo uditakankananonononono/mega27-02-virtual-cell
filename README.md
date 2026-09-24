@@ -31,13 +31,16 @@ tested and rejected in silico - preserved as a documented negative.
 python -m vcell audit-biomass MODEL.json [--genes b0001 ...] [--out audit.csv]
 python -m vcell bernstein-score iML1515 [--supplement btn thf] [--out score.json]
 python -m vcell rescue-audit MODEL.xml --supplement btn_c=00780 thf_c=00790,00670 \
-    --gene-pathways kegg_eco_pathway.tsv [--out rescues.csv]
+    --gene-pathways kegg_eco_pathway.tsv [--no-known-uptake amet_c nad_c thf_c pydx5p_c] [--out rescues.csv]
 ```
 `rescue-audit` implements the supplement-bypass finding (paper H.7,
 results/pathway_concordance.json): in-silico rescues whose knocked-out gene is
 not on the supplement's own KEGG pathway had median measured fitness -4.24 vs
 -0.97 for on-pathway rescues on the Bernstein 2023 benchmark, so off-pathway
 rescues are flagged `likely_artifact`. Caveats: confounded with supplement identity (mostly SAM), and not replicated in 8 other bacteria (paper H.8, results/cross_species_*.json: same direction, not significant), so treat the flag as an E. coli-validated heuristic.
+`--no-known-uptake` adds a `no_known_uptake` column for supplements the organism has no known transporter for;
+`vcell.uptake.uptake_systems` computes this from the TCDB substrate table and UniProt TCDB cross-references
+(paper H.16, results/uptake_plausibility.json: in E. coli K-12, SAM, NAD, THF and PLP have none; 6 of 7 off-pathway rescues use them).
 
 ## Dynamics
 dFBA (Mahadevan 2002 SOA, MM uptake): unregulated FBA co-utilizes acetate
