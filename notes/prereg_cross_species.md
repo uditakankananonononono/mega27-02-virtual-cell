@@ -92,3 +92,19 @@ Corrected criterion (a): >= 50% of the KEGG link/pathway gene ids are Fitness Br
 (identifier-namespace match). Observed: ccs 0.954, evi 0.945, dsu 0.949, pact 0.936, sme 0.969,
 psb 0.956 (fractions of FB locusIds: 0.31, 0.22, 0.34, 0.23, 0.33, 0.35). All other rules unchanged.
 Included pending criterion (b): Caulo, Cola, PS, Ponti, Smeli, SyringaeB728a.
+
+## Amendment 5 (new confirmatory test, written after amendments 3-4 results were known; git time authoritative)
+The KEGG label limited the test to 6 organisms. This amendment defines a KEGG-free, model-internal label and
+applies it to every eligible organism, so the organism set is not chosen by outcome.
+- Label: for a rescue of gene g by supplement s, g is on_pathway if, in the medium without supplements,
+  knocking out g reduces the maximum flux of a demand reaction for s to < 1e-6 (g is needed to make s);
+  otherwise off_pathway (the supplement bypasses g by another route).
+- Organisms: every bacterial organism in the Fitness Browser Feb 2024 release except Keio (discovery),
+  SyringaeB728a_mexBdelta (duplicate strain) and the two Methanococcus archaea. This includes MR1, Putida,
+  SynE and the six amendment-3 organisms. Models: CarveMe exactly as amendment 3; medium M9 glucose;
+  organisms whose model does not grow are listed and excluded.
+- Outcome, aggregation, supplements and fitness percentiles exactly as amendment 3.
+- PRIMARY: pooled one-sided Mann-Whitney on within-organism percentiles, on > off; REPLICATED if p < 0.05
+  and difference > 0; FALSIFIED if difference <= 0; UNDERPOWERED if < 10 genes per group.
+- Secondary: the same excluding SAM-only rescues; per-organism verdicts; the same label applied to
+  E. coli iML1515 on the Bernstein benchmark rows (consistency check with H.7).
