@@ -1,0 +1,201 @@
+{
+ "org": "Koxy",
+ "wt": 0.9866601058222667,
+ "n_genes_model": 2037,
+ "n_rescue_pairs": 24,
+ "missing_supplements": [],
+ "genes": {
+  "BWI76_RS17865": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.1541666666666666,
+   "percentile": 0.16583333333333333
+  },
+  "BWI76_RS26005": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": 0.05,
+   "percentile": 0.8645833333333334
+  },
+  "BWI76_RS11305": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS02565": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS21360": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.1399999999999999,
+   "percentile": 0.18875
+  },
+  "BWI76_RS24485": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.3,
+   "percentile": 0.07322916666666666
+  },
+  "BWI76_RS25135": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS19660": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS19375": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.2333333333333333,
+   "percentile": 0.09885416666666667
+  },
+  "BWI76_RS05000": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS01655": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -3.455555555555556,
+   "percentile": 0.002916666666666667
+  },
+  "BWI76_RS24050": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS04995": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": 0.08,
+   "percentile": 0.9059375
+  },
+  "BWI76_RS00805": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -3.4625,
+   "percentile": 0.0027083333333333334
+  },
+  "BWI76_RS11715": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS08060": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS04845": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.2666666666666666,
+   "percentile": 0.0846875
+  },
+  "BWI76_RS04990": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.0416666666666666,
+   "percentile": 0.52375
+  },
+  "BWI76_RS16410": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS21305": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "BWI76_RS20895": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -2.9214285714285717,
+   "percentile": 0.009583333333333333
+  },
+  "BWI76_RS08580": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.2333333333333333,
+   "percentile": 0.09885416666666667
+  },
+  "BWI76_RS22700": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.5249999999999999,
+   "percentile": 0.0403125
+  },
+  "BWI76_RS01550": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.2071428571428571,
+   "percentile": 0.109375
+  }
+ }
+}

@@ -159,6 +159,16 @@
    "XGBoost 3.2 (incl. TreeSHAP pred_contribs)",
    "gradient-boosting library",
    "alternative learner on the v2 feature set (negative vs v2 LR) and per-feature attribution (results/xgb_shap.json)"
+  ],
+  [
+   "AlphaFold Protein Structure Database (API v4, AlphaFold Monomer v2.0 models)",
+   "predicted structure confidence",
+   "mean pLDDT and fraction very-low pLDDT for 1246 model genes (results/v6_structure_domain.json)"
+  ],
+  [
+   "Pfam (family annotations via UniProt xref_pfam)",
+   "protein family database",
+   "Pfam families for 1245 model genes; fold-internal family essentiality feature"
   ]
  ],
  "datasets": [
@@ -333,6 +343,14 @@
   [
    "Rousset et al. 2018 PLoS Genet S12 genome-wide CRISPRi gene table (doi:10.1371/journal.pgen.1007749.s012, PMC6242692)",
    "external essentiality benchmark"
+  ],
+  [
+   "AlphaFold DB predictions AF-<UniProt>-F1 for E. coli K-12 model genes (data/external/alphafold/af_metrics.tsv)",
+   "structure confidence"
+  ],
+  [
+   "UniProt UP000000625 Pfam cross-references (data/external/uniprot_ecoli_pfam.tsv)",
+   "protein families"
   ]
  ],
  "infrastructure_not_counted": [

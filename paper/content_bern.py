@@ -192,4 +192,16 @@ def story_bern(story, R):
                 f"CRISPRi-essential genes are Gerdes-nonessential, so the AUROC of {rv['gerdes_nonessential_subset']['auroc_v2_lr']:.3f} on that "
                 "subset rests on very few positives), and CRISPRi is polar within operons. This is agreement across assays, not a new "
                 "state of the art.", BODY)]
+    v6 = R('v6_structure_domain.json')
+    story += [P('H.12 Structure confidence and Pfam families add nothing (pre-registered negative)', H2),
+              P(f"We tested whether predicted protein order and domain family membership carry essentiality signal beyond v2 "
+                f"(notes/prereg_structure_domain_features.md, committed before scoring). Features: AlphaFold DB mean pLDDT and fraction "
+                f"of very-low pLDDT residues ({v6['af_coverage']} of {v6['n_genes']} genes), number of Pfam families, and a fold-internal "
+                f"Pfam essentiality rate computed only from training-fold genes. On their own these features reach AUROC "
+                f"{v6['auroc']['new_features_only']:.3f} (univariate pLDDT {v6['univariate_auroc']['plddt_mean']:.3f}). Added to v2 on the "
+                f"same folds, AUROC moves from {v6['auroc']['v2_lr']:.3f} to {v6['auroc']['v6_lr']:.3f} (paired difference "
+                f"{v6['primary_auroc_v6_minus_v2']['diff']:+.4f}, 95% CI {v6['primary_auroc_v6_minus_v2']['ci95'][0]:+.4f} to "
+                f"{v6['primary_auroc_v6_minus_v2']['ci95'][1]:+.4f}); AUPRC and the Rousset CRISPRi check are also flat. Verdict: "
+                f"{v6['verdict']} (results/v6_structure_domain.json). Nearly all E. coli proteins in the model are well folded "
+                f"(median pLDDT near 95), so order does not separate essential from non-essential enzymes.", BODY)]
     return story
