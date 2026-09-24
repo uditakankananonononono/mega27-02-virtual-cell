@@ -49,3 +49,14 @@ KT2440 under the same protocol and criteria, with these organism-specific inputs
 - Gene -> pathway: KEGG link/pathway/ppu.
 - Supplements: same seven cofactors, BiGG ids btn_c, thm_c, pnto__R_c, thf_c, nad_c, amet_c, pydx5p_c.
 Verdict rules unchanged; each organism is reported separately.
+
+## Amendment 2 (written before any Synechococcus analysis; git commit time is authoritative)
+Add Synechococcus elongatus PCC 7942 under the same protocol and criteria:
+- GEM iJB785 (BiGG, bigg.ucsd.edu/static/models/iJB785.json.gz); medium: the model's own
+  photoautotrophic default (photons, CO2/HCO3, nitrate, inorganic ions) with the only organic
+  uptake (L-leucine) closed; no vitamins.
+- Gene ids mapped to old locus tags (Synpcc7942_xxxx) via the model's refseq_old_locus_tag annotation.
+- Fitness: Fitness Browser Feb 2024 release, db.StrainFitness.SynE, aggregated exactly as for P. putida.
+- Gene -> pathway: KEGG link/pathway/syf. Supplements: same seven BiGG cofactor ids.
+Verdict rules unchanged; reported separately. A pooled analysis across organisms is NOT
+pre-registered and, if shown, will be labelled exploratory.
