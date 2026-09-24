@@ -1,0 +1,210 @@
+{
+ "n_universe": 1237,
+ "n_annotated_genes_total": 3874,
+ "gaf_rows_unmapped": 1830,
+ "n_fn": 41,
+ "n_fp": 45,
+ "false_negatives": [],
+ "false_positives": [
+  {
+   "go": "GO:0009058",
+   "name": "biosynthetic process",
+   "ns": "BP",
+   "study": "38/45",
+   "pop": "447/1237",
+   "p_fdr_bh": 5.576485426052143e-08
+  },
+  {
+   "go": "GO:0006777",
+   "name": "Mo-molybdopterin cofactor biosynthetic process",
+   "ns": "BP",
+   "study": "6/45",
+   "pop": "11/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0043545",
+   "name": "molybdopterin cofactor metabolic process",
+   "ns": "BP",
+   "study": "6/45",
+   "pop": "11/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0019720",
+   "name": "Mo-molybdopterin cofactor metabolic process",
+   "ns": "BP",
+   "study": "6/45",
+   "pop": "11/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0032324",
+   "name": "molybdopterin cofactor biosynthetic process",
+   "ns": "BP",
+   "study": "6/45",
+   "pop": "11/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0090407",
+   "name": "organophosphate biosynthetic process",
+   "ns": "BP",
+   "study": "19/45",
+   "pop": "165/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0006754",
+   "name": "ATP biosynthetic process",
+   "ns": "BP",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0042777",
+   "name": "proton motive force-driven plasma membrane ATP synthesis",
+   "ns": "BP",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0015986",
+   "name": "proton motive force-driven ATP synthesis",
+   "ns": "BP",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0016469",
+   "name": "proton-transporting two-sector ATPase complex",
+   "ns": "CC",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0034703",
+   "name": "cation channel complex",
+   "ns": "CC",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0045259",
+   "name": "proton-transporting ATP synthase complex",
+   "ns": "CC",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0042625",
+   "name": "ATPase-coupled ion transmembrane transporter activity",
+   "ns": "MF",
+   "study": "5/45",
+   "pop": "6/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0046961",
+   "name": "proton-transporting ATPase activity, rotational mechanism",
+   "ns": "MF",
+   "study": "5/45",
+   "pop": "6/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0044769",
+   "name": "ATPase activity, coupled to transmembrane movement of ions, rotational mechanism",
+   "ns": "MF",
+   "study": "5/45",
+   "pop": "6/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0015252",
+   "name": "proton channel activity",
+   "ns": "MF",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0046933",
+   "name": "proton-transporting ATP synthase activity, rotational mechanism",
+   "ns": "MF",
+   "study": "5/45",
+   "pop": "7/1237",
+   "p_fdr_bh": 0.00022264129800682366
+  },
+  {
+   "go": "GO:0009201",
+   "name": "ribonucleoside triphosphate biosynthetic process",
+   "ns": "BP",
+   "study": "6/45",
+   "pop": "12/1237",
+   "p_fdr_bh": 0.00025483823606269924
+  },
+  {
+   "go": "GO:0009142",
+   "name": "nucleoside triphosphate biosynthetic process",
+   "ns": "BP",
+   "study": "6/45",
+   "pop": "12/1237",
+   "p_fdr_bh": 0.00025483823606269924
+  },
+  {
+   "go": "GO:0051189",
+   "name": "prosthetic group metabolic process",
+   "ns": "BP",
+   "study": "6/45",
+   "pop": "13/1237",
+   "p_fdr_bh": 0.0004373896013111694
+  },
+  {
+   "go": "GO:0034702",
+   "name": "monoatomic ion channel complex",
+   "ns": "CC",
+   "study": "5/45",
+   "pop": "8/1237",
+   "p_fdr_bh": 0.00046762136778787864
+  },
+  {
+   "go": "GO:0005737",
+   "name": "cytoplasm",
+   "ns": "CC",
+   "study": "29/45",
+   "pop": "378/1237",
+   "p_fdr_bh": 0.0005029707670025118
+  },
+  {
+   "go": "GO:0019637",
+   "name": "organophosphate metabolic process",
+   "ns": "BP",
+   "study": "22/45",
+   "pop": "241/1237",
+   "p_fdr_bh": 0.0008598997113947794
+  },
+  {
+   "go": "GO:0009206",
+   "name": "purine ribonucleoside triphosphate biosynthetic process",
+   "ns": "BP",
+   "study": "5/45",
+   "pop": "9/1237",
+   "p_fdr_bh": 0.0008598997113947794
+  },
+  {
+   "go": "GO:0009145",
+   "name": "purine nucleoside triphosphate biosynthetic process",
+   "ns": "BP",
+   "study": "5/45",
+   "pop": "9/1237",
+   "p_fdr_bh": 0.0008598997113947794
+  }
+ ]
+}

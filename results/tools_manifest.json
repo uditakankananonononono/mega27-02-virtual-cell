@@ -169,6 +169,11 @@
    "ESM-2 t6-8M (fair-esm 2.0; Lin et al. 2023)",
    "deep-learning model",
    "protein language-model embeddings for all 4,300 CDS; v4 essentiality feature test (negative)"
+  ],
+  [
+   "goatools 1.6 (GOEnrichmentStudy)",
+   "package",
+   "GO enrichment of ensemble hard errors (Fisher + BH)"
   ]
  ],
  "datasets": [
@@ -255,6 +260,14 @@
   [
    "PaxDb 511145 WHOLE_ORGANISM integrated",
    "protein abundance"
+  ],
+  [
+   "Gene Ontology go-basic.obo (current release)",
+   "ontology"
+  ],
+  [
+   "GO Consortium EcoCyc GAF (taxon 83333)",
+   "GO annotations"
   ]
  ]
 }
