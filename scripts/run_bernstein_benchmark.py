@@ -27,6 +27,8 @@ else:
 med, carb, carb_exp = g['load_environment'](BASE)
 dexp, dgenes, dfit = g['load_data'](BASE)
 gm, cem, cmm, fm = g['match_model_data'](model, carb, carb_exp, dexp, dgenes, dfit)
+# their model_adjustments body reads the notebook-global name_genes_matched (param is names_genes_matched)
+g['name_genes_matched'] = gm
 model_adj, gma, cema, cmma, fma = g['model_adjustments'](1, 1, 1, model, gm, cem, cmm, fm)
 added = []
 for mid in supplements:  # intracellular exchange, same construction as Bernstein Part 6
