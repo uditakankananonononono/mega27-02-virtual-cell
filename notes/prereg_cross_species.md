@@ -108,3 +108,14 @@ applies it to every eligible organism, so the organism set is not chosen by outc
   and difference > 0; FALSIFIED if difference <= 0; UNDERPOWERED if < 10 genes per group.
 - Secondary: the same excluding SAM-only rescues; per-organism verdicts; the same label applied to
   E. coli iML1515 on the Bernstein benchmark rows (consistency check with H.7).
+
+## Amendment 6 (validity note, written BEFORE the amendment-5 primary is computed; the interim xs5 output has not been read)
+The amendment-5 secondary consistency check on E. coli (scripts/run_xs5_ecoli_consistency.py,
+results/xs5_ecoli_consistency.json) labels all 750 labelled H.7 rescue rows on_pathway and none off_pathway.
+Cause, verified directly: knocking out purine-biosynthesis genes (e.g. purB b2476, purK b0523) abolishes de-novo
+production of SAM, because SAM contains an adenosine moiety, so the production-blocked label calls SAM rescues of purine
+genes "on_pathway", while the KEGG label of H.7 calls them off_pathway. The two labels therefore measure different things
+for SAM (and for NAD, which also carries adenosine). Consequences, fixed now: (1) the amendment-5 primary is still run and
+reported exactly as written; (2) the pre-specified secondary excluding SAM-only rescues is the closer analogue of H.7 and
+will be reported beside it; (3) the E. coli consistency check is reported as uninformative (degenerate label), not as a
+failure or success of the finding. No other change.

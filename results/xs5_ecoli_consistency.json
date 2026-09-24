@@ -1,0 +1,9 @@
+{
+ "n_rows_H7": 922,
+ "n_rows_labelled": 750,
+ "n_on_rows": 750,
+ "n_off_rows": 0,
+ "n_on_genes": 30,
+ "n_off_genes": 0,
+ "consistent_with_H7": false
+}
