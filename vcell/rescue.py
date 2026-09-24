@@ -52,7 +52,8 @@ def rescue_audit(model: cobra.Model, supplements: dict[str, set[str]],
                     on = bool(gene_pathways.get(gid, set()) & set(pws))
                     rows.append({"gene": gid, "supplement": met, "growth_ko": base, "growth_rescued": gr,
                                  "label": "on_pathway" if on else "off_pathway",
-                                 "flag": "" if on else "likely_artifact"})
+                                 "flag": "" if on else "likely_artifact",
+                                 "exceeds_wt": bool(gr > 1.01 * wt)})
     return rows
 
 
@@ -104,5 +105,6 @@ def rescue_audit_production(model: cobra.Model, supplements: list[str], genes: l
                     on = not can_produce(model, met)
                     rows.append({"gene": gid, "supplement": met, "growth_ko": base, "growth_rescued": gr,
                                  "label": "on_pathway" if on else "off_pathway",
-                                 "flag": "" if on else "likely_artifact"})
+                                 "flag": "" if on else "likely_artifact",
+                                 "exceeds_wt": bool(gr > 1.01 * wt)})
     return rows

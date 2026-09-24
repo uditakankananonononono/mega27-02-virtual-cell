@@ -67,7 +67,7 @@ def main(argv: list[str] | None = None) -> int:
         rows = rescue_audit(load_model(args.model), sup, load_kegg_links(args.gene_pathways), args.genes, args.tol)
         if args.out:
             with open(args.out, "w", newline="") as fh:
-                w = csv.DictWriter(fh, fieldnames=["gene", "supplement", "growth_ko", "growth_rescued", "label", "flag"])
+                w = csv.DictWriter(fh, fieldnames=["gene", "supplement", "growth_ko", "growth_rescued", "label", "flag", "exceeds_wt"])
                 w.writeheader(); w.writerows(rows)
         n_off = sum(r_["label"] == "off_pathway" for r_ in rows)
         print(f"{len(rows)} rescues: {len(rows) - n_off} on_pathway, {n_off} off_pathway (likely artifacts)")

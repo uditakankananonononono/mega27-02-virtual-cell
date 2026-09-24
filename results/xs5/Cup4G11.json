@@ -1,0 +1,134 @@
+{
+ "org": "Cup4G11",
+ "wt": 1.4062977152420246,
+ "n_genes_model": 1726,
+ "n_rescue_pairs": 20,
+ "missing_supplements": [],
+ "genes": {
+  "RR42_RS17265": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": 0.0267857142857142,
+   "percentile": 0.8253968253968254
+  },
+  "RR42_RS17455": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS13090": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS03225": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS14340": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS01440": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS13480": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS01370": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS17250": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS01385": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -2.8833333333333337,
+   "percentile": 0.001221001221001221
+  },
+  "RR42_RS35170": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS16055": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS03220": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "RR42_RS17020": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.1777777777777777,
+   "percentile": 0.11492673992673992
+  },
+  "RR42_RS13045": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c",
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  }
+ }
+}

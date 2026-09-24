@@ -164,4 +164,16 @@ def story_bern(story, R):
                 'biosynthesis genes (purK, purE, purB, purA, purC), biotin rescuing fabH and thiamine rescuing b4407 '
                 '(results/rescue_audit_iML1515_M9.csv). Neither COBRApy nor MEMOTE, the tools used here, labels '
                 'supplement rescues by pathway concordance.', BODY)]
+    sm = R('sam_bypass_mechanism.json'); rg = sm['rescued_growth']['b0523']
+    story += [P('H.10 Mechanism of the SAM bypass (exploratory, not pre-registered)', H2),
+              P(f"SAM is the supplement behind most off-pathway rescues in E. coli and all of them in P. putida. In iML1515 on glucose "
+                f"minimal medium SAM rescues knockouts of five purine biosynthesis genes (purK, purE, purB, purA, purC). Removing single "
+                f"reactions shows the route (results/sam_bypass_mechanism.json): every one of the five rescues needs SAH nucleosidase "
+                f"(AHCYSNS, mtnN/b0159; rescued growth {rg['none']:.2f} to {rg['AHCYSNS (SAH nucleosidase)']:.2f} per h). SAM is "
+                f"methyl-transferred to S-adenosylhomocysteine, the nucleosidase releases adenine (Rhea RHEA:17805; UniProt P0AF12), and "
+                f"adenine enters purine salvage. The rescued mutant grows at {rg['none']:.2f} per h against {sm['wt_growth']:.2f} for the "
+                f"wild type: with homocysteine S-methyltransferase (HCYSMT) the model uses the supplied SAM as a bulk carbon and purine "
+                f"source; without it the rescue remains at {rg['HCYSMT (homocysteine S-methyltransferase)']:.2f} per h. Two practical "
+                "rules follow and are built into vcell rescue-audit: flag off-pathway rescues, and flag any rescue whose growth exceeds the "
+                "unmodified model (column exceeds_wt), because a cofactor supplied at trace need cannot raise growth above wild type.", BODY)]
     return story

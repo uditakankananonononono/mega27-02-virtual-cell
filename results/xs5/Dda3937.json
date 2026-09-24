@@ -1,0 +1,217 @@
+{
+ "org": "Dda3937",
+ "wt": 1.3470300395444417,
+ "n_genes_model": 1482,
+ "n_rescue_pairs": 26,
+ "missing_supplements": [],
+ "genes": {
+  "spontaneous": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DDA3937_RS11255": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.2409090909090909,
+   "percentile": 0.621847658260422
+  },
+  "DDA3937_RS18585": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.3375,
+   "percentile": 0.010293360782295419
+  },
+  "DDA3937_RS15110": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.38,
+   "percentile": 0.009521358723623263
+  },
+  "DDA3937_RS15105": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.1875,
+   "percentile": 0.013638703036541432
+  },
+  "DDA3937_RS15770": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.2906976744186046,
+   "percentile": 0.4059444158517756
+  },
+  "DDA3937_RS01815": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.3648148148148148,
+   "percentile": 0.2111425630468348
+  },
+  "DDA3937_RS14450": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DDA3937_RS17130": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DDA3937_RS03035": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.4,
+   "percentile": 0.16932578486875965
+  },
+  "DDA3937_RS09370": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.6,
+   "percentile": 0.06703551209469892
+  },
+  "DDA3937_RS15335": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.1699999999999999,
+   "percentile": 0.8584662892434379
+  },
+  "DDA3937_RS15950": {
+   "label": "on_pathway",
+   "supplements": [
+    "thf_c"
+   ],
+   "median_fitness": -0.8500000000000001,
+   "percentile": 0.03100874935666495
+  },
+  "DDA3937_RS19065": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.4301724137931034,
+   "percentile": 0.13973237261966032
+  },
+  "DDA3937_RS18540": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DDA3937_RS15955": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.377027027027027,
+   "percentile": 0.1930005146680391
+  },
+  "DDA3937_RS11390": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DDA3937_RS06185": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": null,
+   "percentile": null
+  },
+  "DDA3937_RS17955": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.255,
+   "percentile": 0.5532681420483788
+  },
+  "DDA3937_RS15960": {
+   "label": "on_pathway",
+   "supplements": [
+    "pnto__R_c"
+   ],
+   "median_fitness": -0.2596153846153846,
+   "percentile": 0.531394750386001
+  },
+  "DDA3937_RS12575": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.6375,
+   "percentile": 0.05970149253731343
+  },
+  "DDA3937_RS15720": {
+   "label": "on_pathway",
+   "supplements": [
+    "pydx5p_c"
+   ],
+   "median_fitness": -0.71875,
+   "percentile": 0.04529078744209985
+  },
+  "DDA3937_RS06075": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -1.9722222222222223,
+   "percentile": 0.000514668039114771
+  },
+  "DDA3937_RS06545": {
+   "label": "on_pathway",
+   "supplements": [
+    "nad_c"
+   ],
+   "median_fitness": -0.278,
+   "percentile": 0.4518785383427689
+  },
+  "DDA3937_RS00950": {
+   "label": "on_pathway",
+   "supplements": [
+    "amet_c"
+   ],
+   "median_fitness": -0.4615384615384615,
+   "percentile": 0.11927431806484817
+  },
+  "DDA3937_RS01170": {
+   "label": "on_pathway",
+   "supplements": [
+    "thm_c"
+   ],
+   "median_fitness": -0.3684210526315789,
+   "percentile": 0.20483787956767885
+  }
+ }
+}
