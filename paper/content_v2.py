@@ -84,8 +84,8 @@ def story_v2(story, R):
                 'literature database, and dozens of data files share one provider accession. In particular 44 organism '
                 'fitness matrices are files within figshare accession 25236931, not 44 separate accessions. '
                 'See results/tools_strict_audit.csv, results/datasets_accession_audit.csv and results/gate_audit.json '
-                'for exclusions and an upper bound. Neither 40 genuinely used science/data tools nor 120 distinct '
-                'fetched-and-used accession datasets is established by this manifest.', BODY)]
+                'for exclusions. Neither strict gate follows from the old manifest counts alone; Appendix I '
+                'reports the newer independently checked model and PaxDb accessions and additional science packages.', BODY)]
     story += tbl([['#', 'tool', 'kind', 'used for']] + [[str(i + 1)] + [C(x) for x in t] for i, t in enumerate(m['tools'])],
                  'Table 17. Tool/source inventory (not the strict gate count).', widths=[0.3 * inch, 2.3 * inch, 0.9 * inch, 3.2 * inch])
     story += tbl([['#', 'dataset', 'type']] + [[str(i + 1)] + [C(x) for x in d] for i, d in enumerate(m['datasets'])],
