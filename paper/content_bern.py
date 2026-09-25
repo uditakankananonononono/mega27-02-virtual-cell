@@ -318,10 +318,11 @@ def story_bern(story, R):
                 f"{qb['n_auroc_above_half']} of {qb['n']} B. subtilis PaxDb datasets (sign test p = {qb['sign_test_p']:.3f}, the smallest "
                 f"possible with five; pooled AUROC {qb['pooled_auroc']:.3f}, 95% CI {qb['ci95'][0]:.3f} to {qb['ci95'][1]:.3f}): {qb['verdict']} "
                 "(results/paxdb_bsub.json; notes/prereg_paxdb_bsub.md). "
-                f"Dataset counting: the manifest lists {sc['n_manifest_entries']} accession-level entries. Counting one per source study "
-                "(re-deposits, quantification variants and fractions of one study collapse; derived tables not counted) gives "
-                f"{sc['n_strict']}; that strict number is the one we report. The rule and the collapsed groups are in "
-                "results/datasets_strict_count.json.", BODY)]
+                f"Earlier study-grouping counted {sc['n_manifest_entries']} raw manifest entries and reported {sc['n_strict']} study keys. "
+                "That is not an accession-level count. In particular, 44 Fitness Browser files all share one figshare "
+                "article accession (25236931), dropping that old 124 key count to an upper bound of 81 before other "
+                "unaccessioned sources are excluded. See results/gate_audit.json and the accession audit ledger; "
+                "the 120-accession gate remains unmet.", BODY)]
     pa = R('paxdb_pao1.json'); qa = pa['primary']
     story += [P('H.23 P. aeruginosa (pre-registered)', H2),
               P(f"Against the {pa['n_core_named']} named core essential genes of Poulsen et al. (2019), matched to PAO1 by gene name, "

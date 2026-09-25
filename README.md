@@ -69,3 +69,14 @@ python -m pytest tests/ -q
 
 Data sources: BiGG Models (e_coli_core, iJO1366), NCBI GenBank U00096.3,
 Gerdes et al. 2003 J Bacteriol 185:5673 (genome.wisc.edu supplement).
+
+## Strict evidence gates (25 September 2026 audit)
+The old `results/tools_manifest.json` describes 40 tool/source entries and 153
+data entries. They do **not** establish 40 science/data tools or 120 distinct
+accession-level fetched-and-used datasets. Four listed entries are plainly
+outside the tool count (three download/list pages and PubMed Central). Forty-four
+Fitness Browser organism files share figshare article accession 25236931,
+so even the old 124-study grouping falls to an **81-accession upper bound**
+before remaining unaccessioned sources and use verification. `results/gate_audit.json`
+and the two audit CSVs preserve the exclusions. Both gates are **unmet**; do not
+report the inventory lengths as gate completion.

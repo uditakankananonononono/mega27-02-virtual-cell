@@ -79,12 +79,15 @@ def story_v2(story, R):
                 'to beat. The claim is only the internal, paired comparison above.', BODY)]
     m = R('tools_manifest.json')
     story += [PageBreak(), P('Appendix G. External tools and dataset manifest', H1),
-              P(f'This appendix lists every external tool ({len(m["tools"])}) and every accession-level dataset '
-                f'({len(m["datasets"])}) actually used in this work. A condition matrix from one study counts as one '
-                'dataset (the Keio_ML9 RB-TnSeq matrix has 92 conditions but is listed once). Nothing is listed that '
-                'was only considered.', BODY)]
+              P(f'This appendix transcribes {len(m["tools"])} tool/source entries and {len(m["datasets"])} data-entry descriptions from the '
+                'project manifest. These raw counts are not the strict gates: the tool list contains download pages and a '
+                'literature database, and dozens of data files share one provider accession. In particular 44 organism '
+                'fitness matrices are files within figshare accession 25236931, not 44 separate accessions. '
+                'See results/tools_strict_audit.csv, results/datasets_accession_audit.csv and results/gate_audit.json '
+                'for exclusions and an upper bound. Neither 40 genuinely used science/data tools nor 120 distinct '
+                'fetched-and-used accession datasets is established by this manifest.', BODY)]
     story += tbl([['#', 'tool', 'kind', 'used for']] + [[str(i + 1)] + [C(x) for x in t] for i, t in enumerate(m['tools'])],
-                 'Table 17. External tools.', widths=[0.3 * inch, 2.3 * inch, 0.9 * inch, 3.2 * inch])
+                 'Table 17. Tool/source inventory (not the strict gate count).', widths=[0.3 * inch, 2.3 * inch, 0.9 * inch, 3.2 * inch])
     story += tbl([['#', 'dataset', 'type']] + [[str(i + 1)] + [C(x) for x in d] for i, d in enumerate(m['datasets'])],
-                 'Table 18. Dataset manifest.', widths=[0.3 * inch, 4.3 * inch, 2.0 * inch])
+                 'Table 18. Data-entry inventory (files and study descriptions; not 153 accessions).', widths=[0.3 * inch, 4.3 * inch, 2.0 * inch])
     return story

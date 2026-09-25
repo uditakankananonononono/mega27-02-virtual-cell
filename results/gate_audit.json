@@ -1,0 +1,17 @@
+{
+  "tools_manifest_total": 40,
+  "tool_obvious_exclusions": 4,
+  "tool_candidate_upper_bound": 36,
+  "datasets_manifest_total": 153,
+  "legacy_study_count": 124,
+  "figshare_fitness_files": 44,
+  "figshare_source_accessions": 1,
+  "dataset_accession_upper_bound_after_known_collapse": 81,
+  "verified_strict_accession_count": null,
+  "gates": {
+    "tools": 40,
+    "datasets": 120
+  },
+  "verdict": "not verified; both gates unmet on available evidence",
+  "caveat": "Bound does not exclude remaining unaccessioned pages or unverified use; it is not a count of passed items."
+}
