@@ -1,0 +1,26 @@
+[
+  {
+    "source": "KEGG eco pathway",
+    "url": "https://rest.kegg.jp/link/pathway/eco",
+    "saved_path": "data/external/kegg_eco_pathway.tsv",
+    "live_sha256": "9761ba05df57c5ceac52cf556b82c48f21b5391ae778e8ee0cf567a6594e3184",
+    "saved_sha256": "9761ba05df57c5ceac52cf556b82c48f21b5391ae778e8ee0cf567a6594e3184",
+    "live_rows": 4990,
+    "saved_rows": 4990,
+    "exact_bytes": true,
+    "same_rows_ignoring_order": true,
+    "caveat": "Current public source identity check; historical acquisition time cannot be independently reconstructed."
+  },
+  {
+    "source": "TCDB substrates",
+    "url": "https://tcdb.org/cgi-bin/substrates/getSubstrates.py",
+    "saved_path": "data/external/tcdb/tcdb_substrates.tsv",
+    "live_sha256": "237ea2adbd1eb764f9f9c656937b5444ed62fb2006cc4e785768087ece020777",
+    "saved_sha256": "5651cf46ef8d0ac600550315a35dae66cbc91f95ddf0fe51d03d6ff60447696c",
+    "live_rows": 9223,
+    "saved_rows": 9223,
+    "exact_bytes": false,
+    "same_rows_ignoring_order": true,
+    "caveat": "Current public source identity check; historical acquisition time cannot be independently reconstructed."
+  }
+]

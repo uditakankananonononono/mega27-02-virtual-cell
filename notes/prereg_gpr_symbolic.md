@@ -1,0 +1,2 @@
+# Symbolic GPR sensitivity (25 September 2026)
+Before running: parse every non-empty iJO1366 GPR independently with SymPy Boolean algebra. For each gene named in each reaction, evaluate a single-gene knockout while all other genes are true, then compare against COBRApy GPR evaluation. Report all mismatches; independently confirm actual moaD reaction bounds after knockout. This tests GPR semantics, not phenotype truth or experimental essentiality.

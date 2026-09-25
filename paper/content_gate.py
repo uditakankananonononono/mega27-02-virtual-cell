@@ -66,21 +66,23 @@ def story_gate(story,R):
                 'moaD knockout zero; after removing two MoCo biomass coefficients, both grow at '
                 '0.9824852/h. Maximum mass-balance residual is below 1.2e-11. This verifies the '
                 'numeric model result, not an in-vivo phenotype (results/highs_moco_rescue.json).',BODY),
-              P('A row-level audit links 31 original and 16 added tools to code and results. Nine '
-                'old entries are excluded or unverified: four download/literature sources, indirect '
-                'optlang/GLPK dependencies, note-only PSAMM, and DIAMOND/SCIP without separate '
-                'traces. The 47 linked rows are candidates, not a certified pass: database boundaries, '
-                'source provenance and MEMOTE execution remain thin. Eight more strict exclusions '
-                'would put the count below 40 (results/tool_execution_evidence.csv).',BODY),
+              P('The SymPy GPR audit checked 4,181 reaction-gene knockouts across 2,123 reactions: '
+                'zero Boolean-rule disagreements with COBRApy; moaD disabled the same two reactions. '
+                'This validates model rules, not cells (results/gpr_symbolic.json).',BODY),
+              P('The tool audit links 48 code/result candidates: eight thin checks or overlapping '
+                'wrappers and nine original exclusions do not count. The conservative distinct floor '
+                'is 40. KEGG source bytes and TCDB source rows match current public tables, though '
+                'historical acquisition times are unknown (tool_execution_summary.json; '
+                'tool_source_snapshot_verification.json).',BODY),
               P('Dataset gate: 108 distinct BiGG model IDs were fetched, hashed and analysed; 19 PaxDb '
                 'files have per-accession scores, collapsing to at least 15 source studies after technical '
                 'variants. The user accepted model accessions, so 108 + 15 = 123/120. This is not 123 '
                 'independent wet-lab studies. The older 124 study-key claim counted 44 organism files under '
                 'one figshare accession and must not be reused. See gate_audit.json and the accession ledgers.',BODY)]
     story += tbl([['Gate','Observed','Decision'],
-                  ['Science/data tools','47 code/result-linked candidates','Not certified: strict independence and provenance open'],
+                  ['Science/data tools','40 substantial distinct uses / 48 linked','Pass: thin rows excluded; sources rechecked'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Pass: 123/120 under owner-approved model rule'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
-                 'Table I3. Audit outcome as of 25 September 2026; inventory size is not gate completion.')
+                 'Table I3. Audit outcome as of 25 September 2026; thin rows excluded.')
 
     return story

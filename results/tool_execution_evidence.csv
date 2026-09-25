@@ -19,7 +19,7 @@ LBL Fitness Browser / RB-TnSeq downloads,17,web resource,excluded_or_unverified,
 Bernstein et al. 2023 pipeline (GitHub dbernste/E_coli_GEM_validation),18,published tool,code_result_linked,scripts/run_bernstein_benchmark.py,results/bernstein/iML1515_base.json,executes released Bernstein notebook pipeline
 STRING v12,19,database,code_result_linked,vcell/external_features.py,results/external_features.csv,STRING network into model features
 UniProt REST,20,web API,code_result_linked,vcell/external_features.py,results/external_features.csv,UniProt protein features from saved query table
-KEGG REST,21,web API,code_result_linked,scripts/run_pathway_enrichment.py,results/pathway_enrichment.json,KEGG pathways tested by gseapy
+KEGG REST,21,web API,code_result_linked,scripts/run_pathway_enrichment.py,results/pathway_enrichment.json,KEGG pathways tested by gseapy; public table re-fetched at results/tool_source_snapshot_verification.json
 PubMed Central,22,literature,excluded_or_unverified,,,literature database expressly excluded
 PaxDb,23,database,code_result_linked,scripts/run_paxdb_datasets.py,results/paxdb_accession_evidence.csv,PaxDb accessioned abundance scored per dataset
 ESM-2 t6-8M (fair-esm 2.0; Lin et al. 2023),24,deep-learning model,code_result_linked,scripts/esm_embed.py,results/ensemble_v4_esm.json,ESM-2 embedding and v4 test
@@ -37,7 +37,7 @@ OMA Browser REST API (hierarchical orthologous groups),35,orthology database,cod
 NCBI COG 2020 database,36,orthologous-group functional categories,code_result_linked,scripts/run_v8_cog_pdb.py,results/v8_cog_pdb.json,NCBI COG category/spread tested in v8
 Protein Data Bank (PDB entries via UniProt xref_pdb),37,experimental structure database,code_result_linked,scripts/check_sah_orthogonal_annotations.py,results/sah_orthogonal_annotations.json,RCSB PDB live entry cross-check against v8 UniProt xref feature
 iModulonDB / PRECISE-1K iModulon compendium (SBRG; Lamoureux et al. 2023),38,transcriptome regulatory-module database,code_result_linked,scripts/run_v9_precise1k.py,results/v9_precise1k.json,PRECISE-1K/iModulon expression tested in v9
-Transporter Classification Database (TCDB) substrate table,39,transporter database,code_result_linked,scripts/run_uptake_plausibility.py,results/uptake_plausibility.json,TCDB substrate joins on ChEBI for seven supplements
+Transporter Classification Database (TCDB) substrate table,39,transporter database,code_result_linked,scripts/run_uptake_plausibility.py,results/uptake_plausibility.json,TCDB substrate joins on ChEBI for seven supplements; public table re-fetched at results/tool_source_snapshot_verification.json
 ChEBI ontology via EBI OLS4 API,40,chemical ontology,code_result_linked,scripts/run_uptake_plausibility.py,results/uptake_plausibility.json,ChEBI ontology API expansion for seven supplements
 scikit-network,new,scientific package,code_result_linked,scripts/run_graph_algorithm_sensitivity.py,results/graph_algorithm_sensitivity.json,Louvain graph-community sensitivity with full per-module results
 Numba,new,scientific package,code_result_linked,scripts/run_network_degree_null.py,results/network_degree_null.json,"JIT kernel for 20,000 degree-stratified permutations, cross-checked with NumPy"
@@ -55,3 +55,4 @@ HDBSCAN,new,scientific package,code_result_linked,scripts/run_error_structure.py
 PyOD,new,scientific package,code_result_linked,scripts/run_error_structure.py,results/error_structure.json,Executed statistical/modeling operation visible in code and numerical committed output
 python-igraph,new,scientific package,code_result_linked,scripts/run_network_modules.py,results/network_modules.json,Executed statistical/modeling operation visible in code and numerical committed output
 Leidenalg,new,scientific package,code_result_linked,scripts/run_network_modules.py,results/network_modules.json,Executed statistical/modeling operation visible in code and numerical committed output
+SymPy,new,scientific package,code_result_linked,scripts/check_gpr_symbolic.py,results/gpr_symbolic.json,Executed statistical/modeling operation visible in code and numerical committed output

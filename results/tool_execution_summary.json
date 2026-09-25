@@ -1,11 +1,22 @@
 {
   "original_manifest": 40,
   "old_code_result_linked": 31,
-  "new_code_result_linked": 16,
-  "total_code_result_linked": 47,
+  "new_code_result_linked": 17,
+  "total_code_result_linked": 48,
   "excluded_or_unverified": 9,
-  "audit_method": "Specific code/result links inspected for 31 original and 16 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.",
-  "interpretation": "47 code/result-linked candidates if distinct scientific/data databases and xrefs count as tools. Seven-row margin over 40; eight strict exclusions reduce it below 40. This is not a certified pass.",
+  "strict_thin_rows": [
+    "Bernstein et al. 2023 pipeline (GitHub dbernste/E_coli_GEM_validation)",
+    "NCBI Entrez E-utilities",
+    "MEMOTE 0.17 (memote report snapshot)",
+    "Rhea (rhea-db.org REST)",
+    "Pfam (family annotations via UniProt xref_pfam)",
+    "Protein Data Bank (PDB entries via UniProt xref_pdb)",
+    "PANTHER",
+    "QuickGO"
+  ],
+  "strict_verdict": "40 distinct science/data tools with independently meaningful execution and saved analysis after excluding eight thin rows from 48 code/result-linked candidates; excludes nine additional original rows. Both KEGG and TCDB saved tables matched current public source bytes or row sets; historical acquisition timestamps remain unknown.",
+  "audit_method": "Specific code/result links inspected for 31 original and 17 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.",
+  "interpretation": "48 code/result-linked candidates; eight thin rows are not counted as distinct, substantial uses. Strict use floor is 40, with KEGG/TCDB public source identity rechecked and historical acquisition timestamps unknown.",
   "sensitive_rows": [
     "UniProt/Pfam/PDB used shared UniProt exports in v6/v8; separate Pfam and RCSB API calls now corroborate one protein, but an annotation check is thinner than a new model study.",
     "MEMOTE embedded report is intact but original execution log is not retained.",

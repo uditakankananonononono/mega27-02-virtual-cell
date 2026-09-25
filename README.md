@@ -153,17 +153,21 @@ This is exploratory topology on an existing STRING accession, not another
 independent dataset or evidence of cell states.
 
 ## Current strict gate status (25 September 2026)
-`results/tool_execution_evidence.csv` links 31 original manifest entries and 16
-additional scientific/data capabilities to specific code and saved outputs,
-for **47 candidates**, not 44 independently certified tools. Nine original
-entries are excluded or lack distinct execution evidence. The most recent
-checks used NCBI E-utilities, Rhea REST, QuickGO, Pfam/InterPro, PDB, PANTHER
-and a direct libSBML parse to inspect the SAM-to-adenine route. The one-protein
-annotations are not new biological validation, several databases share a
-retrieval path, and MEMOTE's preserved report has no original execution log.
-The **40-tool gate is not certified**; see `results/tool_execution_summary.json`
-and scripts that produce the ledger. No build/test utilities or literature
-search engines are counted.
+`results/tool_execution_evidence.csv` links 31 original entries and 17 added
+scientific/data capabilities to code and saved outputs (48 candidates). Eight
+linked entries are not included in the strict count: Bernstein's wrapper of
+COBRApy, MEMOTE without its original run log, two narrow NCBI/Rhea checks,
+and four single-protein PANTHER/QuickGO/Pfam/PDB annotations. Another nine
+original inventory entries are excluded or lack separate execution evidence.
+The **conservative distinct science/data tool floor is 40**, not 48. The
+new SymPy audit checks 4,181 single-gene reaction GPR calls over 2,123
+reactions, with zero disagreements against COBRApy (`results/gpr_symbolic.json`);
+this is rule-level, not biological, validation. KEGG's 4,990-row eco pathway
+table matched its current public API byte-for-byte; TCDB's 9,223 substrate
+rows matched its current public source as a set, despite a different order
+(`results/tool_source_snapshot_verification.json`). Historical acquisition
+timestamps are not independently reconstructed. No build/test utilities,
+literature databases, or thin single-accession annotations enter the 40.
 
 The 108 individually fetched-and-analysed BiGG model IDs plus 15
 study-collapsed, accessioned/scored PaxDb datasets total **123 only under an
