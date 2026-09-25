@@ -1,4 +1,4 @@
-"""Build the 20-page Times-Roman research paper PDF from saved results."""
+"""Build the research paper PDF from saved results with embedded licensed Times New Roman."""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from reportlab.lib.pagesizes import letter
@@ -8,8 +8,20 @@ from reportlab.lib.enums import TA_JUSTIFY, TA_CENTER
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Image,
                                 Table, TableStyle, PageBreak)
 from reportlab.lib import colors
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Keep TTFs out of the repository. Extract the user's licensed times32.exe
+# locally, then set VCELL_TNR_DIR to that directory before building.
+FONT_DIR = os.environ.get('VCELL_TNR_DIR')
+if not FONT_DIR:
+    raise RuntimeError('Set VCELL_TNR_DIR to locally extracted Times New Roman TTFs')
+for face, filename in [('Times-Roman','Times.TTF'), ('Times-Bold','Timesbd.TTF'),
+                       ('Times-Italic','Timesi.TTF'), ('Times-BoldItalic','Timesbi.TTF')]:
+    pdfmetrics.registerFont(TTFont(face, os.path.join(FONT_DIR, filename)))
+pdfmetrics.registerFontFamily('Times-Roman', normal='Times-Roman', bold='Times-Bold',
+                              italic='Times-Italic', boldItalic='Times-BoldItalic')
 
 TITLE = ParagraphStyle('TitleTNR', fontName='Times-Bold', fontSize=20, leading=24, alignment=TA_CENTER, spaceAfter=18)
 H1 = ParagraphStyle('H1TNR', fontName='Times-Bold', fontSize=14, leading=17, spaceBefore=14, spaceAfter=6)

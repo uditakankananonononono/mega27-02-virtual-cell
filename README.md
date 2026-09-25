@@ -51,11 +51,13 @@ sequential utilization. Both runs preserved.
 - `vcell/` - package: metabolism, data, seqcnn, graphgnn, dynamics, benchmark
 - `scripts/` - pipelines: run_ijo1366_scan.py, run_ijo1366_rich_scan.py,
   run_seqcnn.py, run_gnn.py, make_figures.py
-- `tests/` - 18 hermetic pytest cases, ~5 s, no network
+- `tests/` - 23 hermetic pytest cases, ~5 s, no network
 - `results/` - every intermediate score (CSV/JSON/NPZ)
 - `figures/` - 5 paper figures (regenerate: python scripts/make_figures.py)
-- `paper/` - VC2_virtual_cell_paper.pdf (20 pp, Times-Roman; regenerate:
-  python paper/build_paper.py)
+- `paper/` - VC2_virtual_cell_paper.pdf (page count varies with source updates;
+  actual embedded Times New Roman; regenerate with
+  `VCELL_TNR_DIR=/path/to/extracted/fonts python paper/build_paper.py`).
+  Extract the private Drive `times32.exe` locally; do not commit or redistribute its TTFs.
 - `data/` - snapshots: BiGG e_coli_core + iJO1366, U00096.3 FASTA/GenBank,
   Gerdes 2003 Table S1
 
