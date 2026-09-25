@@ -141,3 +141,14 @@ and labels, not an independent biological result. The complete data, settings,
 cluster p/q and negative clusters are in `results/error_structure.json` and
 `results/error_structure_gene_scores.csv`; the question was written to
 `notes/prereg_error_structure.md` before the computation.
+
+## STRING graph modules
+Using only saved high-confidence STRING edges among 1,249 aligned genes,
+igraph constructed an 8,714-edge graph and Leidenalg found 58 communities.
+After excluding modules with fewer than 20 genes, one of 15 modules was
+enriched for top-100 false essentiality priorities after BH correction; three
+modules enriched experimental essentiality. The community assignments and
+all tested/non-significant rows are in `results/network_modules*.{json,csv}`
+(with filenames `network_modules.json` and `network_modules_gene_assignments.csv`).
+This is exploratory topology on an existing STRING accession, not another
+independent dataset or evidence of cell states.

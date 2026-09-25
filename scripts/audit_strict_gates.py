@@ -65,14 +65,14 @@ fitness=sum('db.StrainFitness.' in n for _,n,_,_,_ in source_keys)
 assert fitness==44
 bound=legacy-fitness+1
 out={'tools_manifest_total':len(m['tools']), 'tool_obvious_exclusions':len(excluded_tool_idx),
-     'tool_candidate_upper_bound':len(m['tools'])-len(excluded_tool_idx)+9,
-     'additional_executed_science_packages':['LightGBM','CatBoost','imbalanced-learn','SHAP','gseapy','Pingouin','umap-learn','hdbscan','PyOD'],
+     'tool_candidate_upper_bound':len(m['tools'])-len(excluded_tool_idx)+11,
+     'additional_executed_science_packages':['LightGBM','CatBoost','imbalanced-learn','SHAP','gseapy','Pingouin','umap-learn','hdbscan','PyOD','python-igraph','leidenalg'],
      'datasets_manifest_total':len(m['datasets']),'legacy_study_count':legacy,
      'figshare_fitness_files':fitness,'figshare_source_accessions':1,
      'dataset_accession_upper_bound_after_known_collapse':bound,
      'verified_strict_accession_count':None,
      'gates':{'tools':40,'datasets':120},
-     'verdict':'dataset 123 meets 120 only if accessioned metabolic models count; tool candidate upper bound 45 still needs individual validation',
+     'verdict':'dataset 123 meets 120 only if accessioned metabolic models count; tool candidate upper bound 47 still needs individual validation',
      'dataset_accession_new_verified_survey_ids':108,
      'dataset_accession_verified_paxdb_ids':19,
      'dataset_accession_conservative_study_collapsed_total':123,

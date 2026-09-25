@@ -1,0 +1,199 @@
+{
+  "design": "exploratory label-blind Leiden modules on saved STRING >=700 graph",
+  "n_genes": 1249,
+  "n_high_confidence_edges": 8714,
+  "n_communities_all_sizes": 58,
+  "n_communities_tested_size_ge20": 15,
+  "communities": [
+    {
+      "community": 0,
+      "n_genes": 140,
+      "n_essential": 23,
+      "n_top100_false_priority": 11,
+      "essential_odds": 0.9388799857549858,
+      "essential_p": 0.6414275529236364,
+      "false_priority_odds": 0.9772667886072641,
+      "false_priority_p": 0.579018913835645,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 0.9650315230594083
+    },
+    {
+      "community": 1,
+      "n_genes": 138,
+      "n_essential": 10,
+      "n_top100_false_priority": 10,
+      "essential_odds": 0.34527439024390244,
+      "essential_p": 0.9999020865783592,
+      "false_priority_odds": 0.8862847222222222,
+      "false_priority_p": 0.6869512755184704,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 1.0
+    },
+    {
+      "community": 2,
+      "n_genes": 104,
+      "n_essential": 10,
+      "n_top100_false_priority": 3,
+      "essential_odds": 0.4878048780487805,
+      "essential_p": 0.9921877035612642,
+      "false_priority_odds": 0.32091456568337245,
+      "false_priority_p": 0.9932048365468927,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 1.0
+    },
+    {
+      "community": 3,
+      "n_genes": 96,
+      "n_essential": 12,
+      "n_top100_false_priority": 17,
+      "essential_odds": 0.6685432793807178,
+      "essential_p": 0.9259213288192574,
+      "false_priority_odds": 2.774134512734482,
+      "false_priority_p": 0.0009361845487426636,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 0.014042768231139953
+    },
+    {
+      "community": 4,
+      "n_genes": 91,
+      "n_essential": 27,
+      "n_top100_false_priority": 12,
+      "essential_odds": 2.176695478723404,
+      "essential_p": 0.001601500189482032,
+      "false_priority_odds": 1.8469505178365937,
+      "false_priority_p": 0.05227322591026193,
+      "essential_bh_q": 0.00800750094741016,
+      "false_priority_bh_q": 0.2613661295513096
+    },
+    {
+      "community": 5,
+      "n_genes": 83,
+      "n_essential": 8,
+      "n_top100_false_priority": 4,
+      "essential_odds": 0.494170692431562,
+      "essential_p": 0.9847709011347289,
+      "false_priority_odds": 0.5643459915611815,
+      "false_priority_p": 0.9146394800313431,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 1.0
+    },
+    {
+      "community": 6,
+      "n_genes": 77,
+      "n_essential": 14,
+      "n_top100_false_priority": 4,
+      "essential_odds": 1.0735212824765064,
+      "essential_p": 0.45766392393351074,
+      "false_priority_odds": 0.6141552511415526,
+      "false_priority_p": 0.881435572659948,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 1.0
+    },
+    {
+      "community": 7,
+      "n_genes": 75,
+      "n_essential": 7,
+      "n_top100_false_priority": 6,
+      "essential_odds": 0.4780825791855204,
+      "essential_p": 0.9842412255826447,
+      "false_priority_odds": 0.9990749306197965,
+      "false_priority_p": 0.5666645495484319,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 0.9650315230594083
+    },
+    {
+      "community": 8,
+      "n_genes": 67,
+      "n_essential": 5,
+      "n_top100_false_priority": 10,
+      "essential_odds": 0.37327188940092165,
+      "essential_p": 0.994695104701688,
+      "false_priority_odds": 2.128654970760234,
+      "false_priority_p": 0.035676111345801384,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 0.2613661295513096
+    },
+    {
+      "community": 9,
+      "n_genes": 62,
+      "n_essential": 8,
+      "n_top100_false_priority": 0,
+      "essential_odds": 0.701377706208624,
+      "essential_p": 0.8652949906819174,
+      "false_priority_odds": 0.0,
+      "false_priority_p": 1.0,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 1.0
+    },
+    {
+      "community": 10,
+      "n_genes": 61,
+      "n_essential": 14,
+      "n_top100_false_priority": 6,
+      "essential_odds": 1.462686567164179,
+      "essential_p": 0.14863558620650938,
+      "false_priority_odds": 1.26963249516441,
+      "false_priority_p": 0.36176711151386703,
+      "essential_bh_q": 0.5573834482744102,
+      "false_priority_bh_q": 0.9379624183571483
+    },
+    {
+      "community": 11,
+      "n_genes": 54,
+      "n_essential": 12,
+      "n_top100_false_priority": 5,
+      "essential_odds": 1.3961998592540465,
+      "essential_p": 0.20453288946206294,
+      "false_priority_odds": 1.1815252416756177,
+      "false_priority_p": 0.43771579523333587,
+      "essential_bh_q": 0.6135986683861888,
+      "false_priority_bh_q": 0.9379624183571483
+    },
+    {
+      "community": 12,
+      "n_genes": 53,
+      "n_essential": 9,
+      "n_top100_false_priority": 5,
+      "essential_odds": 0.9830097087378641,
+      "essential_p": 0.5774170003384799,
+      "false_priority_odds": 1.207236842105263,
+      "false_priority_p": 0.4212048595884568,
+      "essential_bh_q": 0.9999020865783592,
+      "false_priority_bh_q": 0.9379624183571483
+    },
+    {
+      "community": 13,
+      "n_genes": 40,
+      "n_essential": 20,
+      "n_top100_false_priority": 5,
+      "essential_odds": 5.2,
+      "essential_p": 1.2580325590098405e-06,
+      "false_priority_odds": 1.675187969924812,
+      "false_priority_p": 0.2110396001546633,
+      "essential_bh_q": 9.435244192573804e-06,
+      "false_priority_bh_q": 0.7913985005799874
+    },
+    {
+      "community": 14,
+      "n_genes": 22,
+      "n_essential": 20,
+      "n_top100_false_priority": 0,
+      "essential_odds": 52.92307692307692,
+      "essential_p": 4.066909518493599e-14,
+      "false_priority_odds": 0.0,
+      "false_priority_p": 1.0,
+      "essential_bh_q": 6.100364277740399e-13,
+      "false_priority_bh_q": 1.0
+    }
+  ],
+  "false_priority_enriched_modules": [
+    3
+  ],
+  "essential_enriched_modules": [
+    4,
+    13,
+    14
+  ],
+  "source_sha256": "e60afb17840044fe25e10572291e07d8715899238e10048dd6e95e9ed109e19c",
+  "caveat": "Same 1,249 genes/labels and one STRING network; network modules are not causal cell states or independent datasets."
+}
