@@ -65,14 +65,18 @@ fitness=sum('db.StrainFitness.' in n for _,n,_,_,_ in source_keys)
 assert fitness==44
 bound=legacy-fitness+1
 out={'tools_manifest_total':len(m['tools']), 'tool_obvious_exclusions':len(excluded_tool_idx),
-     'tool_candidate_upper_bound':len(m['tools'])-len(excluded_tool_idx)+4,
-     'additional_executed_science_packages':['LightGBM','CatBoost','imbalanced-learn','SHAP'],
+     'tool_candidate_upper_bound':len(m['tools'])-len(excluded_tool_idx)+6,
+     'additional_executed_science_packages':['LightGBM','CatBoost','imbalanced-learn','SHAP','gseapy','Pingouin'],
      'datasets_manifest_total':len(m['datasets']),'legacy_study_count':legacy,
      'figshare_fitness_files':fitness,'figshare_source_accessions':1,
      'dataset_accession_upper_bound_after_known_collapse':bound,
      'verified_strict_accession_count':None,
      'gates':{'tools':40,'datasets':120},
-     'verdict':'neither gate verified: tool upper bound reaches 40 but needs independent use validation; accession bound below 120',
-     'caveat':'Bound does not exclude remaining unaccessioned pages or unverified use; it is not a count of passed items.'}
+     'verdict':'dataset 123 meets 120 only if accessioned metabolic models count; tool candidate upper bound 42 still needs individual validation',
+     'dataset_accession_new_verified_survey_ids':108,
+     'dataset_accession_verified_paxdb_ids':19,
+     'dataset_accession_conservative_study_collapsed_total':123,
+     'dataset_gate_interpretation':'123 model-dataset-inclusive accessioned resources, not 123 independent wet-lab studies',
+     'caveat':'The old 81 bound applies to the old manifest before the 108-model survey, not the current total. Tool count remains a candidate upper bound.'}
 (res/'gate_audit.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps(out,indent=2))

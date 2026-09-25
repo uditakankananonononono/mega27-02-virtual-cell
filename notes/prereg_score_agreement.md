@@ -1,0 +1,3 @@
+# Robustness of score and ranking agreement
+
+Exploratory, fixed before looking at new results. Use the already committed out-of-fold v2 LR, LightGBM, CatBoost and oversampled LR score columns for the same 1,249 genes. With Pingouin, compute pairwise Spearman correlation and bootstrapped 95% CIs for Spearman via 1,000 gene resamples (seed 11). Report top-50 Jaccard overlap of ranked priorities for every pair. The purpose is to test whether alternative learners suggest the same biological triage despite AUROC differences. No pass threshold and no claims of independence; scores share input data and labels. Pingouin is used for correlation tests only; no new external dataset counted.

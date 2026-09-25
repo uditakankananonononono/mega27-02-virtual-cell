@@ -110,3 +110,23 @@ The large raw snapshot collection is retained in three private Drive parts
 rather than redistributed in git. `results/bigg_snapshot_delivery.json` records
 the exact links, part/archive hashes and reassembly command; per-model
 hashes and fetch script allow source revalidation.
+
+## Exploratory pathway check
+An offline gseapy overrepresentation test of the top 100 v2 false essentiality
+priorities against the 1,249-gene reference universe tested 93 KEGG gene sets.
+Four are BH FDR < 0.05, led by folate biosynthesis (q=1.41e-6), cofactor
+biosynthesis (q=1.87e-4) and sulfur relay (q=7.35e-4).
+`notes/prereg_pathway_enrichment.md`, `scripts/run_pathway_enrichment.py`,
+`results/pathway_enrichment.json` and CSV contain the full exploratory result,
+source input hashes and caveat. This executes gseapy but does not supply a new
+external dataset accession or independent validation.
+
+## Cross-learner ranking and KEGG check
+An exploratory offline gseapy enrichment of the top 100 non-essential genes
+scored highest by v2 tested 93 KEGG pathways; four pass BH q<0.05, led by
+folate biosynthesis (q=1.41e-6). Pingouin Spearman tests of all six learner
+pairs show v2 vs oversampled LR rho=0.992 (top-50 Jaccard=0.887), but v2
+vs LightGBM rho=0.816 (top-50 Jaccard=0.389): high global agreement need
+not preserve the top candidates. Full paths and caveats in `results/` and
+`notes/prereg_pathway_enrichment.md`, `notes/prereg_score_agreement.md`.
+These are genuine science-package executions, not additional datasets.

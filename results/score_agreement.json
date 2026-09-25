@@ -1,0 +1,83 @@
+{
+  "question": "Agreement of OOF rankings across four learner variants",
+  "n_genes": 1249,
+  "comparisons": [
+    {
+      "a": "v2_lr",
+      "b": "lightgbm",
+      "spearman": 0.8158751932730826,
+      "pingouin_p": 6.02228702029116e-299,
+      "bootstrap_ci95": [
+        0.7925401162056188,
+        0.8376896511986142
+      ],
+      "top50_intersection": 28,
+      "top50_jaccard": 0.3888888888888889
+    },
+    {
+      "a": "v2_lr",
+      "b": "catboost",
+      "spearman": 0.8639534273572707,
+      "pingouin_p": 0.0,
+      "bootstrap_ci95": [
+        0.8437497074439342,
+        0.881822533661076
+      ],
+      "top50_intersection": 34,
+      "top50_jaccard": 0.5151515151515151
+    },
+    {
+      "a": "v2_lr",
+      "b": "imblearn_oversampled_lr",
+      "spearman": 0.9924106300424957,
+      "pingouin_p": 0.0,
+      "bootstrap_ci95": [
+        0.9912235517730212,
+        0.993333352222862
+      ],
+      "top50_intersection": 47,
+      "top50_jaccard": 0.8867924528301887
+    },
+    {
+      "a": "lightgbm",
+      "b": "catboost",
+      "spearman": 0.9175575126877813,
+      "pingouin_p": 0.0,
+      "bootstrap_ci95": [
+        0.906964893884267,
+        0.9267296164156285
+      ],
+      "top50_intersection": 35,
+      "top50_jaccard": 0.5384615384615384
+    },
+    {
+      "a": "lightgbm",
+      "b": "imblearn_oversampled_lr",
+      "spearman": 0.8147945287281462,
+      "pingouin_p": 1.5987106942304246e-297,
+      "bootstrap_ci95": [
+        0.7920656212808421,
+        0.8364274684349087
+      ],
+      "top50_intersection": 28,
+      "top50_jaccard": 0.3888888888888889
+    },
+    {
+      "a": "catboost",
+      "b": "imblearn_oversampled_lr",
+      "spearman": 0.8659643160682393,
+      "pingouin_p": 0.0,
+      "bootstrap_ci95": [
+        0.8456599596216738,
+        0.883243379790873
+      ],
+      "top50_intersection": 34,
+      "top50_jaccard": 0.5151515151515151
+    }
+  ],
+  "input_sha256": {
+    "results/ensemble_v2_oof.csv": "48c00fad4fce24019c0c8ca965cfef29ef756e65e10fbecb0e993c9925843574",
+    "results/learner_sensitivity_oof.csv": "f2e952fbbd56f3205a54cc8f1aebb8409e03381f346e8ca76e108f85e5a1b884"
+  },
+  "caveat": "Exploratory; models share genes, training labels and feature construction. Correlation significance is not biological replication."
+}

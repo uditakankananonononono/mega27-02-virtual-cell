@@ -1,0 +1,95 @@
+{
+  "question": "KEGG overrepresentation of top 100 v2 false essentiality priorities",
+  "n_universe": 1249,
+  "n_query": 100,
+  "n_tested_pathways": 93,
+  "n_returned_pathways": 60,
+  "n_fdr_lt_0_05": 4,
+  "top10": [
+    {
+      "pathway_id": "00790",
+      "pathway_name": "Folate biosynthesis - Escherichia coli K-12 MG1655",
+      "overlap": "12/23",
+      "p_value": 2.3548283532276772e-08,
+      "fdr_bh": 1.4128970119366064e-06,
+      "genes": "b3058;b3177;b0827;b0785;b1096;b1812;b0781;b3857;b2303;b3360;b0783;b2794"
+    },
+    {
+      "pathway_id": "01240",
+      "pathway_name": "Biosynthesis of cofactors - Escherichia coli K-12 MG1655",
+      "overlap": "24/119",
+      "p_value": 6.241931660169639e-06,
+      "fdr_bh": 0.00018725794980508918,
+      "genes": "b3058;b0423;b0750;b4039;b0778;b4177;b0425;b0131;b0781;b2320;b1095;b3412;b2927;b3177;b0827;b0785;b1096;b1812;b0907;b0133;b3843;b3360;b0783;b0134"
+    },
+    {
+      "pathway_id": "04122",
+      "pathway_name": "Sulfur relay system - Escherichia coli K-12 MG1655",
+      "overlap": "6/10",
+      "p_value": 3.676328177698614e-05,
+      "fdr_bh": 0.0007352656355397227,
+      "genes": "b0784;b0423;b0785;b0781;b0826;b0783"
+    },
+    {
+      "pathway_id": "00340",
+      "pathway_name": "Histidine metabolism - Escherichia coli K-12 MG1655",
+      "overlap": "4/8",
+      "p_value": 0.0021101949496862425,
+      "fdr_bh": 0.03165292424529364,
+      "genes": "b2025;b2023;b2024;b2026"
+    },
+    {
+      "pathway_id": "00230",
+      "pathway_name": "Purine metabolism - Escherichia coli K-12 MG1655",
+      "overlap": "11/62",
+      "p_value": 0.007945705222828942,
+      "fdr_bh": 0.09534846267394731,
+      "genes": "b0125;b4177;b2557;b2499;b4394;b0523;b0049;b2507;b2476;b2784;b2291"
+    },
+    {
+      "pathway_id": "01232",
+      "pathway_name": "Nucleotide metabolism - Escherichia coli K-12 MG1655",
+      "overlap": "9/50",
+      "p_value": 0.014721510977095986,
+      "fdr_bh": 0.14721510977095986,
+      "genes": "b2066;b0125;b3831;b1759;b4177;b4394;b2507;b2291;b2498"
+    },
+    {
+      "pathway_id": "00770",
+      "pathway_name": "Pantothenate and CoA biosynthesis - Escherichia coli K-12 MG1655",
+      "overlap": "5/20",
+      "p_value": 0.01749959426367557,
+      "fdr_bh": 0.14999652226007631,
+      "genes": "b0133;b0425;b0131;b0134;b3774"
+    },
+    {
+      "pathway_id": "00190",
+      "pathway_name": "Oxidative phosphorylation - Escherichia coli K-12 MG1655",
+      "overlap": "7/37",
+      "p_value": 0.023743089766235962,
+      "fdr_bh": 0.17807317324676972,
+      "genes": "b3733;b4153;b4152;b3734;b3738;b3737;b3732"
+    },
+    {
+      "pathway_id": "02060",
+      "pathway_name": "Phosphotransferase system (PTS) - Escherichia coli K-12 MG1655",
+      "overlap": "5/24",
+      "p_value": 0.037133529942988006,
+      "fdr_bh": 0.2475568662865867,
+      "genes": "b2417;b1817;b2415;b4195;b2094"
+    },
+    {
+      "pathway_id": "00750",
+      "pathway_name": "Vitamin B6 metabolism - Escherichia coli K-12 MG1655",
+      "overlap": "3/11",
+      "p_value": 0.05121832200342348,
+      "fdr_bh": 0.3073099320205409,
+      "genes": "b2927;b0907;b2320"
+    }
+  ],
+  "input_sha256": {
+    "results/ensemble_v2_oof.csv": "48c00fad4fce24019c0c8ca965cfef29ef756e65e10fbecb0e993c9925843574",
+    "data/external/kegg_eco_pathway.tsv": "9761ba05df57c5ceac52cf556b82c48f21b5391ae778e8ee0cf567a6594e3184"
+  },
+  "caveat": "Exploratory ranked false positives; pathway overlap and selection can inflate interpretation. Offline saved KEGG map, not a new accession."
+}
