@@ -1,0 +1,64 @@
+{
+  "scope": "Direct independent SBML parse of saved iML1515 cofactor-to-purine route; no new phenotype or wet-lab measurement.",
+  "libsbml_version": "5.21.2",
+  "model_path": "external/E_coli_GEM_validation/Models/iML1515.xml",
+  "sha256": "9c772d44ca43350e40dc7ee86c7aa148796856be1eea45e5406c6df8f7dcde28",
+  "model_id": "iML1515",
+  "n_reactions": 2712,
+  "route": {
+    "AHCYSNS": {
+      "reactants": {
+        "ahcys_c": -1.0,
+        "h2o_c": -1.0
+      },
+      "products": {
+        "ade_c": 1.0,
+        "rhcys_c": 1.0
+      },
+      "reversible": false
+    },
+    "HCYSMT": {
+      "reactants": {
+        "amet_c": -1.0,
+        "hcys__L_c": -1.0
+      },
+      "products": {
+        "ahcys_c": 1.0,
+        "h_c": 1.0,
+        "met__L_c": 1.0
+      },
+      "reversible": false
+    },
+    "ADD": {
+      "reactants": {
+        "ade_c": -1.0,
+        "h2o_c": -1.0,
+        "h_c": -1.0
+      },
+      "products": {
+        "hxan_c": 1.0,
+        "nh4_c": 1.0
+      },
+      "reversible": false
+    },
+    "ADPT": {
+      "reactants": {
+        "ade_c": -1.0,
+        "prpp_c": -1.0
+      },
+      "products": {
+        "amp_c": 1.0,
+        "ppi_c": 1.0
+      },
+      "reversible": false
+    }
+  },
+  "fbc_formulas": {
+    "ahcys_c": "C14H20N6O5S",
+    "h2o_c": "H2O",
+    "ade_c": "C5H5N5",
+    "rhcys_c": "C9H17NO6S"
+  },
+  "rhea_check": "results/source_reaction_verification.json",
+  "caveat": "Correct SBML stoichiometry and Rhea reaction identity do not show that external SAM enters E. coli."
+}

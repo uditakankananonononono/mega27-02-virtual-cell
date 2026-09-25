@@ -2,7 +2,7 @@ tool,manifest_number,kind,status,code_or_report,result,basis
 COBRApy 0.32,1,package,code_result_linked,scripts/run_bernstein_benchmark.py,results/bernstein/iML1515_base.json,COBRApy FBA simulation
 optlang 1.9,2,package,excluded_or_unverified,,,indirect COBRApy LP dependency; no distinct execution/result tie
 GLPK (swiglpk 5.0),3,solver,excluded_or_unverified,,,indirect COBRApy solver dependency; no distinct execution/result tie
-python-libsbml 5.21,4,package,excluded_or_unverified,,,"SBML parsing indirect, no distinct usage trace"
+python-libsbml 5.21,4,package,code_result_linked,scripts/check_sbml_stoichiometry.py,results/sbml_route_verification.json,direct libSBML FBC stoichiometry for four model reactions
 PyTorch 2.x (CPU),5,package,code_result_linked,scripts/run_seqcnn.py,results/seqcnn_results.json,PyTorch sequence CNN via vcell/seqcnn.py
 NumPy,6,package,code_result_linked,scripts/run_ensemble_v2.py,results/ensemble_v2.json,NumPy score/array computation
 pandas,7,package,code_result_linked,scripts/run_ensemble_v2.py,results/ensemble_v2.json,pandas joins and scores
