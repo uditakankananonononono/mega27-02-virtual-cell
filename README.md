@@ -130,3 +130,14 @@ vs LightGBM rho=0.816 (top-50 Jaccard=0.389): high global agreement need
 not preserve the top candidates. Full paths and caveats in `results/` and
 `notes/prereg_pathway_enrichment.md`, `notes/prereg_score_agreement.md`.
 These are genuine science-package executions, not additional datasets.
+
+## Exploratory error structure
+UMAP embedding of standardized frozen v2 features followed by HDBSCAN
+finds ten clusters and noise. Two clusters enrich the top-100 false
+essentiality priorities (cluster 0: 22/68; cluster 1: 24/100; both pass BH),
+while PyOD 20-nearest-neighbor outlier scores are higher for those priorities
+(two-sided MWU p=1.90e-20). This is descriptive and reuses the same genes
+and labels, not an independent biological result. The complete data, settings,
+cluster p/q and negative clusters are in `results/error_structure.json` and
+`results/error_structure_gene_scores.csv`; the question was written to
+`notes/prereg_error_structure.md` before the computation.

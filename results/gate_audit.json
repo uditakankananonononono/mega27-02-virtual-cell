@@ -1,14 +1,17 @@
 {
   "tools_manifest_total": 40,
   "tool_obvious_exclusions": 4,
-  "tool_candidate_upper_bound": 42,
+  "tool_candidate_upper_bound": 45,
   "additional_executed_science_packages": [
     "LightGBM",
     "CatBoost",
     "imbalanced-learn",
     "SHAP",
     "gseapy",
-    "Pingouin"
+    "Pingouin",
+    "umap-learn",
+    "hdbscan",
+    "PyOD"
   ],
   "datasets_manifest_total": 153,
   "legacy_study_count": 124,
@@ -20,7 +23,7 @@
     "tools": 40,
     "datasets": 120
   },
-  "verdict": "dataset 123 meets 120 only if accessioned metabolic models count; tool candidate upper bound 42 still needs individual validation",
+  "verdict": "dataset 123 meets 120 only if accessioned metabolic models count; tool candidate upper bound 45 still needs individual validation",
   "dataset_accession_new_verified_survey_ids": 108,
   "dataset_accession_verified_paxdb_ids": 19,
   "dataset_accession_conservative_study_collapsed_total": 123,
