@@ -77,9 +77,9 @@ accession-level fetched-and-used datasets. Four listed entries are plainly
 outside the tool count (three download/list pages and PubMed Central). Forty-four
 Fitness Browser organism files share figshare article accession 25236931,
 so even the old 124-study grouping falls to an **81-accession upper bound**
-before remaining unaccessioned sources and use verification. `results/gate_audit.json`
-and the two audit CSVs preserve the exclusions. Both gates are **unmet**; do not
-report the inventory lengths as gate completion.
+before remaining unaccessioned sources and use verification. `results/gate_audit.json` and the audit CSVs preserve the exclusions. That
+original-manifest bound is historical, not the current gate verdict. The later
+accession and tool work is described below; neither inventory length is a pass.
 
 ## Learner sensitivity (exploratory)
 Frozen 3-fold v2 features were tested with LightGBM, CatBoost and a train-fold-only
@@ -89,9 +89,8 @@ on a separate full-data fit. See `notes/prereg_learner_sensitivity.md`,
 0.7847, and 0.7975 respectively vs v2 LR 0.7967. LightGBM's paired AUROC
 difference is negative (95% bootstrap CI barely below zero); CatBoost and
 oversampling differences include zero. No new biological validation claim. These
-four executed libraries raise the strict science-tool candidate ceiling from 36
-to 40, but are not a blanket gate pass: earlier candidates still need provenance
-checks and some may be excluded. The accession dataset gate remains unmet.
+four executed libraries first raised the candidate ceiling from 36 to 40. Later
+work and row-level evidence are below. This early milestone was not a gate pass.
 
 ## BiGG cross-model MoCo objective census
 `notes/prereg_bigg_model_survey.md` fixes the question and amendment. The
@@ -152,3 +151,24 @@ all tested/non-significant rows are in `results/network_modules*.{json,csv}`
 (with filenames `network_modules.json` and `network_modules_gene_assignments.csv`).
 This is exploratory topology on an existing STRING accession, not another
 independent dataset or evidence of cell states.
+
+## Current strict gate status (25 September 2026)
+`results/tool_execution_evidence.csv` links 31 original manifest entries and 13
+additional scientific/data capabilities to specific code and saved outputs,
+for **44 candidates**, not 44 independently certified tools. Nine original
+entries are excluded or lack distinct execution evidence. The most recent
+checks used NCBI E-utilities, Rhea REST, QuickGO, Pfam/InterPro, PDB, PANTHER
+and a direct libSBML parse to inspect the SAM-to-adenine route. The one-protein
+annotations are not new biological validation, several databases share a
+retrieval path, and MEMOTE's preserved report has no original execution log.
+The **40-tool gate is not certified**; see `results/tool_execution_summary.json`
+and scripts that produce the ledger. No build/test utilities or literature
+search engines are counted.
+
+The 108 individually fetched-and-analysed BiGG model IDs plus 15
+study-collapsed, accessioned/scored PaxDb datasets total **123 only under an
+accessioned-model-inclusive dataset rule**. They do not total 123 independent
+wet-lab studies. `results/bigg_model_survey.csv`,
+`results/paxdb_accession_evidence.csv`, and `results/bigg_accession_delta.json`
+show sources, hashes, results and overlap. This conditional reading must be
+settled before the 120-dataset gate is called met.

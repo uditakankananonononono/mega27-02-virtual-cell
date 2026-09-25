@@ -51,7 +51,8 @@ for i,(name,kind,claim) in enumerate(manifest,1):
  rows.append({'tool':name,'manifest_number':i,'kind':kind,'status':status,'code_or_report':code,'result':result,'basis':basis})
 for name,code,result in new:
  assert (R/code).is_file() and (R/result).is_file() and (R/result).stat().st_size>0
- rows.append({'tool':name,'manifest_number':'new','kind':'scientific package','status':'code_result_linked','code_or_report':code,'result':result,'basis':'Executed statistical/modeling operation visible in code and numerical committed output'})
+ basis=('Live database query and annotation cross-check, not a new experimental phenotype' if name in ('PANTHER','QuickGO') else 'Executed statistical/modeling operation visible in code and numerical committed output')
+ rows.append({'tool':name,'manifest_number':'new','kind':'scientific database' if name in ('PANTHER','QuickGO') else 'scientific package','status':'code_result_linked','code_or_report':code,'result':result,'basis':basis})
 with (R/'results/tool_execution_evidence.csv').open('w',newline='') as f:
  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 summary={'original_manifest':40,'old_code_result_linked':len(old),'new_code_result_linked':len(new),
