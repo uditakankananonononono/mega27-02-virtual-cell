@@ -46,10 +46,17 @@ def story_gate(story,R):
                 f"were higher among these priorities (two-sided MWU p={st['pyod_outlier_score']['two_sided_mwu_p']:.2g}). "
                 "No cell state or independent replication follows from this geometry. The complete cluster and "
                 "gene-level results include every null cluster.",BODY),
-              PageBreak(),P('I.5 Gate accounting without padding',H2),
+              P('I.5 Network localization (exploratory). On the saved STRING v12 network, igraph and Leidenalg found 58 modules.',H2),
+              P('The network retained 8,714 edges at score 700 or above among 1,249 aligned genes. We tested the 15 '
+                'modules with at least 20 genes. Module 3 contained 17 of the top-100 false essentiality '
+                'priorities among 96 genes (one-sided Fisher q=0.014 after BH), while three modules '
+                'enriched experimental essentiality. The complete null-module table and assignments '
+                'remain in results/network_modules.json and results/network_modules_gene_assignments.csv. '
+                'This is a descriptive graph check, not a causal pathway or independent validation.',BODY),
+              P('I.6 Gate accounting without padding',H2),
               P('The original 40-entry inventory included download pages and PubMed Central, which do not count as '
-                'scientific tools. Nine more science packages have now actually run: LightGBM, CatBoost, '
-                'imbalanced-learn, SHAP, gseapy, Pingouin, UMAP, HDBSCAN and PyOD. Thus 45 entries are plausible candidates after '
+                'scientific tools. Eleven more science packages have now actually run: LightGBM, CatBoost, '
+                'imbalanced-learn, SHAP, gseapy, Pingouin, UMAP, HDBSCAN, PyOD, python-igraph and Leidenalg. Thus 47 entries are plausible candidates after '
                 'obvious exclusions, but each original candidate needs a code-to-result check before the 40-tool '
                 'gate can be certified. The tool gate is not yet verified.',BODY),
               P(f"For datasets, {delta['survey_analysed_unique_model_ids']} BiGG IDs are distinct model accessions "
@@ -63,20 +70,12 @@ def story_gate(story,R):
                 "article accession and must not be used as an accession count. See gate_audit.json, "
                 "bigg_accession_delta.csv and paxdb_accession_evidence.csv for the ledgers.",BODY)]
     story += tbl([['Gate','Observed','Decision'],
-                  ['Science/data tools','45 candidates after obvious exclusions','Not certified: inspect original code-to-result ties'],
+                  ['Science/data tools','47 candidates after obvious exclusions','Not certified: inspect original code-to-result ties'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','123 only when model datasets are eligible'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
                  'Table I3. Audit outcome as of 25 September 2026; inventory size is not gate completion.')
-    story += [P('Where this can fail. A provider model ID is a distinct downloadable scientific model dataset, but '
-                'not a new biological experiment. The 19 PaxDb IDs are individually accessioned files and were '
-                'scored, yet two publications provide several quantification variants; those variants were '
-                'collapsed in the 15-study floor. Some early tool entries refer to data access rather than an '
-                'executed analytic capability and are not certified merely by being listed. The 40-tool gate '
-                'requires a final check of at least 40 rows against source code, runtime and output.',BODY),
-              P('Reproduction. The BiGG index SHA-256, exact model URLs, per-model SHA-256 and objective results '
-                'are in results/bigg_model_survey.csv. The archived raw bytes are privately stored, not included '
-                'in git. The 19 PaxDb URLs, accession IDs, local-byte SHA-256 and per-file AUROCs are in '
-                'results/paxdb_accession_evidence.csv. Appendix I adds the new work without retroactively '
-                'changing old benchmark scores. New comparative tests are exploratory; their notes record '
-                'the questions before the corresponding result files were produced.',BODY)]
+    story += [P('Reproduction. Exact BiGG URLs, model SHA-256 values and objective outcomes are in '
+                'results/bigg_model_survey.csv; raw snapshots are privately archived. The 19 PaxDb IDs, '
+                'URLs, hashes and AUROCs are in results/paxdb_accession_evidence.csv. All new comparative '
+                'tests are exploratory and reuse the existing benchmark.',BODY)]
     return story
