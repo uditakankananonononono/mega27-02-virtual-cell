@@ -1,0 +1,62 @@
+{
+  "design": "exploratory, frozen folds and hyperparameters, no model selection",
+  "n_genes": 1249,
+  "n_features": 20,
+  "science_packages_executed": [
+    "lightgbm",
+    "catboost",
+    "imbalanced-learn",
+    "shap"
+  ],
+  "metrics": {
+    "v2_lr": {
+      "auroc": 0.7966758130538437,
+      "auprc": 0.4980492966530802
+    },
+    "lightgbm": {
+      "auroc": 0.7773289550627502,
+      "auprc": 0.5077817657148671,
+      "delta_auroc_vs_v2_lr": -0.01934685799109348,
+      "paired_ci95": [
+        -0.03894910728163628,
+        -2.9549272126308464e-05
+      ]
+    },
+    "catboost": {
+      "auroc": 0.7846655571049435,
+      "auprc": 0.5167058585508308,
+      "delta_auroc_vs_v2_lr": -0.012010255948900261,
+      "paired_ci95": [
+        -0.028817680906246198,
+        0.003692418624536465
+      ]
+    },
+    "imblearn_oversampled_lr": {
+      "auroc": 0.797463002114165,
+      "auprc": 0.5036616939367615,
+      "delta_auroc_vs_v2_lr": 0.0007871890603212695,
+      "paired_ci95": [
+        -0.003427355928272532,
+        0.005339334905116204
+      ]
+    }
+  },
+  "shap_catboost_top10": {
+    "fba_rich": 0.21306590163975545,
+    "fba_min": 0.2119031210090251,
+    "up_cytoplasm": 0.21185046108170894,
+    "string_deg_all": 0.18814198357982212,
+    "gnn": 0.14728778570568332,
+    "up_len": 0.1353582425827653,
+    "kmer": 0.12233316458565402,
+    "kegg_core": 0.10697815379143992,
+    "up_tm": 0.06295282583778837,
+    "string_wdeg_all": 0.061961462239307714
+  },
+  "input_sha256": {
+    "results/aligned_predictions_all_models.csv": "a218ff7442e4667a71766b69b627ec75e4e449037f73150472e7f6819a95ce9b",
+    "results/external_features.csv": "88f6bdf4c105ce03a48c1b07cf9d703955d442d4458134629eefa871e3770fe4",
+    "results/ensemble_v2_oof.csv": "48c00fad4fce24019c0c8ca965cfef29ef756e65e10fbecb0e993c9925843574"
+  },
+  "caveat": "SHAP values describe in-sample full-data model only; comparative AUROC/AUPRC use OOF predictions. Not an independent biological validation."
+}

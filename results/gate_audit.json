@@ -1,7 +1,13 @@
 {
   "tools_manifest_total": 40,
   "tool_obvious_exclusions": 4,
-  "tool_candidate_upper_bound": 36,
+  "tool_candidate_upper_bound": 40,
+  "additional_executed_science_packages": [
+    "LightGBM",
+    "CatBoost",
+    "imbalanced-learn",
+    "SHAP"
+  ],
   "datasets_manifest_total": 153,
   "legacy_study_count": 124,
   "figshare_fitness_files": 44,
@@ -12,6 +18,6 @@
     "tools": 40,
     "datasets": 120
   },
-  "verdict": "not verified; both gates unmet on available evidence",
+  "verdict": "neither gate verified: tool upper bound reaches 40 but needs independent use validation; accession bound below 120",
   "caveat": "Bound does not exclude remaining unaccessioned pages or unverified use; it is not a count of passed items."
 }

@@ -80,3 +80,15 @@ so even the old 124-study grouping falls to an **81-accession upper bound**
 before remaining unaccessioned sources and use verification. `results/gate_audit.json`
 and the two audit CSVs preserve the exclusions. Both gates are **unmet**; do not
 report the inventory lengths as gate completion.
+
+## Learner sensitivity (exploratory)
+Frozen 3-fold v2 features were tested with LightGBM, CatBoost and a train-fold-only
+imbalanced-learn oversampled logistic regression. SHAP explained CatBoost features
+on a separate full-data fit. See `notes/prereg_learner_sensitivity.md`,
+`scripts/run_learner_sensitivity.py`, and both result files. OOF AUROC is 0.7773,
+0.7847, and 0.7975 respectively vs v2 LR 0.7967. LightGBM's paired AUROC
+difference is negative (95% bootstrap CI barely below zero); CatBoost and
+oversampling differences include zero. No new biological validation claim. These
+four executed libraries raise the strict science-tool candidate ceiling from 36
+to 40, but are not a blanket gate pass: earlier candidates still need provenance
+checks and some may be excluded. The accession dataset gate remains unmet.

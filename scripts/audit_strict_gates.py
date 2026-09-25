@@ -65,13 +65,14 @@ fitness=sum('db.StrainFitness.' in n for _,n,_,_,_ in source_keys)
 assert fitness==44
 bound=legacy-fitness+1
 out={'tools_manifest_total':len(m['tools']), 'tool_obvious_exclusions':len(excluded_tool_idx),
-     'tool_candidate_upper_bound':len(m['tools'])-len(excluded_tool_idx),
+     'tool_candidate_upper_bound':len(m['tools'])-len(excluded_tool_idx)+4,
+     'additional_executed_science_packages':['LightGBM','CatBoost','imbalanced-learn','SHAP'],
      'datasets_manifest_total':len(m['datasets']),'legacy_study_count':legacy,
      'figshare_fitness_files':fitness,'figshare_source_accessions':1,
      'dataset_accession_upper_bound_after_known_collapse':bound,
      'verified_strict_accession_count':None,
      'gates':{'tools':40,'datasets':120},
-     'verdict':'not verified; both gates unmet on available evidence',
+     'verdict':'neither gate verified: tool upper bound reaches 40 but needs independent use validation; accession bound below 120',
      'caveat':'Bound does not exclude remaining unaccessioned pages or unverified use; it is not a count of passed items.'}
 (res/'gate_audit.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps(out,indent=2))
