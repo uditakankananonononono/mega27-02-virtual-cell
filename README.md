@@ -153,9 +153,9 @@ This is exploratory topology on an existing STRING accession, not another
 independent dataset or evidence of cell states.
 
 ## Current strict gate status (25 September 2026)
-`results/tool_execution_evidence.csv` links 31 original manifest entries and 13
+`results/tool_execution_evidence.csv` links 31 original manifest entries and 14
 additional scientific/data capabilities to specific code and saved outputs,
-for **44 candidates**, not 44 independently certified tools. Nine original
+for **45 candidates**, not 44 independently certified tools. Nine original
 entries are excluded or lack distinct execution evidence. The most recent
 checks used NCBI E-utilities, Rhea REST, QuickGO, Pfam/InterPro, PDB, PANTHER
 and a direct libSBML parse to inspect the SAM-to-adenine route. The one-protein
@@ -173,3 +173,7 @@ wet-lab studies. `results/bigg_model_survey.csv`,
 show sources, hashes, results and overlap. The user approved counting BiGG model accessions on 25 September 2026
 (`results/gate_decision_provenance.json`); the dataset gate therefore passes
 123/120. This does not imply 120 experimental screens.
+
+An independent HiGHS LP built from the iJO1366 stoichiometric matrix replicates
+the GLPK MoCo biomass rescue numerically (`results/highs_moco_rescue.json`).
+This verifies solver concordance, not an in-vivo rescue.

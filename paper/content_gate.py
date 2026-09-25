@@ -53,14 +53,20 @@ def story_gate(story,R):
                 'enriched experimental essentiality. The complete null-module table and assignments '
                 'remain in results/network_modules.json and results/network_modules_gene_assignments.csv. '
                 'This is a descriptive graph check, not a causal pathway or independent validation.',BODY),
-              P('I.6 Gate accounting without padding',H2),
-              P('A row-level audit now links 31 original science/data entries and 13 additional tools to '
+              P('I.6 Independent LP verification and gate accounting',H2),
+              P('We rebuilt the iJO1366 mass-balance LP in HiGHS rather than its original GLPK solver. '
+                'The full model yields 0.9823718 per hour wild-type growth and zero growth after moaD deletion. '
+                'Deleting only two MoCo biomass coefficients, bmocogdp_c and mobd_c, restores both wild type '
+                'and moaD knockout to 0.9824852 per hour. The largest mass-balance residual is below 1.2e-11. '
+                'This checks numeric solver dependence, not whether the biomass edit is biologically valid; '
+                'the model snapshot hash and code are in results/highs_moco_rescue.json.',BODY),
+              P('A row-level audit now links 31 original science/data entries and 14 additional tools to '
                 'specific code and committed result files. The original inventory also held nine excluded '
                 'or unverified entries: four source pages/literature, two indirect library dependencies '
                 '(optlang, GLPK), a note-only PSAMM conversion, and DIAMOND/SCIP without distinct '
-                'execution traces outside CarveMe. The 44 linked rows are candidates, not a certified pass: '
+                'execution traces outside CarveMe. The 45 linked rows are candidates, not a certified pass: '
                 'database boundaries, source provenance, and the MEMOTE execution record remain thin. '
-                'Five further strict exclusions would bring the count below 40. See '
+                'Six further strict exclusions would bring the count below 40. See '
                 'results/tool_execution_evidence.csv and results/tool_execution_summary.json. ',BODY),
               P(f"For datasets, {delta['survey_analysed_unique_model_ids']} BiGG IDs are distinct model accessions "
                 f"whose bytes were fetched, hashed and used in the survey. {ga['dataset_accession_verified_paxdb_ids']} "
@@ -73,12 +79,9 @@ def story_gate(story,R):
                 "article accession and must not be used as an accession count. See gate_audit.json, "
                 "bigg_accession_delta.csv and paxdb_accession_evidence.csv for the ledgers.",BODY)]
     story += tbl([['Gate','Observed','Decision'],
-                  ['Science/data tools','44 code/result-linked candidates','Not certified: strict independence and provenance open'],
+                  ['Science/data tools','45 code/result-linked candidates','Not certified: strict independence and provenance open'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Pass: 123/120 under owner-approved model rule'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
                  'Table I3. Audit outcome as of 25 September 2026; inventory size is not gate completion.')
-    story += [P('Reproduction. Exact BiGG URLs, model SHA-256 values and objective outcomes are in '
-                'results/bigg_model_survey.csv; raw snapshots are privately archived. The 19 PaxDb IDs, '
-                'URLs, hashes and AUROCs are in results/paxdb_accession_evidence.csv. All new comparative '
-                'tests are exploratory and reuse the existing benchmark.',BODY)]
+
     return story
