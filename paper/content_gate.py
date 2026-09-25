@@ -54,11 +54,14 @@ def story_gate(story,R):
                 'remain in results/network_modules.json and results/network_modules_gene_assignments.csv. '
                 'This is a descriptive graph check, not a causal pathway or independent validation.',BODY),
               P('I.6 Gate accounting without padding',H2),
-              P('The original 40-entry inventory included download pages and PubMed Central, which do not count as '
-                'scientific tools. Eleven more science packages have now actually run: LightGBM, CatBoost, '
-                'imbalanced-learn, SHAP, gseapy, Pingouin, UMAP, HDBSCAN, PyOD, python-igraph and Leidenalg. Thus 47 entries are plausible candidates after '
-                'obvious exclusions, but each original candidate needs a code-to-result check before the 40-tool '
-                'gate can be certified. The tool gate is not yet verified.',BODY),
+              P('A row-level audit now links 30 original science/data entries and 12 additional tools to '
+                'specific code and committed result files. The original inventory also held ten excluded '
+                'or unverified entries: four source pages/literature, three indirect library dependencies '
+                '(optlang, GLPK, libSBML), a note-only PSAMM conversion, and DIAMOND/SCIP without distinct '
+                'execution traces outside CarveMe. The 42 linked rows are candidates, not a certified pass: '
+                'database boundaries, source provenance, and the MEMOTE execution record remain thin. '
+                'Three further strict exclusions would bring the count below 40. See '
+                'results/tool_execution_evidence.csv and results/tool_execution_summary.json. ',BODY),
               P(f"For datasets, {delta['survey_analysed_unique_model_ids']} BiGG IDs are distinct model accessions "
                 f"whose bytes were fetched, hashed and used in the survey. {ga['dataset_accession_verified_paxdb_ids']} "
                 "PaxDb E. coli dataset IDs have hashed files and per-dataset scored outcomes. Collapsing the known "
@@ -70,7 +73,7 @@ def story_gate(story,R):
                 "article accession and must not be used as an accession count. See gate_audit.json, "
                 "bigg_accession_delta.csv and paxdb_accession_evidence.csv for the ledgers.",BODY)]
     story += tbl([['Gate','Observed','Decision'],
-                  ['Science/data tools','47 candidates after obvious exclusions','Not certified: inspect original code-to-result ties'],
+                  ['Science/data tools','42 code/result-linked candidates','Not certified: strict independence and provenance open'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','123 only when model datasets are eligible'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
                  'Table I3. Audit outcome as of 25 September 2026; inventory size is not gate completion.')
