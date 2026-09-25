@@ -1,0 +1,7 @@
+# Exploratory robustness plan: degree-stratified network module null
+
+Recorded before evaluating this robustness result, after module 3 was identified on the same STRING network. This is post-selection sensitivity, not an independent discovery or a new dataset.
+
+Keep the same saved STRING >=700 graph, Leiden membership, 1,249 aligned genes and observed top-100 non-essential v2 priorities from `results/network_modules_gene_assignments.csv`. Compute undirected degree per gene from the 8,714 distinct saved graph edges. Among the non-essential genes only, bin degree into quantile strata (ties handled deterministically). For each of 20,000 deterministic replicates, shuffle the observed priority flag within each degree stratum; this preserves total priority count per stratum and the non-essential universe. For all 15 modules of >=20 genes, count priority flags. Empirical one-sided p=(1+exceedances)/(B+1); additionally compute a max-statistic familywise p using the maximum degree-stratified standardized count across these 15 modules. NumPy reference must agree on a small fixed draw. The specific module 3 result is reported whether positive or null; do not substitute unstratified Fisher significance.
+
+This checks graph-degree confounding only. It does not make labels independent, correct post-selection exploration, or validate in vivo biology. Numba is a scientific computational tool only if its JIT kernel is actually executed and saved results reproducible.
