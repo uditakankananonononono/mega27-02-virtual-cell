@@ -1,11 +1,11 @@
 {
   "original_manifest": 40,
   "old_code_result_linked": 31,
-  "new_code_result_linked": 14,
-  "total_code_result_linked": 45,
+  "new_code_result_linked": 15,
+  "total_code_result_linked": 46,
   "excluded_or_unverified": 9,
-  "audit_method": "Specific code/result links inspected for 31 original and 14 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.",
-  "interpretation": "45 code/result-linked candidates if distinct scientific/data databases and xrefs count as tools. Five-row margin over 40; six strict exclusions reduce it below 40. This is not a certified pass.",
+  "audit_method": "Specific code/result links inspected for 31 original and 15 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.",
+  "interpretation": "46 code/result-linked candidates if distinct scientific/data databases and xrefs count as tools. Six-row margin over 40; seven strict exclusions reduce it below 40. This is not a certified pass.",
   "sensitive_rows": [
     "UniProt/Pfam/PDB used shared UniProt exports in v6/v8; separate Pfam and RCSB API calls now corroborate one protein, but an annotation check is thinner than a new model study.",
     "MEMOTE embedded report is intact but original execution log is not retained.",

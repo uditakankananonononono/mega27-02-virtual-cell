@@ -1,0 +1,189 @@
+{
+  "design": "post-selection degree-stratified sensitivity on 15 pre-existing STRING/Leiden modules",
+  "n_genes": 1249,
+  "n_nonessential": 1034,
+  "n_priorities": 100,
+  "n_edges": 8714,
+  "n_modules_tested": 15,
+  "n_degree_strata": 10,
+  "stratum_sizes": [
+    104,
+    103,
+    104,
+    103,
+    103,
+    104,
+    103,
+    104,
+    103,
+    103
+  ],
+  "stratum_priority_counts": [
+    7,
+    5,
+    8,
+    7,
+    10,
+    15,
+    10,
+    16,
+    12,
+    10
+  ],
+  "permutations": 20000,
+  "random_seed": 173,
+  "numba_version": "0.67.0",
+  "numba_kernel_executed": true,
+  "reference_match_on_probe": true,
+  "rows": [
+    {
+      "community": 0,
+      "size": 140,
+      "observed_priority": 11,
+      "degree_stratified_expected": 11.874,
+      "degree_stratified_sd": 3.0089992861141575,
+      "empirical_one_sided_p": 0.672116394180291,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 1,
+      "size": 138,
+      "observed_priority": 10,
+      "degree_stratified_expected": 11.96765,
+      "degree_stratified_sd": 3.0637840681321897,
+      "empirical_one_sided_p": 0.7865106744662766,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 2,
+      "size": 104,
+      "observed_priority": 3,
+      "degree_stratified_expected": 8.83845,
+      "degree_stratified_sd": 2.5062852333250256,
+      "empirical_one_sided_p": 0.9976001199940003,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 3,
+      "size": 96,
+      "observed_priority": 17,
+      "degree_stratified_expected": 7.88445,
+      "degree_stratified_sd": 2.5458637568836666,
+      "empirical_one_sided_p": 0.0010999450027498626,
+      "max_statistic_fwer_p": 0.02519874006299685
+    },
+    {
+      "community": 4,
+      "size": 91,
+      "observed_priority": 12,
+      "degree_stratified_expected": 6.6583,
+      "degree_stratified_sd": 2.34275810440954,
+      "empirical_one_sided_p": 0.026348682565871705,
+      "max_statistic_fwer_p": 0.24863756812159393
+    },
+    {
+      "community": 5,
+      "size": 83,
+      "observed_priority": 4,
+      "degree_stratified_expected": 8.65875,
+      "degree_stratified_sd": 2.601199098365388,
+      "empirical_one_sided_p": 0.984200789960502,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 6,
+      "size": 77,
+      "observed_priority": 4,
+      "degree_stratified_expected": 6.09015,
+      "degree_stratified_sd": 2.2083402853366003,
+      "empirical_one_sided_p": 0.8837058147092646,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 7,
+      "size": 75,
+      "observed_priority": 6,
+      "degree_stratified_expected": 6.5333,
+      "degree_stratified_sd": 2.3171231221015454,
+      "empirical_one_sided_p": 0.6579671016449178,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 8,
+      "size": 67,
+      "observed_priority": 10,
+      "degree_stratified_expected": 6.09325,
+      "degree_stratified_sd": 2.24272288252384,
+      "empirical_one_sided_p": 0.06864656767161642,
+      "max_statistic_fwer_p": 0.6627168641567922
+    },
+    {
+      "community": 9,
+      "size": 62,
+      "observed_priority": 0,
+      "degree_stratified_expected": 5.5888,
+      "degree_stratified_sd": 2.1456105756256973,
+      "empirical_one_sided_p": 1.0,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 10,
+      "size": 61,
+      "observed_priority": 6,
+      "degree_stratified_expected": 4.24505,
+      "degree_stratified_sd": 1.878157839837501,
+      "empirical_one_sided_p": 0.24363781810909454,
+      "max_statistic_fwer_p": 0.9867506624668767
+    },
+    {
+      "community": 11,
+      "size": 54,
+      "observed_priority": 5,
+      "degree_stratified_expected": 3.76155,
+      "degree_stratified_sd": 1.7764710495725413,
+      "empirical_one_sided_p": 0.3161341932903355,
+      "max_statistic_fwer_p": 0.9986500674966252
+    },
+    {
+      "community": 12,
+      "size": 53,
+      "observed_priority": 5,
+      "degree_stratified_expected": 5.07685,
+      "degree_stratified_sd": 2.038517072553664,
+      "empirical_one_sided_p": 0.592120393980301,
+      "max_statistic_fwer_p": 1.0
+    },
+    {
+      "community": 13,
+      "size": 40,
+      "observed_priority": 5,
+      "degree_stratified_expected": 1.6113,
+      "degree_stratified_sd": 1.1961119697553915,
+      "empirical_one_sided_p": 0.016599170041497927,
+      "max_statistic_fwer_p": 0.08679566021698915
+    },
+    {
+      "community": 14,
+      "size": 22,
+      "observed_priority": 0,
+      "degree_stratified_expected": 0.2196,
+      "degree_stratified_sd": 0.4385036536593973,
+      "empirical_one_sided_p": 1.0,
+      "max_statistic_fwer_p": 1.0
+    }
+  ],
+  "module3": {
+    "community": 3,
+    "size": 96,
+    "observed_priority": 17,
+    "degree_stratified_expected": 7.88445,
+    "degree_stratified_sd": 2.5458637568836666,
+    "empirical_one_sided_p": 0.0010999450027498626,
+    "max_statistic_fwer_p": 0.02519874006299685
+  },
+  "source_sha256": {
+    "data/external/string_links.txt.gz": "e60afb17840044fe25e10572291e07d8715899238e10048dd6e95e9ed109e19c",
+    "results/network_modules_gene_assignments.csv": "d45394ef9c464f475fb0a6e875da1cb444c0d58d11861099d06bfc7d783a869a"
+  },
+  "caveat": "Exploratory post-selection sensitivity, not independent validation. Degree matching controls one network confound only; modules, labels and graph are reused."
+}
