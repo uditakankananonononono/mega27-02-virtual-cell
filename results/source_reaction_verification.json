@@ -1,0 +1,28 @@
+{
+  "scope": "Two research API checks: record identity and reaction mechanism. Neither is independent experimental replication.",
+  "ncbi_entrez": {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=U00096.3&rettype=acc&retmode=text",
+    "response": "U00096.3",
+    "local_genbank": "data/U00096.3.gb",
+    "local_genbank_sha256": "5228540391ea0a9400d31d2cb7dcf999a564c96955a18ace53c1ca2e41ae478d",
+    "sequence_length": 4641652,
+    "n_cds": 4318
+  },
+  "rhea_rest": {
+    "url": "https://www.rhea-db.org/rhea/?query=id:17805&columns=rhea-id,equation,ec&format=tsv&limit=5",
+    "reaction_id": "RHEA:17805",
+    "equation": "S-adenosyl-L-homocysteine + H2O = S-(5-deoxy-D-ribos-5-yl)-L-homocysteine + adenine",
+    "ec": "EC:3.2.2.9",
+    "iML1515_model_reaction": "AHCYSNS",
+    "model_equation": "ahcys_c + h2o_c --> ade_c + rhcys_c",
+    "model_stoichiometry": {
+      "ahcys_c": -1.0,
+      "h2o_c": -1.0,
+      "ade_c": 1.0,
+      "rhcys_c": 1.0
+    },
+    "knockout_source": "results/sam_bypass_mechanism.json",
+    "sam_rescued_purine_genes_blocked_when_AHCYSNS_removed": 5,
+    "caveat": "Rhea confirms chemical annotation and model alignment, not in-vivo transport or a validated rescue."
+  }
+}
