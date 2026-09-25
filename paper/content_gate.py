@@ -34,10 +34,22 @@ def story_gate(story,R):
     for x in ag['comparisons']:
         if x['a']=='v2_lr':rr.append([x['a']+' vs '+x['b'],f"{x['spearman']:.3f}",f"{x['top50_jaccard']:.3f}"])
     story+=tbl(rr,'Table I2. Out-of-fold score agreement; scores share genes, labels and feature construction.')
-    story += [PageBreak(),P('I.4 Gate accounting without padding',H2),
+    st=R('error_structure.json')
+    significant=[x for x in st['clusters'] if x['cluster']>=0 and x['fdr_bh']<0.05]
+    story += [P('I.4 Feature-space error structure (exploratory)',H2),
+              P(f"UMAP embedding of the {st['n_features']} frozen v2 features and HDBSCAN yielded "
+                f"{st['n_clusters_excluding_noise']} clusters plus noise. Two clusters enriched the top-100 "
+                f"false essentiality priorities: cluster {significant[0]['cluster']} contains "
+                f"{significant[0]['top100_false_priorities']}/{significant[0]['size']} (BH q={significant[0]['fdr_bh']:.2g}); "
+                f"cluster {significant[1]['cluster']} contains {significant[1]['top100_false_priorities']}/"
+                f"{significant[1]['size']} (q={significant[1]['fdr_bh']:.2g}). PyOD kNN outlier scores "
+                f"were higher among these priorities (two-sided MWU p={st['pyod_outlier_score']['two_sided_mwu_p']:.2g}). "
+                "No cell state or independent replication follows from this geometry. The complete cluster and "
+                "gene-level results include every null cluster.",BODY),
+              PageBreak(),P('I.5 Gate accounting without padding',H2),
               P('The original 40-entry inventory included download pages and PubMed Central, which do not count as '
-                'scientific tools. Six more science packages have now actually run: LightGBM, CatBoost, '
-                'imbalanced-learn, SHAP, gseapy and Pingouin. Thus 42 entries are plausible candidates after '
+                'scientific tools. Nine more science packages have now actually run: LightGBM, CatBoost, '
+                'imbalanced-learn, SHAP, gseapy, Pingouin, UMAP, HDBSCAN and PyOD. Thus 45 entries are plausible candidates after '
                 'obvious exclusions, but each original candidate needs a code-to-result check before the 40-tool '
                 'gate can be certified. The tool gate is not yet verified.',BODY),
               P(f"For datasets, {delta['survey_analysed_unique_model_ids']} BiGG IDs are distinct model accessions "
@@ -51,7 +63,7 @@ def story_gate(story,R):
                 "article accession and must not be used as an accession count. See gate_audit.json, "
                 "bigg_accession_delta.csv and paxdb_accession_evidence.csv for the ledgers.",BODY)]
     story += tbl([['Gate','Observed','Decision'],
-                  ['Science/data tools','42 candidates after obvious exclusions','Not certified: inspect original code-to-result ties'],
+                  ['Science/data tools','45 candidates after obvious exclusions','Not certified: inspect original code-to-result ties'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','123 only when model datasets are eligible'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
                  'Table I3. Audit outcome as of 25 September 2026; inventory size is not gate completion.')
