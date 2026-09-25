@@ -153,9 +153,9 @@ This is exploratory topology on an existing STRING accession, not another
 independent dataset or evidence of cell states.
 
 ## Current strict gate status (25 September 2026)
-`results/tool_execution_evidence.csv` links 31 original manifest entries and 15
+`results/tool_execution_evidence.csv` links 31 original manifest entries and 16
 additional scientific/data capabilities to specific code and saved outputs,
-for **46 candidates**, not 44 independently certified tools. Nine original
+for **47 candidates**, not 44 independently certified tools. Nine original
 entries are excluded or lack distinct execution evidence. The most recent
 checks used NCBI E-utilities, Rhea REST, QuickGO, Pfam/InterPro, PDB, PANTHER
 and a direct libSBML parse to inspect the SAM-to-adenine route. The one-protein
@@ -182,3 +182,8 @@ A degree-stratified permutation sensitivity of the STRING modules ran Numba
 on 20,000 draws, cross-checked against NumPy; module 3 remained enriched
 (max-statistic FWER p=.0252). This reuses the same graph and labels, so is
 exploratory, not independent validation (`results/network_degree_null.json`).
+
+Cross-algorithm sensitivity with scikit-network Louvain partly overlaps Leiden
+(ARI .582), but its top-overlap module does not pass BH correction across
+15 Louvain modules (q=.174); see `results/graph_algorithm_sensitivity.json`.
+This is an important null, not a second discovery.

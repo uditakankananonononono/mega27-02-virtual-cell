@@ -57,31 +57,28 @@ def story_gate(story,R):
                 'versus 7.88 expected (one-sided p=0.00110; max-statistic FWER p=0.0252 over 15 modules). '
                 'The JIT result matched a NumPy check. This is post-selection sensitivity on reused data, '
                 'not independent validation; all modules are in results/network_degree_null.json.',BODY),
+              P('A scikit-network Louvain partition matched Leiden moderately (ARI 0.582). Its '
+                'closest module had 12 false priorities in 81 genes (degree-matched p=0.0298), '
+                'but BH q=0.174 across 15 tested modules: a cross-algorithm null. '
+                'See results/graph_algorithm_sensitivity.json.',BODY),
               P('I.6 Independent LP verification and gate accounting',H2),
               P('HiGHS rebuilt the iJO1366 LP independently of GLPK: wild type 0.9823718/h, '
                 'moaD knockout zero; after removing two MoCo biomass coefficients, both grow at '
                 '0.9824852/h. Maximum mass-balance residual is below 1.2e-11. This verifies the '
                 'numeric model result, not an in-vivo phenotype (results/highs_moco_rescue.json).',BODY),
-              P('A row-level audit now links 31 original science/data entries and 15 additional tools to '
-                'specific code and committed result files. The original inventory also held nine excluded '
-                'or unverified entries: four source pages/literature, two indirect library dependencies '
-                '(optlang, GLPK), a note-only PSAMM conversion, and DIAMOND/SCIP without distinct '
-                'execution traces outside CarveMe. The 46 linked rows are candidates, not a certified pass: '
-                'database boundaries, source provenance, and the MEMOTE execution record remain thin. '
-                'Seven further strict exclusions would bring the count below 40. See '
-                'results/tool_execution_evidence.csv and results/tool_execution_summary.json. ',BODY),
-              P(f"For datasets, {delta['survey_analysed_unique_model_ids']} BiGG IDs are distinct model accessions "
-                f"whose bytes were fetched, hashed and used in the survey. {ga['dataset_accession_verified_paxdb_ids']} "
-                "PaxDb E. coli dataset IDs have hashed files and per-dataset scored outcomes. Collapsing the known "
-                "Arike and Krug technical quantification variants yields at least 15 source studies with PaxDb "
-                "accessions. Under a model-dataset-inclusive accession rule, 108 + 15 = 123 fetched-and-used "
-                "accessioned resources, meeting the 120 threshold. This is not 123 independent biological studies; "
-                "108 are metabolic model snapshots. If the standard were independent experimental studies instead, "
-                "the threshold is not met. The older claim of 124 study keys relied on 44 files under one figshare "
-                "article accession and must not be used as an accession count. See gate_audit.json, "
-                "bigg_accession_delta.csv and paxdb_accession_evidence.csv for the ledgers.",BODY)]
+              P('A row-level audit links 31 original and 16 added tools to code and results. Nine '
+                'old entries are excluded or unverified: four download/literature sources, indirect '
+                'optlang/GLPK dependencies, note-only PSAMM, and DIAMOND/SCIP without separate '
+                'traces. The 47 linked rows are candidates, not a certified pass: database boundaries, '
+                'source provenance and MEMOTE execution remain thin. Eight more strict exclusions '
+                'would put the count below 40 (results/tool_execution_evidence.csv).',BODY),
+              P('Dataset gate: 108 distinct BiGG model IDs were fetched, hashed and analysed; 19 PaxDb '
+                'files have per-accession scores, collapsing to at least 15 source studies after technical '
+                'variants. The user accepted model accessions, so 108 + 15 = 123/120. This is not 123 '
+                'independent wet-lab studies. The older 124 study-key claim counted 44 organism files under '
+                'one figshare accession and must not be reused. See gate_audit.json and the accession ledgers.',BODY)]
     story += tbl([['Gate','Observed','Decision'],
-                  ['Science/data tools','46 code/result-linked candidates','Not certified: strict independence and provenance open'],
+                  ['Science/data tools','47 code/result-linked candidates','Not certified: strict independence and provenance open'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Pass: 123/120 under owner-approved model rule'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
                  'Table I3. Audit outcome as of 25 September 2026; inventory size is not gate completion.')
