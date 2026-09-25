@@ -1,0 +1,10 @@
+{
+  "decision": "Accessioned metabolic models count toward 120-dataset gate; keep 59-page paper",
+  "received_at": "2026-09-25T14:09:14+05:30",
+  "user_reply": "Ok and ok",
+  "user_message_id": "wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhggQUNBMkREN0MzNDQ3ODE1MEUxMDFCNUZEMkY4RTExMkMA",
+  "question_message_id": "wamid.HBgMOTE4MTM0MDk4NTcxFQIAERgSOEY4RTQ0RDM5N0Q1NkEzNDRDAA==",
+  "question": "Item 2: do BiGG models count toward the 120-dataset gate? And keep the paper at 59pp or cut to 20pp + supplement?",
+  "interpretation": "Yes to both questions; only item 2 applies here. No change to the 40 genuine-tool requirement.",
+  "caveat": "Owner approval selects what counts; it does not turn model data into independent experiments."
+}

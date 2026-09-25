@@ -68,13 +68,13 @@ def story_gate(story,R):
                 "Arike and Krug technical quantification variants yields at least 15 source studies with PaxDb "
                 "accessions. Under a model-dataset-inclusive accession rule, 108 + 15 = 123 fetched-and-used "
                 "accessioned resources, meeting the 120 threshold. This is not 123 independent biological studies; "
-                "108 are metabolic model snapshots. If the requirement intended independent experimental studies, "
+                "108 are metabolic model snapshots. If the standard were independent experimental studies instead, "
                 "the threshold is not met. The older claim of 124 study keys relied on 44 files under one figshare "
                 "article accession and must not be used as an accession count. See gate_audit.json, "
                 "bigg_accession_delta.csv and paxdb_accession_evidence.csv for the ledgers.",BODY)]
     story += tbl([['Gate','Observed','Decision'],
                   ['Science/data tools','44 code/result-linked candidates','Not certified: strict independence and provenance open'],
-                  ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','123 only when model datasets are eligible'],
+                  ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Pass: 123/120 under owner-approved model rule'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
                  'Table I3. Audit outcome as of 25 September 2026; inventory size is not gate completion.')
     story += [P('Reproduction. Exact BiGG URLs, model SHA-256 values and objective outcomes are in '

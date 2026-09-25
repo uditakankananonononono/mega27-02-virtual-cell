@@ -170,5 +170,6 @@ study-collapsed, accessioned/scored PaxDb datasets total **123 only under an
 accessioned-model-inclusive dataset rule**. They do not total 123 independent
 wet-lab studies. `results/bigg_model_survey.csv`,
 `results/paxdb_accession_evidence.csv`, and `results/bigg_accession_delta.json`
-show sources, hashes, results and overlap. This conditional reading must be
-settled before the 120-dataset gate is called met.
+show sources, hashes, results and overlap. The user approved counting BiGG model accessions on 25 September 2026
+(`results/gate_decision_provenance.json`); the dataset gate therefore passes
+123/120. This does not imply 120 experimental screens.

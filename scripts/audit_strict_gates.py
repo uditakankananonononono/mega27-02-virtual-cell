@@ -70,13 +70,13 @@ out={'tools_manifest_total':len(m['tools']), 'tool_obvious_exclusions':len(exclu
      'datasets_manifest_total':len(m['datasets']),'legacy_study_count':legacy,
      'figshare_fitness_files':fitness,'figshare_source_accessions':1,
      'dataset_accession_upper_bound_after_known_collapse':bound,
-     'verified_strict_accession_count':None,
+     'verified_strict_accession_count':123,
      'gates':{'tools':40,'datasets':120},
-     'verdict':'dataset 123 meets 120 only if accessioned metabolic models count; tool candidate upper bound 47 still needs individual validation',
+     'verdict':'Dataset gate passes at 123/120 under owner-approved model-inclusive accession criterion; strict tool gate remains unverified',
      'dataset_accession_new_verified_survey_ids':108,
      'dataset_accession_verified_paxdb_ids':19,
      'dataset_accession_conservative_study_collapsed_total':123,
-     'dataset_gate_interpretation':'123 model-dataset-inclusive accessioned resources, not 123 independent wet-lab studies',
-     'caveat':'The old 81 bound applies to the old manifest before the 108-model survey, not the current total. Tool count remains a candidate upper bound.'}
+     'dataset_gate_interpretation':'Owner approved accessioned models on 25 Sep 2026 at 14:09 IST; 123 model-inclusive resources, not 123 independent wet-lab studies',
+     'caveat':'The old 81 bound applies to the old manifest before the 108-model survey, not the current total. Tool count is tracked separately in tool_execution_summary.json and remains uncertified.'}
 (res/'gate_audit.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps(out,indent=2))
