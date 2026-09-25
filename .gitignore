@@ -9,3 +9,5 @@ data/external/cog/cog-20.cog.csv
 data/external/precise1k/precise1k.json.gz
 
 catboost_info/
+
+data/bigg_survey/*.json

@@ -92,3 +92,19 @@ oversampling differences include zero. No new biological validation claim. These
 four executed libraries raise the strict science-tool candidate ceiling from 36
 to 40, but are not a blanket gate pass: earlier candidates still need provenance
 checks and some may be excluded. The accession dataset gate remains unmet.
+
+## BiGG cross-model MoCo objective census
+`notes/prereg_bigg_model_survey.md` fixes the question and amendment. The
+public BiGG v2 catalog listed 108 unique model IDs; all 108 model JSON
+snapshots were fetched, parsed, SHA-256 hashed and analysed for biomass
+objective constituents by `scripts/run_bigg_model_survey.py`.
+`results/bigg_model_survey.csv` gives the accession ID, exact downloaded
+source URL, digest, size, parsed counts and result for each model.
+**68/108** models include a MoCo-named constituent in a biomass objective;
+104/108 had a positive-weight objective annotated in JSON. This is a
+descriptive structural finding across 85 stated organism names, not evidence
+that all 68 models make a false essentiality call. Model growth was not scored.
+These 108 distinct BiGG IDs overlap some models already in the manifest,
+and they are metabolic-model accessions, not 108 independent wet-lab screens.
+The large raw snapshot collection is retained in private Drive rather than
+redistributed in git; hashes and fetch script allow source revalidation.
