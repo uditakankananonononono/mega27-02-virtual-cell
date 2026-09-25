@@ -1,0 +1,152 @@
+{
+  "design": "post-selection cross-algorithm sensitivity on same frozen STRING network and label set",
+  "source_sha256": {
+    "data/external/string_links.txt.gz": "e60afb17840044fe25e10572291e07d8715899238e10048dd6e95e9ed109e19c",
+    "results/network_modules_gene_assignments.csv": "d45394ef9c464f475fb0a6e875da1cb444c0d58d11861099d06bfc7d783a869a"
+  },
+  "package": "scikit-network 0.33.0",
+  "algorithm": "Louvain, default resolution, seed 17, no shuffle",
+  "n_edges": 8714,
+  "n_genes": 1249,
+  "n_louvain_modules_all_sizes": 59,
+  "n_tested_size_ge20": 15,
+  "adjusted_rand_index_vs_leiden": 0.5824358185838123,
+  "normalized_mutual_information_vs_leiden": 0.8231094982416156,
+  "closest_to_leiden3": {
+    "community": 3,
+    "size": 81,
+    "false_priority": 12,
+    "fisher_p": 0.023218377595046236,
+    "overlap_with_leiden3": 56,
+    "fdr_bh": 0.17413783196284677,
+    "degree_stratified_expected": 6.8075,
+    "degree_stratified_one_sided_p": 0.029798510074496274
+  },
+  "tested_modules": [
+    {
+      "community": 0,
+      "size": 197,
+      "false_priority": 26,
+      "fisher_p": 0.004147270750386205,
+      "overlap_with_leiden3": 10,
+      "fdr_bh": 0.06220906125579308
+    },
+    {
+      "community": 1,
+      "size": 165,
+      "false_priority": 10,
+      "fisher_p": 0.8760217496237095,
+      "overlap_with_leiden3": 6,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 2,
+      "size": 106,
+      "false_priority": 13,
+      "fisher_p": 0.07221571060414794,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 0.3610785530207397
+    },
+    {
+      "community": 3,
+      "size": 81,
+      "false_priority": 12,
+      "fisher_p": 0.023218377595046236,
+      "overlap_with_leiden3": 56,
+      "fdr_bh": 0.17413783196284677,
+      "degree_stratified_expected": 6.8075,
+      "degree_stratified_one_sided_p": 0.029798510074496274
+    },
+    {
+      "community": 4,
+      "size": 80,
+      "false_priority": 4,
+      "fisher_p": 0.8992170053806829,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 5,
+      "size": 79,
+      "false_priority": 4,
+      "fisher_p": 0.8935644170846843,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 6,
+      "size": 75,
+      "false_priority": 8,
+      "fisher_p": 0.2459413579502916,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 0.8207208196887266
+    },
+    {
+      "community": 7,
+      "size": 62,
+      "false_priority": 0,
+      "fisher_p": 1.0,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 8,
+      "size": 57,
+      "false_priority": 3,
+      "fisher_p": 0.8511474932719248,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 9,
+      "size": 55,
+      "false_priority": 6,
+      "fisher_p": 0.27357360656290886,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 0.8207208196887266
+    },
+    {
+      "community": 10,
+      "size": 53,
+      "false_priority": 5,
+      "fisher_p": 0.4212048595884568,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 11,
+      "size": 45,
+      "false_priority": 1,
+      "fisher_p": 0.978204443492936,
+      "overlap_with_leiden3": 24,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 12,
+      "size": 43,
+      "false_priority": 3,
+      "fisher_p": 0.6845166670532343,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 13,
+      "size": 22,
+      "false_priority": 0,
+      "fisher_p": 1.0,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    },
+    {
+      "community": 14,
+      "size": 22,
+      "false_priority": 0,
+      "fisher_p": 1.0,
+      "overlap_with_leiden3": 0,
+      "fdr_bh": 1.0
+    }
+  ],
+  "degree_stratified_permutations": 20000,
+  "degree_stratified_seed": 293,
+  "caveat": "Same graph, genes and phenotypes; post-selection sensitivity. A second clustering algorithm is not biological replication."
+}
