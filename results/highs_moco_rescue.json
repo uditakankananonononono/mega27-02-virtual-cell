@@ -1,0 +1,41 @@
+{
+  "design": "Independent LP solver and direct S*v=0 verification of the previously reported MoCo biomass dependency",
+  "model": "data/iJO1366.json",
+  "sha256": "9376a93f62ad430719f23e612154dd94c67e0d7c9545ed9d17a4d0c347672313",
+  "objective_reaction": "BIOMASS_Ec_iJO1366_core_53p95M",
+  "removed_biomass_coefficients": {
+    "bmocogdp_c": -0.000122,
+    "mobd_c": -7e-06
+  },
+  "knockout_gene": "b0784 (moaD)",
+  "solver": "HiGHS 1.15.1",
+  "wild_type": {
+    "growth_per_h": 0.9823718127269849,
+    "max_mass_balance_residual": 1.0089235003007957e-11,
+    "n_reactions": 2583,
+    "n_metabolites": 1805,
+    "nonzero_stoichiometry": 10183
+  },
+  "moaD_knockout_original": {
+    "growth_per_h": -0.0,
+    "max_mass_balance_residual": 1.1013412404281553e-13,
+    "n_reactions": 2583,
+    "n_metabolites": 1805,
+    "nonzero_stoichiometry": 10183
+  },
+  "biomass_edit_wild_type": {
+    "growth_per_h": 0.9824851916879533,
+    "max_mass_balance_residual": 7.2359757075091125e-12,
+    "n_reactions": 2583,
+    "n_metabolites": 1805,
+    "nonzero_stoichiometry": 10181
+  },
+  "biomass_edit_moaD_knockout": {
+    "growth_per_h": 0.9824851916879523,
+    "max_mass_balance_residual": 1.1101328190044057e-11,
+    "n_reactions": 2583,
+    "n_metabolites": 1805,
+    "nonzero_stoichiometry": 10181
+  },
+  "caveat": "Solver concordance validates the saved model computation, not a live-cell phenotype or universal biomass repair."
+}

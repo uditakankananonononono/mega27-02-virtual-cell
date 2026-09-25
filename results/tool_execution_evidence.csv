@@ -39,6 +39,7 @@ Protein Data Bank (PDB entries via UniProt xref_pdb),37,experimental structure d
 iModulonDB / PRECISE-1K iModulon compendium (SBRG; Lamoureux et al. 2023),38,transcriptome regulatory-module database,code_result_linked,scripts/run_v9_precise1k.py,results/v9_precise1k.json,PRECISE-1K/iModulon expression tested in v9
 Transporter Classification Database (TCDB) substrate table,39,transporter database,code_result_linked,scripts/run_uptake_plausibility.py,results/uptake_plausibility.json,TCDB substrate joins on ChEBI for seven supplements
 ChEBI ontology via EBI OLS4 API,40,chemical ontology,code_result_linked,scripts/run_uptake_plausibility.py,results/uptake_plausibility.json,ChEBI ontology API expansion for seven supplements
+HiGHS,new,LP solver,code_result_linked,scripts/check_highs_moco_rescue.py,results/highs_moco_rescue.json,Independent matrix-built LP and mass-balance check of MoCo biomass rescue
 PANTHER,new,scientific database,code_result_linked,scripts/check_sah_orthogonal_annotations.py,results/sah_orthogonal_annotations.json,"Live database query and annotation cross-check, not a new experimental phenotype"
 QuickGO,new,scientific database,code_result_linked,scripts/check_sah_orthogonal_annotations.py,results/sah_orthogonal_annotations.json,"Live database query and annotation cross-check, not a new experimental phenotype"
 LightGBM,new,scientific package,code_result_linked,scripts/run_learner_sensitivity.py,results/learner_sensitivity.json,Executed statistical/modeling operation visible in code and numerical committed output
