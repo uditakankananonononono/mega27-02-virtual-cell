@@ -1,0 +1,50 @@
+{
+  "design": "exploratory annotation triangulation of gene mtnN/b0159, not independent phenotype validation",
+  "source_urls": {
+    "quickgo": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?geneProductId=UniProtKB:P0AF12&taxonId=83333&limit=100",
+    "pfam_interpro": "https://www.ebi.ac.uk/interpro/api/entry/pfam/protein/uniprot/P0AF12/?page_size=100",
+    "rcsb_pdb": "https://data.rcsb.org/rest/v1/core/entry/1JYS"
+  },
+  "protein_accession": "P0AF12",
+  "quickgo": {
+    "annotation_count": 20,
+    "molecular_function_go_ids": [
+      "GO:0003824",
+      "GO:0008782",
+      "GO:0008930",
+      "GO:0042802",
+      "GO:0042803"
+    ],
+    "direct_assigned_by": [
+      "EcoCyc",
+      "GO_Central",
+      "IntAct",
+      "InterPro",
+      "UniProt"
+    ]
+  },
+  "pfam": {
+    "live_ids": [
+      "PF01048"
+    ],
+    "saved_feature_ids": [
+      "PF01048"
+    ],
+    "shared_ids": [
+      "PF01048"
+    ]
+  },
+  "pdb": {
+    "live_id": "1JYS",
+    "title": "Crystal Structure of E. coli MTA/AdoHcy Nucleosidase",
+    "resolution_angstrom": [
+      1.9
+    ],
+    "saved_feature_contains_id": true
+  },
+  "input_sha256": {
+    "data/external/uniprot_ecoli_pfam.tsv": "de9137a1f1869f3466679f532ad97a695ecb08e5e58770997bbcc4c9047b8c2b",
+    "data/external/uniprot_ecoli_pdb.tsv": "d917d55f2bec76b857bca18139ea0b277cc4221d9b521b5102d7cbf418207b8d"
+  },
+  "caveat": "These sources annotate the enzyme and structure. They do not show that exogenous SAM is imported or that model-predicted purine rescue occurs in cells."
+}

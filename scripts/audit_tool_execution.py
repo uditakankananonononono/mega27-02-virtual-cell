@@ -30,15 +30,15 @@ old={
 31:('scripts/verify_source_reactions.py','results/source_reaction_verification.json','Rhea API reaction aligned to AHCYSNS knockout'),
 32:('scripts/run_xgb_shap.py','results/xgb_shap.json','XGBoost OOF scores and TreeSHAP'),
 33:('scripts/fetch_alphafold.py','results/v6_structure_domain.json','AlphaFold API pLDDT tested in v6'),
-34:('scripts/run_v6_structure_domain.py','results/v6_structure_domain.json','Pfam UniProt xref used in fold-internal domain feature'),
+34:('scripts/check_sah_orthogonal_annotations.py','results/sah_orthogonal_annotations.json','Pfam/InterPro live API cross-check against v6 UniProt xref feature'),
 35:('scripts/fetch_oma.py','results/v7_oma.json','OMA HOG levels tested in v7'),
 36:('scripts/run_v8_cog_pdb.py','results/v8_cog_pdb.json','NCBI COG category/spread tested in v8'),
-37:('scripts/run_v8_cog_pdb.py','results/v8_cog_pdb.json','PDB UniProt xref coverage tested in v8'),
+37:('scripts/check_sah_orthogonal_annotations.py','results/sah_orthogonal_annotations.json','RCSB PDB live entry cross-check against v8 UniProt xref feature'),
 38:('scripts/run_v9_precise1k.py','results/v9_precise1k.json','PRECISE-1K/iModulon expression tested in v9'),
 39:('scripts/run_uptake_plausibility.py','results/uptake_plausibility.json','TCDB substrate joins on ChEBI for seven supplements'),
 40:('scripts/run_uptake_plausibility.py','results/uptake_plausibility.json','ChEBI ontology API expansion for seven supplements')}
 excluded={2:'indirect COBRApy LP dependency; no distinct execution/result tie',3:'indirect COBRApy solver dependency; no distinct execution/result tie',4:'SBML parsing indirect, no distinct usage trace',15:'supplement source page only',16:'source page only',17:'source download portal only',22:'literature database expressly excluded',27:'PSAMM conversion is asserted in a note; no committed execution log',29:'DIAMOND runs within CarveMe but no distinct execution trace',30:'SCIP solver selected in CarveMe command; no distinct result-specific trace'}
-new=[('LightGBM','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('CatBoost','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('imbalanced-learn','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('SHAP','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('gseapy','scripts/run_pathway_enrichment.py','results/pathway_enrichment.json'),('Pingouin','scripts/run_score_agreement.py','results/score_agreement.json'),('UMAP','scripts/run_error_structure.py','results/error_structure.json'),('HDBSCAN','scripts/run_error_structure.py','results/error_structure.json'),('PyOD','scripts/run_error_structure.py','results/error_structure.json'),('python-igraph','scripts/run_network_modules.py','results/network_modules.json'),('Leidenalg','scripts/run_network_modules.py','results/network_modules.json')]
+new=[('QuickGO','scripts/check_sah_orthogonal_annotations.py','results/sah_orthogonal_annotations.json'),('LightGBM','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('CatBoost','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('imbalanced-learn','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('SHAP','scripts/run_learner_sensitivity.py','results/learner_sensitivity.json'),('gseapy','scripts/run_pathway_enrichment.py','results/pathway_enrichment.json'),('Pingouin','scripts/run_score_agreement.py','results/score_agreement.json'),('UMAP','scripts/run_error_structure.py','results/error_structure.json'),('HDBSCAN','scripts/run_error_structure.py','results/error_structure.json'),('PyOD','scripts/run_error_structure.py','results/error_structure.json'),('python-igraph','scripts/run_network_modules.py','results/network_modules.json'),('Leidenalg','scripts/run_network_modules.py','results/network_modules.json')]
 manifest=json.loads((R/'results/tools_manifest.json').read_text())['tools']
 assert len(manifest)==40 and set(old)|set(excluded)==set(range(1,41)) and not(set(old)&set(excluded))
 rows=[]
@@ -55,9 +55,9 @@ with (R/'results/tool_execution_evidence.csv').open('w',newline='') as f:
  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 summary={'original_manifest':40,'old_code_result_linked':len(old),'new_code_result_linked':len(new),
  'total_code_result_linked':len(old)+len(new),'excluded_or_unverified':len(excluded),
- 'audit_method':'Specific code/result links inspected for 30 original and 11 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.',
- 'interpretation':'41 code/result-linked candidates if distinct scientific/data databases and xrefs count as tools. One-row margin over 40; two strict exclusions reduce it below 40. This is not a certified pass.',
- 'sensitive_rows':['UniProt REST/Pfam/PDB share UniProt export origin; distinct knowledgebases but shared retrieval channel.','MEMOTE embedded report is intact but original execution log is not retained.','NCBI and Rhea identity/reaction checks are useful research checks, not new biological datasets or independent discovery.'],
+ 'audit_method':'Specific code/result links inspected for 30 original and 12 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.',
+ 'interpretation':'42 code/result-linked candidates if distinct scientific/data databases and xrefs count as tools. Two-row margin over 40; three strict exclusions reduce it below 40. This is not a certified pass.',
+ 'sensitive_rows':['UniProt/Pfam/PDB used shared UniProt exports in v6/v8; separate Pfam and RCSB API calls now corroborate one protein, but an annotation check is thinner than a new model study.','MEMOTE embedded report is intact but original execution log is not retained.','NCBI and Rhea identity/reaction checks are useful research checks, not new biological datasets or independent discovery.'],
  'ledger':'results/tool_execution_evidence.csv'}
 (R/'results/tool_execution_summary.json').write_text(json.dumps(summary,indent=2)+'\n')
 print(json.dumps(summary,indent=2))

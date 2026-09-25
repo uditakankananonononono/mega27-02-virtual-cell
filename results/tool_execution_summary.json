@@ -1,13 +1,13 @@
 {
   "original_manifest": 40,
   "old_code_result_linked": 30,
-  "new_code_result_linked": 11,
-  "total_code_result_linked": 41,
+  "new_code_result_linked": 12,
+  "total_code_result_linked": 42,
   "excluded_or_unverified": 10,
-  "audit_method": "Specific code/result links inspected for 30 original and 11 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.",
-  "interpretation": "41 code/result-linked candidates if distinct scientific/data databases and xrefs count as tools. One-row margin over 40; two strict exclusions reduce it below 40. This is not a certified pass.",
+  "audit_method": "Specific code/result links inspected for 30 original and 12 added rows. Some saved-source rows lack acquisition logs; source identity and independent reproduction still require audit. Dependency-only, build and literature tools excluded.",
+  "interpretation": "42 code/result-linked candidates if distinct scientific/data databases and xrefs count as tools. Two-row margin over 40; three strict exclusions reduce it below 40. This is not a certified pass.",
   "sensitive_rows": [
-    "UniProt REST/Pfam/PDB share UniProt export origin; distinct knowledgebases but shared retrieval channel.",
+    "UniProt/Pfam/PDB used shared UniProt exports in v6/v8; separate Pfam and RCSB API calls now corroborate one protein, but an annotation check is thinner than a new model study.",
     "MEMOTE embedded report is intact but original execution log is not retained.",
     "NCBI and Rhea identity/reaction checks are useful research checks, not new biological datasets or independent discovery."
   ],
