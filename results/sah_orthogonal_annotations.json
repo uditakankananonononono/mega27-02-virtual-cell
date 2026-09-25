@@ -3,7 +3,8 @@
   "source_urls": {
     "quickgo": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?geneProductId=UniProtKB:P0AF12&taxonId=83333&limit=100",
     "pfam_interpro": "https://www.ebi.ac.uk/interpro/api/entry/pfam/protein/uniprot/P0AF12/?page_size=100",
-    "rcsb_pdb": "https://data.rcsb.org/rest/v1/core/entry/1JYS"
+    "rcsb_pdb": "https://data.rcsb.org/rest/v1/core/entry/1JYS",
+    "panther": "https://www.pantherdb.org/services/oai/pantherdb/geneinfo?geneInputList=P0AF12&organism=83333"
   },
   "protein_accession": "P0AF12",
   "quickgo": {
@@ -33,6 +34,12 @@
     "shared_ids": [
       "PF01048"
     ]
+  },
+  "panther": {
+    "version": 19,
+    "family_id": "PTHR46832",
+    "subfamily_id": "PTHR46832:SF1",
+    "family_name": "5'-METHYLTHIOADENOSINE/S-ADENOSYLHOMOCYSTEINE NUCLEOSIDASE"
   },
   "pdb": {
     "live_id": "1JYS",
