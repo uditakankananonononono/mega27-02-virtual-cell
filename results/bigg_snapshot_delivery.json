@@ -1,0 +1,11 @@
+{
+  "archive_sha256": "6bc5888e14aa3c8063dc7376fe7fe58fd0ccd2f4b8cade0d3384ac7dbda9b0ce",
+  "archive_name": "VC2_BiGG_108_model_snapshots_20260925.tar.gz",
+  "parts": [
+    {"name": "VC2_BiGG_108_snapshots.tar.gz.part00", "sha256": "13954dcdd06a902610a63173ae2a84e8bbfb2a8deb38583f9895c1b63057f585", "drive_url": "https://drive.google.com/file/d/1PKsQGn1F4DujWOGalqr3llmupUBlLa8l/view?usp=drivesdk&authuser=uditakankana%40gmail.com"},
+    {"name": "VC2_BiGG_108_snapshots.tar.gz.part01", "sha256": "9b14f38d6aae5ebec855f33d8b1f43a30ee518509f761fe6930fc259dec65f4f", "drive_url": "https://drive.google.com/file/d/1ajkZ_-ZZ-Ln7r_z1l4z4_SxX-GUniDwK/view?usp=drivesdk&authuser=uditakankana%40gmail.com"},
+    {"name": "VC2_BiGG_108_snapshots.tar.gz.part02", "sha256": "38d3636afc4d35a867b44144efb5fc761b69aa2efcf8d8af19532c8de0f1631b", "drive_url": "https://drive.google.com/file/d/1MlCxBI8RPG7l_dWQP1uGFqs7TNj1Cyi3/view?usp=drivesdk&authuser=uditakankana%40gmail.com"}
+  ],
+  "reassemble": "cat VC2_BiGG_108_snapshots.tar.gz.part0{0,1,2} > VC2_BiGG_108_model_snapshots_20260925.tar.gz",
+  "scope": "108 model snapshots plus the fetched public BiGG model index, privately stored; no Times font files"
+}

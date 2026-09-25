@@ -106,5 +106,7 @@ descriptive structural finding across 85 stated organism names, not evidence
 that all 68 models make a false essentiality call. Model growth was not scored.
 These 108 distinct BiGG IDs overlap some models already in the manifest,
 and they are metabolic-model accessions, not 108 independent wet-lab screens.
-The large raw snapshot collection is retained in private Drive rather than
-redistributed in git; hashes and fetch script allow source revalidation.
+The large raw snapshot collection is retained in three private Drive parts
+rather than redistributed in git. `results/bigg_snapshot_delivery.json` records
+the exact links, part/archive hashes and reassembly command; per-model
+hashes and fetch script allow source revalidation.
