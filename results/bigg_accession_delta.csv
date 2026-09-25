@@ -1,0 +1,109 @@
+accession,source_url,sha256,bytes,organism,moco_biomass,status
+e_coli_core,https://bigg.ucsd.edu/static/models/e_coli_core.json,7bedec10576cfe935b19218dc881f3fb14f890a1871448fc19a9b4ee15b448d8,173441,Escherichia coli str. K-12 substr. MG1655,False,previously used
+iAB_RBC_283,https://bigg.ucsd.edu/static/models/iAB_RBC_283.json,83a69bb88844c5490ee690c77394646372cc8f74b3c4abb9315fe6f81e22cca0,607985,Homo sapiens,False,new distinct model ID
+iAF1260,https://bigg.ucsd.edu/static/models/iAF1260.json,f3e5e4b9fe599663b88f86aa2c50dfb0c866f87548645e814726434831ede456,2749796,Escherichia coli str. K-12 substr. MG1655,True,previously used
+iAF1260b,https://bigg.ucsd.edu/static/models/iAF1260b.json,737bcd84ca9e721af27a80a970a22994a91007a4ad08c8f37b0d83700bf78fb1,2659104,Escherichia coli str. K-12 substr. MG1655,True,new distinct model ID
+iAF692,https://bigg.ucsd.edu/static/models/iAF692.json,f05d9e93767e8c9c9cb4a6fb8d00bf52f9a3bee7edb83ea90b7e21eee8970367,925765,Methanosarcina barkeri str. Fusaro,False,new distinct model ID
+iAF987,https://bigg.ucsd.edu/static/models/iAF987.json,2b7cfac15c2d481f231b01efc367fa51bd3387a7fe65bf1fdd1fda1597c794fe,1588740,Geobacter metallireducens GS-15,False,new distinct model ID
+iAM_Pb448,https://bigg.ucsd.edu/static/models/iAM_Pb448.json,32cf129c5ae126a24344d37ec7ee88584e4a8a372558fdf9c03d02d4f0c62235,1227870,Plasmodium berghei,False,new distinct model ID
+iAM_Pc455,https://bigg.ucsd.edu/static/models/iAM_Pc455.json,ff62929902fd3253be66572615259c3ba1ed3e40f8bb0bbd9dc5b09ad4260108,1166480,Plasmodium cynomolgi strain B,False,new distinct model ID
+iAM_Pf480,https://bigg.ucsd.edu/static/models/iAM_Pf480.json,c09a246a8ea89a8335ef268332a383b885333ef6fd0efb972e7778112c1a10c9,1270970,Plasmodium falciparum 3D7,False,new distinct model ID
+iAM_Pk459,https://bigg.ucsd.edu/static/models/iAM_Pk459.json,eefcc396a5866bb2d413ae2494726a87a7a7562f1139ed40fcbea25b1e93ae6a,1147626,Plasmodium knowlesi strain H,False,new distinct model ID
+iAM_Pv461,https://bigg.ucsd.edu/static/models/iAM_Pv461.json,e49ef0d9bc056bd35bd767ac1b91e4117476fb769051589e05ab01165c22f0ca,1165917,Plasmodium vivax Sal-1,False,new distinct model ID
+iAPECO1_1312,https://bigg.ucsd.edu/static/models/iAPECO1_1312.json,69913316e12d77983d892d9dc3e48cd5950a6aacd5d4ca51a4228393689cdc71,2944700,Escherichia coli APEC O1,True,new distinct model ID
+iAT_PLT_636,https://bigg.ucsd.edu/static/models/iAT_PLT_636.json,5359d9f91bc1c85d6371c450aa5b37cd4ac1d4ce05e29c3f8b67b2a8271b9521,1192657,Homo sapiens,False,new distinct model ID
+iB21_1397,https://bigg.ucsd.edu/static/models/iB21_1397.json,28afcaaddf6eeab43cf69f100a8eaf26ee1986212d0385a55d61485abc8fa025,3147123,Escherichia coli BL21(DE3),True,new distinct model ID
+iBWG_1329,https://bigg.ucsd.edu/static/models/iBWG_1329.json,e9e9442055154edbd104e40ef92b0c08c46dea778b9e2a5a3c10a8d80f5a5d36,2939306,Escherichia coli BW2952,True,new distinct model ID
+ic_1306,https://bigg.ucsd.edu/static/models/ic_1306.json,2acb1272cb202e76087b9482d774a8b794430d98c730a5916bcad16cf2da033e,2889316,Escherichia coli CFT073,True,new distinct model ID
+iCHOv1,https://bigg.ucsd.edu/static/models/iCHOv1.json,0b786b81c08142be3a88f33b366d4e0f05d8689baad877e5375a9fa843a5f87c,5782010,Cricetulus griseus,False,new distinct model ID
+iCHOv1_DG44,https://bigg.ucsd.edu/static/models/iCHOv1_DG44.json,9fc09e182c1795dd77378c6c53d97aaf215d1d1212b7f79bdf8d9731c87cd43a,3465632,Cricetulus griseus,False,new distinct model ID
+iCN718,https://bigg.ucsd.edu/static/models/iCN718.json,f6c683076d596b2611171cb616eed42bbf87fe533ca1c9b07399be310ac837e2,1236831,Acinetobacter baumannii AYE,False,new distinct model ID
+iCN900,https://bigg.ucsd.edu/static/models/iCN900.json,d791e34d4da93dc1cea5edfa67c9c01b1c7b774913ecb6552071667d92809a8e,1496832,Clostridioides difficile 630,False,new distinct model ID
+iE2348C_1286,https://bigg.ucsd.edu/static/models/iE2348C_1286.json,0f4cc786f60e995e11133d0183f528bc385e4d3dac9bd208e98f51234e492185,2906339,Escherichia coli O127:H6 str. E2348/69,True,new distinct model ID
+iEC042_1314,https://bigg.ucsd.edu/static/models/iEC042_1314.json,ddba74177e6538b72fa1b2a6debd2e701a99ebca3420588bd4e0af5ad0efeccf,3028065,Escherichia coli 042,True,new distinct model ID
+iEC1344_C,https://bigg.ucsd.edu/static/models/iEC1344_C.json,4caae1ff873e75714caadfbb7a6332ccd43d1730a158530090498801dd7efa2d,2654143,Escherichia coli C,True,new distinct model ID
+iEC1349_Crooks,https://bigg.ucsd.edu/static/models/iEC1349_Crooks.json,0f08c1c9220374246f78639fdae081d74569afb4fb737948ebf26e41a200acd4,2797939,Escherichia coli ATCC 8739,True,new distinct model ID
+iEC1356_Bl21DE3,https://bigg.ucsd.edu/static/models/iEC1356_Bl21DE3.json,082c876617b35a38ac1a00976dded6168d068cb1127df56bcb6dc2de3b4a3936,2757472,Escherichia coli BL21(DE3),True,new distinct model ID
+iEC1364_W,https://bigg.ucsd.edu/static/models/iEC1364_W.json,c9af6bd64c086a471512ece7417abec5f67f447b6539c81d603a51fdb1983a44,2780024,Escherichia coli W,True,new distinct model ID
+iEC1368_DH5a,https://bigg.ucsd.edu/static/models/iEC1368_DH5a.json,dcafecaa592db34e198610a68bac754e6f894a1d88d4754261dddfc4ffdee87f,2686898,Escherichia coli DH5[alpha],True,new distinct model ID
+iEC1372_W3110,https://bigg.ucsd.edu/static/models/iEC1372_W3110.json,9ac109dcf7bbc24266793fab4f838bc92f05be12f21b5fa4a9d446ec668083d7,2838878,Escherichia coli str. K-12 substr. W3110,True,new distinct model ID
+iEC55989_1330,https://bigg.ucsd.edu/static/models/iEC55989_1330.json,0f2eee2778827f084c453b9041552676b930e4bdf4776ca3c7925265573a8ac4,3183213,Escherichia coli 55989,True,new distinct model ID
+iECABU_c1320,https://bigg.ucsd.edu/static/models/iECABU_c1320.json,9bad6d5a05c0a47d13e349a6309bfbd6a21e3e6e4868bbb6cc3ba2302229cd19,2916894,Escherichia coli ABU 83972,True,new distinct model ID
+iECB_1328,https://bigg.ucsd.edu/static/models/iECB_1328.json,875d00ead99c482c1d86abab85699ccb6c7c373a63df0e4320f2b8bf023033df,2916523,Escherichia coli B str. REL606,True,new distinct model ID
+iECBD_1354,https://bigg.ucsd.edu/static/models/iECBD_1354.json,8c81a19ed6542556d120b3afead90277d866025b105467456a7df7c67bc40780,2940217,Escherichia coli 'BL21-Gold(DE3)pLysS AG',True,new distinct model ID
+iECD_1391,https://bigg.ucsd.edu/static/models/iECD_1391.json,f675dfa878d4fdc8373cb41c79c9a7b2d1552db36be500023a5e2c7bf53826e0,2908815,Escherichia coli BL21(DE3),True,new distinct model ID
+iECDH10B_1368,https://bigg.ucsd.edu/static/models/iECDH10B_1368.json,33b3d3915f9810e5f320ce5674093d407dc21f300ec54f03b51aca4fa00dcd07,2967879,Escherichia coli str. K-12 substr. DH10B,True,new distinct model ID
+iEcDH1_1363,https://bigg.ucsd.edu/static/models/iEcDH1_1363.json,29a24af4608a9ca8b076d62f87c4b3af7109077b35af305d4405a1e1efed4ba9,2956650,Escherichia coli DH1,True,new distinct model ID
+iECDH1ME8569_1439,https://bigg.ucsd.edu/static/models/iECDH1ME8569_1439.json,43f9090ddd4a999e6b666a526381d67793821616b0832b1d5b163c37451a1735,3072130,Escherichia coli DH1,True,new distinct model ID
+iEcE24377_1341,https://bigg.ucsd.edu/static/models/iEcE24377_1341.json,41c8e50d61fa2836bdba52cc1629837062c20d6030ba9472c11c5ab64c819597,2972850,Escherichia coli O139:H28 str. E24377A,True,new distinct model ID
+iECED1_1282,https://bigg.ucsd.edu/static/models/iECED1_1282.json,3709938d044d7efa0eaf2f0c603523ce809506e3aaba20257318e3c727b4ffed,3094187,Escherichia coli ED1a,True,new distinct model ID
+iECH74115_1262,https://bigg.ucsd.edu/static/models/iECH74115_1262.json,c87900be150c773797a19439cb437d454e65ef7c5191ea4557b2b7293f177291,2876713,Escherichia coli O157:H7 str. EC4115,True,new distinct model ID
+iEcHS_1320,https://bigg.ucsd.edu/static/models/iEcHS_1320.json,a2351ca750ecc85559c67607eda89a699f98d521f612c665fc25cbebc6554e9c,2925914,Escherichia coli HS,True,new distinct model ID
+iECIAI1_1343,https://bigg.ucsd.edu/static/models/iECIAI1_1343.json,1fc547329612d4a684533718baeabc23b184d7d3edab32bb17031501c68a0f47,3001997,Escherichia coli IAI1,True,new distinct model ID
+iECIAI39_1322,https://bigg.ucsd.edu/static/models/iECIAI39_1322.json,6d5f2d61cc90808eca6e70a518f076c21681e20a6157c119f0f34ac7f0e19885,3156117,Escherichia coli IAI39,True,new distinct model ID
+iECNA114_1301,https://bigg.ucsd.edu/static/models/iECNA114_1301.json,27331fba56df49164f3284f7b06fbf71ddc6df2270686715148dfd186e25694d,2903431,Escherichia coli NA114,True,new distinct model ID
+iECO103_1326,https://bigg.ucsd.edu/static/models/iECO103_1326.json,3d91983f642aceee3730dc7a64660f2919c2310245ff06b36e7a20870fdf6871,2939668,Escherichia coli O103:H2 str. 12009,True,new distinct model ID
+iECO111_1330,https://bigg.ucsd.edu/static/models/iECO111_1330.json,c253e5601fd22a9e0922cbce1fda1c0ba4ef5a19b018a8c893607dea9ba67084,2939136,Escherichia coli O111:H- str. 11128,True,new distinct model ID
+iECO26_1355,https://bigg.ucsd.edu/static/models/iECO26_1355.json,fc8dae7d852af368fcb5ef7f374d5d32094ace6c608ba0c6fe3ecc8ce3f9c04e,2950625,Escherichia coli O26:H11 str. 11368,True,new distinct model ID
+iECOK1_1307,https://bigg.ucsd.edu/static/models/iECOK1_1307.json,0b93dc099645b8ad69ef00b1cf703969f2da5054da99856a6add641244df0886,2891093,Escherichia coli IHE3034,True,new distinct model ID
+iEcolC_1368,https://bigg.ucsd.edu/static/models/iEcolC_1368.json,eb2b3bab9cce73a6b9ecb8499c4ea1a281624ee9764b6f72dcc6f7d00551b134,2972298,Escherichia coli ATCC 8739,True,new distinct model ID
+iECP_1309,https://bigg.ucsd.edu/static/models/iECP_1309.json,715af4b99136494822b505ccfc59cd66dc7a8fd3f3154cbf41b9142d5c956a77,2847842,Escherichia coli 536,True,new distinct model ID
+iECs_1301,https://bigg.ucsd.edu/static/models/iECs_1301.json,cee42510b8c4db33cf8b272243af8828875c7614619134f8f87cf317fe4a732a,2823359,Escherichia coli O157:H7 str. Sakai,True,new distinct model ID
+iECS88_1305,https://bigg.ucsd.edu/static/models/iECS88_1305.json,81248321e10f373fcf97f60b8e7406056a57c2dea5e5b18484945c78711be314,3122390,Escherichia coli S88,True,new distinct model ID
+iECSE_1348,https://bigg.ucsd.edu/static/models/iECSE_1348.json,f0b722a0daeb91e6c3d5c5a49d69767492cb3cee0291b9ac9084240a7209da66,2895346,Escherichia coli SE11,True,new distinct model ID
+iECSF_1327,https://bigg.ucsd.edu/static/models/iECSF_1327.json,f3a0b3479091efdf6fbf617d96ba45bed079ba4ff4fd3c50cf216ee1b10f48df,2867334,Escherichia coli SE15,True,new distinct model ID
+iEcSMS35_1347,https://bigg.ucsd.edu/static/models/iEcSMS35_1347.json,d4b39ae5b23e18bfedce94dceeb92aeba802dba919642fe516188b9f2feb9df3,2935978,Escherichia coli SMS-3-5,True,new distinct model ID
+iECSP_1301,https://bigg.ucsd.edu/static/models/iECSP_1301.json,29ee380f1668886584fbc22e313badfb4fe86f272725f2367bfb45f9afbbad49,2870068,Escherichia coli O157:H7 str. TW14359,True,new distinct model ID
+iECUMN_1333,https://bigg.ucsd.edu/static/models/iECUMN_1333.json,8232a219275e6f983444bfc1c1a0871da3feb7a6f4cee21ed7d0628325312420,3145027,Escherichia coli UMN026,True,new distinct model ID
+iECW_1372,https://bigg.ucsd.edu/static/models/iECW_1372.json,7977be26d2e4d665bd30e33dce3ba5a89caa24117c4ef0c8673b62767ef866e8,2953472,Escherichia coli W,True,new distinct model ID
+iEK1008,https://bigg.ucsd.edu/static/models/iEK1008.json,138e42e34640d6dbfdb2e802e5ba66aa7cec69293be3aef10ac383168c1d966c,1478124,Mycobacterium tuberculosis H37Rv,False,new distinct model ID
+iEKO11_1354,https://bigg.ucsd.edu/static/models/iEKO11_1354.json,2df8b47bf55fad55cf3cb13208ea6d7fc139db41e8bf55862ac5f5fe054e3fdd,3005002,Escherichia coli KO11FL,True,new distinct model ID
+iETEC_1333,https://bigg.ucsd.edu/static/models/iETEC_1333.json,14232dc90240917637ed357d389b14df0da4cf78ae259bb29cfedd13f325564d,3125777,Escherichia coli ETEC H10407,True,new distinct model ID
+iG2583_1286,https://bigg.ucsd.edu/static/models/iG2583_1286.json,30d4f0a2968496399b10bc3fbdedb2a1587296d6127d598809b5f2f1d3baeb1d,2874576,Escherichia coli O55:H7 str. CB9615,True,new distinct model ID
+iHN637,https://bigg.ucsd.edu/static/models/iHN637.json,8d0060907d7496ea0072518fc02d9534ee0a1c3f517c16c876455bd85ccff2b9,1036852,Clostridium ljungdahlii DSM 13528,True,new distinct model ID
+iIS312,https://bigg.ucsd.edu/static/models/iIS312.json,b2e392f9820b021f70471b08d8b51018eec6ed3322bd184e7773938c739147bd,721284,Trypanosoma cruzi Dm28c,False,new distinct model ID
+iIS312_Amastigote,https://bigg.ucsd.edu/static/models/iIS312_Amastigote.json,881ba02c5f3f2cf920f597df26518ee21b1611da76db81be38b775c1a7632b19,721080,Trypanosoma cruzi Dm28c,False,new distinct model ID
+iIS312_Epimastigote,https://bigg.ucsd.edu/static/models/iIS312_Epimastigote.json,f02e83ca47660e1df4d2efeb281d52580da955b300f1e67ba7621060a51ade9a,721268,Trypanosoma cruzi Dm28c,False,new distinct model ID
+iIS312_Trypomastigote,https://bigg.ucsd.edu/static/models/iIS312_Trypomastigote.json,612bf0d598ba21fda9279e1fba68393f63a928830f44a48ead27ef872a04cff4,722004,Trypanosoma cruzi Dm28c,False,new distinct model ID
+iIT341,https://bigg.ucsd.edu/static/models/iIT341.json,73aa8ee95b047cd8b7fd3b5370894166e83f34db4f13113ad3dbb1b0eb800701,712632,Helicobacter pylori 26695,False,new distinct model ID
+iJB785,https://bigg.ucsd.edu/static/models/iJB785.json,80dbddcbaf0bf6e692fe2067fab3e7550d75dc0679f70a7ef918794ded08ad0d,1153030,Synechococcus elongatus PCC 7942,False,new distinct model ID
+iJN1463,https://bigg.ucsd.edu/static/models/iJN1463.json,8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf,2926878,Pseudomonas putida KT2440,True,previously used
+iJN678,https://bigg.ucsd.edu/static/models/iJN678.json,2e9f99e6004d060e77e650b1591100898350c49d15f6de5d61d50b41ba6b12b2,1142566,Synechocystis sp. PCC 6803,True,new distinct model ID
+iJN746,https://bigg.ucsd.edu/static/models/iJN746.json,3da875419f4edff3e3e27424742b8b410b6b778eb0955b8939ae933fad5f1219,1352568,Pseudomonas putida KT2440,False,new distinct model ID
+iJO1366,https://bigg.ucsd.edu/static/models/iJO1366.json,9376a93f62ad430719f23e612154dd94c67e0d7c9545ed9d17a4d0c347672313,2948407,Escherichia coli str. K-12 substr. MG1655,True,previously used
+iJR904,https://bigg.ucsd.edu/static/models/iJR904.json,c8992eb536ab14b9cfb272e6775b6635ae17c80be47036c54a1f3edc554ee5a9,1442270,Escherichia coli str. K-12 substr. MG1655,False,previously used
+iLB1027_lipid,https://bigg.ucsd.edu/static/models/iLB1027_lipid.json,fd8aab437ce1500ef2e370a4c9a18a37e3e53ea376d371a2e828dc8ab814ce0d,3565020,Phaeodactylum tricornutum CCAP 1055/1,False,new distinct model ID
+iLF82_1304,https://bigg.ucsd.edu/static/models/iLF82_1304.json,da4685fe33310a4735469938f9250cb12d5fb8dc16ccfe9e38e8f5ba0f84d49e,3119228,Escherichia coli LF82,True,new distinct model ID
+iLJ478,https://bigg.ucsd.edu/static/models/iLJ478.json,d38f5246233faf741fd799712f0ee806c8d5b657d1591c6dfc2a272709c26ffe,822914,Thermotoga maritima MSB8,False,new distinct model ID
+iML1515,https://bigg.ucsd.edu/static/models/iML1515.json,b0f9199f048779bb08a14dfa6c09ec56d35b8750d2f99681980d0f098355fbf5,3062491,Escherichia coli str. K-12 substr. MG1655,True,previously used
+iMM1415,https://bigg.ucsd.edu/static/models/iMM1415.json,5eec43b20f94d4343078e916bdbea5d59b9565f42e414719bf92745432602e3b,3683619,Mus musculus,False,new distinct model ID
+iMM904,https://bigg.ucsd.edu/static/models/iMM904.json,1f7c573c2cf3da104fe48c49d6ae8e5a4a3472e7dc03c173c660e8bd9bb2557f,1919345,Saccharomyces cerevisiae S288C,False,new distinct model ID
+iND750,https://bigg.ucsd.edu/static/models/iND750.json,878997a0a205e9a559642142c5085dcbd1d1e05b116c60032783e539b6ea39dd,1611043,Saccharomyces cerevisiae S288C,False,new distinct model ID
+iNF517,https://bigg.ucsd.edu/static/models/iNF517.json,b441089ef21a388ec605215a13824cd6b59e422a87a282f147f589cd94a0ef6d,914348,Lactococcus lactis subsp. cremoris MG1363,False,new distinct model ID
+iNJ661,https://bigg.ucsd.edu/static/models/iNJ661.json,51944c0787f4727fb98a2ef464cd2a55eb58b56ae4b18b8bf0558447a48d0a28,1224441,Mycobacterium tuberculosis H37Rv,False,new distinct model ID
+iNRG857_1313,https://bigg.ucsd.edu/static/models/iNRG857_1313.json,f4a35448bb58e4ef2bda654efaca20887d43dc7cc62ee0ee85d6bb6fd7b34c46,2892789,Escherichia coli O83:H1 str. NRG 857C,True,new distinct model ID
+iPC815,https://bigg.ucsd.edu/static/models/iPC815.json,898cee67221f42eb9f9244e32d4e59e4fc459629e246862dce1d7101bb5887ea,2249887,Yersinia pestis CO92,False,new distinct model ID
+iRC1080,https://bigg.ucsd.edu/static/models/iRC1080.json,f94a88b92febe3c26f140db6301c6373bee9b98129362ecb1406fd4120542802,2539776,Chlamydomonas reinhardtii,False,new distinct model ID
+iS_1188,https://bigg.ucsd.edu/static/models/iS_1188.json,8224c8ccb1c5d2768a787358ffb56fb420833b5bfd848fe41130c62a15b2094f,2799898,Shigella flexneri 2a str. 2457T,True,new distinct model ID
+iSB619,https://bigg.ucsd.edu/static/models/iSB619.json,ea1cc6079e0f2cd2e4d8875a677b319232eefbbf3e1d8cbd24b31672c078689d,1015344,Staphylococcus aureus subsp. aureus N315,False,new distinct model ID
+iSbBS512_1146,https://bigg.ucsd.edu/static/models/iSbBS512_1146.json,48ddece560788bc44facdb1ab62da71833a033acc37722714dfff67919999fb3,2788258,Shigella boydii CDC 3083-94,True,new distinct model ID
+iSBO_1134,https://bigg.ucsd.edu/static/models/iSBO_1134.json,afeab0ca09da01f85b5e95f9c4ec093856a8229ffaf06c4d015daff23bbb1079,2748641,Shigella boydii Sb227,True,new distinct model ID
+iSDY_1059,https://bigg.ucsd.edu/static/models/iSDY_1059.json,fbf135146c4dc24f959b590fcf403a061fd23735661ea0559f2fdf272e42a4c1,2680447,Shigella dysenteriae Sd197,True,new distinct model ID
+iSF_1195,https://bigg.ucsd.edu/static/models/iSF_1195.json,af9ff27d375a54afdd4ec7b2a2bf185e68ebcfc7ca6289d0e707869878b6188c,2772576,Shigella flexneri 2a str. 301,True,new distinct model ID
+iSFV_1184,https://bigg.ucsd.edu/static/models/iSFV_1184.json,baf9fd6bc56a9108065dfaf702fb922cb49d040674398fb0e9f1bfd596f0ed62,2782456,Shigella flexneri 5 str. 8401,True,new distinct model ID
+iSFxv_1172,https://bigg.ucsd.edu/static/models/iSFxv_1172.json,a57cc9495201a8ef1ecec99ddb146ce4f6d3a5663ce3f069c5e770e26d2ed59c,2798930,Shigella flexneri 2002017,True,new distinct model ID
+iSSON_1240,https://bigg.ucsd.edu/static/models/iSSON_1240.json,b1e5052e5f10657268791f5c6c1a3462d136c54bdaaddd525ab422aa12f3d2f0,2897587,Shigella sonnei Ss046,True,new distinct model ID
+iSynCJ816,https://bigg.ucsd.edu/static/models/iSynCJ816.json,578deeb34109485ac6b549f62b2fff5f059a581e554a1eda31f1d9aeb485d020,1254130,Synechocystis sp. PCC 6803,False,new distinct model ID
+iUMN146_1321,https://bigg.ucsd.edu/static/models/iUMN146_1321.json,311cecaac3cf438c2850da854e9f85f12e2bded82832e44d0a71541513d87375,2883993,Escherichia coli UM146,True,new distinct model ID
+iUMNK88_1353,https://bigg.ucsd.edu/static/models/iUMNK88_1353.json,8e68ccbc2ecd318a0e114d8aae2d882549b82b7bcf9bf68e92519193eab70261,2937747,Escherichia coli UMNK88,True,new distinct model ID
+iUTI89_1310,https://bigg.ucsd.edu/static/models/iUTI89_1310.json,e1b9669b152006b865f07eb640a85f0e6b1c59b4fd8e58f6ffd956c32725148e,2902180,Escherichia coli UTI89,True,new distinct model ID
+iWFL_1372,https://bigg.ucsd.edu/static/models/iWFL_1372.json,9d580314d2063470df1c068cb89117df9ec8e5bb490fe83cbf4c3ce6b173db68,2953472,Escherichia coli W,True,new distinct model ID
+iY75_1357,https://bigg.ucsd.edu/static/models/iY75_1357.json,0c114a9f58e37e8fbc8c62fea45856679d0c34f758bf6c4948748d2eddbb96ef,2990835,Escherichia coli str. K-12 substr. W3110,True,new distinct model ID
+iYL1228,https://bigg.ucsd.edu/static/models/iYL1228.json,7b1928ff47a623d11db6183305cba80dddc18f56a751181bb3da9a4fa7abc5ce,2454891,Klebsiella pneumoniae subsp. pneumoniae MGH 78578,False,new distinct model ID
+iYO844,https://bigg.ucsd.edu/static/models/iYO844.json,77d071d179ebecfe59fa16db1ef112391070e0b05c8e18421d89ab1c51af9855,1646638,Bacillus subtilis subsp. subtilis str. 168,False,new distinct model ID
+iYS1720,https://bigg.ucsd.edu/static/models/iYS1720.json,88895cb959da53666d8a4598f35bc84e1cbd33ee6d8a3116bef5dc5793392de1,3350290,Salmonella pan-reactome,False,new distinct model ID
+iYS854,https://bigg.ucsd.edu/static/models/iYS854.json,7118cfe2619fe5912cbbd8e26a4b529cf8d86001e9cd875f19683d376475f281,1639784,Staphylococcus aureus subsp. aureus USA300_TCH1516,False,new distinct model ID
+iZ_1308,https://bigg.ucsd.edu/static/models/iZ_1308.json,843015692460da8fe01ccc5e10c2cd28255730d0fad10663a2db69756d57a6c1,2843338,Escherichia coli O157:H7 str. EDL933,True,new distinct model ID
+RECON1,https://bigg.ucsd.edu/static/models/RECON1.json,c6cf6e625f065f761b29e4d0aaf492c2979a6e3d10e2f571ce25da461558746d,4000536,Homo sapiens,False,new distinct model ID
+Recon3D,https://bigg.ucsd.edu/static/models/Recon3D.json,aba925f17547a42f9fdb4c1f685d89364cbf4979bbe7862e9f793af7169b26d5,7839114,Homo sapiens,False,new distinct model ID
+STM_v1_0,https://bigg.ucsd.edu/static/models/STM_v1_0.json,6927019a8313c1df9ad175cf9d6b47c52ad7206a75209e12077e8f9deb6153a1,2673123,Salmonella enterica subsp. enterica serovar Typhimurium str. LT2,True,new distinct model ID

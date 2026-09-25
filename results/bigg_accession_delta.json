@@ -1,0 +1,20 @@
+{
+  "survey_analysed_unique_model_ids": 108,
+  "previous_manifest_overlap_explicit_ids": [
+    "e_coli_core",
+    "iAF1260",
+    "iJN1463",
+    "iJO1366",
+    "iJR904",
+    "iML1515"
+  ],
+  "new_distinct_bigg_model_ids_after_overlap": 102,
+  "dataset_gate_target": 120,
+  "provider_model_accessions_are_datasets": true,
+  "independent_wet_lab_datasets_from_this_survey": 0,
+  "combined_gate_verdict": "Model-dataset-inclusive criterion: 108 distinct BiGG model IDs plus at least 15 PaxDb accessioned/scored E. coli source studies = 123, over 120. Not 123 independent wet-lab screens. Tool gate remains unverified.",
+  "note": "Do not add the old 124 study keys; many lacked distinct accessions. The 102 newly used BiGG IDs are individually hashed in bigg_model_survey.csv.",
+  "verified_distinct_provider_ids": 127,
+  "conservative_gate_floor_after_technical_variant_collapse": 123,
+  "technical_variant_collapse_note": "PaxDb 19 accession files include three Arike 2012 and two Krug 2013 quantification variants; collapse these to 15 source studies, each with accessioned and scored files."
+}
