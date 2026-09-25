@@ -1,0 +1,5 @@
+# Exploratory graph-algorithm sensitivity plan
+
+Recorded before results. The existing STRING graph and gene labels remain frozen. Because Leiden found module 3 enriched, this is post-selection sensitivity, not an independent finding.
+
+Use a genuinely separate graph package's Louvain implementation on the identical 1,249-node, 8,714-edge STRING >=700 undirected graph. Keep all vertices, including isolates; fix seed where supported, use default resolution. Compare partition to Leiden by adjusted Rand index and normalized mutual information. Test all new modules of >=20 genes for top-100 false priorities with Fisher and BH, including null modules; report whether the overlap with Leiden module 3 is enriched, and report the top overlapping module's coverage and degree-stratified permutation p under the same null design as notes/prereg_network_degree_null.md. A complete negative result is retained. No new datasets or clinical claim. Package counts as a tool only if its algorithm actually runs and outputs are committed.
