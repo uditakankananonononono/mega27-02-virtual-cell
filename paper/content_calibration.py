@@ -3,7 +3,7 @@ import json,os
 from build_paper import P,H1,H2,BODY,EQ,tbl,fig,ROOT,PageBreak
 
 def story_calibration(story,R):
-    bg=R('bigg_model_survey.json'); census=R('bigg_moco_growth_summary.json');c=R('calibration_gate.json');a=R('calibration_lineage_audit.json')
+    bg=R('bigg_model_survey.json'); census=R('bigg_moco_growth_summary.json');c=R('calibration_gate.json');a=R('calibration_lineage_audit.json'); second=R('bigg_second_family_verification.json')
     assert census['scorable']==68 and census['models_with_at_least_one_flip']==63
     assert c['verdict']['first_passing_rung'] is None and len(c['ladder'])==5
     story += [PageBreak(),P('7. Later locked studies and audit of the calibration claim',H1),
@@ -22,7 +22,14 @@ def story_calibration(story,R):
                 'strain models share reaction templates, so neither a simple binomial confidence interval nor the 63/68 fraction '
                 'can be read as 68 biologically independent replications. The result supports an audit of biomass-composition '
                 'assumptions across reconstruction families, not the assertion that every objective is wrong. A separate '
-                'manual second-family verification remains an open preregistered criterion.',BODY),
+                'manual second-family verification was subsequently completed on Pseudomonas putida iJN1463 (next paragraph).',BODY),
+              P(f"Independent-code second-family check: in the downloaded Pseudomonas putida KT2440 iJN1463 snapshot, three negative MoCo objective coefficients "
+                f"({', '.join(second['objective_negative_moco_coefficients'])}) were removed explicitly. The baseline wild-type optimum was {second['baseline_wt_growth']:.6f}/h; "
+                f"the patched optimum was {second['patched_wt_growth']:.6f}/h. A fresh complete gene-deletion run found {second['baseline_essential_genes']} baseline-essential genes, "
+                f"of which {len(second['flips_from_fresh_manual_counterfactual'])} flipped to growth at least 95% of the original wild type. "
+                f"The independently calculated gene IDs are {', '.join(second['flips_from_fresh_manual_counterfactual'])}; each was separately zero-growth under its original model. "
+                'The raw model snapshot SHA-256 was checked against the provider-index ledger before use; results/bigg_second_family_verification.json records coefficients, growth and gene IDs. '
+                'This meets the narrow second-model-family structural criterion, but Pseudomonas viability in a lab was not tested; related model templates may still limit independence.',BODY),
               P('7.2 Locked decision gate and candidate ladder',H2),
               P('The follow-up gate was written down before scoring in notes/prereg_calibration_decision_gate.md. It asked '
                 'whether the stacked gene-essentiality score crossed two tests on the 1,249 aligned genes: G1 AUROC >0.666 '

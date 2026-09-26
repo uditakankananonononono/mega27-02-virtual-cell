@@ -1,0 +1,64 @@
+{
+  "model": "Pseudomonas putida KT2440 iJN1463",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "snapshot_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "objective": "BIOMASS_KT2440_WT3",
+  "objective_negative_moco_coefficients": {
+    "bmocogdp_c": -0.000223,
+    "mobd_c": -0.002817,
+    "mocogdp_c": -0.000223
+  },
+  "baseline_wt_growth": 0.5861175448479794,
+  "patched_wt_growth": 0.5863101227543884,
+  "baseline_essential_genes": 262,
+  "flips_from_fresh_manual_counterfactual": [
+    "PP_0735",
+    "PP_1292",
+    "PP_1293",
+    "PP_1294",
+    "PP_2123",
+    "PP_3457",
+    "PP_3830"
+  ],
+  "baseline_ko_growth_for_flips": {
+    "PP_0735": -2.8970176801656845e-33,
+    "PP_1292": 0.0,
+    "PP_1293": 0.0,
+    "PP_1294": 0.0,
+    "PP_2123": 0.0,
+    "PP_3457": 0.0,
+    "PP_3830": 0.0
+  },
+  "patched_ko_growth_for_flips": {
+    "PP_0735": {
+      "patched_growth": 0.5863101227543863,
+      "vs_original_wt": 1.0003285653331822
+    },
+    "PP_1292": {
+      "patched_growth": 0.5863101227543907,
+      "vs_original_wt": 1.0003285653331897
+    },
+    "PP_1293": {
+      "patched_growth": 0.5863101227543894,
+      "vs_original_wt": 1.0003285653331875
+    },
+    "PP_1294": {
+      "patched_growth": 0.5863101227543894,
+      "vs_original_wt": 1.0003285653331875
+    },
+    "PP_2123": {
+      "patched_growth": 0.586310122754385,
+      "vs_original_wt": 1.00032856533318
+    },
+    "PP_3457": {
+      "patched_growth": 0.5863101227543895,
+      "vs_original_wt": 1.0003285653331877
+    },
+    "PP_3830": {
+      "patched_growth": 0.5863101227543872,
+      "vs_original_wt": 1.0003285653331837
+    }
+  },
+  "independently_computed": true,
+  "scope": "in-silico objective-dependence only, no in-vivo viability proof; separate organism family from E. coli iJO1366"
+}
