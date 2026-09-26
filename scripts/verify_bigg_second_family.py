@@ -31,9 +31,9 @@ for gene in flips:
   assert orig_growth[gene]<1e-6
 out={'model':'Pseudomonas putida KT2440 iJN1463','source_url':row['source_url'],'snapshot_sha256':row['sha256'],
  'objective':'BIOMASS_KT2440_WT3','objective_negative_moco_coefficients':original,
- 'baseline_wt_growth':wt,'patched_wt_growth':patched_wt,'baseline_essential_genes':len(E),
- 'flips_from_fresh_manual_counterfactual':flips,'baseline_ko_growth_for_flips':orig_growth,
- 'patched_ko_growth_for_flips':profiles,'independently_computed':True,
+ 'baseline_wt_growth':round(wt,10),'patched_wt_growth':round(patched_wt,10),'baseline_essential_genes':len(E),
+ 'flips_from_fresh_manual_counterfactual':flips,'baseline_ko_growth_for_flips':{g:round(v,10) for g,v in orig_growth.items()},
+ 'patched_ko_growth_for_flips':{g:{k:round(v,10) for k,v in z.items()} for g,z in profiles.items()},'independently_computed':True,
  'scope':'in-silico objective-dependence only, no in-vivo viability proof; separate organism family from E. coli iJO1366'}
 Path('results/bigg_second_family_verification.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps({k:v for k,v in out.items() if k not in ['patched_ko_growth_for_flips','baseline_ko_growth_for_flips']},indent=2))
