@@ -1,0 +1,170 @@
+{
+ "comparator": {
+  "rule": "fba_min, per-fold train-only MCC threshold (symmetric)",
+  "thresholds": {
+   "fold0": 0.5903004379029501,
+   "fold1": 0.5903004379008151,
+   "fold2": 0.11072915513639546
+  },
+  "metrics": {
+   "f1": 0.40987654320987654,
+   "mcc": 0.2970112583431659,
+   "acc": 0.8086469175340272
+  },
+  "sensitivity_fba_gt_0.5": {
+   "f1": 0.40987654320987654,
+   "acc": 0.8086469175340272
+  }
+ },
+ "baseline_reproduction_check": {
+  "rule": "v1 ensemble best-F1 (99-pt grid, eval-inclusive) vs fba_min best-F1",
+  "note": "amendment A1 harness check",
+  "b": 27,
+  "c": 50,
+  "ens_f1": 0.4560669456066946,
+  "fba_f1": 0.4119106699751861,
+  "matches_locked_27_50": true
+ },
+ "ladder": [
+  {
+   "rung": "R1_v2_lr_trainonly_mcc",
+   "auroc": 0.7966758130538437,
+   "f1": 0.5148063781321185,
+   "mcc": 0.4115381376424494,
+   "thresholds": {
+    "fold0": 0.6260090995392521,
+    "fold1": 0.7121859690908486,
+    "fold2": 0.6468969923615474
+   },
+   "mcnemar_vs_comparator": {
+    "b_ensemble_wins": 93,
+    "c_fba_wins": 67,
+    "p_exact_2sided": 0.047766996028275915,
+    "net": 26,
+    "g2_pass": false
+   },
+   "mcnemar_vs_fba_fixed_0.5_sensitivity": {
+    "b_ensemble_wins": 93,
+    "c_fba_wins": 67,
+    "p_exact_2sided": 0.047766996028275915,
+    "net": 26,
+    "g2_pass": false
+   },
+   "g1_pass": true
+  },
+  {
+   "rung": "R2_v2_lr_isotonic",
+   "auroc": 0.7966758130538437,
+   "f1": 0.5110565110565111,
+   "mcc": 0.417200226333256,
+   "thresholds": {
+    "fold0": 0.4117647058823529,
+    "fold1": 0.35714285714285715,
+    "fold2": 0.3333333333333333
+   },
+   "mcnemar_vs_comparator": {
+    "b_ensemble_wins": 98,
+    "c_fba_wins": 58,
+    "p_exact_2sided": 0.0017043653165239332,
+    "net": 40,
+    "g2_pass": false
+   },
+   "mcnemar_vs_fba_fixed_0.5_sensitivity": {
+    "b_ensemble_wins": 98,
+    "c_fba_wins": 58,
+    "p_exact_2sided": 0.0017043653165239332,
+    "net": 40,
+    "g2_pass": false
+   },
+   "g1_pass": true
+  },
+  {
+   "rung": "R3_v2_lr_platt",
+   "auroc": 0.7966758130538437,
+   "f1": 0.5148063781321185,
+   "mcc": 0.4115381376424494,
+   "thresholds": {
+    "fold0": 0.26854439682666337,
+    "fold1": 0.35351060362424985,
+    "fold2": 0.29742749688947023
+   },
+   "mcnemar_vs_comparator": {
+    "b_ensemble_wins": 93,
+    "c_fba_wins": 67,
+    "p_exact_2sided": 0.047766996028275915,
+    "net": 26,
+    "g2_pass": false
+   },
+   "mcnemar_vs_fba_fixed_0.5_sensitivity": {
+    "b_ensemble_wins": 93,
+    "c_fba_wins": 67,
+    "p_exact_2sided": 0.047766996028275915,
+    "net": 26,
+    "g2_pass": false
+   },
+   "g1_pass": true
+  },
+  {
+   "rung": "R4_v2_lr_oversampled_refit",
+   "auroc": 0.7957491790742657,
+   "f1": 0.504950495049505,
+   "mcc": 0.41112248157174935,
+   "thresholds": {
+    "fold0": 0.7647689136121572,
+    "fold1": 0.6723792276560192,
+    "fold2": 0.6695117539301929
+   },
+   "mcnemar_vs_comparator": {
+    "b_ensemble_wins": 91,
+    "c_fba_wins": 52,
+    "p_exact_2sided": 0.001398274935020515,
+    "net": 39,
+    "g2_pass": false
+   },
+   "mcnemar_vs_fba_fixed_0.5_sensitivity": {
+    "b_ensemble_wins": 91,
+    "c_fba_wins": 52,
+    "p_exact_2sided": 0.001398274935020515,
+    "net": 39,
+    "g2_pass": false
+   },
+   "g1_pass": true
+  },
+  {
+   "rung": "R5_v2_lr_gbm_prob_avg",
+   "auroc": 0.801529395888624,
+   "f1": 0.496,
+   "mcc": 0.41540480573380134,
+   "thresholds": {
+    "fold0": 0.7272916343111531,
+    "fold1": 0.49977805602932207,
+    "fold2": 0.5768529668411738
+   },
+   "mcnemar_vs_comparator": {
+    "b_ensemble_wins": 106,
+    "c_fba_wins": 56,
+    "p_exact_2sided": 0.00010526649155938466,
+    "net": 50,
+    "g2_pass": false
+   },
+   "mcnemar_vs_fba_fixed_0.5_sensitivity": {
+    "b_ensemble_wins": 106,
+    "c_fba_wins": 56,
+    "p_exact_2sided": 0.00010526649155938466,
+    "net": 50,
+    "g2_pass": false
+   },
+   "g1_pass": true
+  }
+ ],
+ "verdict": {
+  "first_passing_rung": null,
+  "g2_overall": "FAIL - pivot per base prereg (rule 6)"
+ },
+ "input_sha256": {
+  "results/aligned_predictions_all_models.csv": "a218ff7442e4667a71766b69b627ec75e4e449037f73150472e7f6819a95ce9b",
+  "results/ensemble_v2_oof.csv": "48c00fad4fce24019c0c8ca965cfef29ef756e65e10fbecb0e993c9925843574",
+  "results/ensemble_oof.csv": "5f8aee49d5dfb88b914b930caa96056176211cbc922623a7e722409fd1a20fdd",
+  "results/external_features.csv": "88f6bdf4c105ce03a48c1b07cf9d703955d442d4458134629eefa871e3770fe4"
+ }
+}
