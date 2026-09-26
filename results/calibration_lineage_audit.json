@@ -1,0 +1,52 @@
+{
+  "status": "method-lineage audit; no new gate score or correction",
+  "underlying_fit": "scripts/run_ensemble_v2.py oof() trains each held-out gene score from its complementary folds",
+  "leak_path": "A later threshold for outer eval fold k uses the other two folds scores and labels; each of those OOF scores was trained on complement including fold k labels, so threshold selection is not completely independent of k.",
+  "additional_leak_path": "The v2 LR stack includes CNN/GNN/kmer OOF base predictions trained on labels in different fold complements; final outer-fold independence requires all supervised base layers nested or a genuinely independent evaluation dataset.",
+  "not_affected": "fba_min fixed >0.5 predictions are label-free model outputs, but the fitted comparator threshold uses labels; this audit does not invalidate independent LP biochemical mass-balance checks or MoCo in-silico rescue.",
+  "first_result_retained": "results/calibration_gate.json gate G2 FAIL, no retroactive amendment; 93:67 R1 win is descriptive and not independently isolated.",
+  "fold_rows": [
+    {
+      "fold": 0,
+      "n_train": 832,
+      "n_eval": 417,
+      "train_label_influences_oof_scores": true,
+      "threshold": 0.5903004379029501,
+      "threshold_vs_fixed_calls_differ": 0,
+      "near_threshold_score_count_eval_0.11_to_0.5": 5,
+      "near_threshold_score_count_eval_0.5_to_0.5903": 0,
+      "MCC_eval_fold_threshold": 0.3387883984531299,
+      "MCC_eval_fixed_0.5": 0.3387883984531299
+    },
+    {
+      "fold": 1,
+      "n_train": 833,
+      "n_eval": 416,
+      "train_label_influences_oof_scores": true,
+      "threshold": 0.5903004379008151,
+      "threshold_vs_fixed_calls_differ": 0,
+      "near_threshold_score_count_eval_0.11_to_0.5": 6,
+      "near_threshold_score_count_eval_0.5_to_0.5903": 4,
+      "MCC_eval_fold_threshold": 0.2141559319232717,
+      "MCC_eval_fixed_0.5": 0.2141559319232717
+    },
+    {
+      "fold": 2,
+      "n_train": 833,
+      "n_eval": 416,
+      "train_label_influences_oof_scores": true,
+      "threshold": 0.11072915513639546,
+      "threshold_vs_fixed_calls_differ": 0,
+      "near_threshold_score_count_eval_0.11_to_0.5": 2,
+      "near_threshold_score_count_eval_0.5_to_0.5903": 3,
+      "MCC_eval_fold_threshold": 0.34219918221458473,
+      "MCC_eval_fixed_0.5": 0.34219918221458473
+    }
+  ],
+  "pooled_comparator_calls_differ_from_fixed": 0,
+  "sha256": {
+    "results/aligned_predictions_all_models.csv": "a218ff7442e4667a71766b69b627ec75e4e449037f73150472e7f6819a95ce9b",
+    "results/ensemble_v2_oof.csv": "48c00fad4fce24019c0c8ca965cfef29ef756e65e10fbecb0e993c9925843574",
+    "results/calibration_gate.json": "3e2898fb1c6c7ffb44ef7820f7f6e2088bb6d10221c25663317b16f75d91f4d9"
+  }
+}
