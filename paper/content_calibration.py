@@ -45,7 +45,7 @@ def story_calibration(story,R):
     story += [P('R1 has 93 model-only correct versus 67 FBA-only correct calls, with exact p=0.04777. '
                 'R2 has 98 versus 58, p=0.00170. Every rung gains more than it loses, but every rung has p<0.05, '
                 'so the literal precommitted G2 FAILS. Changing it to a one-sided loss test after seeing results would '
-                'misrepresent the preregistration. The observation can motivate a *fresh* study; it cannot retrospectively '
+                'misrepresent the preregistration. The observation can motivate a fresh study; it cannot retrospectively '
                 'repair this one. The discrimination gain is real as a numerical OOF summary, but its inferential claims '
                 'also need the lineage audit in the next section.',BODY),
               P('7.3 Limit on hard-call inference',H2),
@@ -55,7 +55,7 @@ def story_calibration(story,R):
                 'testable novelty analysis. Its critique identified fold provenance, leakage, comparator-threshold '
                 'stability and multiplicity; its scientific suggestion was to ask whether the ensemble advantage '
                 'over FBA concentrates in genes with strong transcriptional regulation but weak direct metabolic '
-                'constraint. We wrote notes/prereg_discordance_regimes.md as an explicit *future* mechanism test. '
+                'constraint. We wrote notes/prereg_discordance_regimes.md as an explicit future mechanism test. '
                 'It requires a versioned E. coli transcription-factor-target map, a metabolic-constraint definition '
                 'verified against code, matched/negative control partitions and an independent essentiality screen. '
                 'STRING association degree is not a substitute for TF regulation. Existing Gerdes OOF outcomes '
