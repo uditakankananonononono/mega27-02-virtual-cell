@@ -1,5 +1,5 @@
 {
-  "status": "post-result cross-source essential-name overlap; not condition-matched validation",
+  "status": "post-result cross-list essential-name overlap; not independent or condition-matched validation",
   "protocol": "notes/postresult_bsub_objective_lab_check.md",
   "bigg_source_url": "https://bigg.ucsd.edu/static/models/iYO844.json",
   "bigg_sha256": "77d071d179ebecfe59fa16db1ef112391070e0b05c8e18421d89ab1c51af9855",
@@ -1490,5 +1490,5 @@
     }
   ],
   "n_terms": 60,
-  "limits": "SubtiWiki list based on deletion-library conditions; strain, medium and assay differ from BiGG model. An overlap warns against assuming model rescue is viability; absence does not prove rescue. Names can be incomplete or ambiguous, and no p-value or gate inference is valid."
+  "limits": "SubtiWiki category page combines sources; its stated 251 protein and 2 RNA essential genes do not equal the 260 parsed names. iYO844 reconstruction incorporated gene-essentiality evidence, so source independence is unproven. Strain, medium and assay may differ. An overlap warns against assuming model rescue is viability; absence does not prove rescue. Names can be incomplete or ambiguous; no p-value or gate inference is valid."
 }

@@ -35,14 +35,14 @@ for r in res['rows']:
     'subtiwiki_essential_names':[z['name'] for z in p['unique_rows'] if z['in_subtiwiki_essential_list']],
     'ambiguous_names':p['ambiguous'],'unnamed_ids':p['unnamed_ids']})
 assert len(terms)==res['n_positive']==17
-out={'status':'post-result cross-source essential-name overlap; not condition-matched validation',
+out={'status':'post-result cross-list essential-name overlap; not independent or condition-matched validation',
  'protocol':'notes/postresult_bsub_objective_lab_check.md','bigg_source_url':row['source_url'],'bigg_sha256':row['sha256'],
  'subtiwiki_source_url':'https://subtiwiki.uni-goettingen.de/wiki/index.php?title=Essential_genes',
  'subtiwiki_local_html_sha256':hashlib.sha256(Path('data/external/bsub/subtiwiki_essential_genes.html').read_bytes()).hexdigest(),
  'subtiwiki_names_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),'n_subtiwiki_names':len(ess),
  'baseline_model_essential':map_ids(original),'rescued_union':map_ids(rescued),
  'nonzero_terms':terms,'n_terms':res['n_terms'],
- 'limits':'SubtiWiki list based on deletion-library conditions; strain, medium and assay differ from BiGG model. An overlap warns against assuming model rescue is viability; absence does not prove rescue. Names can be incomplete or ambiguous, and no p-value or gate inference is valid.'}
+ 'limits':'SubtiWiki category page combines sources; its stated 251 protein and 2 RNA essential genes do not equal the 260 parsed names. iYO844 reconstruction incorporated gene-essentiality evidence, so source independence is unproven. Strain, medium and assay may differ. An overlap warns against assuming model rescue is viability; absence does not prove rescue. Names can be incomplete or ambiguous; no p-value or gate inference is valid.'}
 Path('results/bsub_rescue_subtiwiki_overlap.json').write_text(json.dumps(out,indent=2)+'\n')
 for k in ['baseline_model_essential','rescued_union']:
  z=out[k];print(k,z['n_source_gene_ids'],z['n_unique_name_mapped'],z['n_in_subtiwiki_essential_list'],z['n_ambiguous_name'],z['n_unnamed'])
