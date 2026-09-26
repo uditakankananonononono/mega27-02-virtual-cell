@@ -1,0 +1,91 @@
+{
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "plan": "notes/prereg_moco_subset_interaction.md",
+  "objective": "BIOMASS_KT2440_WT3",
+  "baseline_growth": 0.5861175448479794,
+  "baseline_essential_count": 262,
+  "rescue_threshold": "edited KO growth >= 0.95 * original WT growth",
+  "subsets": [
+    {
+      "removed": [
+        "bmocogdp_c"
+      ],
+      "edited_wt_growth": 0.5862408365181683,
+      "n_rescued": 0,
+      "rescued_ko_growth": {}
+    },
+    {
+      "removed": [
+        "mobd_c"
+      ],
+      "edited_wt_growth": 0.5861250131839797,
+      "n_rescued": 0,
+      "rescued_ko_growth": {}
+    },
+    {
+      "removed": [
+        "mocogdp_c"
+      ],
+      "edited_wt_growth": 0.5861793320318335,
+      "n_rescued": 0,
+      "rescued_ko_growth": {}
+    },
+    {
+      "removed": [
+        "bmocogdp_c",
+        "mobd_c"
+      ],
+      "edited_wt_growth": 0.5862483079964953,
+      "n_rescued": 0,
+      "rescued_ko_growth": {}
+    },
+    {
+      "removed": [
+        "bmocogdp_c",
+        "mocogdp_c"
+      ],
+      "edited_wt_growth": 0.586302649700381,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0735": 0.5863026497003841,
+        "PP_1292": 0.5863026497003838,
+        "PP_1293": 0.5863026497003834,
+        "PP_1294": 0.5863026497003834,
+        "PP_2123": 0.586302649700384,
+        "PP_3457": 0.5863026497003839
+      }
+    },
+    {
+      "removed": [
+        "mobd_c",
+        "mocogdp_c"
+      ],
+      "edited_wt_growth": 0.5861868019425165,
+      "n_rescued": 0,
+      "rescued_ko_growth": {}
+    },
+    {
+      "removed": [
+        "bmocogdp_c",
+        "mobd_c",
+        "mocogdp_c"
+      ],
+      "edited_wt_growth": 0.586310122754388,
+      "n_rescued": 7,
+      "rescued_ko_growth": {
+        "PP_0735": 0.5863101227543877,
+        "PP_1292": 0.5863101227543894,
+        "PP_1293": 0.5863101227543893,
+        "PP_1294": 0.5863101227543893,
+        "PP_2123": 0.5863101227543814,
+        "PP_3457": 0.5863101227543885,
+        "PP_3830": 0.5863101227543895
+      }
+    }
+  ],
+  "triple_only_rescues": [
+    "PP_3830"
+  ],
+  "scope": "post-observation exploratory interactions within a single reconstruction; no G2 repair, wet-lab claim or independent replication"
+}
