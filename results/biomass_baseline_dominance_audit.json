@@ -1,0 +1,858 @@
+{
+  "status": "post-result comparison of two fixed simple scores and ATP/water influence; no new held-out result",
+  "protocol": "notes/postresult_biomass_baseline_audit.md",
+  "targets": {
+    "iyo844": {
+      "source_url": "https://bigg.ucsd.edu/static/models/iYO844.json",
+      "source_sha256": "77d071d179ebecfe59fa16db1ef112391070e0b05c8e18421d89ab1c51af9855",
+      "full": {
+        "frozen_five_feature": {
+          "n": 60,
+          "positives": 17,
+          "prevalence": 0.2833333333333333,
+          "auroc": 0.6703146374829001,
+          "average_precision": 0.42966333814029395
+        },
+        "coefficient_magnitude": {
+          "n": 60,
+          "positives": 17,
+          "prevalence": 0.2833333333333333,
+          "auroc": 0.5471956224350205,
+          "average_precision": 0.343348689335646
+        },
+        "inverse_gene_associated_degree": {
+          "n": 60,
+          "positives": 17,
+          "prevalence": 0.2833333333333333,
+          "auroc": 0.5738714090287278,
+          "average_precision": 0.3287833665419484
+        }
+      },
+      "frozen_minus_simple": {
+        "coefficient_magnitude": {
+          "auroc": 0.12311901504787959,
+          "average_precision": 0.08631464880464795
+        },
+        "inverse_gene_associated_degree": {
+          "auroc": 0.0964432284541723,
+          "average_precision": 0.10087997159834555
+        }
+      },
+      "without_atp_and_water": {
+        "n": 58,
+        "positives": 16,
+        "prevalence": 0.27586206896551724,
+        "auroc": 0.6651785714285714,
+        "average_precision": 0.381578180603606
+      },
+      "atp_and_water": [
+        {
+          "metabolite_id": "atp_c",
+          "predicted_probability": 0.9944808073117111,
+          "abs_biomass_coefficient": 105.053483,
+          "gene_associated_reaction_count": 235,
+          "rescued_count": 13
+        },
+        {
+          "metabolite_id": "h2o_c",
+          "predicted_probability": 0.8682594869401564,
+          "abs_biomass_coefficient": 105.0,
+          "gene_associated_reaction_count": 315,
+          "rescued_count": 0
+        }
+      ],
+      "per_term": [
+        {
+          "metabolite_id": "10fthf_c",
+          "predicted_probability": 0.4892258520900453,
+          "abs_biomass_coefficient": 0.000367,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ala__L_c",
+          "predicted_probability": 0.5125663138032505,
+          "abs_biomass_coefficient": 0.266902,
+          "gene_associated_reaction_count": 21,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "amp_c",
+          "predicted_probability": 0.13819888875397257,
+          "abs_biomass_coefficient": 0.00467,
+          "gene_associated_reaction_count": 40,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "arg__L_c",
+          "predicted_probability": 0.5578617206502956,
+          "abs_biomass_coefficient": 0.193021,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "asn__L_c",
+          "predicted_probability": 0.5513434075685234,
+          "abs_biomass_coefficient": 0.147987,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "asp__L_c",
+          "predicted_probability": 0.5106719734792172,
+          "abs_biomass_coefficient": 0.148014,
+          "gene_associated_reaction_count": 13,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "atp_c",
+          "predicted_probability": 0.9944808073117111,
+          "abs_biomass_coefficient": 105.053483,
+          "gene_associated_reaction_count": 235,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ca2_c",
+          "predicted_probability": 0.4983914550067451,
+          "abs_biomass_coefficient": 0.003205,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "cdlp_BS_c",
+          "predicted_probability": 0.5062840083289767,
+          "abs_biomass_coefficient": 5e-06,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "cdp_c",
+          "predicted_probability": 0.4940021383625849,
+          "abs_biomass_coefficient": 0.000251,
+          "gene_associated_reaction_count": 4,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "cmp_c",
+          "predicted_probability": 0.2957059877759871,
+          "abs_biomass_coefficient": 0.001042,
+          "gene_associated_reaction_count": 13,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "ctp_c",
+          "predicted_probability": 0.479770064300464,
+          "abs_biomass_coefficient": 0.038902,
+          "gene_associated_reaction_count": 7,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "cys__L_c",
+          "predicted_probability": 0.49704359583619934,
+          "abs_biomass_coefficient": 0.05699,
+          "gene_associated_reaction_count": 7,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "d12dg_BS_c",
+          "predicted_probability": 0.49521428591223693,
+          "abs_biomass_coefficient": 0.00011,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "datp_c",
+          "predicted_probability": 0.5063985618015165,
+          "abs_biomass_coefficient": 0.022982,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "dctp_c",
+          "predicted_probability": 0.5087465333333697,
+          "abs_biomass_coefficient": 0.01738,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "dgtp_c",
+          "predicted_probability": 0.5087537882124252,
+          "abs_biomass_coefficient": 0.017398,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "dttp_c",
+          "predicted_probability": 0.510964843813356,
+          "abs_biomass_coefficient": 0.022899,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "fe3_c",
+          "predicted_probability": 0.5030925376443214,
+          "abs_biomass_coefficient": 0.00345,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gdp_c",
+          "predicted_probability": 0.45889500171398173,
+          "abs_biomass_coefficient": 0.00018,
+          "gene_associated_reaction_count": 8,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gln__L_c",
+          "predicted_probability": 0.5220421081410305,
+          "abs_biomass_coefficient": 0.260335,
+          "gene_associated_reaction_count": 19,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "glu__L_c",
+          "predicted_probability": 0.30476029483537825,
+          "abs_biomass_coefficient": 0.260378,
+          "gene_associated_reaction_count": 37,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gly_c",
+          "predicted_probability": 0.5755753833296834,
+          "abs_biomass_coefficient": 0.408288,
+          "gene_associated_reaction_count": 16,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gmp_c",
+          "predicted_probability": 0.48151950022320555,
+          "abs_biomass_coefficient": 0.000503,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gtca1_45_BS_c",
+          "predicted_probability": 0.5077640418679499,
+          "abs_biomass_coefficient": 0.003624,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gtca2_45_BS_c",
+          "predicted_probability": 0.507241957792802,
+          "abs_biomass_coefficient": 0.002347,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gtca3_45_BS_c",
+          "predicted_probability": 0.5070258942429838,
+          "abs_biomass_coefficient": 0.001819,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "gtp_c",
+          "predicted_probability": 0.4994914198073567,
+          "abs_biomass_coefficient": 0.062667,
+          "gene_associated_reaction_count": 8,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "h2o_c",
+          "predicted_probability": 0.8682594869401564,
+          "abs_biomass_coefficient": 105.0,
+          "gene_associated_reaction_count": 315,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "his__L_c",
+          "predicted_probability": 0.5155042892696705,
+          "abs_biomass_coefficient": 0.081739,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ile__L_c",
+          "predicted_probability": 0.5854029944449533,
+          "abs_biomass_coefficient": 0.269905,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "k_c",
+          "predicted_probability": 0.696340940482402,
+          "abs_biomass_coefficient": 0.706312,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "leu__L_c",
+          "predicted_probability": 0.5994641536930541,
+          "abs_biomass_coefficient": 0.346445,
+          "gene_associated_reaction_count": 7,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "lipo1_24_BS_c",
+          "predicted_probability": 0.5087000008403385,
+          "abs_biomass_coefficient": 7e-06,
+          "gene_associated_reaction_count": 0,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "lipo2_24_BS_c",
+          "predicted_probability": 0.5086995907801978,
+          "abs_biomass_coefficient": 6e-06,
+          "gene_associated_reaction_count": 0,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "lipo3_24_BS_c",
+          "predicted_probability": 0.5062880335920719,
+          "abs_biomass_coefficient": 1.8e-05,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "lipo4_24_BS_c",
+          "predicted_probability": 0.5087032808592457,
+          "abs_biomass_coefficient": 1.5e-05,
+          "gene_associated_reaction_count": 0,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "lys__L_c",
+          "predicted_probability": 0.6013994147047832,
+          "abs_biomass_coefficient": 0.323093,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "lysylpgly_BS_c",
+          "predicted_probability": 0.5062954189681433,
+          "abs_biomass_coefficient": 2.2e-05,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "m12dg_BS_c",
+          "predicted_probability": 0.5063383748433629,
+          "abs_biomass_coefficient": 8.6e-05,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "met__L_c",
+          "predicted_probability": 0.46538022513201316,
+          "abs_biomass_coefficient": 0.113326,
+          "gene_associated_reaction_count": 19,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "mg2_c",
+          "predicted_probability": 0.5367546400032587,
+          "abs_biomass_coefficient": 0.101714,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "mql7_c",
+          "predicted_probability": 0.6874297942742251,
+          "abs_biomass_coefficient": 0.000266,
+          "gene_associated_reaction_count": 8,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "nad_c",
+          "predicted_probability": 0.07976669153775547,
+          "abs_biomass_coefficient": 0.016164,
+          "gene_associated_reaction_count": 107,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "nadp_c",
+          "predicted_probability": 0.08749851887729623,
+          "abs_biomass_coefficient": 0.000934,
+          "gene_associated_reaction_count": 55,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "nadph_c",
+          "predicted_probability": 0.3228435645903206,
+          "abs_biomass_coefficient": 0.000216,
+          "gene_associated_reaction_count": 49,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "peptido_BS_c",
+          "predicted_probability": 0.5483270592701561,
+          "abs_biomass_coefficient": 0.101817,
+          "gene_associated_reaction_count": 0,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "pgly_BS_c",
+          "predicted_probability": 0.49962264716264637,
+          "abs_biomass_coefficient": 0.000176,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "phe__L_c",
+          "predicted_probability": 0.5474558783595194,
+          "abs_biomass_coefficient": 0.175939,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ppi_c",
+          "predicted_probability": 0.03174869469584775,
+          "abs_biomass_coefficient": 0.000918,
+          "gene_associated_reaction_count": 66,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "pro__L_c",
+          "predicted_probability": 0.557948383206853,
+          "abs_biomass_coefficient": 0.160642,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "psetha_BS_c",
+          "predicted_probability": 0.5066564627925961,
+          "abs_biomass_coefficient": 0.00056,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ser__L_c",
+          "predicted_probability": 0.49901350118844817,
+          "abs_biomass_coefficient": 0.216213,
+          "gene_associated_reaction_count": 20,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "t12dg_BS_c",
+          "predicted_probability": 0.5063249513495813,
+          "abs_biomass_coefficient": 6.6e-05,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "tcam_BS_c",
+          "predicted_probability": 0.5075547988556826,
+          "abs_biomass_coefficient": 0.003112,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "thr__L_c",
+          "predicted_probability": 0.5373345464877307,
+          "abs_biomass_coefficient": 0.186317,
+          "gene_associated_reaction_count": 9,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "trp__L_c",
+          "predicted_probability": 0.5141790888515082,
+          "abs_biomass_coefficient": 0.054336,
+          "gene_associated_reaction_count": 4,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "tyr__L_c",
+          "predicted_probability": 0.5287830997080174,
+          "abs_biomass_coefficient": 0.110824,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "utp_c",
+          "predicted_probability": 0.5016334587646637,
+          "abs_biomass_coefficient": 0.041501,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "val__L_c",
+          "predicted_probability": 0.6107458171226794,
+          "abs_biomass_coefficient": 0.306734,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 0
+        }
+      ]
+    },
+    "imm904": {
+      "source_url": "https://bigg.ucsd.edu/static/models/iMM904.json",
+      "source_sha256": "1f7c573c2cf3da104fe48c49d6ae8e5a4a3472e7dc03c173c660e8bd9bb2557f",
+      "full": {
+        "frozen_five_feature": {
+          "n": 44,
+          "positives": 18,
+          "prevalence": 0.4090909090909091,
+          "auroc": 0.6004273504273504,
+          "average_precision": 0.5507543130918926
+        },
+        "coefficient_magnitude": {
+          "n": 44,
+          "positives": 18,
+          "prevalence": 0.4090909090909091,
+          "auroc": 0.5363247863247864,
+          "average_precision": 0.47254673519922485
+        },
+        "inverse_gene_associated_degree": {
+          "n": 44,
+          "positives": 18,
+          "prevalence": 0.4090909090909091,
+          "auroc": 0.6185897435897436,
+          "average_precision": 0.5242936649913394
+        }
+      },
+      "frozen_minus_simple": {
+        "coefficient_magnitude": {
+          "auroc": 0.06410256410256399,
+          "average_precision": 0.07820757789266775
+        },
+        "inverse_gene_associated_degree": {
+          "auroc": -0.01816239316239321,
+          "average_precision": 0.026460648100553152
+        }
+      },
+      "without_atp_and_water": {
+        "n": 42,
+        "positives": 17,
+        "prevalence": 0.40476190476190477,
+        "auroc": 0.6,
+        "average_precision": 0.5633132757049166
+      },
+      "atp_and_water": [
+        {
+          "metabolite_id": "atp_c",
+          "predicted_probability": 0.9991596052178111,
+          "abs_biomass_coefficient": 59.276,
+          "gene_associated_reaction_count": 129,
+          "rescued_count": 10
+        },
+        {
+          "metabolite_id": "h2o_c",
+          "predicted_probability": 0.9174490300260182,
+          "abs_biomass_coefficient": 59.276,
+          "gene_associated_reaction_count": 229,
+          "rescued_count": 0
+        }
+      ],
+      "per_term": [
+        {
+          "metabolite_id": "13BDglcn_c",
+          "predicted_probability": 0.7811020188234605,
+          "abs_biomass_coefficient": 1.1348,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ala__L_c",
+          "predicted_probability": 0.6262665667873178,
+          "abs_biomass_coefficient": 0.4588,
+          "gene_associated_reaction_count": 8,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "amp_c",
+          "predicted_probability": 0.1948880671138918,
+          "abs_biomass_coefficient": 0.046,
+          "gene_associated_reaction_count": 50,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "arg__L_c",
+          "predicted_probability": 0.5473131733201726,
+          "abs_biomass_coefficient": 0.1607,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "asn__L_c",
+          "predicted_probability": 0.521202660895342,
+          "abs_biomass_coefficient": 0.1017,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "asp__L_c",
+          "predicted_probability": 0.5604589636522704,
+          "abs_biomass_coefficient": 0.2975,
+          "gene_associated_reaction_count": 12,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "atp_c",
+          "predicted_probability": 0.9991596052178111,
+          "abs_biomass_coefficient": 59.276,
+          "gene_associated_reaction_count": 129,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "cmp_c",
+          "predicted_probability": 0.4537736232910457,
+          "abs_biomass_coefficient": 0.0447,
+          "gene_associated_reaction_count": 8,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "cys__L_c",
+          "predicted_probability": 0.47727914922316,
+          "abs_biomass_coefficient": 0.0066,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "damp_c",
+          "predicted_probability": 0.5034005859420727,
+          "abs_biomass_coefficient": 0.0036,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "dcmp_c",
+          "predicted_probability": 0.5029053389924774,
+          "abs_biomass_coefficient": 0.0024,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "dgmp_c",
+          "predicted_probability": 0.5029053389924774,
+          "abs_biomass_coefficient": 0.0024,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "dtmp_c",
+          "predicted_probability": 0.49879966657537456,
+          "abs_biomass_coefficient": 0.0036,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ergst_c",
+          "predicted_probability": 0.4905848835485032,
+          "abs_biomass_coefficient": 0.0007,
+          "gene_associated_reaction_count": 4,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "gln__L_c",
+          "predicted_probability": 0.4790274867454321,
+          "abs_biomass_coefficient": 0.1054,
+          "gene_associated_reaction_count": 16,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "glu__L_c",
+          "predicted_probability": 0.35248516743469044,
+          "abs_biomass_coefficient": 0.3018,
+          "gene_associated_reaction_count": 39,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gly_c",
+          "predicted_probability": 0.5555147689474512,
+          "abs_biomass_coefficient": 0.2904,
+          "gene_associated_reaction_count": 8,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "glycogen_c",
+          "predicted_probability": 0.6582313155892652,
+          "abs_biomass_coefficient": 0.5185,
+          "gene_associated_reaction_count": 4,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "gmp_c",
+          "predicted_probability": 0.4883531271033741,
+          "abs_biomass_coefficient": 0.046,
+          "gene_associated_reaction_count": 8,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "h2o_c",
+          "predicted_probability": 0.9174490300260182,
+          "abs_biomass_coefficient": 59.276,
+          "gene_associated_reaction_count": 229,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "his__L_c",
+          "predicted_probability": 0.512277047027422,
+          "abs_biomass_coefficient": 0.0663,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ile__L_c",
+          "predicted_probability": 0.5584749693957762,
+          "abs_biomass_coefficient": 0.1927,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "leu__L_c",
+          "predicted_probability": 0.5944224031534209,
+          "abs_biomass_coefficient": 0.2964,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "lys__L_c",
+          "predicted_probability": 0.5935855365904331,
+          "abs_biomass_coefficient": 0.2862,
+          "gene_associated_reaction_count": 4,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "mannan_c",
+          "predicted_probability": 0.7351351046879994,
+          "abs_biomass_coefficient": 0.8079,
+          "gene_associated_reaction_count": 0,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "met__L_c",
+          "predicted_probability": 0.4949079241572881,
+          "abs_biomass_coefficient": 0.0507,
+          "gene_associated_reaction_count": 7,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "pa_SC_c",
+          "predicted_probability": 0.4836764467138217,
+          "abs_biomass_coefficient": 6e-06,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "pc_SC_c",
+          "predicted_probability": 0.4833453511083424,
+          "abs_biomass_coefficient": 6e-05,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "pe_SC_c",
+          "predicted_probability": 0.49514732758082564,
+          "abs_biomass_coefficient": 4.5e-05,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "phe__L_c",
+          "predicted_probability": 0.5468275528359835,
+          "abs_biomass_coefficient": 0.1339,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "pro__L_c",
+          "predicted_probability": 0.5578248854199085,
+          "abs_biomass_coefficient": 0.1647,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ps_SC_c",
+          "predicted_probability": 0.4998146029312831,
+          "abs_biomass_coefficient": 1.7e-05,
+          "gene_associated_reaction_count": 1,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "ptd1ino_SC_c",
+          "predicted_probability": 0.44002920084408054,
+          "abs_biomass_coefficient": 5.3e-05,
+          "gene_associated_reaction_count": 15,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ribflv_c",
+          "predicted_probability": 0.4977217286982322,
+          "abs_biomass_coefficient": 0.00099,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "ser__L_c",
+          "predicted_probability": 0.5334313390426033,
+          "abs_biomass_coefficient": 0.1854,
+          "gene_associated_reaction_count": 10,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "so4_c",
+          "predicted_probability": 0.5056460627108408,
+          "abs_biomass_coefficient": 0.02,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "thr__L_c",
+          "predicted_probability": 0.559209920393358,
+          "abs_biomass_coefficient": 0.1914,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "tre_c",
+          "predicted_probability": 0.5068880391452121,
+          "abs_biomass_coefficient": 0.0234,
+          "gene_associated_reaction_count": 2,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "triglyc_SC_c",
+          "predicted_probability": 0.4971484482186835,
+          "abs_biomass_coefficient": 6.6e-05,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "trp__L_c",
+          "predicted_probability": 0.4972877977728914,
+          "abs_biomass_coefficient": 0.0284,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 1
+        },
+        {
+          "metabolite_id": "tyr__L_c",
+          "predicted_probability": 0.5191349668395467,
+          "abs_biomass_coefficient": 0.102,
+          "gene_associated_reaction_count": 6,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "ump_c",
+          "predicted_probability": 0.49170833669306374,
+          "abs_biomass_coefficient": 0.0599,
+          "gene_associated_reaction_count": 9,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "val__L_c",
+          "predicted_probability": 0.5912292068574899,
+          "abs_biomass_coefficient": 0.2646,
+          "gene_associated_reaction_count": 3,
+          "rescue_binary": 0
+        },
+        {
+          "metabolite_id": "zymst_c",
+          "predicted_probability": 0.48632151108203725,
+          "abs_biomass_coefficient": 0.0015,
+          "gene_associated_reaction_count": 5,
+          "rescue_binary": 0
+        }
+      ]
+    }
+  }
+}
