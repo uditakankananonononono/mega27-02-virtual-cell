@@ -1,0 +1,45 @@
+{
+  "accession": "iEC1349_Crooks",
+  "status": "scored",
+  "wt_growth": 0.9865789307459402,
+  "n_genes": 1349,
+  "n_essential_baseline": 204,
+  "moco_metabolite_ids": [
+    "bmoco1gdp_c",
+    "bmoco_c",
+    "bmocogdp_c",
+    "mobd_c",
+    "mobd_e",
+    "mobd_p",
+    "moco_c",
+    "mococdp_c",
+    "mocogdp_c",
+    "mpt_c",
+    "mptamp_c"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_iJO1366_core_53p95M"
+  ],
+  "moco_constituents_zeroed": 2,
+  "flips": [
+    "ECOLC_RS15110",
+    "ECOLC_RS15115",
+    "ECOLC_RS15330",
+    "ECOLC_RS15335",
+    "ECOLC_RS15340",
+    "ECOLC_RS15350",
+    "ECOLC_RS19575",
+    "ECOLC_RS22410"
+  ],
+  "n_flips": 8,
+  "retained_growth_rescued": {
+    "ECOLC_RS15110": 0.9866932829592552,
+    "ECOLC_RS15115": 0.9866932829592513,
+    "ECOLC_RS15330": 0.9866932829592513,
+    "ECOLC_RS15335": 0.9866932829592513,
+    "ECOLC_RS15340": 0.9866932829592513,
+    "ECOLC_RS15350": 0.9866932829592513,
+    "ECOLC_RS19575": 0.9866932829592294,
+    "ECOLC_RS22410": 0.9866932829592552
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "accession": "iAF1260",
+  "status": "scored",
+  "wt_growth": 0.7367009388648907,
+  "n_genes": 1261,
+  "n_essential_baseline": 187,
+  "moco_metabolite_ids": [
+    "mobd_c",
+    "mobd_e",
+    "mobd_p"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_iAF1260_core_59p81M"
+  ],
+  "moco_constituents_zeroed": 1,
+  "flips": [],
+  "n_flips": 0,
+  "retained_growth_rescued": {}
+}

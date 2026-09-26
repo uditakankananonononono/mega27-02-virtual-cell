@@ -1,0 +1,45 @@
+{
+  "accession": "iAPECO1_1312",
+  "status": "scored",
+  "wt_growth": 0.9824784386660053,
+  "n_genes": 1313,
+  "n_essential_baseline": 212,
+  "moco_metabolite_ids": [
+    "bmoco1gdp_c",
+    "bmoco_c",
+    "bmocogdp_c",
+    "mobd_c",
+    "mobd_e",
+    "mobd_p",
+    "moco_c",
+    "mococdp_c",
+    "mocogdp_c",
+    "mpt_c",
+    "mptamp_c"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_iJO1366_core_53p95M"
+  ],
+  "moco_constituents_zeroed": 2,
+  "flips": [
+    "APECO1_RS00050",
+    "APECO1_RS03785",
+    "APECO1_RS03795",
+    "APECO1_RS03800",
+    "APECO1_RS03805",
+    "APECO1_RS04010",
+    "APECO1_RS04015",
+    "APECO1_RS22040"
+  ],
+  "n_flips": 8,
+  "retained_growth_rescued": {
+    "APECO1_RS00050": 0.9825918422418731,
+    "APECO1_RS03785": 0.9825918422418617,
+    "APECO1_RS03795": 0.9825918422418755,
+    "APECO1_RS03800": 0.9825918422418755,
+    "APECO1_RS03805": 0.9825918422418755,
+    "APECO1_RS04010": 0.9825918422418755,
+    "APECO1_RS04015": 0.9825918422418755,
+    "APECO1_RS22040": 0.982591842241876
+  }
+}
