@@ -1,0 +1,264 @@
+{
+  "source_sha256": "1f7c573c2cf3da104fe48c49d6ae8e5a4a3472e7dc03c173c660e8bd9bb2557f",
+  "wt_growth": 0.2878657037040148,
+  "baseline_essential_count": 110,
+  "rows": {
+    "13BDglcn_c": {
+      "edited_wt_growth": 0.30427230055584314,
+      "rescued_ko_growth": {
+        "YCR034W": 0.3042723005558383
+      }
+    },
+    "ala__L_c": {
+      "edited_wt_growth": 0.28841586161793026,
+      "rescued_ko_growth": {}
+    },
+    "amp_c": {
+      "edited_wt_growth": 0.2900768725856308,
+      "rescued_ko_growth": {}
+    },
+    "arg__L_c": {
+      "edited_wt_growth": 0.29246232014733853,
+      "rescued_ko_growth": {
+        "YER069W": 0.29246232014731294,
+        "YHR018C": 0.29246232014731854,
+        "YJL088W": 0.2924623201473156,
+        "YMR062C": 0.29246232014731693,
+        "YOL058W": 0.29246232014731455,
+        "YOL140W": 0.29246232014731127,
+        "YOR130C": 0.29246232014731477
+      }
+    },
+    "asn__L_c": {
+      "edited_wt_growth": 0.28938647958622876,
+      "rescued_ko_growth": {}
+    },
+    "asp__L_c": {
+      "edited_wt_growth": 0.2892456568953998,
+      "rescued_ko_growth": {}
+    },
+    "atp_c": {
+      "edited_wt_growth": 35.88087549336204,
+      "rescued_ko_growth": {
+        "YAR015W": 35.880875493362026,
+        "YDR226W": 35.88087549336203,
+        "YDR408C": 35.880875493355376,
+        "YGL234W": 35.880875493373445,
+        "YGR061C": 35.88087549335958,
+        "YLR359W": 35.88087549334777,
+        "YMR300C": 35.88087549333003,
+        "YNL220W": 35.880875493362026,
+        "YOR095C": 0.7775837148748166,
+        "YOR128C": 35.88087549336204
+      }
+    },
+    "cmp_c": {
+      "edited_wt_growth": 0.289433295400252,
+      "rescued_ko_growth": {
+        "YKL024C": 0.2893918188307842
+      }
+    },
+    "cys__L_c": {
+      "edited_wt_growth": 0.28798310991340137,
+      "rescued_ko_growth": {}
+    },
+    "damp_c": {
+      "edited_wt_growth": 0.28803958930223716,
+      "rescued_ko_growth": {}
+    },
+    "dcmp_c": {
+      "edited_wt_growth": 0.2879425953205987,
+      "rescued_ko_growth": {}
+    },
+    "dgmp_c": {
+      "edited_wt_growth": 0.28799666294661586,
+      "rescued_ko_growth": {}
+    },
+    "dtmp_c": {
+      "edited_wt_growth": 0.2879878327952236,
+      "rescued_ko_growth": {
+        "YOR074C": 0.2879878327952571,
+        "YOR236W": 0.28798783279531687
+      }
+    },
+    "ergst_c": {
+      "edited_wt_growth": 0.2880147869881797,
+      "rescued_ko_growth": {
+        "YGL012W": 0.28801478698817623
+      }
+    },
+    "gln__L_c": {
+      "edited_wt_growth": 0.28887842635070615,
+      "rescued_ko_growth": {}
+    },
+    "glu__L_c": {
+      "edited_wt_growth": 0.2897353956826311,
+      "rescued_ko_growth": {}
+    },
+    "gly_c": {
+      "edited_wt_growth": 0.2886226265757725,
+      "rescued_ko_growth": {}
+    },
+    "glycogen_c": {
+      "edited_wt_growth": 0.29513695431503784,
+      "rescued_ko_growth": {}
+    },
+    "gmp_c": {
+      "edited_wt_growth": 0.2903699962991457,
+      "rescued_ko_growth": {}
+    },
+    "h2o_c": {
+      "edited_wt_growth": 0.2878657037040225,
+      "rescued_ko_growth": {}
+    },
+    "his__L_c": {
+      "edited_wt_growth": 0.2900971173123285,
+      "rescued_ko_growth": {
+        "YBR248C": 0.29009711731232735,
+        "YCL030C": 0.29009711731232085,
+        "YER055C": 0.2900971173123293,
+        "YFR025C": 0.2900971173123247,
+        "YIL020C": 0.2900971173123299,
+        "YIL116W": 0.2900971173123336,
+        "YOR202W": 0.29009711731232385
+      }
+    },
+    "ile__L_c": {
+      "edited_wt_growth": 0.29040222387705344,
+      "rescued_ko_growth": {}
+    },
+    "leu__L_c": {
+      "edited_wt_growth": 0.2896504116947356,
+      "rescued_ko_growth": {
+        "YCL018W": 0.2896504116947318,
+        "YGL009C": 0.289650411694734
+      }
+    },
+    "lys__L_c": {
+      "edited_wt_growth": 0.2925233009847824,
+      "rescued_ko_growth": {
+        "YBR115C": 0.2925233009847824,
+        "YDR234W": 0.2925233009847839,
+        "YGL154C": 0.2925233009847824,
+        "YIL094C": 0.2925233009847825,
+        "YIR034C": 0.2925233009847823,
+        "YNR050C": 0.2925233009847796
+      }
+    },
+    "mannan_c": {
+      "edited_wt_growth": 0.29935740626827934,
+      "rescued_ko_growth": {
+        "YDL055C": 0.2993574062682796,
+        "YER003C": 0.29935740626827934,
+        "YFL045C": 0.2993574062682784,
+        "YPR183W": 0.29935740626827534
+      }
+    },
+    "met__L_c": {
+      "edited_wt_growth": 0.28918062838795133,
+      "rescued_ko_growth": {}
+    },
+    "pa_SC_c": {
+      "edited_wt_growth": 0.28798209211841425,
+      "rescued_ko_growth": {}
+    },
+    "pc_SC_c": {
+      "edited_wt_growth": 0.28932232384287515,
+      "rescued_ko_growth": {
+        "YGR157W": 0.2893223238428749,
+        "YJR073C": 0.2893223238428727
+      }
+    },
+    "pe_SC_c": {
+      "edited_wt_growth": 0.2887917571380381,
+      "rescued_ko_growth": {}
+    },
+    "phe__L_c": {
+      "edited_wt_growth": 0.29065498583316296,
+      "rescued_ko_growth": {
+        "YNL316C": 0.2906549858331568
+      }
+    },
+    "pro__L_c": {
+      "edited_wt_growth": 0.28944185142168627,
+      "rescued_ko_growth": {
+        "YER023W": 0.2894418514217154
+      }
+    },
+    "ps_SC_c": {
+      "edited_wt_growth": 0.288216304079641,
+      "rescued_ko_growth": {}
+    },
+    "ptd1ino_SC_c": {
+      "edited_wt_growth": 0.2889883647703332,
+      "rescued_ko_growth": {
+        "YHR046C": 0.2889883647703338,
+        "YJL153C": 0.2889883647703361,
+        "YPR113W": 0.28898836477023565
+      }
+    },
+    "ribflv_c": {
+      "edited_wt_growth": 0.28794454721925616,
+      "rescued_ko_growth": {
+        "YBL033C": 0.2879445472192349,
+        "YBR153W": 0.28794454721926627,
+        "YBR256C": 0.28794454721925644,
+        "YDR487C": 0.28794454721926,
+        "YOL066C": 0.28794454721927315,
+        "YOL143C": 0.28794454721925455
+      }
+    },
+    "ser__L_c": {
+      "edited_wt_growth": 0.2888411021746603,
+      "rescued_ko_growth": {}
+    },
+    "so4_c": {
+      "edited_wt_growth": 0.28786570370404857,
+      "rescued_ko_growth": {}
+    },
+    "thr__L_c": {
+      "edited_wt_growth": 0.29006402576855955,
+      "rescued_ko_growth": {
+        "YCR053W": 0.28941933029437483,
+        "YHR025W": 0.2894193302943791
+      }
+    },
+    "tre_c": {
+      "edited_wt_growth": 0.28842691506262447,
+      "rescued_ko_growth": {
+        "YBR126C": 0.2884269150626255,
+        "YDR074W": 0.28842691506262674
+      }
+    },
+    "triglyc_SC_c": {
+      "edited_wt_growth": 0.28977744863949056,
+      "rescued_ko_growth": {}
+    },
+    "trp__L_c": {
+      "edited_wt_growth": 0.2889265304563011,
+      "rescued_ko_growth": {
+        "YDR007W": 0.2889265304563027,
+        "YDR354W": 0.28892653045630534,
+        "YER090W": 0.2889265304563026,
+        "YGL026C": 0.2889265304563001,
+        "YKL211C": 0.28892653045630184
+      }
+    },
+    "tyr__L_c": {
+      "edited_wt_growth": 0.2899266013321684,
+      "rescued_ko_growth": {}
+    },
+    "ump_c": {
+      "edited_wt_growth": 0.2897625567433341,
+      "rescued_ko_growth": {}
+    },
+    "val__L_c": {
+      "edited_wt_growth": 0.2887278458692109,
+      "rescued_ko_growth": {}
+    },
+    "zymst_c": {
+      "edited_wt_growth": 0.288152803016002,
+      "rescued_ko_growth": {}
+    }
+  }
+}
