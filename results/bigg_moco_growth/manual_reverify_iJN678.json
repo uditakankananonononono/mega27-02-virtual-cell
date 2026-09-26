@@ -1,0 +1,15 @@
+{
+  "prereg_criterion": "second model family beyond iJO1366 reproduced by manual inspection",
+  "model": "iJN678 (Synechocystis sp. PCC 6803), snapshot sha256-verified vs bigg_model_survey.csv",
+  "verdict": "VERIFIED",
+  "mechanism": "Biomass objective BIOMASS_Ec_SynHetero requires 0.0030293 mobd_c (molybdate). Genes modA and sll0739 encode subunits of the molybdate ABC transporter MOBDabcpp (atp_c + h2o_c + mobd_p --> adp_c + h_c + mobd_c + pi_c), the sole cytoplasmic mobd_c source. Baseline single-gene KOs: growth 0.0 (essential call). After subtracting mobd_c from the objective: post-edit WT growth 0.0631504206 and both KOs grow at exactly post-edit WT (0.0631504206). Artifact class identical to the iJO1366 MoCo case, here at the trace-element uptake step rather than cofactor synthesis.",
+  "numbers": {
+    "baseline_wt": 0.06314995695015081,
+    "baseline_ko_modA": 0.0,
+    "baseline_ko_sll0739": 0.0,
+    "post_edit_wt": 0.06315042063794382,
+    "post_edit_ko_modA": 0.0631504206379441,
+    "post_edit_ko_sll0739": 0.0631504206379441
+  },
+  "caveat": "Structural verification of objective-dependence; no in-vivo essentiality claim for Synechocystis modA/sll0739."
+}
