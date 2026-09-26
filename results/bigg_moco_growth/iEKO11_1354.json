@@ -1,0 +1,45 @@
+{
+  "accession": "iEKO11_1354",
+  "status": "scored",
+  "wt_growth": 0.9824784386660103,
+  "n_genes": 1354,
+  "n_essential_baseline": 209,
+  "moco_metabolite_ids": [
+    "bmoco1gdp_c",
+    "bmoco_c",
+    "bmocogdp_c",
+    "mobd_c",
+    "mobd_e",
+    "mobd_p",
+    "moco_c",
+    "mococdp_c",
+    "mocogdp_c",
+    "mpt_c",
+    "mptamp_c"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_iJO1366_core_53p95M"
+  ],
+  "moco_constituents_zeroed": 2,
+  "flips": [
+    "EKO11_3058",
+    "EKO11_3059",
+    "EKO11_3101",
+    "EKO11_3102",
+    "EKO11_3103",
+    "EKO11_3105",
+    "EKO11_3902",
+    "EKO11_4507"
+  ],
+  "n_flips": 8,
+  "retained_growth_rescued": {
+    "EKO11_3058": 0.9825918422418622,
+    "EKO11_3059": 0.9825918422418712,
+    "EKO11_3101": 0.9825918422418712,
+    "EKO11_3102": 0.9825918422418712,
+    "EKO11_3103": 0.9825918422418712,
+    "EKO11_3105": 0.9825918422418712,
+    "EKO11_3902": 0.9825918422418757,
+    "EKO11_4507": 0.9825918422418771
+  }
+}

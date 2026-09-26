@@ -1,0 +1,47 @@
+{
+  "accession": "iSBO_1134",
+  "status": "scored",
+  "wt_growth": 0.3998801249414782,
+  "n_genes": 1134,
+  "n_essential_baseline": 201,
+  "moco_metabolite_ids": [
+    "bmoco1gdp_c",
+    "bmoco_c",
+    "bmocogdp_c",
+    "mobd_c",
+    "mobd_e",
+    "mobd_p",
+    "moco_c",
+    "mococdp_c",
+    "mocogdp_c",
+    "mpt_c",
+    "mptamp_c"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_iJO1366_core_53p95M"
+  ],
+  "moco_constituents_zeroed": 2,
+  "flips": [
+    "SBO_0010",
+    "SBO_0668",
+    "SBO_0670",
+    "SBO_0671",
+    "SBO_0672",
+    "SBO_0716",
+    "SBO_0717",
+    "SBO_2554",
+    "SBO_3869"
+  ],
+  "n_flips": 9,
+  "retained_growth_rescued": {
+    "SBO_0010": 0.3999332786119931,
+    "SBO_0668": 0.39993327861199096,
+    "SBO_0670": 0.39993327861199274,
+    "SBO_0671": 0.39993327861199274,
+    "SBO_0672": 0.39993327861199274,
+    "SBO_0716": 0.39993327861199274,
+    "SBO_0717": 0.39993327861199274,
+    "SBO_2554": 0.3999309000443157,
+    "SBO_3869": 0.3999332786119925
+  }
+}

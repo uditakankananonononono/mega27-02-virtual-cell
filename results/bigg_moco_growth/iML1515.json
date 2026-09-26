@@ -1,0 +1,27 @@
+{
+  "accession": "iML1515",
+  "status": "scored",
+  "wt_growth": 0.876997214426967,
+  "n_genes": 1516,
+  "n_essential_baseline": 196,
+  "moco_metabolite_ids": [
+    "bmoco1gdp_c",
+    "bmoco_c",
+    "bmocogdp_c",
+    "mobd_c",
+    "mobd_e",
+    "mobd_p",
+    "moco_c",
+    "mococdp_c",
+    "mocogdp_c",
+    "mpt_c",
+    "mptamp_c"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_iML1515_core_75p37M"
+  ],
+  "moco_constituents_zeroed": 1,
+  "flips": [],
+  "n_flips": 0,
+  "retained_growth_rescued": {}
+}

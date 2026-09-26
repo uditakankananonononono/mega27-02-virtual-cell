@@ -1,0 +1,25 @@
+{
+  "accession": "iJN678",
+  "status": "scored",
+  "wt_growth": 0.06314995695015081,
+  "n_genes": 622,
+  "n_essential_baseline": 273,
+  "moco_metabolite_ids": [
+    "mobd_c",
+    "mobd_e",
+    "mobd_p"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_SynHetero"
+  ],
+  "moco_constituents_zeroed": 1,
+  "flips": [
+    "modA",
+    "sll0739"
+  ],
+  "n_flips": 2,
+  "retained_growth_rescued": {
+    "modA": 0.06315042063861588,
+    "sll0739": 0.06315042063794271
+  }
+}

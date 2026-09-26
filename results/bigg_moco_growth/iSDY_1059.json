@@ -1,0 +1,45 @@
+{
+  "accession": "iSDY_1059",
+  "status": "scored",
+  "wt_growth": 0.9378903140618788,
+  "n_genes": 1059,
+  "n_essential_baseline": 204,
+  "moco_metabolite_ids": [
+    "bmoco1gdp_c",
+    "bmoco_c",
+    "bmocogdp_c",
+    "mobd_c",
+    "mobd_e",
+    "mobd_p",
+    "moco_c",
+    "mococdp_c",
+    "mocogdp_c",
+    "mpt_c",
+    "mptamp_c"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Ec_iJO1366_core_53p95M"
+  ],
+  "moco_constituents_zeroed": 2,
+  "flips": [
+    "SDY_0009",
+    "SDY_0760",
+    "SDY_0761",
+    "SDY_0821",
+    "SDY_0822",
+    "SDY_0823",
+    "SDY_0825",
+    "SDY_3888"
+  ],
+  "n_flips": 8,
+  "retained_growth_rescued": {
+    "SDY_0009": 0.9380068725299896,
+    "SDY_0760": 0.9380068725314906,
+    "SDY_0761": 0.9380068725299786,
+    "SDY_0821": 0.9380068725299786,
+    "SDY_0822": 0.9380068725299786,
+    "SDY_0823": 0.9380068725299786,
+    "SDY_0825": 0.9380068725299786,
+    "SDY_3888": 0.9380068725300601
+  }
+}

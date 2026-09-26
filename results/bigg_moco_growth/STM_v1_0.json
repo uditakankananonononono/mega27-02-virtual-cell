@@ -1,0 +1,19 @@
+{
+  "accession": "STM_v1_0",
+  "status": "scored",
+  "wt_growth": 0.47783366076073114,
+  "n_genes": 1271,
+  "n_essential_baseline": 202,
+  "moco_metabolite_ids": [
+    "mobd_c",
+    "mobd_e",
+    "mobd_p"
+  ],
+  "objective_reactions": [
+    "BIOMASS_iRR1083_metals"
+  ],
+  "moco_constituents_zeroed": 1,
+  "flips": [],
+  "n_flips": 0,
+  "retained_growth_rescued": {}
+}

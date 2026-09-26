@@ -1,0 +1,18 @@
+{
+  "accession": "iHN637",
+  "status": "scored",
+  "wt_growth": 0.22445454212002638,
+  "n_genes": 637,
+  "n_essential_baseline": 169,
+  "moco_metabolite_ids": [
+    "mobd_c",
+    "mobd_e"
+  ],
+  "objective_reactions": [
+    "BIOMASS_Cl_DSM_WT_46p666M1"
+  ],
+  "moco_constituents_zeroed": 1,
+  "flips": [],
+  "n_flips": 0,
+  "retained_growth_rescued": {}
+}
