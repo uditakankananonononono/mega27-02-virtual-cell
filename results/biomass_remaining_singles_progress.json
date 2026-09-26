@@ -1,0 +1,404 @@
+{
+  "model_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "original_wt": 0.5861175448,
+  "baseline_essential_genes": 262,
+  "results": {
+    "ala__L_c": {
+      "coefficient": -0.598267,
+      "patched_wt_growth": 0.604099758,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "arg__L_c": {
+      "coefficient": -0.354251,
+      "patched_wt_growth": 0.6110865199,
+      "n_baseline_essential_rescued": 4,
+      "rescued_genes": [
+        "PP_0184",
+        "PP_1000",
+        "PP_1079",
+        "PP_1088"
+      ]
+    },
+    "asn__L_c": {
+      "coefficient": -0.158931,
+      "patched_wt_growth": 0.5921838857,
+      "n_baseline_essential_rescued": 1,
+      "rescued_genes": [
+        "PP_1750"
+      ]
+    },
+    "asp__L_c": {
+      "coefficient": -0.284685,
+      "patched_wt_growth": 0.5955112602,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "atp_c": {
+      "coefficient": -46.918883,
+      "patched_wt_growth": 53.7651752207,
+      "n_baseline_essential_rescued": 6,
+      "rescued_genes": [
+        "PP_1240",
+        "PP_4016",
+        "PP_4889",
+        "PP_5150",
+        "PP_5335",
+        "PP_5336"
+      ]
+    },
+    "bmocogdp_c": {
+      "coefficient": -0.000223,
+      "patched_wt_growth": 0.5862408365,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "clpn140_p": {
+      "coefficient": -1.8e-05,
+      "patched_wt_growth": 0.5861345577,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "clpn160_p": {
+      "coefficient": -0.000578,
+      "patched_wt_growth": 0.5867365029,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "clpn181_p": {
+      "coefficient": -0.001309,
+      "patched_wt_growth": 0.5876711556,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "ctp_c": {
+      "coefficient": -0.159783,
+      "patched_wt_growth": 0.6021098244,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "cys__L_c": {
+      "coefficient": -0.055652,
+      "patched_wt_growth": 0.5889342927,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "datp_c": {
+      "coefficient": -0.010804,
+      "patched_wt_growth": 0.587394929,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "dctp_c": {
+      "coefficient": -0.01721,
+      "patched_wt_growth": 0.587879426,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "dgtp_c": {
+      "coefficient": -0.017423,
+      "patched_wt_growth": 0.588145379,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "dttp_c": {
+      "coefficient": -0.010854,
+      "patched_wt_growth": 0.5873430562,
+      "n_baseline_essential_rescued": 1,
+      "rescued_genes": [
+        "PP_5141"
+      ]
+    },
+    "fe2_c": {
+      "coefficient": -0.00634,
+      "patched_wt_growth": 0.5861532644,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "fe3_c": {
+      "coefficient": -0.00634,
+      "patched_wt_growth": 0.5861343535,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "gln__L_c": {
+      "coefficient": -0.251507,
+      "patched_wt_growth": 0.5988921269,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "glu__L_c": {
+      "coefficient": -0.301809,
+      "patched_wt_growth": 0.6006726432,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "gly_c": {
+      "coefficient": -0.431309,
+      "patched_wt_growth": 0.593635502,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "gtp_c": {
+      "coefficient": -0.210704,
+      "patched_wt_growth": 0.6105572059,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "h2o_c": {
+      "coefficient": -41.397362,
+      "patched_wt_growth": 0.5861175448,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "his__L_c": {
+      "coefficient": -0.126289,
+      "patched_wt_growth": 0.5945228999,
+      "n_baseline_essential_rescued": 8,
+      "rescued_genes": [
+        "PP_0289",
+        "PP_0290",
+        "PP_0293",
+        "PP_0965",
+        "PP_0966",
+        "PP_0967",
+        "PP_4890",
+        "PP_5015"
+      ]
+    },
+    "ile__L_c": {
+      "coefficient": -0.244551,
+      "patched_wt_growth": 0.6050238713,
+      "n_baseline_essential_rescued": 2,
+      "rescued_genes": [
+        "PP_4679",
+        "PP_4680"
+      ]
+    },
+    "k_c": {
+      "coefficient": -0.158509,
+      "patched_wt_growth": 0.5862226208,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "leu__L_c": {
+      "coefficient": -0.628769,
+      "patched_wt_growth": 0.6353581006,
+      "n_baseline_essential_rescued": 4,
+      "rescued_genes": [
+        "PP_1025",
+        "PP_1985",
+        "PP_1986",
+        "PP_1988"
+      ]
+    },
+    "lpspput_e": {
+      "coefficient": -0.008696,
+      "patched_wt_growth": 0.602819112,
+      "n_baseline_essential_rescued": 29,
+      "rescued_genes": [
+        "PP_0341",
+        "PP_0342",
+        "PP_0343",
+        "PP_0344",
+        "PP_0501",
+        "PP_0953",
+        "PP_0954",
+        "PP_0955",
+        "PP_0956",
+        "PP_0982",
+        "PP_0983",
+        "PP_1323",
+        "PP_1343",
+        "PP_1601",
+        "PP_1603",
+        "PP_1604",
+        "PP_1803",
+        "PP_1804",
+        "PP_1805",
+        "PP_1900",
+        "PP_1902",
+        "PP_2902",
+        "PP_3821",
+        "PP_4474",
+        "PP_4928",
+        "PP_4934",
+        "PP_4936",
+        "PP_4943",
+        "PP_4944"
+      ]
+    },
+    "lys__L_c": {
+      "coefficient": -0.180336,
+      "patched_wt_growth": 0.5999422891,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "malcoa_c": {
+      "coefficient": -3.1e-05,
+      "patched_wt_growth": 0.5861268114,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "met__L_c": {
+      "coefficient": -0.122008,
+      "patched_wt_growth": 0.5961519554,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "mg2_c": {
+      "coefficient": -0.007044,
+      "patched_wt_growth": 0.5861175448,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "mobd_c": {
+      "coefficient": -0.002817,
+      "patched_wt_growth": 0.5861250132,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "mocogdp_c": {
+      "coefficient": -0.000223,
+      "patched_wt_growth": 0.586179332,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "murein4p4p_p": {
+      "coefficient": -0.007917,
+      "patched_wt_growth": 0.5925148035,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "murein4px4px4p_p": {
+      "coefficient": -6.6e-05,
+      "patched_wt_growth": 0.5861966879,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "nadh_c": {
+      "coefficient": -4.4e-05,
+      "patched_wt_growth": 0.586127956,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "nadp_c": {
+      "coefficient": -0.000111,
+      "patched_wt_growth": 0.5861435894,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "nh4_c": {
+      "coefficient": -0.010567,
+      "patched_wt_growth": 0.5861175448,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "pe160_c": {
+      "coefficient": -0.007882,
+      "patched_wt_growth": 0.5903904033,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "pe161_c": {
+      "coefficient": -0.039155,
+      "patched_wt_growth": 0.6077525406,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "pe181_c": {
+      "coefficient": -0.017845,
+      "patched_wt_growth": 0.5969345328,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "pg161_c": {
+      "coefficient": -0.021632,
+      "patched_wt_growth": 0.5981446602,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "pg181_c": {
+      "coefficient": -0.009859,
+      "patched_wt_growth": 0.5921647914,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "phe__L_c": {
+      "coefficient": -0.191038,
+      "patched_wt_growth": 0.6077134426,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "pro__L_c": {
+      "coefficient": -0.26328,
+      "patched_wt_growth": 0.601886462,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "ptrc_c": {
+      "coefficient": -0.03327,
+      "patched_wt_growth": 0.5881310608,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "ser__L_c": {
+      "coefficient": -0.301274,
+      "patched_wt_growth": 0.5944203711,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "succoa_c": {
+      "coefficient": -9.8e-05,
+      "patched_wt_growth": 0.5861482691,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "thr__L_c": {
+      "coefficient": -0.256324,
+      "patched_wt_growth": 0.5970136591,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "trp__L_c": {
+      "coefficient": -0.077592,
+      "patched_wt_growth": 0.5963469281,
+      "n_baseline_essential_rescued": 7,
+      "rescued_genes": [
+        "PP_0082",
+        "PP_0083",
+        "PP_0417",
+        "PP_0420",
+        "PP_0421",
+        "PP_0422",
+        "PP_1995"
+      ]
+    },
+    "tyr__L_c": {
+      "coefficient": -0.135921,
+      "patched_wt_growth": 0.6006581077,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "udcpdp_c": {
+      "coefficient": -5.5e-05,
+      "patched_wt_growth": 0.5861626408,
+      "n_baseline_essential_rescued": 1,
+      "rescued_genes": [
+        "PP_1595"
+      ]
+    },
+    "utp_c": {
+      "coefficient": -0.143215,
+      "patched_wt_growth": 0.5999135152,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    "val__L_c": {
+      "coefficient": -0.389034,
+      "patched_wt_growth": 0.6094428063,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    }
+  }
+}

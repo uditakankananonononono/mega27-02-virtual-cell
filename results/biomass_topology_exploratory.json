@@ -1,0 +1,48 @@
+{
+  "status": "exploratory in-sample association only; features and 48 targets known before full 102-term scoring",
+  "n_terms": 102,
+  "nonzero_flip_terms": 23,
+  "zero_flip_terms": 79,
+  "median_flips_all": 0.0,
+  "max_flips": 29,
+  "moco_individual_flips": {
+    "bmocogdp_c": 0,
+    "mobd_c": 0,
+    "mocogdp_c": 0
+  },
+  "feature_correlations": [
+    {
+      "feature": "abs_biomass_coefficient",
+      "spearman_rho": -0.016519520701343295,
+      "random_feature_permutation_p_two_sided": 0.8690654672663668,
+      "unique_values": 70
+    },
+    {
+      "feature": "non_biomass_reaction_count",
+      "spearman_rho": -0.184456378618052,
+      "random_feature_permutation_p_two_sided": 0.06446776611694154,
+      "unique_values": 32
+    },
+    {
+      "feature": "gene_associated_reaction_count",
+      "spearman_rho": -0.18121789478333372,
+      "random_feature_permutation_p_two_sided": 0.06746626686656672,
+      "unique_values": 30
+    },
+    {
+      "feature": "active_producer_reaction_count_wt",
+      "spearman_rho": -0.08736731691122587,
+      "random_feature_permutation_p_two_sided": 0.3963018490754623,
+      "unique_values": 11
+    },
+    {
+      "feature": "active_producer_abs_flux_sum_wt",
+      "spearman_rho": -0.16588830704845509,
+      "random_feature_permutation_p_two_sided": 0.09695152423788106,
+      "unique_values": 85
+    }
+  ],
+  "permutation_draws_each": 2000,
+  "permutation_seed": 20260926,
+  "limits": "feature selection and target exposure post-result; correlated reaction features, multiple testing, zeros and one model; permutation checks numeric association but does not validate prediction or biological mechanism"
+}
