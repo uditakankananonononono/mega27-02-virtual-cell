@@ -1,0 +1,348 @@
+{
+  "source_sha256": "77d071d179ebecfe59fa16db1ef112391070e0b05c8e18421d89ab1c51af9855",
+  "wt_growth": 0.11796638932331782,
+  "baseline_essential_count": 171,
+  "rows": {
+    "10fthf_c": {
+      "edited_wt_growth": 0.11798160848519203,
+      "rescued_ko_growth": {
+        "BSU00740": 0.11798160848519644,
+        "BSU00760": 0.11798160848519254,
+        "BSU00770": 0.11798160848519532,
+        "BSU00780": 0.11798160848519532,
+        "BSU00790": 0.11798160848519532,
+        "BSU21810": 0.11793112339913733,
+        "BSU22780": 0.11798160848519544,
+        "BSU28080": 0.11798160848519443
+      }
+    },
+    "ala__L_c": {
+      "edited_wt_growth": 0.11929518569844658,
+      "rescued_ko_growth": {}
+    },
+    "amp_c": {
+      "edited_wt_growth": 0.11805382007391048,
+      "rescued_ko_growth": {}
+    },
+    "arg__L_c": {
+      "edited_wt_growth": 0.12037989156839474,
+      "rescued_ko_growth": {
+        "BSU11190": 0.12037989156840526,
+        "BSU11200": 0.12037989156840027,
+        "BSU11210": 0.12037989156840027,
+        "BSU11220": 0.12037989156840027,
+        "BSU11250": 0.12037989156840027,
+        "BSU29440": 0.12037989156841115,
+        "BSU29450": 0.12037989156839622
+      }
+    },
+    "asn__L_c": {
+      "edited_wt_growth": 0.11897879835133478,
+      "rescued_ko_growth": {}
+    },
+    "asp__L_c": {
+      "edited_wt_growth": 0.11878164401476518,
+      "rescued_ko_growth": {}
+    },
+    "atp_c": {
+      "edited_wt_growth": 29.357194861316483,
+      "rescued_ko_growth": {
+        "BSU01370": 29.35719486131666,
+        "BSU06420": 29.357194861315204,
+        "BSU06430": 29.357194861316685,
+        "BSU06440": 29.357194861316685,
+        "BSU06450": 29.357194861316685,
+        "BSU06460": 29.357194861316685,
+        "BSU06470": 29.357194861316685,
+        "BSU06480": 29.357194861316685,
+        "BSU06490": 29.357194861316685,
+        "BSU06500": 29.357194861316685,
+        "BSU06530": 29.35719486135333,
+        "BSU36510": 29.35719486131625,
+        "BSU40420": 29.357194861316458
+      }
+    },
+    "ca2_c": {
+      "edited_wt_growth": 0.11796603868663555,
+      "rescued_ko_growth": {}
+    },
+    "cdlp_BS_c": {
+      "edited_wt_growth": 0.11805659981067923,
+      "rescued_ko_growth": {}
+    },
+    "cdp_c": {
+      "edited_wt_growth": 0.11797089296181873,
+      "rescued_ko_growth": {}
+    },
+    "cmp_c": {
+      "edited_wt_growth": 0.11798463182088033,
+      "rescued_ko_growth": {}
+    },
+    "ctp_c": {
+      "edited_wt_growth": 0.11868575711739,
+      "rescued_ko_growth": {}
+    },
+    "cys__L_c": {
+      "edited_wt_growth": 0.11844843688537837,
+      "rescued_ko_growth": {}
+    },
+    "d12dg_BS_c": {
+      "edited_wt_growth": 0.11917294057937394,
+      "rescued_ko_growth": {}
+    },
+    "datp_c": {
+      "edited_wt_growth": 0.11843591067088173,
+      "rescued_ko_growth": {}
+    },
+    "dctp_c": {
+      "edited_wt_growth": 0.11830007996983817,
+      "rescued_ko_growth": {
+        "BSU17370": 0.11828992639063768,
+        "BSU17380": 0.11828992639071213,
+        "BSU17390": 0.11828992639071213
+      }
+    },
+    "dgtp_c": {
+      "edited_wt_growth": 0.11831185424870055,
+      "rescued_ko_growth": {}
+    },
+    "dttp_c": {
+      "edited_wt_growth": 0.11844683525508126,
+      "rescued_ko_growth": {
+        "BSU00280": 0.11844677657787665
+      }
+    },
+    "fe3_c": {
+      "edited_wt_growth": 0.11796638932239921,
+      "rescued_ko_growth": {}
+    },
+    "gdp_c": {
+      "edited_wt_growth": 0.11796985531310057,
+      "rescued_ko_growth": {}
+    },
+    "gln__L_c": {
+      "edited_wt_growth": 0.12020100351986283,
+      "rescued_ko_growth": {}
+    },
+    "glu__L_c": {
+      "edited_wt_growth": 0.12008319284299487,
+      "rescued_ko_growth": {}
+    },
+    "gly_c": {
+      "edited_wt_growth": 0.1188368877726769,
+      "rescued_ko_growth": {}
+    },
+    "gmp_c": {
+      "edited_wt_growth": 0.11797585519688648,
+      "rescued_ko_growth": {}
+    },
+    "gtca1_45_BS_c": {
+      "edited_wt_growth": 0.11928781472185725,
+      "rescued_ko_growth": {}
+    },
+    "gtca2_45_BS_c": {
+      "edited_wt_growth": 0.11944335722087425,
+      "rescued_ko_growth": {}
+    },
+    "gtca3_45_BS_c": {
+      "edited_wt_growth": 0.1195752946119156,
+      "rescued_ko_growth": {
+        "BSU35730": 0.11957529461192855
+      }
+    },
+    "gtp_c": {
+      "edited_wt_growth": 0.11921350878228579,
+      "rescued_ko_growth": {}
+    },
+    "h2o_c": {
+      "edited_wt_growth": 0.11796638932239346,
+      "rescued_ko_growth": {}
+    },
+    "his__L_c": {
+      "edited_wt_growth": 0.11896742960217328,
+      "rescued_ko_growth": {
+        "BSU29620": 0.1189674296021748,
+        "BSU34860": 0.11896742960217395,
+        "BSU34870": 0.11896742960217023,
+        "BSU34880": 0.11896742960217023,
+        "BSU34900": 0.11896742960217023,
+        "BSU34910": 0.11896742960217023,
+        "BSU34920": 0.11896742960217023
+      }
+    },
+    "ile__L_c": {
+      "edited_wt_growth": 0.12168233601134026,
+      "rescued_ko_growth": {}
+    },
+    "k_c": {
+      "edited_wt_growth": 0.1179663893223943,
+      "rescued_ko_growth": {}
+    },
+    "leu__L_c": {
+      "edited_wt_growth": 0.12236988998117379,
+      "rescued_ko_growth": {}
+    },
+    "lipo1_24_BS_c": {
+      "edited_wt_growth": 0.11835798120457627,
+      "rescued_ko_growth": {}
+    },
+    "lipo2_24_BS_c": {
+      "edited_wt_growth": 0.11835735963076448,
+      "rescued_ko_growth": {}
+    },
+    "lipo3_24_BS_c": {
+      "edited_wt_growth": 0.11873393323709115,
+      "rescued_ko_growth": {}
+    },
+    "lipo4_24_BS_c": {
+      "edited_wt_growth": 0.11839468280990843,
+      "rescued_ko_growth": {}
+    },
+    "lys__L_c": {
+      "edited_wt_growth": 0.12217640694474595,
+      "rescued_ko_growth": {}
+    },
+    "lysylpgly_BS_c": {
+      "edited_wt_growth": 0.11820139131679547,
+      "rescued_ko_growth": {
+        "BG12900": 0.11820139131679319
+      }
+    },
+    "m12dg_BS_c": {
+      "edited_wt_growth": 0.11880825801337631,
+      "rescued_ko_growth": {}
+    },
+    "met__L_c": {
+      "edited_wt_growth": 0.11956226326630828,
+      "rescued_ko_growth": {
+        "BSU11010": 0.11956226326630393,
+        "BSU11870": 0.11953664989503868,
+        "BSU13180": 0.11956226326630442,
+        "BSU21910": 0.11953664989503553
+      }
+    },
+    "mg2_c": {
+      "edited_wt_growth": 0.1179663893223984,
+      "rescued_ko_growth": {}
+    },
+    "mql7_c": {
+      "edited_wt_growth": 0.11799762319205526,
+      "rescued_ko_growth": {
+        "BSU00460": 0.11799762319205502,
+        "BSU00900": 0.11799762319205513,
+        "BSU00910": 0.11799762319205499,
+        "BSU16550": 0.11799762319205993,
+        "BSU22740": 0.11799762319205721,
+        "BSU22750": 0.11799762319205455,
+        "BSU22760": 0.11799762319205455,
+        "BSU24270": 0.11799762319206088,
+        "BSU24280": 0.11799762319205408,
+        "BSU25070": 0.11799762319205556,
+        "BSU25160": 0.11799762319205408,
+        "BSU30780": 0.11799762319205902,
+        "BSU30790": 0.1179976231920535,
+        "BSU30800": 0.1179976231920535,
+        "BSU30820": 0.1179976231920535,
+        "BSU38490": 0.11799762319206938
+      }
+    },
+    "nad_c": {
+      "edited_wt_growth": 0.11864043910460292,
+      "rescued_ko_growth": {}
+    },
+    "nadp_c": {
+      "edited_wt_growth": 0.11800564044138777,
+      "rescued_ko_growth": {}
+    },
+    "nadph_c": {
+      "edited_wt_growth": 0.11797565342562388,
+      "rescued_ko_growth": {}
+    },
+    "peptido_BS_c": {
+      "edited_wt_growth": 0.12599713583560318,
+      "rescued_ko_growth": {
+        "BSU04560": 0.1259971358355058,
+        "BSU04570": 0.12599713583548683,
+        "BSU15180": 0.12599713583548688,
+        "BSU15190": 0.1259971358354807,
+        "BSU15200": 0.1259971358354807,
+        "BSU15220": 0.1259971358354807,
+        "BSU15230": 0.1259971358354807,
+        "BSU29790": 0.12599713583548539,
+        "BSU31150": 0.12599713583548555
+      }
+    },
+    "pgly_BS_c": {
+      "edited_wt_growth": 0.11962893710722229,
+      "rescued_ko_growth": {}
+    },
+    "phe__L_c": {
+      "edited_wt_growth": 0.12131159093664452,
+      "rescued_ko_growth": {
+        "BSU27900": 0.12131159093664075
+      }
+    },
+    "ppi_c": {
+      "edited_wt_growth": 0.11796648975449403,
+      "rescued_ko_growth": {}
+    },
+    "pro__L_c": {
+      "edited_wt_growth": 0.11956961110248102,
+      "rescued_ko_growth": {}
+    },
+    "psetha_BS_c": {
+      "edited_wt_growth": 0.12331022901306071,
+      "rescued_ko_growth": {
+        "BSU02270": 0.12331022901304488,
+        "BSU02290": 0.12331022901304178
+      }
+    },
+    "ser__L_c": {
+      "edited_wt_growth": 0.11896831051493366,
+      "rescued_ko_growth": {}
+    },
+    "t12dg_BS_c": {
+      "edited_wt_growth": 0.11876343411561946,
+      "rescued_ko_growth": {}
+    },
+    "tcam_BS_c": {
+      "edited_wt_growth": 0.12054434722621804,
+      "rescued_ko_growth": {
+        "BSU35680": 0.12054434722622438,
+        "BSU35690": 0.12054434722621872
+      }
+    },
+    "thr__L_c": {
+      "edited_wt_growth": 0.11943160403950842,
+      "rescued_ko_growth": {
+        "BSU32240": 0.11943160403951172,
+        "BSU32250": 0.11943160403950433
+      }
+    },
+    "trp__L_c": {
+      "edited_wt_growth": 0.1192341638027538,
+      "rescued_ko_growth": {
+        "BSU22630": 0.11923416380274966,
+        "BSU22640": 0.11923416380274593,
+        "BSU22650": 0.11923416380274593,
+        "BSU22660": 0.11923416380274593,
+        "BSU22670": 0.11923416380274593,
+        "BSU22680": 0.11923416380274593
+      }
+    },
+    "tyr__L_c": {
+      "edited_wt_growth": 0.1199638133683862,
+      "rescued_ko_growth": {
+        "BSU22610": 0.1199638133684548
+      }
+    },
+    "utp_c": {
+      "edited_wt_growth": 0.11871113639343317,
+      "rescued_ko_growth": {}
+    },
+    "val__L_c": {
+      "edited_wt_growth": 0.12103059757504603,
+      "rescued_ko_growth": {}
+    }
+  }
+}
