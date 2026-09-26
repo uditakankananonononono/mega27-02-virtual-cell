@@ -1,0 +1,459 @@
+{
+  "source_url": "https://bigg.ucsd.edu/static/models/iMM904.json",
+  "source_sha256": "1f7c573c2cf3da104fe48c49d6ae8e5a4a3472e7dc03c173c660e8bd9bb2557f",
+  "training_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "protocol": "notes/prereg_biomass_transfer_yeast_imm904.md",
+  "objective": "BIOMASS_SC5_notrace",
+  "wt_growth": 0.2878657037040148,
+  "feature_keys": [
+    "abs_biomass_coefficient",
+    "non_biomass_reaction_count",
+    "gene_associated_reaction_count",
+    "active_producer_reaction_count_wt",
+    "active_producer_abs_flux_sum_wt"
+  ],
+  "training_n": 102,
+  "training_positive": 23,
+  "terms": [
+    {
+      "metabolite_id": "13BDglcn_c",
+      "name": "1 3 beta D Glucan C6H10O5",
+      "abs_biomass_coefficient": 1.1348,
+      "non_biomass_reaction_count": 2,
+      "gene_associated_reaction_count": 2,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.32667,
+      "predicted_probability": 0.7811020188234605
+    },
+    {
+      "metabolite_id": "ala__L_c",
+      "name": "L-Alanine",
+      "abs_biomass_coefficient": 0.4588,
+      "non_biomass_reaction_count": 9,
+      "gene_associated_reaction_count": 8,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.14707347,
+      "predicted_probability": 0.6262665667873178
+    },
+    {
+      "metabolite_id": "amp_c",
+      "name": "AMP C10H12N5O7P",
+      "abs_biomass_coefficient": 0.046,
+      "non_biomass_reaction_count": 52,
+      "gene_associated_reaction_count": 50,
+      "active_producer_reaction_count_wt": 11,
+      "active_producer_abs_flux_sum_wt": 0.47010772,
+      "predicted_probability": 0.1948880671138918
+    },
+    {
+      "metabolite_id": "arg__L_c",
+      "name": "L-Arginine",
+      "abs_biomass_coefficient": 0.1607,
+      "non_biomass_reaction_count": 6,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.04626002,
+      "predicted_probability": 0.5473131733201726
+    },
+    {
+      "metabolite_id": "asn__L_c",
+      "name": "L-Asparagine",
+      "abs_biomass_coefficient": 0.1017,
+      "non_biomass_reaction_count": 7,
+      "gene_associated_reaction_count": 6,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.02927594,
+      "predicted_probability": 0.521202660895342
+    },
+    {
+      "metabolite_id": "asp__L_c",
+      "name": "L-Aspartate",
+      "abs_biomass_coefficient": 0.2975,
+      "non_biomass_reaction_count": 17,
+      "gene_associated_reaction_count": 12,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.44160566,
+      "predicted_probability": 0.5604589636522704
+    },
+    {
+      "metabolite_id": "atp_c",
+      "name": "ATP C10H12N5O13P3",
+      "abs_biomass_coefficient": 59.276,
+      "non_biomass_reaction_count": 148,
+      "gene_associated_reaction_count": 129,
+      "active_producer_reaction_count_wt": 12,
+      "active_producer_abs_flux_sum_wt": 40.24197188,
+      "predicted_probability": 0.9991596052178111
+    },
+    {
+      "metabolite_id": "cmp_c",
+      "name": "CMP C9H12N3O8P",
+      "abs_biomass_coefficient": 0.0447,
+      "non_biomass_reaction_count": 11,
+      "gene_associated_reaction_count": 8,
+      "active_producer_reaction_count_wt": 3,
+      "active_producer_abs_flux_sum_wt": 0.0128676,
+      "predicted_probability": 0.4537736232910457
+    },
+    {
+      "metabolite_id": "cys__L_c",
+      "name": "L-Cysteine",
+      "abs_biomass_coefficient": 0.0066,
+      "non_biomass_reaction_count": 10,
+      "gene_associated_reaction_count": 6,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00189991,
+      "predicted_probability": 0.47727914922316
+    },
+    {
+      "metabolite_id": "damp_c",
+      "name": "DAMP C10H12N5O6P",
+      "abs_biomass_coefficient": 0.0036,
+      "non_biomass_reaction_count": 3,
+      "gene_associated_reaction_count": 1,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00103632,
+      "predicted_probability": 0.5034005859420727
+    },
+    {
+      "metabolite_id": "dcmp_c",
+      "name": "DCMP C9H12N3O7P",
+      "abs_biomass_coefficient": 0.0024,
+      "non_biomass_reaction_count": 3,
+      "gene_associated_reaction_count": 1,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00069088,
+      "predicted_probability": 0.5029053389924774
+    },
+    {
+      "metabolite_id": "dgmp_c",
+      "name": "DGMP C10H12N5O7P",
+      "abs_biomass_coefficient": 0.0024,
+      "non_biomass_reaction_count": 3,
+      "gene_associated_reaction_count": 1,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00069088,
+      "predicted_probability": 0.5029053389924774
+    },
+    {
+      "metabolite_id": "dtmp_c",
+      "name": "DTMP C10H13N2O8P",
+      "abs_biomass_coefficient": 0.0036,
+      "non_biomass_reaction_count": 4,
+      "gene_associated_reaction_count": 2,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00103632,
+      "predicted_probability": 0.49879966657537456
+    },
+    {
+      "metabolite_id": "ergst_c",
+      "name": "Ergosterol C28H44O",
+      "abs_biomass_coefficient": 0.0007,
+      "non_biomass_reaction_count": 5,
+      "gene_associated_reaction_count": 4,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00020151,
+      "predicted_probability": 0.4905848835485032
+    },
+    {
+      "metabolite_id": "gln__L_c",
+      "name": "L-Glutamine",
+      "abs_biomass_coefficient": 0.1054,
+      "non_biomass_reaction_count": 18,
+      "gene_associated_reaction_count": 16,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.23618517,
+      "predicted_probability": 0.4790274867454321
+    },
+    {
+      "metabolite_id": "glu__L_c",
+      "name": "L-Glutamate",
+      "abs_biomass_coefficient": 0.3018,
+      "non_biomass_reaction_count": 46,
+      "gene_associated_reaction_count": 39,
+      "active_producer_reaction_count_wt": 8,
+      "active_producer_abs_flux_sum_wt": 1.62288608,
+      "predicted_probability": 0.35248516743469044
+    },
+    {
+      "metabolite_id": "gly_c",
+      "name": "Glycine",
+      "abs_biomass_coefficient": 0.2904,
+      "non_biomass_reaction_count": 12,
+      "gene_associated_reaction_count": 8,
+      "active_producer_reaction_count_wt": 2,
+      "active_producer_abs_flux_sum_wt": 0.11209203,
+      "predicted_probability": 0.5555147689474512
+    },
+    {
+      "metabolite_id": "glycogen_c",
+      "name": "Glycogen C6H10O5",
+      "abs_biomass_coefficient": 0.5185,
+      "non_biomass_reaction_count": 5,
+      "gene_associated_reaction_count": 4,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.14925837,
+      "predicted_probability": 0.6582313155892652
+    },
+    {
+      "metabolite_id": "gmp_c",
+      "name": "GMP C10H12N5O8P",
+      "abs_biomass_coefficient": 0.046,
+      "non_biomass_reaction_count": 10,
+      "gene_associated_reaction_count": 8,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.01421769,
+      "predicted_probability": 0.4883531271033741
+    },
+    {
+      "metabolite_id": "h2o_c",
+      "name": "H2O H2O",
+      "abs_biomass_coefficient": 59.276,
+      "non_biomass_reaction_count": 273,
+      "gene_associated_reaction_count": 229,
+      "active_producer_reaction_count_wt": 35,
+      "active_producer_abs_flux_sum_wt": 27.47173095,
+      "predicted_probability": 0.9174490300260182
+    },
+    {
+      "metabolite_id": "his__L_c",
+      "name": "L-Histidine",
+      "abs_biomass_coefficient": 0.0663,
+      "non_biomass_reaction_count": 6,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.0190855,
+      "predicted_probability": 0.512277047027422
+    },
+    {
+      "metabolite_id": "ile__L_c",
+      "name": "L-Isoleucine",
+      "abs_biomass_coefficient": 0.1927,
+      "non_biomass_reaction_count": 6,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.05547172,
+      "predicted_probability": 0.5584749693957762
+    },
+    {
+      "metabolite_id": "leu__L_c",
+      "name": "L-Leucine",
+      "abs_biomass_coefficient": 0.2964,
+      "non_biomass_reaction_count": 5,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.08532339,
+      "predicted_probability": 0.5944224031534209
+    },
+    {
+      "metabolite_id": "lys__L_c",
+      "name": "L-Lysine",
+      "abs_biomass_coefficient": 0.2862,
+      "non_biomass_reaction_count": 5,
+      "gene_associated_reaction_count": 4,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.08238716,
+      "predicted_probability": 0.5935855365904331
+    },
+    {
+      "metabolite_id": "mannan_c",
+      "name": "Mannan C6H10O5",
+      "abs_biomass_coefficient": 0.8079,
+      "non_biomass_reaction_count": 1,
+      "gene_associated_reaction_count": 0,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.2325667,
+      "predicted_probability": 0.7351351046879994
+    },
+    {
+      "metabolite_id": "met__L_c",
+      "name": "L-Methionine",
+      "abs_biomass_coefficient": 0.0507,
+      "non_biomass_reaction_count": 9,
+      "gene_associated_reaction_count": 7,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.01997788,
+      "predicted_probability": 0.4949079241572881
+    },
+    {
+      "metabolite_id": "pa_SC_c",
+      "name": "Phosphatidate  yeast specific C3540H6544O800P100",
+      "abs_biomass_coefficient": 6e-06,
+      "non_biomass_reaction_count": 7,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00711028,
+      "predicted_probability": 0.4836764467138217
+    },
+    {
+      "metabolite_id": "pc_SC_c",
+      "name": "Phosphatidylcholine  yeast specific C4040H7844N100O800P100",
+      "abs_biomass_coefficient": 6e-05,
+      "non_biomass_reaction_count": 6,
+      "gene_associated_reaction_count": 6,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00172719,
+      "predicted_probability": 0.4833453511083424
+    },
+    {
+      "metabolite_id": "pe_SC_c",
+      "name": "Phosphatidylethanolamine  yeast specific C3740H7244N100O800P100",
+      "abs_biomass_coefficient": 4.5e-05,
+      "non_biomass_reaction_count": 5,
+      "gene_associated_reaction_count": 2,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 3.023e-05,
+      "predicted_probability": 0.49514732758082564
+    },
+    {
+      "metabolite_id": "phe__L_c",
+      "name": "L-Phenylalanine",
+      "abs_biomass_coefficient": 0.1339,
+      "non_biomass_reaction_count": 4,
+      "gene_associated_reaction_count": 3,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.03854522,
+      "predicted_probability": 0.5468275528359835
+    },
+    {
+      "metabolite_id": "pro__L_c",
+      "name": "L-Proline",
+      "abs_biomass_coefficient": 0.1647,
+      "non_biomass_reaction_count": 4,
+      "gene_associated_reaction_count": 3,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.04741148,
+      "predicted_probability": 0.5578248854199085
+    },
+    {
+      "metabolite_id": "ps_SC_c",
+      "name": "Phosphatidylserine  yeast specific C3840H7144N100O1000P100",
+      "abs_biomass_coefficient": 1.7e-05,
+      "non_biomass_reaction_count": 4,
+      "gene_associated_reaction_count": 1,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00351196,
+      "predicted_probability": 0.4998146029312831
+    },
+    {
+      "metabolite_id": "ptd1ino_SC_c",
+      "name": "Phosphatidyl 1D myo inositol  yeast specific C4140H7644O1300P100",
+      "abs_biomass_coefficient": 5.3e-05,
+      "non_biomass_reaction_count": 16,
+      "gene_associated_reaction_count": 15,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00152569,
+      "predicted_probability": 0.44002920084408054
+    },
+    {
+      "metabolite_id": "ribflv_c",
+      "name": "Riboflavin C17H20N4O6",
+      "abs_biomass_coefficient": 0.00099,
+      "non_biomass_reaction_count": 4,
+      "gene_associated_reaction_count": 2,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00028499,
+      "predicted_probability": 0.4977217286982322
+    },
+    {
+      "metabolite_id": "ser__L_c",
+      "name": "L-Serine",
+      "abs_biomass_coefficient": 0.1854,
+      "non_biomass_reaction_count": 12,
+      "gene_associated_reaction_count": 10,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.16404891,
+      "predicted_probability": 0.5334313390426033
+    },
+    {
+      "metabolite_id": "so4_c",
+      "name": "Sulfate",
+      "abs_biomass_coefficient": 0.02,
+      "non_biomass_reaction_count": 3,
+      "gene_associated_reaction_count": 3,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.02225202,
+      "predicted_probability": 0.5056460627108408
+    },
+    {
+      "metabolite_id": "thr__L_c",
+      "name": "L-Threonine",
+      "abs_biomass_coefficient": 0.1914,
+      "non_biomass_reaction_count": 6,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.1086693,
+      "predicted_probability": 0.559209920393358
+    },
+    {
+      "metabolite_id": "tre_c",
+      "name": "Trehalose",
+      "abs_biomass_coefficient": 0.0234,
+      "non_biomass_reaction_count": 4,
+      "gene_associated_reaction_count": 2,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00673606,
+      "predicted_probability": 0.5068880391452121
+    },
+    {
+      "metabolite_id": "triglyc_SC_c",
+      "name": "Triglyceride  yeast specific C5160H9566O600",
+      "abs_biomass_coefficient": 6.6e-05,
+      "non_biomass_reaction_count": 3,
+      "gene_associated_reaction_count": 3,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00189991,
+      "predicted_probability": 0.4971484482186835
+    },
+    {
+      "metabolite_id": "trp__L_c",
+      "name": "L-Tryptophan",
+      "abs_biomass_coefficient": 0.0284,
+      "non_biomass_reaction_count": 6,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.00817539,
+      "predicted_probability": 0.4972877977728914
+    },
+    {
+      "metabolite_id": "tyr__L_c",
+      "name": "L-Tyrosine",
+      "abs_biomass_coefficient": 0.102,
+      "non_biomass_reaction_count": 8,
+      "gene_associated_reaction_count": 6,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.0293623,
+      "predicted_probability": 0.5191349668395467
+    },
+    {
+      "metabolite_id": "ump_c",
+      "name": "UMP C9H11N2O9P",
+      "abs_biomass_coefficient": 0.0599,
+      "non_biomass_reaction_count": 10,
+      "gene_associated_reaction_count": 9,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.03183795,
+      "predicted_probability": 0.49170833669306374
+    },
+    {
+      "metabolite_id": "val__L_c",
+      "name": "L-Valine",
+      "abs_biomass_coefficient": 0.2646,
+      "non_biomass_reaction_count": 4,
+      "gene_associated_reaction_count": 3,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.07616927,
+      "predicted_probability": 0.5912292068574899
+    },
+    {
+      "metabolite_id": "zymst_c",
+      "name": "Zymosterol C27H44O",
+      "abs_biomass_coefficient": 0.0015,
+      "non_biomass_reaction_count": 6,
+      "gene_associated_reaction_count": 5,
+      "active_producer_reaction_count_wt": 1,
+      "active_producer_abs_flux_sum_wt": 0.0006333,
+      "predicted_probability": 0.48632151108203725
+    }
+  ]
+}
