@@ -57,11 +57,16 @@ def R(name):
 
 
 def main():
-    import content_a, content_b, content_c, content_math, content_ext, content_v2, content_audit, content_bern, content_gate
+    import content_a, content_b, content_c, content_math, content_ext, content_v2, content_audit, content_bern, content_gate, content_calibration
     story = []
     story = content_a.story_a(story, R)
     story = content_c.story_c(story, R)
     story = content_b.story_b(story, R)
+    # Insert the later completed main-body analysis before References, not after appendices.
+    # A 50+ page text-body requirement cannot be met by relocating appendices.
+    ref_idx = next(i for i, item in enumerate(story) if isinstance(item, Paragraph) and item.text == 'References')
+    assert isinstance(story[ref_idx - 1], PageBreak)
+    story[ref_idx - 1:ref_idx - 1] = content_calibration.story_calibration([], R)
     story = content_math.story_math(story, R)
     story = content_ext.story_ext(story, R)
     story = content_audit.story_audit(story, R)

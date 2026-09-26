@@ -1,0 +1,84 @@
+"""Main-body 2026 calibration and structural-discovery updates, preserving the locked failure."""
+import json,os
+from build_paper import P,H1,H2,BODY,EQ,tbl,fig,ROOT,PageBreak
+
+def story_calibration(story,R):
+    bg=R('bigg_model_survey.json'); census=R('bigg_moco_growth_summary.json');c=R('calibration_gate.json');a=R('calibration_lineage_audit.json')
+    assert census['scorable']==68 and census['models_with_at_least_one_flip']==63
+    assert c['verdict']['first_passing_rung'] is None and len(c['ladder'])==5
+    story += [PageBreak(),P('7. Later locked studies and audit of the calibration claim',H1),
+              P('7.1 BiGG census: distinguishing model structure from biology',H2),
+              P(f"The BiGG v2 listing supplied {bg['listed']} unique model accessions, each downloaded and hashed. "
+                f"Of these, {len(bg['moco_biomass_models'])} have a positive-weight biomass objective consuming a MoCo-named "
+                "compound; four snapshots without an annotated positive objective remain in the full denominator rather than being called negative. "
+                "In the stored-medium knockout counterfactual, 63 of 68 scorable MoCo-positive models flip at least one gene call "
+                "after the named MoCo biomass coefficients are removed; the reported binomial interval is 0.8367-0.9757. "
+                "The total is 511 flipped model-gene calls, not 511 independent genes or wet-lab rescue experiments. "
+                "The five zero-flip model IDs are retained in the machine-readable census. The positive-control iJO1366 restores "
+                "the moa/mob cluster, including moaD b0784, under the exact counterfactual described in Section 4.3. "
+                "See results/bigg_moco_growth_summary.json and per-model results/bigg_moco_growth/*.json.",BODY),
+              P('This is a structural falsifiability result: the biomass objective forces a particular knockout prediction. '
+                'A flip does not establish that the organism survives the knockout in its real medium. Closely related E. coli '
+                'strain models share reaction templates, so neither a simple binomial confidence interval nor the 63/68 fraction '
+                'can be read as 68 biologically independent replications. The result supports an audit of biomass-composition '
+                'assumptions across reconstruction families, not the assertion that every objective is wrong. A separate '
+                'manual second-family verification remains an open preregistered criterion.',BODY),
+              P('7.2 Locked decision gate and candidate ladder',H2),
+              P('The follow-up gate was written down before scoring in notes/prereg_calibration_decision_gate.md. It asked '
+                'whether the stacked gene-essentiality score crossed two tests on the 1,249 aligned genes: G1 AUROC >0.666 '
+                'against iJO1366 minimal FBA, and G2 non-significant two-sided McNemar discordance (p >=0.05) with at least '
+                'as many model wins as FBA wins. A1 locked a symmetric MCC-based threshold selector on the other two folds for '
+                'both candidate and comparator, plus an ordered five-rung ladder. The earlier 27:50 discordant loss came from '
+                'eval-inclusive F1-tuned thresholds, so A1 retains it as a harness reproduction, not as a clean baseline. '
+                'The gate text stays fixed despite seeing a favorable-direction p-value.',BODY)]
+    data=[['rung','AUROC','F1','model-only correct','FBA-only correct','McNemar 2-sided p','literal G2']]
+    for r in c['ladder']:
+        m=r['mcnemar_vs_comparator'];data.append([r['rung'],f"{r['auroc']:.4f}",f"{r['f1']:.4f}",str(m['b_ensemble_wins']),str(m['c_fba_wins']),f"{m['p_exact_2sided']:.5f}",'PASS' if m['g2_pass'] else 'FAIL'])
+    story += tbl(data,'Table 21. Frozen G2 ladder. The significance clause p >=0.05 fails even when the sign favors the ensemble. G1 holds for every rung; no rung passes both clauses.')
+    story += [P('R1 has 93 model-only correct versus 67 FBA-only correct calls, with exact p=0.04777. '
+                'R2 has 98 versus 58, p=0.00170. Every rung gains more than it loses, but every rung has p<0.05, '
+                'so the literal precommitted G2 FAILS. Changing it to a one-sided loss test after seeing results would '
+                'misrepresent the preregistration. The observation can motivate a *fresh* study; it cannot retrospectively '
+                'repair this one. The discrimination gain is real as a numerical OOF summary, but its inferential claims '
+                'also need the lineage audit in the next section.',BODY),
+              P('7.3 Information-flow audit: labels behind out-of-fold scores',H2),
+              P(a['leak_path'],BODY), P(a['additional_leak_path'],BODY),
+              P('The distinction is between the labels used by the threshold optimizer and those used upstream to train '
+                'its score inputs. An OOF score for fold j was produced by a model trained on all genes outside j. '
+                'When the outer evaluation fold k differs from j, those training genes include k. Thus the outer-fold '
+                'labels can influence the score surface on which a threshold for k is selected. The base CNN, GNN and '
+                'k-mer OOF predictions may themselves use label-trained complementary folds. Calling the full process '
+                'strictly train-only is false, even though the final threshold optimizer takes only other-fold label vectors. '
+                'A properly nested outer split must refit every supervised base model without k, generate inner-fold scores '
+                'from only k-excluded training genes, choose threshold inside that pool, and score k once. A fresh untouched '
+                'external cohort is preferable for generalization.',BODY)]
+    rows=[['fold','train genes','eval genes','FBA threshold','calls vs fixed >0.5','MCC (fold)']]
+    for row in a['fold_rows']:
+        rows.append([str(row['fold']),str(row['n_train']),str(row['n_eval']),f"{row['threshold']:.6f}",str(row['threshold_vs_fixed_calls_differ']),f"{row['MCC_eval_fold_threshold']:.3f}"])
+    story += tbl(rows,'Table 22. Comparator threshold audit on the same 1,249 genes. Numerical threshold values differ, but all pooled FBA calls match the structural >0.5 rule. This does not remove the candidate-score leakage.')
+    story += [P('The fold-2 FBA threshold 0.110729 looks unstable beside 0.590300 on folds 0 and 1. Yet there are zero '
+                'differences in comparator hard calls versus >0.5 over all three eval folds. This is an outcome of discrete '
+                'model score gaps, not a license to choose a favorable threshold post hoc. The FBA comparator is physically '
+                'defined by model growth fraction; the supervised stack and its thresholds are the principal leakage concern. '
+                'We retain the literal saved gate result as a descriptive audit, mark the nested estimate as missing, and '
+                'withhold a definitive hard-call benchmark-beat claim until its nested refit or independent cohort is complete.',BODY),
+              P('7.4 Judge-informed research direction: where a virtual cell adds information',H2),
+              P('The first recorded ChatGPT judge round was asked to critique the calibration paradox and propose a '
+                'testable novelty analysis. Its critique identified fold provenance, leakage, comparator-threshold '
+                'stability and multiplicity; its scientific suggestion was to ask whether the ensemble advantage '
+                'over FBA concentrates in genes with strong transcriptional regulation but weak direct metabolic '
+                'constraint. We wrote notes/prereg_discordance_regimes.md as an explicit *future* mechanism test. '
+                'It requires a versioned E. coli transcription-factor-target map, a metabolic-constraint definition '
+                'verified against code, matched/negative control partitions and an independent essentiality screen. '
+                'STRING association degree is not a substitute for TF regulation. Existing Gerdes OOF outcomes '
+                'cannot be recycled as confirmation after they inspired the hypothesis. This new protocol is a '
+                'methodological novelty, not an observed biological discovery.',BODY),
+              P('7.5 Revision of the headline and outstanding work',H2),
+              P('The historical abstract reports the 0.7225 v1 AUROC and 27:50 hard-call loss, which is accurate for '
+                'its original eval-inclusive threshold exercise but not the end of the project. The later MoCo census '
+                'adds cross-reconstruction structural scope, and the v2 OOF AUROC is approximately 0.7967, yet a '
+                'repeated-label score-lineage audit limits the calibration gate. Therefore the defensible headline '
+                'today is: a modular model made testable predictions and exposed a biomass-objective artifact; the '
+                'later hard-call improvement is suggestive, not a clean held-out win. An independent phenotypic '
+                'screen and condition-matched carbon-source evaluation remain needed for the strongest claim.',BODY)]
+    return story
