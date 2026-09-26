@@ -1,9 +1,12 @@
 
-## Revival round 01 (2026-09-26): calibration paradox to mechanistic regime test
+## Revival round 01 [ChatGPT] (2026-09-26): calibration paradox to mechanistic regime test
 Prompt and verbatim ChatGPT answer: `results/judge_rounds/round01_prompt.txt`, `round01_response.txt`; URL https://chatgpt.com/c/6ab7afbc-4f40-83ee-97af-20203f49adcf. Critique and novelty-change trace: `results/judge_rounds/round01_novelty_change.md`. Concrete novelty method added: `notes/prereg_discordance_regimes.md`. Literal G2 remains FAIL. This is a judge-informed novelty-method addition, not an independent scientific result.
 
-## Revival round 02 (2026-09-26): biomass-composition negative controls
+## Revival round 02 [ChatGPT] (2026-09-26): biomass-composition negative controls
 Verbatim ChatGPT role-play prompt/response: `results/judge_rounds/round02_prompt.txt`, `round02_response.txt`; page https://chatgpt.com/c/6ab7d974-40ac-83ee-8388-232103823a74. Critique-to-change trace: `results/judge_rounds/round02_novelty_change.md`. Concrete novelty method and negative result: `notes/prereg_moco_specificity_null.md`, `scripts/audit_moco_specificity_null.py`, `results/moco_specificity_null_ijn1463.json`. Four of 48 coefficient-matched non-MoCo **single-term** biomass removals rescue at least seven iJN1463 essential gene knockouts, so the existing three-term MoCo removal is not uniquely disruptive against this limited control. This is a post-result exploratory one-model test, not a matched three-term null or biological proof. Count: two verified novelty-producing rounds under the stricter rule, eight more needed.
 
-## Revival round 03 (2026-09-26): paper-text critique to all-term topology manifest
+## Revival round 03 [ChatGPT] (2026-09-26): paper-text critique to all-term topology manifest
 Verbatim pasted Section 7 prompt/ChatGPT response: `results/judge_rounds/round03_prompt.txt`, `round03_response.txt`; page https://chatgpt.com/c/6ab7db26-1fc4-83ee-8462-c8b57fb75a46. Critique-to-change trace `results/judge_rounds/round03_novelty_change.md`. Concrete novelty-method addition: `notes/prereg_biomass_topology_sensitivity.md`, executable pre-perturbation feature inventory `scripts/build_biomass_topology_manifest.py`, and result `results/biomass_topology_manifest.json`. It catalogs 102 objective-consuming terms and prior outcome exposure (48 single controls, 3 MoCo bundle-only, 51 unscored singles), but no fitted/independent topology predictor or biological discovery. Count: 3 novelty-producing role-play critiques under the stricter rule, 7 remaining.
+
+## Staged round 04, 26 September 2026 (NOT COUNTED)
+The ChatGPT prompt is in `results/judge_rounds/round04_prompt_staged.txt` and a distinct NEW DeepSeek prompt in `results/judge_rounds/round04_deepseek_prompt_staged.txt`. Neither has been sent or counted. Existing ChatGPT threads stay on ChatGPT. Future counted round must label model, store verbatim response, and trace novelty change; a second model answer is not automatically a new result.
