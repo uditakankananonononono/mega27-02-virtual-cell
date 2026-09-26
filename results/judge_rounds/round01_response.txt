@@ -1,0 +1,437 @@
+Scientific judge review — Virtual-cell computational project
+Overall assessment
+
+The project has a stronger scientific position because it preserved the locked failure rather than redefining success after seeing the outcome. The reported numbers suggest:
+
+G1 PASS: OOF AUROC 0.7967 > locked threshold 0.666.
+
+G2 FAIL (literal interpretation): Both R1 and R2 show statistically significant McNemar differences favoring the model, violating the requirement that the new model be statistically indistinguishable from FBA.
+
+The correct interpretation is not “the model failed” and not “the model is validated”; it is:
+
+The model exceeded the intended performance threshold, but the preregistered comparator-equivalence criterion rejected because the improvement was statistically detectable.
+
+That is a scientifically meaningful outcome, but it requires careful auditing before claiming that the improvement is biological rather than methodological.
+
+1. Validity weaknesses and required audits
+A. Fold integrity and OOF construction
+Risk
+
+OOF AUROC can be inflated if any information crosses fold boundaries.
+
+Potential leakage routes:
+
+gene identifiers or annotations derived after splitting
+
+normalization using global statistics
+
+feature selection before fold separation
+
+pathway/module definitions incorporating the full dataset
+
+hyperparameter tuning indirectly using OOF performance
+
+biological replicates split across folds
+
+Required audits
+Audit A1 — Full fold provenance table
+
+Create a fold manifest:
+
+Item	Requirement
+sample ID	assigned before modeling
+donor/cell line condition	fold distribution
+preprocessing fit fold	training only
+feature selection	training only
+threshold selection	training only
+model parameters	training only
+
+A reviewer should be able to reproduce:
+
+raw data → split → preprocessing → training → threshold → held-out prediction
+
+without ambiguity.
+
+Audit A2 — Replicate and biological grouping audit
+
+Perform grouped splitting by biological unit:
+
+Examples:
+
+donor
+
+perturbation batch
+
+cell line
+
+experiment day
+
+Question:
+
+Does AUROC remain substantially above 0.666 when the model predicts unseen biological contexts rather than randomly partitioned genes?
+
+If performance collapses, the model may be learning dataset-specific signatures.
+
+Audit A3 — Null permutation test
+
+Run:
+
+shuffle labels within allowed exchangeability groups
+
+repeat full pipeline
+
+preserve fold structure
+
+Expected:
+
+AUROC distribution should center near 0.5.
+
+Failure:
+
+If shuffled labels produce unexpectedly high AUROC, there is likely leakage.
+
+B. Comparator threshold degeneracy
+
+This is currently the largest interpretability issue.
+
+You observed:
+
+FBA fold 2 train-only threshold = 0.1107
+
+other folds ≈0.5903
+
+fixed >0.5 gives identical F1/discordants
+
+This suggests the threshold optimization may not be identifying a stable operating point.
+
+Audit B1 — Threshold stability curve
+
+For every fold:
+
+Plot:
+
+threshold value
+
+validation F1
+
+number of positives
+
+discordant count
+
+Question:
+
+Is the selected threshold a meaningful biological operating point or a consequence of small validation fluctuations?
+
+A threshold with a very flat F1 landscape is effectively arbitrary.
+
+Audit B2 — Predefine alternative comparator policies
+
+Do not choose after seeing results.
+
+Run a prospective sensitivity analysis:
+
+Comparator policies:
+
+fold-train optimized threshold (current)
+
+fixed 0.5 threshold
+
+global threshold learned only from training data
+
+calibrated probability threshold
+
+Report:
+
+McNemar p-value
+
+discordant wins
+
+F1
+
+AUROC/AUPRC
+
+Interpretation:
+
+If conclusions change depending on threshold policy, the comparator is unstable.
+
+Audit B3 — Check class imbalance effects
+
+McNemar is based only on discordant pairs.
+
+Report:
+
+total positives
+
+total negatives
+
+model-only wins
+
+FBA-only wins
+
+ties
+
+A 93:67 difference is meaningful, but the interpretation depends on how many total predictions are being compared and whether rare classes dominate.
+
+C. Multiple testing and repeated evaluation
+Risk
+
+You have:
+
+R1
+
+R2
+
+threshold variants
+
+fixed-threshold audit
+
+possibly multiple models
+
+Repeatedly looking at the same held-out outcomes can inflate confidence.
+
+Required audit
+
+Create a timeline:
+
+Analysis	Before/after lock
+G1 definition	pre-registered
+G2 definition	pre-registered
+R1	?
+R2	?
+threshold sensitivity	?
+
+Separate:
+
+confirmatory analyses
+
+exploratory analyses
+
+Do not combine p-values unless a justified method was defined beforehand.
+
+2. Should the literal gate remain failed?
+Yes.
+
+The correct scientific decision is:
+
+Keep G2 failed. Open a new prospective gate.
+
+Do not change:
+
+“G2 requires p ≥ 0.05”
+
+after observing:
+
+“p = 0.04777”
+
+That would convert a preregistered test into a post hoc optimization.
+
+The stronger scientific framing is:
+
+Phase 1 conclusion
+
+The model met the calibration-performance criterion but failed the predefined comparator-equivalence criterion because it produced statistically distinguishable improvements over FBA.
+
+Phase 2 question
+
+A new locked study can ask:
+
+Are the observed improvements robust, reproducible, and biologically meaningful under an independently specified evaluation protocol?
+
+That is a legitimate next experiment.
+
+Recommended new prospective gate
+
+Example:
+
+G3: Independent robustness gate
+
+Lock before testing:
+
+untouched dataset
+
+fixed preprocessing
+
+fixed threshold policy
+
+fixed comparator
+
+fixed statistical test
+
+Success criteria:
+
+Example:
+
+AUROC > predefined baseline
+
+confidence interval excludes null
+
+improvement survives biological grouping split
+
+no leakage detected
+
+Importantly:
+
+The previous held-out results are not used to choose G3 thresholds.
+
+3. One novel, testable computational-biology insight
+Proposed novelty:
+“Virtual-cell models may outperform FBA specifically in genes whose regulation is poorly represented by stoichiometric constraints”
+Biological hypothesis
+
+FBA captures metabolic feasibility through reaction constraints.
+
+A learned virtual-cell model may add information from:
+
+regulatory interactions
+
+transcriptional programs
+
+context-dependent gene states
+
+Therefore:
+
+Model advantage should concentrate in genes with high regulatory complexity but weak direct flux constraint.
+
+This converts the result from:
+
+“our model beats FBA”
+
+into:
+
+“we identify where constraint-based biology becomes insufficient.”
+
+Exact experiment
+Step 1 — Define complexity groups before testing
+
+Using only training folds:
+
+Create gene-level annotations:
+
+Regulatory complexity score
+
+Examples:
+
+number of transcription-factor regulators
+
+number of known regulatory interactions
+
+pathway membership count
+
+network centrality
+
+Metabolic constraint score
+
+Examples:
+
+FBA reaction participation
+
+reaction connectivity
+
+flux variability range
+
+Do not use held-out predictions.
+
+Step 2 — Locked analysis
+
+On untouched OOF predictions:
+
+Partition genes into:
+
+high regulation / low metabolic constraint
+
+high regulation / high metabolic constraint
+
+low regulation / low metabolic constraint
+
+low regulation / high metabolic constraint
+
+Measure:
+
+model AUROC
+
+FBA AUROC
+
+ΔAUROC
+
+McNemar discordance enrichment
+
+Controls
+Control 1 — Random gene partitions
+
+Repeat the same analysis with randomly assigned groups.
+
+Expected:
+
+No systematic model advantage.
+
+Control 2 — Size matching
+
+Match groups for:
+
+gene expression level
+
+number of samples
+
+class frequency
+
+Avoid trivial enrichment.
+
+Control 3 — FBA-only feature baseline
+
+Train a simpler model using only FBA-derived features.
+
+Question:
+
+Is the advantage due to:
+
+the virtual-cell architecture?
+
+merely having additional annotations?
+
+Falsification criterion
+
+Predefine:
+
+The hypothesis is rejected if:
+
+model advantage is not enriched in high-regulation/low-constraint genes, or
+
+enrichment disappears after size/expression matching, or
+
+random partitions produce comparable enrichment.
+
+A positive result would not prove biological causation, but it would provide a mechanistic explanation for where the computational model adds information beyond FBA.
+
+Final judge verdict
+
+Strengths
+
+Honest gate handling.
+
+Proper retention of the eval-inclusive threshold failure as an audit.
+
+Strong G1 performance.
+
+Comparator comparison is statistically transparent.
+
+Main risks
+
+Comparator threshold instability.
+
+Fold leakage.
+
+Repeated evaluation inflation.
+
+Biological generalization not yet established.
+
+Recommended action
+
+Leave G2 failed.
+
+Do not retroactively amend.
+
+Launch a new preregistered robustness phase.
+
+Add the regulatory-complexity stratification analysis as the novelty contribution.
+
+This would transform the project from “a model that beats a baseline” into a more scientifically interesting question: what biological regimes are not captured by constraint-based virtual cells?
