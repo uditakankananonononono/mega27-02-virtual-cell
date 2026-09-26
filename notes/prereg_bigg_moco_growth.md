@@ -25,3 +25,12 @@ Locked protocol:
 Negative handling: a null (<10%) is preserved as a documented negative and
  the claim reverts to the verified single-model finding; rule-6 pivot then
  targets the rescue-audit cross-species power gap instead.
+
+## Amendment A1 (2026-09-26, before any scoring run)
+Scorability: a model whose baseline (unmodified objective) FBA growth on its
+stored medium bounds is < 1e-6 cannot produce an essentiality call and is
+NON-SCORABLE. Primary fraction denominator = scorable MoCo-positive models;
+non-scorable models are listed with their baseline growth value. iJO1366
+serves as the positive control: the harness must reproduce the known
+moaD-cluster rescue (essential at baseline, rescued to >=0.95 WT growth after
+MoCo-constituent removal) before any other model result is accepted.
