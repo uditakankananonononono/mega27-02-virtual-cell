@@ -1,0 +1,50 @@
+{
+  "status": "descriptive post-result genomic-neighborhood dependence sensitivity; no new preregistered gate",
+  "n_genes": 1214,
+  "positives": 70,
+  "score_difference": 0.18136238761238765,
+  "window_definition": "contiguous fixed-size b-number ID bins; surrogate for local dependence, NOT operon annotation",
+  "window_bootstrap": [
+    {
+      "width_bnumber_ids": 5,
+      "n_occupied_windows": 564,
+      "n_draws_valid": 3000,
+      "diff_ci95": [
+        0.10171160839083725,
+        0.26639890482054895
+      ],
+      "frac_diff_le_zero": 0.0
+    },
+    {
+      "width_bnumber_ids": 10,
+      "n_occupied_windows": 362,
+      "n_draws_valid": 3000,
+      "diff_ci95": [
+        0.10352511715531117,
+        0.2723923381761013
+      ],
+      "frac_diff_le_zero": 0.0
+    },
+    {
+      "width_bnumber_ids": 20,
+      "n_occupied_windows": 204,
+      "n_draws_valid": 3000,
+      "diff_ci95": [
+        0.09922896690385885,
+        0.28115665220971514
+      ],
+      "frac_diff_le_zero": 0.0
+    },
+    {
+      "width_bnumber_ids": 50,
+      "n_occupied_windows": 87,
+      "n_draws_valid": 3000,
+      "diff_ci95": [
+        0.10120935799497684,
+        0.2721742299669749
+      ],
+      "frac_diff_le_zero": 0.0
+    }
+  ],
+  "limits": "No validated operon annotations, no donor/assay batch groups, no refit on external labels. The test remains ranking of a Gerdes-trained score in another assay, not independent model training or Gerdes G2 repair."
+}
