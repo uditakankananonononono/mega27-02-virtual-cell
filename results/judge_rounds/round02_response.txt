@@ -1,0 +1,273 @@
+Role-play: critical computational biology / ISEF-style judge review
+
+Overall assessment
+
+The strongest part of this project is that it has moved beyond a single E. coli model: the Rousset CRISPRi comparison, cross-model BiGG perturbation analysis, and explicit failure of G2 show an unusually good willingness to falsify. However, the central scientific claim still has a major causality problem.
+
+The project currently has three different stories competing:
+
+A predictive model story: multimodal essentiality scoring improves prediction over FBA.
+
+A biological-mechanism story: MoCo biomass demand is a hidden constraint affecting essentiality calls.
+
+A general virtual-cell framework story: modular objective perturbations reveal biological constraints.
+
+The first is weakened by leakage in the hard-call lineage. The second is interesting but not yet mechanistically isolated. The third is the most promising, but requires showing that the MoCo result is not simply a trivial consequence of removing any biomass component.
+
+Most serious novelty/causality flaw
+The MoCo finding is currently vulnerable to the "generic biomass perturbation" explanation.
+
+The result:
+
+63/68 BiGG models flip at least one essentiality call after deleting MoCo biomass demand.
+
+is striking, but the causal interpretation is ambiguous.
+
+A skeptical judge asks:
+
+"Did MoCo reveal a biologically special constraint, or did you simply weaken the biomass objective enough that many marginal genes changed classification?"
+
+Many biomass objective terms behave like this. Removing any required biomass precursor, cofactor, polymer, or maintenance term can:
+
+reduce flux pressure,
+
+open alternate pathways,
+
+change shadow prices,
+
+alter synthetic lethal relationships,
+
+convert conditionally essential reactions into nonessential ones.
+
+Therefore, the current evidence supports:
+
+"MoCo biomass representation can strongly affect predicted essentiality."
+
+It does not yet establish:
+
+"MoCo is a uniquely important hidden biological constraint."
+
+That distinction is the novelty bottleneck.
+
+Proposed NEW analysis: biomass-component specificity perturbation benchmark
+Question
+
+Is the MoCo essentiality-flip pattern unusually large/specific compared with equally sized perturbations of other biomass components?
+
+This is feasible using existing BiGG snapshots.
+
+Analysis design
+1. Define perturbation classes
+
+For every BiGG model containing a biomass reaction:
+
+Create objective variants:
+
+A. MoCo perturbation
+
+Existing intervention:
+
+v
+biomass
+MoCo
+	​
+
+=0
+
+or removal of the MoCo-associated biomass coefficient.
+
+B. Matched essential-component controls
+
+Select other biomass terms matched by:
+
+molecular category,
+
+coefficient magnitude,
+
+baseline contribution to biomass,
+
+model frequency.
+
+Examples:
+
+amino acid components
+
+nucleotide components
+
+lipid components
+
+vitamin/cofactor components
+
+metal ions
+
+other prosthetic groups
+
+Do not choose random biomass metabolites.
+
+Construct at least:
+
+20–50 matched perturbations per model if possible.
+
+2. Measure the same outcome
+
+For each perturbation:
+
+Run the identical essentiality pipeline.
+
+For each model:
+
+Calculate:
+
+FlipRate=
+total tested genes
+genes changing essential/nonessential status
+	​
+
+
+Then compare:
+
+FlipRate
+MoCo
+	​
+
+−Median(FlipRate
+matched
+	​
+
+)
+Primary statistical test
+
+A paired permutation test:
+
+For each model:
+
+MoCo gets one flip count.
+
+Each matched biomass component gets one flip count.
+
+Randomly shuffle component labels within each model.
+
+Null hypothesis:
+
+MoCo is no more disruptive than other biomass terms of comparable size.
+
+Report:
+
+observed MoCo rank among all perturbations,
+
+permutation p-value,
+
+effect size.
+
+Stronger control: coefficient-matched "fake MoCo"
+
+A particularly convincing negative control:
+
+Create artificial MoCo replacements.
+
+Example:
+
+For each model:
+
+Remove metabolite X from biomass.
+
+Choose X so that:
+
+biomass coefficient ≈ MoCo coefficient,
+
+metabolite abundance class matches,
+
+model connectivity similar.
+
+Ask:
+
+Does MoCo still produce a larger essentiality shift than matched random removals?
+
+This controls for the possibility that the result is simply due to removing a small biomass coefficient.
+
+Decisive outcomes
+Outcome supporting a distinctive MoCo claim
+
+A strong result would look like:
+
+MoCo ranks in the extreme tail of biomass perturbations.
+
+MoCo flip-rate exceeds matched controls consistently across models.
+
+Effect persists after controlling for coefficient size and connectivity.
+
+Example:
+
+MoCo median flip rate = 4.8%; matched biomass controls = 1.2%; paired permutation p < 0.01.
+
+This would support:
+
+"MoCo representation has unusually large computational consequences relative to comparable biomass constraints."
+
+Outcome weakening the claim
+
+If:
+
+MoCo is similar to amino acid/lipid/vitamin removals,
+
+then the conclusion should change.
+
+The scientifically honest interpretation becomes:
+
+"Biomass composition uncertainty broadly affects essentiality predictions, and MoCo is one example."
+
+That is still a useful computational biology result, but less mechanistically novel.
+
+Additional negative control: objective-independent perturbation
+
+A second useful falsification:
+
+Instead of deleting biomass terms, perturb a non-biological numerical component:
+
+Examples:
+
+slightly change biomass coefficients (+/- 5–10%)
+
+change ATP maintenance requirement
+
+alter solver tolerance within accepted ranges
+
+If these produce similar flip rates, the MoCo signal may reflect numerical sensitivity rather than biological representation.
+
+Important limitation statement
+
+Even a successful result would not prove:
+
+MoCo is biologically causal in vivo.
+
+MoCo controls bacterial fitness.
+
+Essentiality predictions are experimentally correct.
+
+The model captures real regulatory adaptation.
+
+It would show only:
+
+The predicted essentiality landscape is unusually sensitive to MoCo representation compared with matched computational perturbations.
+
+That is a defensible computational discovery.
+
+Judge summary
+
+Current strongest evidence:
+
+The Rousset AUROC result is interesting but requires careful leakage framing.
+
+The G2 failure should remain visible; do not repair it.
+
+The cross-model MoCo perturbation is the most novel direction.
+
+Current weakest point:
+
+No evidence yet that MoCo is special rather than simply another biomass lever.
+
+The single highest-value next analysis is therefore not another predictor or another validation dataset. It is a systematic biomass perturbation null model that forces the project to answer:
+
+"Would we have discovered the same phenomenon if we had removed any sufficiently influential biomass component?"
+
+If MoCo survives that challenge, the biological interpretation becomes substantially stronger.

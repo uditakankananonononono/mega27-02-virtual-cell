@@ -1,0 +1,552 @@
+{
+  "status": "post-result Pseudomonas iJN1463 single-model objective-term specificity scout",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "objective": "BIOMASS_KT2440_WT3",
+  "original_wt_growth": 0.5861175448,
+  "baseline_essential_genes": 262,
+  "matching_rule": "each non-MoCo negative objective coefficient within factor 2 of at least one of three MoCo coefficients",
+  "positive_bundle": {
+    "removed": [
+      "bmocogdp_c",
+      "mobd_c",
+      "mocogdp_c"
+    ],
+    "patched_wt_growth": 0.5863101228,
+    "n_baseline_essential_rescued": 7,
+    "rescued_genes": [
+      "PP_0735",
+      "PP_1292",
+      "PP_1293",
+      "PP_1294",
+      "PP_2123",
+      "PP_3457",
+      "PP_3830"
+    ]
+  },
+  "controls": [
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "10fthf_c"
+      ],
+      "patched_wt_growth": 0.5861687622,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "2fe2s_c"
+      ],
+      "patched_wt_growth": 0.5861308472,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "4fe4s_c"
+      ],
+      "patched_wt_growth": 0.5861454805,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "5mthf_c"
+      ],
+      "patched_wt_growth": 0.586170684,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000279,
+      "removed": [
+        "accoa_c"
+      ],
+      "patched_wt_growth": 0.5862000292,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "adocbl_c"
+      ],
+      "patched_wt_growth": 0.5863393297,
+      "n_baseline_essential_rescued": 21,
+      "rescued_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "amet_c"
+      ],
+      "patched_wt_growth": 0.5861599667,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "btamp_c"
+      ],
+      "patched_wt_growth": 0.5862294513,
+      "n_baseline_essential_rescued": 8,
+      "rescued_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "coefficient": -0.004226,
+      "removed": [
+        "ca2_c"
+      ],
+      "patched_wt_growth": 0.5861147439,
+      "n_baseline_essential_rescued": 1,
+      "rescued_genes": [
+        "PP_0928"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "chor_c"
+      ],
+      "patched_wt_growth": 0.5861409722,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.004226,
+      "removed": [
+        "cl_c"
+      ],
+      "patched_wt_growth": 0.5861161444,
+      "n_baseline_essential_rescued": 1,
+      "rescued_genes": [
+        "PP_3959"
+      ]
+    },
+    {
+      "coefficient": -0.002873,
+      "removed": [
+        "clpn161_p"
+      ],
+      "patched_wt_growth": 0.589176298,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000192,
+      "removed": [
+        "clpn180_p"
+      ],
+      "patched_wt_growth": 0.586346947,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000167,
+      "removed": [
+        "coa_c"
+      ],
+      "patched_wt_growth": 0.586163704,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.002817,
+      "removed": [
+        "cobalt2_c"
+      ],
+      "patched_wt_growth": 0.5861175448,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.00041,
+      "removed": [
+        "cpe160_c"
+      ],
+      "patched_wt_growth": 0.5863518793,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000226,
+      "removed": [
+        "cpg160_c"
+      ],
+      "patched_wt_growth": 0.5862493888,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.002817,
+      "removed": [
+        "cu2_c"
+      ],
+      "patched_wt_growth": 0.5861175448,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "fad_c"
+      ],
+      "patched_wt_growth": 0.5861882021,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "gthrd_c"
+      ],
+      "patched_wt_growth": 0.5861444458,
+      "n_baseline_essential_rescued": 1,
+      "rescued_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "hemeO_c"
+      ],
+      "patched_wt_growth": 0.5862642737,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "lipopb_c"
+      ],
+      "patched_wt_growth": 0.5861790364,
+      "n_baseline_essential_rescued": 2,
+      "rescued_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "mlthf_c"
+      ],
+      "patched_wt_growth": 0.586169797,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.002817,
+      "removed": [
+        "mn2_c"
+      ],
+      "patched_wt_growth": 0.5861250132,
+      "n_baseline_essential_rescued": 3,
+      "rescued_genes": [
+        "PP_3801",
+        "PP_3802",
+        "PP_3803"
+      ]
+    },
+    {
+      "coefficient": -0.001979,
+      "removed": [
+        "murein3p3p_p"
+      ],
+      "patched_wt_growth": 0.5875850088,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000326,
+      "removed": [
+        "murein3px4p_p"
+      ],
+      "patched_wt_growth": 0.5863685064,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.002941,
+      "removed": [
+        "murein4px4p_p"
+      ],
+      "patched_wt_growth": 0.5884778012,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.003522,
+      "removed": [
+        "na1_c"
+      ],
+      "patched_wt_growth": 0.5861152105,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.001786,
+      "removed": [
+        "nad_c"
+      ],
+      "patched_wt_growth": 0.5865309583,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000335,
+      "removed": [
+        "nadph_c"
+      ],
+      "patched_wt_growth": 0.5861979316,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.002817,
+      "removed": [
+        "ni2_c"
+      ],
+      "patched_wt_growth": 0.5861175448,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000251,
+      "removed": [
+        "pe140_c"
+      ],
+      "patched_wt_growth": 0.5862370147,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.002622,
+      "removed": [
+        "pe180_c"
+      ],
+      "patched_wt_growth": 0.5876962483,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000138,
+      "removed": [
+        "pg140_c"
+      ],
+      "patched_wt_growth": 0.5861848701,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.004354,
+      "removed": [
+        "pg160_c"
+      ],
+      "patched_wt_growth": 0.5885225521,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.001449,
+      "removed": [
+        "pg180_c"
+      ],
+      "patched_wt_growth": 0.5870062749,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "pheme_c"
+      ],
+      "patched_wt_growth": 0.586214592,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "pqqh2_c"
+      ],
+      "patched_wt_growth": 0.5861178404,
+      "n_baseline_essential_rescued": 4,
+      "rescued_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "pydx5p_c"
+      ],
+      "patched_wt_growth": 0.5861383116,
+      "n_baseline_essential_rescued": 5,
+      "rescued_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "pyovd_kt_e"
+      ],
+      "patched_wt_growth": 0.5861831757,
+      "n_baseline_essential_rescued": 14,
+      "rescued_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "q8h2_c"
+      ],
+      "patched_wt_growth": 0.5862736639,
+      "n_baseline_essential_rescued": 6,
+      "rescued_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "ribflv_c"
+      ],
+      "patched_wt_growth": 0.586163071,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "sheme_c"
+      ],
+      "patched_wt_growth": 0.5862230196,
+      "n_baseline_essential_rescued": 1,
+      "rescued_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "coefficient": -0.003522,
+      "removed": [
+        "so4_c"
+      ],
+      "patched_wt_growth": 0.5861198792,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "thf_c"
+      ],
+      "patched_wt_growth": 0.5861677275,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "thmnp_c"
+      ],
+      "patched_wt_growth": 0.5861416373,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    },
+    {
+      "coefficient": -0.000223,
+      "removed": [
+        "thmpp_c"
+      ],
+      "patched_wt_growth": 0.5861574537,
+      "n_baseline_essential_rescued": 8,
+      "rescued_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "coefficient": -0.002817,
+      "removed": [
+        "zn2_c"
+      ],
+      "patched_wt_growth": 0.5861250132,
+      "n_baseline_essential_rescued": 0,
+      "rescued_genes": []
+    }
+  ],
+  "n_controls_with_rescue_ge_moco_bundle": 4,
+  "limits": "single-term controls against three-term MoCo bundle; category/connectivity and cross-model control matching absent; in-silico only; cannot repair G2 or claim biological fitness",
+  "elapsed_seconds": 103.95
+}
