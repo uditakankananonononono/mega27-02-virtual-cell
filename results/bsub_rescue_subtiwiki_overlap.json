@@ -1,0 +1,1494 @@
+{
+  "status": "post-result cross-source essential-name overlap; not condition-matched validation",
+  "protocol": "notes/postresult_bsub_objective_lab_check.md",
+  "bigg_source_url": "https://bigg.ucsd.edu/static/models/iYO844.json",
+  "bigg_sha256": "77d071d179ebecfe59fa16db1ef112391070e0b05c8e18421d89ab1c51af9855",
+  "subtiwiki_source_url": "https://subtiwiki.uni-goettingen.de/wiki/index.php?title=Essential_genes",
+  "subtiwiki_local_html_sha256": "9ea083313587ea7e78b560daa84e4c687e8e5995bfc2876013a148f4ba506ecc",
+  "subtiwiki_names_sha256": "263bc2c3e61370816e37a31cd1814cf4b01d04b437de00e399c5bb358a891be0",
+  "n_subtiwiki_names": 260,
+  "baseline_model_essential": {
+    "n_source_gene_ids": 171,
+    "n_unique_name_mapped": 170,
+    "n_unnamed": 1,
+    "unnamed_ids": [
+      "BG12900"
+    ],
+    "n_ambiguous_name": 0,
+    "ambiguous": [],
+    "n_in_subtiwiki_essential_list": 62,
+    "unique_rows": [
+      {
+        "id": "BSU00280",
+        "name": "tmk",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00460",
+        "name": "ispE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00500",
+        "name": "gcaD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00510",
+        "name": "prs",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00740",
+        "name": "pabB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU00750",
+        "name": "pabA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU00760",
+        "name": "pabC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU00770",
+        "name": "folP",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU00780",
+        "name": "folB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00790",
+        "name": "folK",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00900",
+        "name": "ispD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00910",
+        "name": "ispF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU01370",
+        "name": "adk",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU01770",
+        "name": "glmM",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU01780",
+        "name": "glmS",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU02270",
+        "name": "pssA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU02290",
+        "name": "psd",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU03130",
+        "name": "nadE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU03150",
+        "name": "aroK",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU04560",
+        "name": "ddl",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU04570",
+        "name": "murF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU04640",
+        "name": "alrA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU04740",
+        "name": "rsbX",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06360",
+        "name": "guaA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06420",
+        "name": "purE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06430",
+        "name": "purK",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06440",
+        "name": "purB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06450",
+        "name": "purC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06460",
+        "name": "purS",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06470",
+        "name": "purQ",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06480",
+        "name": "purL",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06490",
+        "name": "purF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06500",
+        "name": "purM",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06520",
+        "name": "purH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06530",
+        "name": "purD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU09540",
+        "name": "plsC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU10020",
+        "name": "serC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11010",
+        "name": "samT",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11190",
+        "name": "argC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11200",
+        "name": "argJ",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11210",
+        "name": "argB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11220",
+        "name": "argD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11250",
+        "name": "argF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11340",
+        "name": "fabF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU11610",
+        "name": "ppnKA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11870",
+        "name": "metI",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU13180",
+        "name": "metE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU14000",
+        "name": "dapX",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU14180",
+        "name": "dapH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU14190",
+        "name": "dapL",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15180",
+        "name": "murE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15190",
+        "name": "mraY",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15200",
+        "name": "murD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15220",
+        "name": "murG",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15230",
+        "name": "murB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15490",
+        "name": "pyrB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15500",
+        "name": "pyrC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15530",
+        "name": "pyrK",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15540",
+        "name": "pyrD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15550",
+        "name": "pyrF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15560",
+        "name": "pyrE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15570",
+        "name": "cysH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15590",
+        "name": "sat",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15680",
+        "name": "gmk",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15900",
+        "name": "fabD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15910",
+        "name": "fabG",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU16540",
+        "name": "cdsA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU16550",
+        "name": "dxr",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU16750",
+        "name": "asd",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU16770",
+        "name": "dapA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU16920",
+        "name": "pgsA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU17370",
+        "name": "nrdI",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU17380",
+        "name": "nrdE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU17390",
+        "name": "nrdF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU17460",
+        "name": "glnA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU17890",
+        "name": "tkt",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU21810",
+        "name": "dfrA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU21870",
+        "name": "ilvD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU21910",
+        "name": "metA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU21920",
+        "name": "ugtP",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22370",
+        "name": "aspB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22440",
+        "name": "birA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU22490",
+        "name": "dapB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU22600",
+        "name": "aroA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22610",
+        "name": "tyrA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22630",
+        "name": "trpA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22640",
+        "name": "trpB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22650",
+        "name": "trpF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22660",
+        "name": "trpC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22670",
+        "name": "trpD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22680",
+        "name": "trpE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22700",
+        "name": "aroB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22710",
+        "name": "aroF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU22730",
+        "name": "ndk",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22740",
+        "name": "hepT",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22750",
+        "name": "menH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22760",
+        "name": "hepS",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22780",
+        "name": "folEA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22830",
+        "name": "gpsA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU23070",
+        "name": "serA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU23080",
+        "name": "aroC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU23380",
+        "name": "lysA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24030",
+        "name": "bkdB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24040",
+        "name": "bkdAB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24050",
+        "name": "bkdAA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24060",
+        "name": "lpdV",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24270",
+        "name": "dxs",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU24280",
+        "name": "ispA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24310",
+        "name": "folD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24340",
+        "name": "accC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU24350",
+        "name": "accB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU25070",
+        "name": "ispG",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU25160",
+        "name": "ispH",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU25640",
+        "name": "nadD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU25660",
+        "name": "aroD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU27850",
+        "name": "nadA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU27860",
+        "name": "nadC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU27870",
+        "name": "nadB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU27900",
+        "name": "pheA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU28080",
+        "name": "folC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU28250",
+        "name": "leuD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU28260",
+        "name": "leuC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU28270",
+        "name": "leuB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU28280",
+        "name": "leuA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU28290",
+        "name": "ilvC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29200",
+        "name": "accA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU29210",
+        "name": "accD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU29440",
+        "name": "argH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29450",
+        "name": "argG",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29620",
+        "name": "hisJ",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29750",
+        "name": "aroX",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29790",
+        "name": "murC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30780",
+        "name": "menC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30790",
+        "name": "menE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30800",
+        "name": "menB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30820",
+        "name": "menD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU31150",
+        "name": "uppP",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU31400",
+        "name": "yugH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU32170",
+        "name": "dapF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU32240",
+        "name": "thrB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU32250",
+        "name": "thrC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU32260",
+        "name": "hom",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34860",
+        "name": "hisI",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34870",
+        "name": "hisF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34880",
+        "name": "hisA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34900",
+        "name": "hisB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34910",
+        "name": "hisD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34920",
+        "name": "hisG",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35530",
+        "name": "tagO",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU35660",
+        "name": "mnaA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU35670",
+        "name": "gtaB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35680",
+        "name": "ggaB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35690",
+        "name": "ggaA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35700",
+        "name": "tagH",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU35710",
+        "name": "tagG",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU35720",
+        "name": "tagF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU35730",
+        "name": "tagE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35740",
+        "name": "tagD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU35750",
+        "name": "tagA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU35760",
+        "name": "tagB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU36510",
+        "name": "amtB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU36900",
+        "name": "glyA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU37150",
+        "name": "pyrG",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU38490",
+        "name": "menA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU38500",
+        "name": "dltA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU38510",
+        "name": "dltB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU38520",
+        "name": "dltC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU38530",
+        "name": "dltD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU40420",
+        "name": "purA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU40550",
+        "name": "ppaC",
+        "in_subtiwiki_essential_list": true
+      }
+    ]
+  },
+  "rescued_union": {
+    "n_source_gene_ids": 84,
+    "n_unique_name_mapped": 83,
+    "n_unnamed": 1,
+    "unnamed_ids": [
+      "BG12900"
+    ],
+    "n_ambiguous_name": 0,
+    "ambiguous": [],
+    "n_in_subtiwiki_essential_list": 28,
+    "unique_rows": [
+      {
+        "id": "BSU00280",
+        "name": "tmk",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00460",
+        "name": "ispE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00740",
+        "name": "pabB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU00760",
+        "name": "pabC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU00770",
+        "name": "folP",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU00780",
+        "name": "folB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00790",
+        "name": "folK",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00900",
+        "name": "ispD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU00910",
+        "name": "ispF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU01370",
+        "name": "adk",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU02270",
+        "name": "pssA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU02290",
+        "name": "psd",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU04560",
+        "name": "ddl",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU04570",
+        "name": "murF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU06420",
+        "name": "purE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06430",
+        "name": "purK",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06440",
+        "name": "purB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06450",
+        "name": "purC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06460",
+        "name": "purS",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06470",
+        "name": "purQ",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06480",
+        "name": "purL",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06490",
+        "name": "purF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06500",
+        "name": "purM",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU06530",
+        "name": "purD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11010",
+        "name": "samT",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11190",
+        "name": "argC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11200",
+        "name": "argJ",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11210",
+        "name": "argB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11220",
+        "name": "argD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11250",
+        "name": "argF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU11870",
+        "name": "metI",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU13180",
+        "name": "metE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU15180",
+        "name": "murE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15190",
+        "name": "mraY",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15200",
+        "name": "murD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15220",
+        "name": "murG",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU15230",
+        "name": "murB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU16550",
+        "name": "dxr",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU17370",
+        "name": "nrdI",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU17380",
+        "name": "nrdE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU17390",
+        "name": "nrdF",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU21810",
+        "name": "dfrA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU21910",
+        "name": "metA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22610",
+        "name": "tyrA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22630",
+        "name": "trpA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22640",
+        "name": "trpB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22650",
+        "name": "trpF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22660",
+        "name": "trpC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22670",
+        "name": "trpD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22680",
+        "name": "trpE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22740",
+        "name": "hepT",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22750",
+        "name": "menH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22760",
+        "name": "hepS",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU22780",
+        "name": "folEA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU24270",
+        "name": "dxs",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU24280",
+        "name": "ispA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU25070",
+        "name": "ispG",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU25160",
+        "name": "ispH",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU27900",
+        "name": "pheA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU28080",
+        "name": "folC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU29440",
+        "name": "argH",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29450",
+        "name": "argG",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29620",
+        "name": "hisJ",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU29790",
+        "name": "murC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30780",
+        "name": "menC",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30790",
+        "name": "menE",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30800",
+        "name": "menB",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU30820",
+        "name": "menD",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU31150",
+        "name": "uppP",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU32240",
+        "name": "thrB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU32250",
+        "name": "thrC",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34860",
+        "name": "hisI",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34870",
+        "name": "hisF",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34880",
+        "name": "hisA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34900",
+        "name": "hisB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34910",
+        "name": "hisD",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU34920",
+        "name": "hisG",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35680",
+        "name": "ggaB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35690",
+        "name": "ggaA",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU35730",
+        "name": "tagE",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU36510",
+        "name": "amtB",
+        "in_subtiwiki_essential_list": false
+      },
+      {
+        "id": "BSU38490",
+        "name": "menA",
+        "in_subtiwiki_essential_list": true
+      },
+      {
+        "id": "BSU40420",
+        "name": "purA",
+        "in_subtiwiki_essential_list": false
+      }
+    ]
+  },
+  "nonzero_terms": [
+    {
+      "metabolite_id": "10fthf_c",
+      "n_rescued": 8,
+      "n_unique_names": 8,
+      "n_subtiwiki_essential_names": 4,
+      "subtiwiki_essential_names": [
+        "folB",
+        "folK",
+        "dfrA",
+        "folC"
+      ],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "arg__L_c",
+      "n_rescued": 7,
+      "n_unique_names": 7,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "atp_c",
+      "n_rescued": 13,
+      "n_unique_names": 13,
+      "n_subtiwiki_essential_names": 1,
+      "subtiwiki_essential_names": [
+        "adk"
+      ],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "dctp_c",
+      "n_rescued": 3,
+      "n_unique_names": 3,
+      "n_subtiwiki_essential_names": 3,
+      "subtiwiki_essential_names": [
+        "nrdI",
+        "nrdE",
+        "nrdF"
+      ],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "dttp_c",
+      "n_rescued": 1,
+      "n_unique_names": 1,
+      "n_subtiwiki_essential_names": 1,
+      "subtiwiki_essential_names": [
+        "tmk"
+      ],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "gtca3_45_BS_c",
+      "n_rescued": 1,
+      "n_unique_names": 1,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "his__L_c",
+      "n_rescued": 7,
+      "n_unique_names": 7,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "lysylpgly_BS_c",
+      "n_rescued": 1,
+      "n_unique_names": 0,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": [
+        "BG12900"
+      ]
+    },
+    {
+      "metabolite_id": "met__L_c",
+      "n_rescued": 4,
+      "n_unique_names": 4,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "mql7_c",
+      "n_rescued": 16,
+      "n_unique_names": 16,
+      "n_subtiwiki_essential_names": 11,
+      "subtiwiki_essential_names": [
+        "ispE",
+        "ispD",
+        "ispF",
+        "dxs",
+        "ispG",
+        "ispH",
+        "menC",
+        "menE",
+        "menB",
+        "menD",
+        "menA"
+      ],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "peptido_BS_c",
+      "n_rescued": 9,
+      "n_unique_names": 9,
+      "n_subtiwiki_essential_names": 8,
+      "subtiwiki_essential_names": [
+        "ddl",
+        "murF",
+        "murE",
+        "mraY",
+        "murD",
+        "murG",
+        "murB",
+        "murC"
+      ],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "phe__L_c",
+      "n_rescued": 1,
+      "n_unique_names": 1,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "psetha_BS_c",
+      "n_rescued": 2,
+      "n_unique_names": 2,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "tcam_BS_c",
+      "n_rescued": 2,
+      "n_unique_names": 2,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "thr__L_c",
+      "n_rescued": 2,
+      "n_unique_names": 2,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "trp__L_c",
+      "n_rescued": 6,
+      "n_unique_names": 6,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    },
+    {
+      "metabolite_id": "tyr__L_c",
+      "n_rescued": 1,
+      "n_unique_names": 1,
+      "n_subtiwiki_essential_names": 0,
+      "subtiwiki_essential_names": [],
+      "ambiguous_names": [],
+      "unnamed_ids": []
+    }
+  ],
+  "n_terms": 60,
+  "limits": "SubtiWiki list based on deletion-library conditions; strain, medium and assay differ from BiGG model. An overlap warns against assuming model rescue is viability; absence does not prove rescue. Names can be incomplete or ambiguous, and no p-value or gate inference is valid."
+}
