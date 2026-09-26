@@ -3,7 +3,7 @@ import json,os
 from build_paper import P,H1,H2,BODY,EQ,tbl,fig,ROOT,PageBreak
 
 def story_calibration(story,R):
-    bg=R('bigg_model_survey.json'); census=R('bigg_moco_growth_summary.json');c=R('calibration_gate.json');a=R('calibration_lineage_audit.json'); second=R('bigg_second_family_verification.json')
+    bg=R('bigg_model_survey.json'); census=R('bigg_moco_growth_summary.json');c=R('calibration_gate.json');a=R('calibration_lineage_audit.json'); second=R('bigg_second_family_verification.json'); rv=R('rousset_validation.json')
     assert census['scorable']==68 and census['models_with_at_least_one_flip']==63
     assert c['verdict']['first_passing_rung'] is None and len(c['ladder'])==5
     story += [PageBreak(),P('7. Later locked studies and audit of the calibration claim',H1),
@@ -80,7 +80,13 @@ def story_calibration(story,R):
                 'STRING association degree is not a substitute for TF regulation. Existing Gerdes OOF outcomes '
                 'cannot be recycled as confirmation after they inspired the hypothesis. This new protocol is a '
                 'methodological novelty, not an observed biological discovery.',BODY),
-              P('7.5 Revision of the headline and outstanding work',H2),
+              P('7.5 Independent assay as a different question',H2),
+              P(f"The published Rousset et al. 2018 genome-wide CRISPRi assay supplies a biologically distinct but non-identical essentiality yardstick (https://doi.org/10.1371/journal.pgen.1007749). A separate pre-registration in notes/prereg_rousset_validation.md fixed median coding-strand depletion <= -5 as the binary outcome, UniProt gene-name mapping, and a ranking comparison against FBA. Of {rv['n_rousset_genes']} source rows, {rv['n_mapped']} map to locus IDs and {rv['n_evaluated']} overlap scored genes, including {rv['n_crispri_essential']} CRISPRi positives. The saved Gerdes-trained v2 score has AUROC {rv['auroc_v2_lr']:.4f} versus FBA {rv['auroc_fba_min']:.4f}; paired gene-bootstrap difference {rv['paired_v2_minus_fba']['mean']:+.4f} [95% CI {rv['paired_v2_minus_fba']['ci95'][0]:+.4f}, {rv['paired_v2_minus_fba']['ci95'][1]:+.4f}]. The study's locked numerical ranking bar was met, as detailed in results/rousset_validation.json and scripts/run_rousset_validation.py.",BODY),
+              P('This is genuinely different assay labels, not a new organism, gene universe, or controlled independent training environment. CRISPRi knockdown can exert polar effects in bacterial operons, whereas transposon footprinting and FBA knockouts measure different perturbations. The external label assessment does NOT retroactively validate the defective Gerdes hard-call gate: it evaluates ranking, not a newly selected threshold or matched hard-call specificity. Some CRISPRi measurements may overlap the biology or published annotations used in external features; this needs source provenance review before a strong independence claim. Seven positives in the Gerdes-nonessential subset are too few to support a broad rescue statement despite its attractive AUROC. Report the distinct assay alongside, not in place of, the failed G2 and the MoCo mechanism.',BODY),
+              P('7.6 Assay mapping and bias pathways',H2),
+              P('The external assay was not used to tune the saved v2 score in the reported test, but mapping one primary gene name to one b-number can undercount aliases or collapse isoforms. Source rows without clean mapping are excluded by design, which changes both prevalence and gene set. A robust follow-up must show sensitivity to ambiguous-name mappings, operon-level grouped bootstrap, and the frozen CRISPRi median depletion threshold, not choose a more favorable cutoff after viewing AUROC. The confidence interval above resamples genes as if independent: adjacent genes in an operon and shared model features weaken that assumption. An operon-cluster bootstrap and separate Keio loss-of-function screen would better support generalization; they have not been run under this calibration gate. The biological test remains whether a virtual-cell output predicts condition-specific viability outside the training label source, not whether a ranking threshold can be adjusted until a gate passes.',BODY),
+              P('7.7 Revision of the headline and outstanding work',H2),
+
               P('The historical abstract reports the 0.7225 v1 AUROC and 27:50 hard-call loss, which is accurate for '
                 'its original eval-inclusive threshold exercise but not the end of the project. The later MoCo census '
                 'adds cross-reconstruction structural scope, and the v2 OOF AUROC is approximately 0.7967, yet a '
