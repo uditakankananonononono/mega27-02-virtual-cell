@@ -1,0 +1,17 @@
+{
+  "status": "LOCAL_LEDGER_CHECK_PASSED; owner-approved counting unit, not a global completion gate",
+  "biGG_unique_model_ids": 108,
+  "biGG_hash_matched_local_files": 108,
+  "biGG_status_analysed": 108,
+  "paxdb_unique_dataset_ids": 19,
+  "paxdb_hash_matched_local_files": 19,
+  "paxdb_saved_scores_matched": 19,
+  "paxdb_distinct_provider_publication_links": 16,
+  "technical_variant_link_multiplicities": [
+    2,
+    3
+  ],
+  "conservative_paxdb_study_floor_carried_forward": 15,
+  "conservative_model_inclusive_arithmetic": 123,
+  "caveats": "Local files/hashes and saved numerical use verified; provider freshness not rechecked; no proof that 15 links represent independent wet-lab studies or model snapshots independent organisms; eight other provisional manifest rows remain; 50+ substantive body pages and original G2 still fail."
+}
