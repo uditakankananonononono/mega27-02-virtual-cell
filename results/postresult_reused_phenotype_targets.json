@@ -1,0 +1,303 @@
+{
+  "limits": "S7 is already-published model validation with a cutoff selected on the data and checked against PRCC; S7 fitness is a competition metric, not direct knockout survival. S4 has model-only and unlabeled comparison columns; no phenotype inferred from mere gene membership. Missing S7 target rows are unknown, not negative. Different model versions, medium choices and editing interventions prevent direct biological validation.",
+  "panels": {
+    "MoCo": {
+      "PP_0735": {
+        "s4_memberships": [
+          "Model Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": 0.34149999999999997,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": 0.104,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": 0.36,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_1292": {
+        "s4_memberships": [
+          "Model Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": 0.024999999999999988,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": -0.14825,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": -0.24800000000000003,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_1293": {
+        "s4_memberships": [
+          "PRCC Genes in Model",
+          "Model Genes",
+          "PRCC Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": -0.32725,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": -0.39675,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": -0.431,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_1294": {
+        "s4_memberships": [
+          "Model Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": -0.2685,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": -0.07275,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": 0.0525,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_2123": {
+        "s4_memberships": [
+          "Model Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": 0.07475,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": -0.13575,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": -0.004500000000000004,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_3457": {
+        "s4_memberships": [
+          "Model Genes"
+        ],
+        "s7": null
+      }
+    },
+    "suppressive_pair": {
+      "PP_0362": {
+        "s4_memberships": [
+          "Glucose Essential Genes",
+          "unlabeled right comparison panel Gene ID",
+          "PRCC Genes in Model",
+          "Model Genes",
+          "PRCC Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": -0.009250000000000005,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": 0.012000000000000005,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": -0.08249999999999999,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_0363": {
+        "s4_memberships": [
+          "Glucose Essential Genes",
+          "unlabeled right comparison panel Gene ID",
+          "PRCC Genes in Model",
+          "Model Genes",
+          "PRCC Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": -0.10375000000000001,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": -0.10675000000000001,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": -0.037000000000000005,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_0364": {
+        "s4_memberships": [
+          "Glucose Essential Genes",
+          "unlabeled right comparison panel Gene ID",
+          "PRCC Genes in Model",
+          "Model Genes",
+          "PRCC Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": -0.132,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": -0.0175,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": 0.021500000000000002,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_0365": {
+        "s4_memberships": [
+          "Glucose Essential Genes",
+          "unlabeled right comparison panel Gene ID",
+          "PRCC Genes in Model",
+          "Model Genes",
+          "PRCC Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": 0.010000000000000002,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": -0.0335,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": 0.0115,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_0366": {
+        "s4_memberships": [
+          "Glucose Essential Genes",
+          "PRCC Genes in Model",
+          "Model Genes",
+          "PRCC Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": 0.22275,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": 0.151,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": 0.06000000000000001,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      },
+      "PP_0437": {
+        "s4_memberships": [
+          "iLB Essential Genes",
+          "Model Genes"
+        ],
+        "s7": null
+      },
+      "PP_1602": {
+        "s4_memberships": [
+          "Glucose Essential Genes",
+          "Model Genes"
+        ],
+        "s7": null
+      },
+      "PP_4984": {
+        "s4_memberships": [
+          "unlabeled right comparison panel Gene ID",
+          "Glucose Essential Genes",
+          "PRCC Genes in Model",
+          "Model Genes",
+          "PRCC Genes"
+        ],
+        "s7": {
+          "acetate": {
+            "fitness": 0.13875,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "glucose": {
+            "fitness": 0.22999999999999998,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          },
+          "p_coumarate": {
+            "fitness": 0.1365,
+            "fitness_above_minus_2point7": true,
+            "published_result_code": "FN"
+          }
+        }
+      }
+    }
+  },
+  "protocol": "notes/postresult_reused_phenotype_contradiction_protocol.md",
+  "publisher_s7_threshold": -2.7,
+  "s1_sha256": "bdb9eaacac1ac4094c857f5b3c00bd33b82c998af35b2e466aa06496803378bf",
+  "s4_sha256": "73afee37058fab4ef254f3d0acd83fd9eeac9f48939d832a7f94c78b5bd7e7ab",
+  "s7_sha256": "3788cb2009b295c54301fa939cb28d107e317b90f1835737d465860b49cca322",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7078882/supplementaryFiles",
+  "status": "reused publisher validation table target lookup; not independent phenotype or gate"
+}
