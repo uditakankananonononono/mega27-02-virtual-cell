@@ -5,7 +5,7 @@ from build_paper import P,H1,H2,BODY,tbl,PageBreak,ROOT
 def story_gate(story,R):
     ga=R('gate_audit.json');bg=R('bigg_model_survey.json');delta=R('bigg_accession_delta.json')
     lr=R('learner_sensitivity.json');en=R('pathway_enrichment.json');ag=R('score_agreement.json')
-    story += [PageBreak(),P('Appendix I. New model survey and conditional gate accounting',H1),
+    story += [PageBreak(),P('Appendix I. New model survey and gate accounting',H1),
               P('I.1 Cross-model biomass-objective survey',H2),
               P(f"We fetched {bg['fetched_and_analysed']} distinct model JSON snapshots from the public BiGG v2 index "
                 f"({bg['source_url']}); each model accession, source URL and SHA-256 is in results/bigg_model_survey.csv. "
@@ -76,16 +76,19 @@ def story_gate(story,R):
                 'tool_source_snapshot_verification.json).',BODY),
               P('Dataset gate: 108 distinct BiGG model IDs were fetched, hashed and analysed; 19 PaxDb '
                 'files have per-accession scores, collapsing to at least 15 source studies after technical '
-                'variants. A model-inclusive inventory would give 108 + 15 = 123 against a 120 target, but '
-                'the originating owner approval for counting model accessions has not been recovered; '
-                'this is not a verified gate pass. Nor are these 123 independent wet-lab studies. The older '
-                '124 study-key claim counted 44 organism files under one figshare accession and must not '
-                'be reused. See gate_audit.json for its historical verdict and '
-                'notes/gate_count_provenance_review_20260927.md for the dated provenance correction.',BODY)]
+                'variants. In the recovered 25 September owner WhatsApp exchange (provenance in '
+                'notes/gate_count_provenance_review_20260927.md), BiGG model accessions were accepted as '
+                'eligible datasets toward the 120-count gate. The separate accession/use ledgers report 108 model '
+                'IDs plus 15 study-collapsed PaxDb sources, totaling 123 under that rule; the owner decision '
+                'alone does not certify those 123 as a verified gate pass. This is not 123 independent wet-lab '
+                'studies, and it does not repair failed science gates or '
+                'the 50+ substantive body-page rule. The older 124 study-key claim counted 44 organism files '
+                'under one figshare accession and must not be reused. The stricter provisional manifest overlay '
+                'still has eight unresolved source/use rows, recorded separately.',BODY)]
     story += tbl([['Gate','Observed','Decision'],
                   ['Science/data tools','40 substantial distinct uses / 48 linked','Pass: thin rows excluded; sources rechecked'],
-                  ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Conditional: 123/120 model-inclusive; owner rule unverified'],
+                  ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Count basis approved; 123 inventory requires own verification'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
-                 'Table I3. Historical 25 September inventory with 27 September owner-rule provenance correction; thin rows excluded.')
+                 'Table I3. 25 September model-inclusive inventory; owner-approved counting rule is separate from source verification.')
 
     return story
