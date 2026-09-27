@@ -1,0 +1,17 @@
+4	Core novelty is unclear	Stacking FBA + sequence + graph features for essentiality prediction has been done. The "virtual cell" framing is new packaging, not new science. The biomass objective sensitivity finding is interesting but buried.
+5	Primary hard-call gate failed	The G2 gate (McNemar p >= 0.05 with model wins >= FBA wins) failed on all five rungs. The ensemble wins on ranking but loses on hard calls. This is honest but undermines the headline claim.
+6	Label leakage in threshold selection	The score-lineage audit found that threshold selection used other-fold OOF scores whose training complements could include evaluated fold labels. This undermines the hard-call statistics.
+7	Gerdes 2003 is a problematic benchmark	Rich LB medium vs. glucose-minimal simulation. The paper acknowledges this but still leads with Gerdes numbers. Condition mismatch inflates false positives and deflates precision.
+8	The CNN is a negative result	The sequence CNN (AUROC 0.643) barely beats 3-mer logistic regression (0.628). This is reported honestly but means one of the four "layers" adds little.
+9	The GNN is also weak	GCN AUROC 0.660 vs. FBA 0.666. The graph layer does not outperform simple FBA on this task.
+10	Ensemble gain is modest and confounded	+0.057 AUROC over FBA sounds good but comes partly from feature scaling (a bug fix), not new information. The leakage-controlled gain is smaller (+0.024).
+11	dFBA diauxie is a textbook result	The finding that unregulated FBA fails diauxie and a Boolean rule fixes it is well-known. It demonstrates plumbing but is not novel.
+12	MoCo biomass artifact is interesting but narrow	Removing MoCo from biomass rescues moaD knockout. This is a real finding, but it is a model curation issue, not a biological discovery. The follow-up shows many other biomass terms have similar effects, diluting uniqueness.
+13	Cross-species transfer fails	The Pseudomonas and Bacillus transfer tests show inconsistent calibration and modest discrimination. The yeast transfer is also weak. These negatives weaken the generalizability claim.
+14	Supplement bypass finding is E. coli-specific	The SAM bypass works in E. coli but fails in eight other bacteria. The paper correctly narrows the claim but this reduces impact.
+15	Rousset CRISPRi validation has caveats	Only 7 CRISPRi-essential genes are Gerdes-nonessential. The AUROC 0.876 rests on very few independent positives. CRISPRi polar effects in operons confound interpretation.
+16	Too many pre-registered negatives	ESM-2, AlphaFold pLDDT, OMA conservation, COG, PRECISE-1k, GO condition feature—all negative. This is scientifically honest but makes the paper read as a graveyard of failed ideas.
+17	Presentation is overwhelming	68 pages, 30+ tables, 11 figures, countless appendices. ISEF judges have 12 minutes. They will not read this. The signal-to-noise ratio is poor.
+18	No wet-lab validation	All findings are in silico. ISEF CBIO allows computational projects, but the lack of any experimental validation limits impact. The paper acknowledges this repeatedly.
+19	Computational resources are minimal	2 CPU cores, no GPU. This is a constraint, not a weakness, but it limits model sophistication compared to published deep learning work.
+20	The "most useful output is where it breaks" framing is defensive	The conclusion says the virtual cell's value is in its failures. This is philosophically interesting but not a strong ISEF narrative. Judges want a positive contribution.

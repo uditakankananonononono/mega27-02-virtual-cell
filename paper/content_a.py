@@ -11,7 +11,7 @@ def story_a(story, R):
           'Dynamic Simulation, Benchmarked Against Experimental Gene Essentiality', TITLE),
         Spacer(1, 24),
         P('MEGA-PROGRAM-27, Item 2 - Virtual Cell', H1),
-        P('Author: Udita Phookan (computational work executed with Instinct)', BODY),
+        P('Author: Udita Phookan', BODY),
         P('24 September 2026', BODY),
         Spacer(1, 60),
         P('<b>Repository:</b> mega27-02-virtual-cell &nbsp;&nbsp;|&nbsp;&nbsp; '
