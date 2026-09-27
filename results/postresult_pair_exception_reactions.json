@@ -1,0 +1,714 @@
+{
+  "status": "post-result model-internal reaction/GPR annotation, not flux or phenotype evidence",
+  "protocol": "notes/postresult_pair_exception_reaction_audit.md",
+  "model_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "model_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "saved_pair_result": "results/postresult_pair_interactions.json",
+  "n_exceptions": 3,
+  "exceptions": [
+    {
+      "pair": [
+        "2fe2s_c",
+        "btamp_c"
+      ],
+      "single_counts": [
+        0,
+        8
+      ],
+      "union_count": 8,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "lost_union_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ],
+      "removed_metabolites": [
+        {
+          "metabolite_id": "2fe2s_c",
+          "name": "[2Fe-2S] iron-sulfur cluster",
+          "formula": "S2Fe2",
+          "gene_associated_reactions": [
+            {
+              "id": "BTS5",
+              "name": "Biotin synthase",
+              "gene_reaction_rule": "PP_0362",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "I2FE2ST",
+              "name": "ISC [2Fe-2S] Transfer",
+              "gene_reaction_rule": "PP_0844 and PP_0843",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "LIPOS",
+              "name": "Lipoate synthase",
+              "gene_reaction_rule": "PP_4800",
+              "stoichiometric_coefficient": 1.0
+            }
+          ]
+        },
+        {
+          "metabolite_id": "btamp_c",
+          "name": "Biotinyl 5  AMP C20H27N7O9PS",
+          "formula": "C20H27N7O9PS",
+          "gene_associated_reactions": [
+            {
+              "id": "BACCL",
+              "name": "Biotin acetyl CoA carboxylase ligase",
+              "gene_reaction_rule": "PP_0437",
+              "stoichiometric_coefficient": 1.0
+            }
+          ]
+        }
+      ],
+      "affected_genes": [
+        {
+          "gene_id": "PP_0362",
+          "source_model_name": "bioB",
+          "model_reactions": [
+            {
+              "id": "BTS5",
+              "name": "Biotin synthase",
+              "gene_reaction_rule": "PP_0362"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_0363",
+          "source_model_name": "bioF",
+          "model_reactions": [
+            {
+              "id": "AOXSr2",
+              "name": "8-amino-7-oxononanoate synthase",
+              "gene_reaction_rule": "PP_0363"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_0364",
+          "source_model_name": "bioH",
+          "model_reactions": [
+            {
+              "id": "PMEACPE",
+              "name": "Pimeloyl-[ACP] methyl ester esterase",
+              "gene_reaction_rule": "PP_0364"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_0365",
+          "source_model_name": "bioC",
+          "model_reactions": [
+            {
+              "id": "MALCOAMT",
+              "name": "Malonyl-CoA methyltransferase",
+              "gene_reaction_rule": "PP_0365"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_0366",
+          "source_model_name": "bioD",
+          "model_reactions": [
+            {
+              "id": "DBTS",
+              "name": "Dethiobiotin synthase",
+              "gene_reaction_rule": "PP_0366"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_0437",
+          "source_model_name": "birA",
+          "model_reactions": [
+            {
+              "id": "BACCL",
+              "name": "Biotin acetyl CoA carboxylase ligase",
+              "gene_reaction_rule": "PP_0437"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_1602",
+          "source_model_name": "fabZ",
+          "model_reactions": [
+            {
+              "id": "3HAD100",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0)",
+              "gene_reaction_rule": "PP_1602 or PP_4174"
+            },
+            {
+              "id": "3HAD120",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0)",
+              "gene_reaction_rule": "PP_4174 or PP_1602"
+            },
+            {
+              "id": "3HAD121",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1)",
+              "gene_reaction_rule": "PP_4174 or PP_1602"
+            },
+            {
+              "id": "3HAD140",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0)",
+              "gene_reaction_rule": "PP_1602 or PP_4174"
+            },
+            {
+              "id": "3HAD141",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1)",
+              "gene_reaction_rule": "PP_4174 or PP_1602"
+            },
+            {
+              "id": "3HAD160",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0)",
+              "gene_reaction_rule": "PP_1602 or PP_4174"
+            },
+            {
+              "id": "3HAD161",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1)",
+              "gene_reaction_rule": "PP_4174 or PP_1602"
+            },
+            {
+              "id": "3HAD180",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)",
+              "gene_reaction_rule": "PP_1602 or PP_4174"
+            },
+            {
+              "id": "3HAD181",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1)",
+              "gene_reaction_rule": "PP_1602 or PP_4174"
+            },
+            {
+              "id": "3HAD40",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0)",
+              "gene_reaction_rule": "PP_1602 or PP_4174"
+            },
+            {
+              "id": "3HAD60",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0)",
+              "gene_reaction_rule": "PP_4174 or PP_1602"
+            },
+            {
+              "id": "3HAD80",
+              "name": "3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0)",
+              "gene_reaction_rule": "PP_1602 or PP_4174"
+            },
+            {
+              "id": "OGMEACPD",
+              "name": "3-Oxo-glutaryl-[ACP] methyl ester dehydratase",
+              "gene_reaction_rule": "PP_1602"
+            },
+            {
+              "id": "OPMEACPD",
+              "name": "3-Oxo-pimeloyl-[ACP] methyl ester dehydratase",
+              "gene_reaction_rule": "PP_1602"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_4984",
+          "source_model_name": "bioA",
+          "model_reactions": [
+            {
+              "id": "AMAOTr",
+              "name": "Adenosylmethionine-8-amino-7-oxononanoate transaminase",
+              "gene_reaction_rule": "PP_4984"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "fad_c"
+      ],
+      "single_counts": [
+        21,
+        0
+      ],
+      "union_count": 21,
+      "pair_count": 22,
+      "pair_only_genes": [
+        "PP_0602"
+      ],
+      "lost_union_genes": [],
+      "removed_metabolites": [
+        {
+          "metabolite_id": "adocbl_c",
+          "name": "Adenosylcobalamin",
+          "formula": "C72H100CoN18O17P",
+          "gene_associated_reactions": [
+            {
+              "id": "ADOCBLS",
+              "name": "Adenosylcobalamin 5'-phosphate synthase",
+              "gene_reaction_rule": "PP_1681",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "ADOCBLabcpp",
+              "name": "Adenosylcobalamin transport via ABC system (periplasm)",
+              "gene_reaction_rule": "(PP_0524 and PP_4687 and PP_4688) or (PP_0524 and PP_2417 and PP_2416)",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "CBLAT",
+              "name": "Cob(I)alamin adenosyltransferase",
+              "gene_reaction_rule": "PP_1672",
+              "stoichiometric_coefficient": 1.0
+            }
+          ]
+        },
+        {
+          "metabolite_id": "fad_c",
+          "name": "Flavin adenine dinucleotide oxidized",
+          "formula": "C27H31N9O15P2",
+          "gene_associated_reactions": [
+            {
+              "id": "ACOAD10f",
+              "name": "Acyl CoA dehydrogenase  heptanoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD11f",
+              "name": "Acyl CoA dehydrogenase  nonanoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD12f",
+              "name": "Acyl CoA dehydrogenase  Phenyldecanoyl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD13f",
+              "name": "Acyl CoA dehydrogenase  Phenylnonanoyl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD14f",
+              "name": "Acyl CoA dehydrogenase  Phenyloctanoyl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD15f",
+              "name": "Acyl CoA dehydrogenase  Phenylheptanoyl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD16f",
+              "name": "Acyl CoA dehydrogenase  Phenylhexanoyl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD17f",
+              "name": "Acyl CoA dehydrogenase  Phenylpentanoyl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD18f",
+              "name": "Acyl CoA dehydrogenase  Phenylbutyryl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD19f",
+              "name": "Acyl CoA dehydrogenase  Phenylpropionyl CoA ",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD1f",
+              "name": "Acyl-CoA dehydrogenase (butanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_2216",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD20f",
+              "name": "Acyl CoA dehydrogenase  6 acetylthiohexanoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD21f",
+              "name": "Acyl CoA dehydrogenase  4 acetylthiobutanoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD22f",
+              "name": "Acyl CoA dehydrogenase  vaccenyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD23f",
+              "name": "Acyl CoA dehydrogenase  cis hexadec 9 enoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD24f",
+              "name": "Acyl CoA dehydrogenase  cis tetradec 7 enoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD25f",
+              "name": "Acyl CoA dehydrogenase  cis dodedec 5 enoyl CoA  C121d5 ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD26f",
+              "name": "Acyl CoA dehydrogenase  acyl CoA dehydrogenase  oleicyl CoA   C181d9 ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD27f",
+              "name": "Acyl CoA dehydrogenase  cis hexadec 7 enoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD28f",
+              "name": "Acyl CoA dehydrogenase  cis tetradec 5 enoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD29f",
+              "name": "Acyl CoA dehydrogenase  petroselenyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD2f",
+              "name": "Acyl-CoA dehydrogenase (hexanoyl-CoA)",
+              "gene_reaction_rule": "PP_2216 or PP_1893 or PP_2048 or PP_2039",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD30f",
+              "name": "Acyl CoA dehydrogenase  cis hexadec 4 enoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD31f",
+              "name": "Acyl CoA dehydrogenase  linoleic coenzyme A ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD32f",
+              "name": "Acyl CoA dehydrogenase  cis cis hexadec 7 10 dienoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD33f",
+              "name": "Acyl CoA dehydrogenase  cis cis tetradec 5 8 dienoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD34f",
+              "name": "Acyl CoA dehydrogenase  4 cis decenoyl CoA ",
+              "gene_reaction_rule": "PP_1893",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD3f",
+              "name": "Acyl-CoA dehydrogenase (octanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_2048 or PP_2039",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD4f",
+              "name": "Acyl-CoA dehydrogenase (decanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_2048 or PP_2039 or PP_2437",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD5f",
+              "name": "Acyl-CoA dehydrogenase (dodecanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_2048 or PP_2039 or PP_2437",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD6f",
+              "name": "Acyl-CoA dehydrogenase (tetradecanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_2048 or PP_2039 or PP_2437",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD7f",
+              "name": "Acyl-CoA dehydrogenase (hexadecanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "ACOAD8f",
+              "name": "Acyl-CoA dehydrogenase (octadecanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_0368",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD",
+              "name": "D-Amino acid dehydrogenase",
+              "gene_reaction_rule": "PP_4434 or PP_5270",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD11",
+              "name": "D Amino acid dehydrogenase  tyr D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD12",
+              "name": "D Amino acid dehydrogenase  val D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD2",
+              "name": "D Amino acid dehydrogenase  arg D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD3",
+              "name": "D Amino acid dehydrogenase  leu D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD4",
+              "name": "D Amino acid dehydrogenase  D met ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD5",
+              "name": "D Amino acid dehydrogenase  orn D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD7",
+              "name": "D Amino acid dehydrogenase  pro D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DAAD8",
+              "name": "D Amino acid dehydrogenase  ser D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DLYSAD",
+              "name": "D Amino acid dehydrogenase",
+              "gene_reaction_rule": "PP_3596 or PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "DMALRED",
+              "name": "(S)-Malate:(acceptor) oxidoreductase",
+              "gene_reaction_rule": "PP_0751 or PP_1251 or PP_2925",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "FMNAT",
+              "name": "FMN adenylyltransferase",
+              "gene_reaction_rule": "PP_0602",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "GLUTCOADHc",
+              "name": "Glutaryl-CoA dehydrogenase (citosol)",
+              "gene_reaction_rule": "PP_0158",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "MBCOAi",
+              "name": "3-Methylbutanoyl-CoA:(acceptor) 2,3-oxidoreductase",
+              "gene_reaction_rule": "PP_4064",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "PHET",
+              "name": "D Amino acid dehydrogenase  phe D ",
+              "gene_reaction_rule": "PP_5270 or PP_4434 or PP_2246",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "PROD2",
+              "name": "Proline dehydrogenase",
+              "gene_reaction_rule": "PP_4947",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "SUCD4",
+              "name": "Succinate dehyrdogenase",
+              "gene_reaction_rule": "(PP_4201 and PP_4202) and PP_4203",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "VCOAD",
+              "name": "Acyl-CoA dehydrogenase (pentanoyl-CoA)",
+              "gene_reaction_rule": "PP_1893 or PP_2216",
+              "stoichiometric_coefficient": -1.0
+            }
+          ]
+        }
+      ],
+      "affected_genes": [
+        {
+          "gene_id": "PP_0602",
+          "source_model_name": "ribF",
+          "model_reactions": [
+            {
+              "id": "FMNAT",
+              "name": "FMN adenylyltransferase",
+              "gene_reaction_rule": "PP_0602"
+            },
+            {
+              "id": "RBFK",
+              "name": "Riboflavin kinase",
+              "gene_reaction_rule": "PP_0602"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "pheme_c"
+      ],
+      "single_counts": [
+        0,
+        0
+      ],
+      "union_count": 0,
+      "pair_count": 3,
+      "pair_only_genes": [
+        "PP_0189",
+        "PP_0744",
+        "PP_5074"
+      ],
+      "lost_union_genes": [],
+      "removed_metabolites": [
+        {
+          "metabolite_id": "hemeO_c",
+          "name": "Heme O C49H56FeN4O5",
+          "formula": "C49H56FeN4O5",
+          "gene_associated_reactions": [
+            {
+              "id": "HEMEOS",
+              "name": "Heme O synthase",
+              "gene_reaction_rule": "PP_0816 or PP_0110",
+              "stoichiometric_coefficient": 1.0
+            }
+          ]
+        },
+        {
+          "metabolite_id": "pheme_c",
+          "name": "Protoheme C34H30FeN4O4",
+          "formula": "C34H30FeN4O4",
+          "gene_associated_reactions": [
+            {
+              "id": "FCLT",
+              "name": "Ferrochelatase",
+              "gene_reaction_rule": "PP_0744",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "HEMEOS",
+              "name": "Heme O synthase",
+              "gene_reaction_rule": "PP_0816 or PP_0110",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "HEMEti",
+              "name": "Heme transport via ABC system",
+              "gene_reaction_rule": "PP_4327",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "HOXG",
+              "name": "Heme oxygenase 1",
+              "gene_reaction_rule": "PP_1005 or PP_2582",
+              "stoichiometric_coefficient": -1.0
+            },
+            {
+              "id": "PHEME2abcpp",
+              "name": "Protoheme transport via ABC system  periplasm to cytosol ",
+              "gene_reaction_rule": "PP_4689 and PP_4687 and PP_4688 and PP_4686",
+              "stoichiometric_coefficient": 1.0
+            },
+            {
+              "id": "PHEMEabcpp",
+              "name": "Protoheme transport via ABC system (periplasm)",
+              "gene_reaction_rule": "PP_4327 and PP_4326 and PP_4325",
+              "stoichiometric_coefficient": -1.0
+            }
+          ]
+        }
+      ],
+      "affected_genes": [
+        {
+          "gene_id": "PP_0189",
+          "source_model_name": "",
+          "model_reactions": [
+            {
+              "id": "PPPGO",
+              "name": "Protoporphyrinogen oxidase (aerobic)",
+              "gene_reaction_rule": "PP_0189"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_0744",
+          "source_model_name": "hemH",
+          "model_reactions": [
+            {
+              "id": "FCLT",
+              "name": "Ferrochelatase",
+              "gene_reaction_rule": "PP_0744"
+            }
+          ]
+        },
+        {
+          "gene_id": "PP_5074",
+          "source_model_name": "hemE",
+          "model_reactions": [
+            {
+              "id": "UPPDC1",
+              "name": "Uroporphyrinogen decarboxylase (uroporphyrinogen III)",
+              "gene_reaction_rule": "PP_5074"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": "No knockout-specific flux or dual proof; reaction association does not establish causal route; all three are selected after result; G2 still failed."
+}
