@@ -84,7 +84,12 @@ def story_gate(story,R):
                 'studies, and it does not repair failed science gates or '
                 'the 50+ substantive body-page rule. The older 124 study-key claim counted 44 organism files '
                 'under one figshare accession and must not be reused. The stricter provisional manifest overlay '
-                'still has eight unresolved source/use rows, recorded separately.',BODY)]
+                'still has eight unresolved source/use rows, recorded separately. A read-only local ledger '
+                'check verifies the 108 unique model file hashes and 19 PaxDb file hashes plus saved score '
+                'use; 16 distinct source-link strings are observed for the PaxDb files, while the carried '
+                '15-source floor is conservative rather than a proof of independent wet-lab studies '
+                '(results/model_inclusive_inventory_local_verification.json). Provider-currentness was not '
+                'rechecked by this local test.',BODY)]
     story += tbl([['Gate','Observed','Decision'],
                   ['Science/data tools','40 substantial distinct uses / 48 linked','Pass: thin rows excluded; sources rechecked'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Count basis approved; 123 inventory requires own verification'],
