@@ -1,0 +1,1216 @@
+{
+  "status": "post-result crude genus/template-dependence audit; no biological replication claim",
+  "protocol": "notes/postresult_moco_family_sensitivity.md",
+  "source_url": "https://bigg.ucsd.edu/api/v2/models",
+  "survey_sha256": "84ea89bb08b626ff1509af73572c2f7b184c78330b0336b193e75f914dc8c150",
+  "per_model_sha256": {
+    "results/bigg_moco_growth/iAF1260.json": "13ef62f14b545cb5d4e06b60efd707abe0eccd8edf37dfe3a02f491861e594d2",
+    "results/bigg_moco_growth/iAF1260b.json": "0cf9d55d52b956b4c70d9ee7190603390d959ac7138c54b532226e05d17a8d5b",
+    "results/bigg_moco_growth/iAPECO1_1312.json": "738ed58bfd450023350734a0e2014ed7c5d1204621491e2fc4b1f8cbcffb8088",
+    "results/bigg_moco_growth/iB21_1397.json": "cadbe9b4752a87cb3b8244d51a5e041da9f2939954e2684a7fce2564a117ab4a",
+    "results/bigg_moco_growth/iBWG_1329.json": "60bdfceb734cd0115c62198dd3637baaa89b4bfb533d9083e2e5cbdba424ab36",
+    "results/bigg_moco_growth/ic_1306.json": "ea32f03d14a4584dbb357fa9d69663fb869cdee92466260f9395ab1860c8c162",
+    "results/bigg_moco_growth/iE2348C_1286.json": "12acf6e8229845732ea89ffc8ca496a37b801c5d9e73f2eb8da34ed0ec8f76bb",
+    "results/bigg_moco_growth/iEC042_1314.json": "a1e657878d98adfd7d182144c60acdc7eb046f308c29822dc708578d2fd5cd51",
+    "results/bigg_moco_growth/iEC1344_C.json": "e45928894ab125e322ae6fd5305ef2078a51dc0ff86e720a7d53ca59499af1f5",
+    "results/bigg_moco_growth/iEC1349_Crooks.json": "96c9400ebdff3347c6be73c61f244aed76570fd679cd258dad6b5bdd75eef12c",
+    "results/bigg_moco_growth/iEC1356_Bl21DE3.json": "bd01dc46152217635f56e498f31789cc8314dd0215c60f1367d2b3a6cdbc0dce",
+    "results/bigg_moco_growth/iEC1364_W.json": "b4a57c4a5b5bb396efb4956acb2f544ea5c4d91095148f304c5277789a572ab5",
+    "results/bigg_moco_growth/iEC1368_DH5a.json": "7df0445988546004dbdcab44fbf0b03986bced55b2bf80a16512cf856fe23456",
+    "results/bigg_moco_growth/iEC1372_W3110.json": "eda0c89e1f7e7c548800f13840719699fcc6105a7fb66a1b8db4d11b72a5468c",
+    "results/bigg_moco_growth/iEC55989_1330.json": "f10d6945062c607902a013167897ec15a0ef7b9c26591cd66042956270dee3c5",
+    "results/bigg_moco_growth/iECABU_c1320.json": "7982ad4df821ac57cd4cba2cb2d21ac16dc9810c025b9659727e9a0b72769513",
+    "results/bigg_moco_growth/iECB_1328.json": "9143fa394b15f80197ca2d524c9868126bddde55fa79076b14f2f353c5eb659a",
+    "results/bigg_moco_growth/iECBD_1354.json": "735b598eada7773d951b31413b6c7276f9b03c5f369667eb80e8b92a054bb0ef",
+    "results/bigg_moco_growth/iECD_1391.json": "07124d71aa39161d595d6201ed2e6ec2e31b21043ddda6c179eb9b105449c6e3",
+    "results/bigg_moco_growth/iECDH10B_1368.json": "33e9db39f3d114d364407755e0bdf936d31631982360792228538d9dedb550f4",
+    "results/bigg_moco_growth/iEcDH1_1363.json": "0b5ad47599624c4ac5a47ab0e83b309a890608d575cd6847a251d9a50b3289d0",
+    "results/bigg_moco_growth/iECDH1ME8569_1439.json": "16ac2941352eaf9aae88056dc08603af090d90d30263df43169cfe688f70dea3",
+    "results/bigg_moco_growth/iEcE24377_1341.json": "8ba48eb029110a6b9ae3d3be0b154d164fad5ed8ee661f571c59776dd383a877",
+    "results/bigg_moco_growth/iECED1_1282.json": "dd05ceb2b93a09b776d37b056ab5272f07a2541b60bcbdb2838cfacaa19d4893",
+    "results/bigg_moco_growth/iECH74115_1262.json": "dafb56117a0f9e4be4831dcee126f0cb9878e3fbbdbe4e5b29afed69e2f67a52",
+    "results/bigg_moco_growth/iEcHS_1320.json": "1e3459b11fde1619b777a53159c2d194aaecf2697a4f5d0e6f5d035ee04fbb17",
+    "results/bigg_moco_growth/iECIAI1_1343.json": "5bfb18f6913cb6c989598a2391b5532fcddc270a69a6c934489105b5789385c0",
+    "results/bigg_moco_growth/iECIAI39_1322.json": "66e349ebd575f3cb63671224ccca642626e200f0c8fb52fcadacd7b9125835c6",
+    "results/bigg_moco_growth/iECNA114_1301.json": "4f35612149c9f164740f2fcef6081e661b7ff3ec04b23b5a14f1e37621e25ef8",
+    "results/bigg_moco_growth/iECO103_1326.json": "7671b811415f7d5853642629389cabd4a89707b52ef98a403bb9797f4be5262f",
+    "results/bigg_moco_growth/iECO111_1330.json": "ce6cb744f56917e35822079a078bd1af13f538a6abf7e66b92e7df4b6addea8c",
+    "results/bigg_moco_growth/iECO26_1355.json": "43965343fc74615be93098babb39f43d92132fdc1cb37698ca3bacd2159ae0e0",
+    "results/bigg_moco_growth/iECOK1_1307.json": "6279ed6b3b595d9ae196e6d95eeff3b97e68db099a2ec4b70bd5d61effaa0e56",
+    "results/bigg_moco_growth/iEcolC_1368.json": "e7d22d6d1ff945106a385bb139f86ea5809273a0a71b44ff0b6878057d6df45f",
+    "results/bigg_moco_growth/iECP_1309.json": "189e9b6adff1c7a04872cad58251cd0e59a5d1b9f10a4bc392cd131006995f56",
+    "results/bigg_moco_growth/iECs_1301.json": "6cd7ce19291a6343a991170f29f603b699f844fe5d411b7f43f7fa1da22f09e1",
+    "results/bigg_moco_growth/iECS88_1305.json": "4f3f3c1e4a4acce17f1258cd4d3031a30821f36912c57b6fcc71b07c9f563060",
+    "results/bigg_moco_growth/iECSE_1348.json": "ef797ea059662cc131a8cd7f6cda1c4890ff5c6dad99e7deae8d5d040ea74fac",
+    "results/bigg_moco_growth/iECSF_1327.json": "3119819d115138911d829d38719d4b21d13fa8a02b14c589d2e4bbc58aa7aea5",
+    "results/bigg_moco_growth/iEcSMS35_1347.json": "9e21c16b9f3a343fa90a2b2c57dd5cf686554c8125176842f8dc4c078a8edf5f",
+    "results/bigg_moco_growth/iECSP_1301.json": "bee5856a0ee2832fe4dadc9298ec2c34366e501bdcec8886731273f015c1a0db",
+    "results/bigg_moco_growth/iECUMN_1333.json": "a59f2cb4639349f175dd0a31e827dda9472c83dc098ab9ab2176e4559f8034cd",
+    "results/bigg_moco_growth/iECW_1372.json": "be743131b1382b1dad516f6726113041a9851784f47eec6ef7a34c6f1fc5ca6e",
+    "results/bigg_moco_growth/iEKO11_1354.json": "545f9c0173a404c6a0924fce44b58c470e4936e15d9476fe01e0e5f92393b04f",
+    "results/bigg_moco_growth/iETEC_1333.json": "be65f2b7a314e88f48c6fd41b987cede6d4ad875edc3864048151c82a250eb21",
+    "results/bigg_moco_growth/iG2583_1286.json": "36a15c51330d60e0ae99cc006d718588d60c28baf2169aaa041aa8964d895e94",
+    "results/bigg_moco_growth/iHN637.json": "bd5eba72373dadd2d3134ebb6f8f66e73070dc2e90459786b1c98193e1f6baea",
+    "results/bigg_moco_growth/iJN1463.json": "fe7b7c763a59731af8962cec1af53b6057b8d4beb4d624af8ef53e828b6cb81b",
+    "results/bigg_moco_growth/iJN678.json": "2129be61b0d17453acdeb96d7d7fb6860e851f478513a38b538adc8b5ac1b6f8",
+    "results/bigg_moco_growth/iJO1366.json": "32fce23a53407852071f7b4e1ba95dc583afeb5b733a88ca2d972180c48a063e",
+    "results/bigg_moco_growth/iLF82_1304.json": "512c9442f2f06ced5260e4d17ca07a5311f0c7f6ce477f0c987104929ed45310",
+    "results/bigg_moco_growth/iML1515.json": "05e1302af660ee4f436c3e06b55b4c9e6720ae176614093062c9b9f22a36395c",
+    "results/bigg_moco_growth/iNRG857_1313.json": "d299f1bfbf2b5a66368109502e5f83f021fa003c682663a140431dc3e2ef311a",
+    "results/bigg_moco_growth/iS_1188.json": "9e7181c6d63e4f6860ca7ab2b5742a922aa7b6eff2f9683dba0deafa287cd1a6",
+    "results/bigg_moco_growth/iSbBS512_1146.json": "dfee643f1e9afbf80359de607d767b7f18c3dcb2aec73ef9642505ce6874fc1d",
+    "results/bigg_moco_growth/iSBO_1134.json": "7b939515ff60b05381184d3b0f3e925690b84bef0a76ca6d181a0fff2c5c0cc8",
+    "results/bigg_moco_growth/iSDY_1059.json": "4979ac97ebfda2c412fdf9b3f5ffb1d0740541e95d22e7e0971d2344ea938cde",
+    "results/bigg_moco_growth/iSF_1195.json": "1fd21537ab9ebaaf04877e691a6624871f9b88408909028ce2776f1beb872aec",
+    "results/bigg_moco_growth/iSFV_1184.json": "953b9fb1bf3814e45e18b8b0df3dcbbf78527964e3b0027b524101c51a606bd1",
+    "results/bigg_moco_growth/iSFxv_1172.json": "428780ec3e565fda18645aeeced65cdef3c904cf86a978e8d0edcf026bb319a7",
+    "results/bigg_moco_growth/iSSON_1240.json": "7bace1f02d871e86eead5152ed389154b746ee129fbb7a4132db44ad275a5273",
+    "results/bigg_moco_growth/iUMN146_1321.json": "c20a332d77f8cc79b64c2594e2c9d3a76603fd29dded283abf08a133de1577b1",
+    "results/bigg_moco_growth/iUMNK88_1353.json": "427379ac29ccd885f51a2e125e393963e969824a8587b4d090a7f14e7b066026",
+    "results/bigg_moco_growth/iUTI89_1310.json": "a928a64a1f781e363b6ab700772ebfe916f9c07b2f1a83bd72613075b6fcd1b8",
+    "results/bigg_moco_growth/iWFL_1372.json": "2780326e05adee6472101b89bda673d88f2902963fee9c5b821913a6ad7d1ba3",
+    "results/bigg_moco_growth/iY75_1357.json": "62a209c1bc1f47a688c4b54736996067753460dd44bfa3d1002bfe88d7b65b65",
+    "results/bigg_moco_growth/iZ_1308.json": "284f44a4ad06cadc68e98cde467c43a5b9f1d4482711730ce478fb5075a7ab06",
+    "results/bigg_moco_growth/STM_v1_0.json": "283ca58c227ba824500e2b96ea7d13d2535ec1f098ab434bdf21d9eb0209b864"
+  },
+  "n_model_accessions": 68,
+  "n_with_flip": 63,
+  "total_model_gene_flip_calls": 511,
+  "genus_groups": [
+    {
+      "survey_genus": "Clostridium",
+      "n_model_accessions": 1,
+      "n_with_at_least_one_flip": 0,
+      "model_gene_flip_count": 0,
+      "n_unique_gene_id_strings": 0,
+      "zero_flip_model_ids": [
+        "iHN637"
+      ],
+      "model_ids": [
+        "iHN637"
+      ]
+    },
+    {
+      "survey_genus": "Escherichia",
+      "n_model_accessions": 56,
+      "n_with_at_least_one_flip": 53,
+      "model_gene_flip_count": 434,
+      "n_unique_gene_id_strings": 410,
+      "zero_flip_model_ids": [
+        "iAF1260",
+        "iAF1260b",
+        "iML1515"
+      ],
+      "model_ids": [
+        "iAF1260",
+        "iAF1260b",
+        "iAPECO1_1312",
+        "iB21_1397",
+        "iBWG_1329",
+        "ic_1306",
+        "iE2348C_1286",
+        "iEC042_1314",
+        "iEC1344_C",
+        "iEC1349_Crooks",
+        "iEC1356_Bl21DE3",
+        "iEC1364_W",
+        "iEC1368_DH5a",
+        "iEC1372_W3110",
+        "iEC55989_1330",
+        "iECABU_c1320",
+        "iECB_1328",
+        "iECBD_1354",
+        "iECD_1391",
+        "iECDH10B_1368",
+        "iEcDH1_1363",
+        "iECDH1ME8569_1439",
+        "iEcE24377_1341",
+        "iECED1_1282",
+        "iECH74115_1262",
+        "iEcHS_1320",
+        "iECIAI1_1343",
+        "iECIAI39_1322",
+        "iECNA114_1301",
+        "iECO103_1326",
+        "iECO111_1330",
+        "iECO26_1355",
+        "iECOK1_1307",
+        "iEcolC_1368",
+        "iECP_1309",
+        "iECs_1301",
+        "iECS88_1305",
+        "iECSE_1348",
+        "iECSF_1327",
+        "iEcSMS35_1347",
+        "iECSP_1301",
+        "iECUMN_1333",
+        "iECW_1372",
+        "iEKO11_1354",
+        "iETEC_1333",
+        "iG2583_1286",
+        "iJO1366",
+        "iLF82_1304",
+        "iML1515",
+        "iNRG857_1313",
+        "iUMN146_1321",
+        "iUMNK88_1353",
+        "iUTI89_1310",
+        "iWFL_1372",
+        "iY75_1357",
+        "iZ_1308"
+      ]
+    },
+    {
+      "survey_genus": "Pseudomonas",
+      "n_model_accessions": 1,
+      "n_with_at_least_one_flip": 1,
+      "model_gene_flip_count": 7,
+      "n_unique_gene_id_strings": 7,
+      "zero_flip_model_ids": [],
+      "model_ids": [
+        "iJN1463"
+      ]
+    },
+    {
+      "survey_genus": "Salmonella",
+      "n_model_accessions": 1,
+      "n_with_at_least_one_flip": 0,
+      "model_gene_flip_count": 0,
+      "n_unique_gene_id_strings": 0,
+      "zero_flip_model_ids": [
+        "STM_v1_0"
+      ],
+      "model_ids": [
+        "STM_v1_0"
+      ]
+    },
+    {
+      "survey_genus": "Shigella",
+      "n_model_accessions": 8,
+      "n_with_at_least_one_flip": 8,
+      "model_gene_flip_count": 68,
+      "n_unique_gene_id_strings": 68,
+      "zero_flip_model_ids": [],
+      "model_ids": [
+        "iS_1188",
+        "iSbBS512_1146",
+        "iSBO_1134",
+        "iSDY_1059",
+        "iSF_1195",
+        "iSFV_1184",
+        "iSFxv_1172",
+        "iSSON_1240"
+      ]
+    },
+    {
+      "survey_genus": "Synechocystis",
+      "n_model_accessions": 1,
+      "n_with_at_least_one_flip": 1,
+      "model_gene_flip_count": 2,
+      "n_unique_gene_id_strings": 2,
+      "zero_flip_model_ids": [],
+      "model_ids": [
+        "iJN678"
+      ]
+    }
+  ],
+  "escherichia_shigella": {
+    "n_model_accessions": 64,
+    "n_with_flip": 61
+  },
+  "other_genera": {
+    "n_model_accessions": 4,
+    "n_with_flip": 2,
+    "n_genera_with_flip": 2,
+    "model_ids": [
+      "iHN637",
+      "iJN1463",
+      "iJN678",
+      "STM_v1_0"
+    ]
+  },
+  "repeated_exact_flip_sets": [
+    {
+      "flipped_gene_ids": [],
+      "n_model_accessions": 5,
+      "model_ids": [
+        "STM_v1_0",
+        "iAF1260",
+        "iAF1260b",
+        "iHN637",
+        "iML1515"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECW_m0010",
+        "ECW_m0837",
+        "ECW_m0839",
+        "ECW_m0840",
+        "ECW_m0841",
+        "ECW_m0884",
+        "ECW_m0885",
+        "ECW_m4157"
+      ],
+      "n_model_accessions": 3,
+      "model_ids": [
+        "iEC1364_W",
+        "iECW_1372",
+        "iWFL_1372"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "Y7U_RS00050",
+        "Y7U_RS04065",
+        "Y7U_RS04075",
+        "Y7U_RS04080",
+        "Y7U_RS04085",
+        "Y7U_RS04295",
+        "Y7U_RS04300",
+        "Y7U_RS17780"
+      ],
+      "n_model_accessions": 2,
+      "model_ids": [
+        "iEC1372_W3110",
+        "iY75_1357"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "APECO1_RS00050",
+        "APECO1_RS03785",
+        "APECO1_RS03795",
+        "APECO1_RS03800",
+        "APECO1_RS03805",
+        "APECO1_RS04010",
+        "APECO1_RS04015",
+        "APECO1_RS22040"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iAPECO1_1312"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "B21_00009",
+        "B21_00765",
+        "B21_00767",
+        "B21_00768",
+        "B21_00769",
+        "B21_00810",
+        "B21_00811",
+        "B21_02283",
+        "B21_02284",
+        "B21_02285",
+        "B21_03692"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iB21_1397"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "BWG_RS00050",
+        "BWG_RS03595",
+        "BWG_RS03605",
+        "BWG_RS03610",
+        "BWG_RS03615",
+        "BWG_RS03825",
+        "BWG_RS03830",
+        "BWG_RS19490"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iBWG_1329"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "C_RS00055",
+        "C_RS04080",
+        "C_RS04090",
+        "C_RS04095",
+        "C_RS04100",
+        "C_RS04305",
+        "C_RS04310",
+        "C_RS22695"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "ic_1306"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "E2348C_RS00050",
+        "E2348C_RS03930",
+        "E2348C_RS03940",
+        "E2348C_RS03945",
+        "E2348C_RS03950",
+        "E2348C_RS04165",
+        "E2348C_RS04170",
+        "E2348C_RS22365"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iE2348C_1286"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EC042_0010",
+        "EC042_0864",
+        "EC042_0867",
+        "EC042_0868",
+        "EC042_0869",
+        "EC042_0915",
+        "EC042_0916",
+        "EC042_4230"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEC042_1314"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EC55989_0010",
+        "EC55989_0824",
+        "EC55989_0826",
+        "EC55989_0827",
+        "EC55989_0828",
+        "EC55989_0871",
+        "EC55989_0872",
+        "EC55989_4333"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEC55989_1330"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECABU_c00100",
+        "ECABU_c08230",
+        "ECABU_c08250",
+        "ECABU_c08260",
+        "ECABU_c08270",
+        "ECABU_c08670",
+        "ECABU_c08680",
+        "ECABU_c43590"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECABU_c1320"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECBD_1257",
+        "ECBD_1258",
+        "ECBD_1259",
+        "ECBD_2796",
+        "ECBD_2797",
+        "ECBD_2838",
+        "ECBD_2839",
+        "ECBD_2840",
+        "ECBD_2842",
+        "ECBD_3609",
+        "ECBD_4173"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECBD_1354"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECB_00009",
+        "ECB_00748",
+        "ECB_00750",
+        "ECB_00751",
+        "ECB_00752",
+        "ECB_00793",
+        "ECB_00794",
+        "ECB_03743"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECB_1328"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECDH10B_0009",
+        "ECDH10B_0849",
+        "ECDH10B_0851",
+        "ECDH10B_0852",
+        "ECDH10B_0853",
+        "ECDH10B_0895",
+        "ECDH10B_0896",
+        "ECDH10B_4046"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECDH10B_1368"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECDH1ME8569_0009",
+        "ECDH1ME8569_0734",
+        "ECDH1ME8569_0736",
+        "ECDH1ME8569_0737",
+        "ECDH1ME8569_0738",
+        "ECDH1ME8569_0779",
+        "ECDH1ME8569_0780",
+        "ECDH1ME8569_3729"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECDH1ME8569_1439"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECD_00009",
+        "ECD_00748",
+        "ECD_00750",
+        "ECD_00751",
+        "ECD_00752",
+        "ECD_00793",
+        "ECD_00794",
+        "ECD_02322",
+        "ECD_02323",
+        "ECD_02324",
+        "ECD_03743"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECD_1391"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECD_RS00050",
+        "ECD_RS04040",
+        "ECD_RS04050",
+        "ECD_RS04055",
+        "ECD_RS04060",
+        "ECD_RS04270",
+        "ECD_RS04275",
+        "ECD_RS19600"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEC1356_Bl21DE3"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECED1_0009",
+        "ECED1_0746",
+        "ECED1_0748",
+        "ECED1_0749",
+        "ECED1_0750",
+        "ECED1_0790",
+        "ECED1_0791",
+        "ECED1_4558"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECED1_1282"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECH74115_0010",
+        "ECH74115_0929",
+        "ECH74115_0931",
+        "ECH74115_0932",
+        "ECH74115_0933",
+        "ECH74115_0976",
+        "ECH74115_0977",
+        "ECH74115_5297"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECH74115_1262"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECIAI1_0010",
+        "ECIAI1_0816",
+        "ECIAI1_0818",
+        "ECIAI1_0819",
+        "ECIAI1_0820",
+        "ECIAI1_0865",
+        "ECIAI1_0866",
+        "ECIAI1_4056"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECIAI1_1343"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECIAI39_0009",
+        "ECIAI39_0757",
+        "ECIAI39_0759",
+        "ECIAI39_0760",
+        "ECIAI39_0761",
+        "ECIAI39_0803",
+        "ECIAI39_0804",
+        "ECIAI39_2731",
+        "ECIAI39_3143"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECIAI39_1322"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECNA114_0713",
+        "ECNA114_0715",
+        "ECNA114_0716",
+        "ECNA114_0717",
+        "ECNA114_0768",
+        "ECNA114_0769",
+        "ECNA114_3955",
+        "ECNA114_4653"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECNA114_1301"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECO103_0010",
+        "ECO103_0816",
+        "ECO103_0818",
+        "ECO103_0819",
+        "ECO103_0820",
+        "ECO103_0870",
+        "ECO103_0871",
+        "ECO103_4313"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECO103_1326"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECO111_0009",
+        "ECO111_0842",
+        "ECO111_0844",
+        "ECO111_0845",
+        "ECO111_0846",
+        "ECO111_0894",
+        "ECO111_0895",
+        "ECO111_4678"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECO111_1330"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECO26_0009",
+        "ECO26_0907",
+        "ECO26_0909",
+        "ECO26_0910",
+        "ECO26_0911",
+        "ECO26_0953",
+        "ECO26_0954",
+        "ECO26_4735"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECO26_1355"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECOK1_0009",
+        "ECOK1_0783",
+        "ECOK1_0785",
+        "ECOK1_0786",
+        "ECOK1_0787",
+        "ECOK1_0828",
+        "ECOK1_0829",
+        "ECOK1_4326"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECOK1_1307"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECOLC_RS15110",
+        "ECOLC_RS15115",
+        "ECOLC_RS15330",
+        "ECOLC_RS15335",
+        "ECOLC_RS15340",
+        "ECOLC_RS15350",
+        "ECOLC_RS19575",
+        "ECOLC_RS22410"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEC1349_Crooks"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECP_0010",
+        "ECP_0795",
+        "ECP_0797",
+        "ECP_0798",
+        "ECP_0799",
+        "ECP_0839",
+        "ECP_0840",
+        "ECP_4067"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECP_1309"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECS88_0010",
+        "ECS88_0798",
+        "ECS88_0800",
+        "ECS88_0801",
+        "ECS88_0802",
+        "ECS88_0843",
+        "ECS88_0844",
+        "ECS88_4307"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECS88_1305"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECSE_0009",
+        "ECSE_0835",
+        "ECSE_0837",
+        "ECSE_0838",
+        "ECSE_0839",
+        "ECSE_0884",
+        "ECSE_0885",
+        "ECSE_4138"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECSE_1348"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECSF_0009",
+        "ECSF_0707",
+        "ECSF_0709",
+        "ECSF_0710",
+        "ECSF_0711",
+        "ECSF_0750",
+        "ECSF_0751",
+        "ECSF_3709"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECSF_1327"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECSP_0009",
+        "ECSP_0877",
+        "ECSP_0879",
+        "ECSP_0880",
+        "ECSP_0881",
+        "ECSP_0924",
+        "ECSP_0925",
+        "ECSP_4910"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECSP_1301"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECUMN_0010",
+        "ECUMN_0924",
+        "ECUMN_0926",
+        "ECUMN_0927",
+        "ECUMN_0928",
+        "ECUMN_1014",
+        "ECUMN_1015",
+        "ECUMN_4381"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECUMN_1333"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ECs0009",
+        "ECs0859",
+        "ECs0861",
+        "ECs0862",
+        "ECs0863",
+        "ECs0904",
+        "ECs0905",
+        "ECs4780"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iECs_1301"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EKO11_3058",
+        "EKO11_3059",
+        "EKO11_3101",
+        "EKO11_3102",
+        "EKO11_3103",
+        "EKO11_3105",
+        "EKO11_3902",
+        "EKO11_4507"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEKO11_1354"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "ETEC_0009",
+        "ETEC_0846",
+        "ETEC_0848",
+        "ETEC_0849",
+        "ETEC_0850",
+        "ETEC_0893",
+        "ETEC_0894",
+        "ETEC_4127"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iETEC_1333"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EcDH1_2815",
+        "EcDH1_2816",
+        "EcDH1_2857",
+        "EcDH1_2858",
+        "EcDH1_2859",
+        "EcDH1_2861",
+        "EcDH1_3587",
+        "EcDH1_4129"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEcDH1_1363"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EcE24377A_0009",
+        "EcE24377A_0844",
+        "EcE24377A_0846",
+        "EcE24377A_0847",
+        "EcE24377A_0848",
+        "EcE24377A_0897",
+        "EcE24377A_0898",
+        "EcE24377A_4374"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEcE24377_1341"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EcHS_A0010",
+        "EcHS_A0835",
+        "EcHS_A0837",
+        "EcHS_A0838",
+        "EcHS_A0839",
+        "EcHS_A0884",
+        "EcHS_A0885",
+        "EcHS_A4080"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEcHS_1320"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EcSMS35_0008",
+        "EcSMS35_0804",
+        "EcSMS35_0806",
+        "EcSMS35_0807",
+        "EcSMS35_0808",
+        "EcSMS35_0851",
+        "EcSMS35_0852",
+        "EcSMS35_4238"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEcSMS35_1347"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "EcolC_2817",
+        "EcolC_2818",
+        "EcolC_2858",
+        "EcolC_2859",
+        "EcolC_2860",
+        "EcolC_2862",
+        "EcolC_3646",
+        "EcolC_4158"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEcolC_1368"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "G2583_0009",
+        "G2583_1009",
+        "G2583_1011",
+        "G2583_1012",
+        "G2583_1013",
+        "G2583_1054",
+        "G2583_1055",
+        "G2583_4655"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iG2583_1286"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "LF82_1365",
+        "LF82_1367",
+        "LF82_1368",
+        "LF82_1369",
+        "LF82_1370",
+        "LF82_1377",
+        "LF82_1378",
+        "LF82_1379"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iLF82_1304"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "NRG857_00050",
+        "NRG857_03480",
+        "NRG857_03490",
+        "NRG857_03495",
+        "NRG857_03500",
+        "NRG857_03705",
+        "NRG857_03710",
+        "NRG857_19230"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iNRG857_1313"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "PP_0735",
+        "PP_1292",
+        "PP_1293",
+        "PP_1294",
+        "PP_2123",
+        "PP_3457",
+        "PP_3830"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iJN1463"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "S0009",
+        "S0772",
+        "S0774",
+        "S0775",
+        "S0776",
+        "S0819",
+        "S0820",
+        "S3819"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iS_1188"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "SBO_0010",
+        "SBO_0668",
+        "SBO_0670",
+        "SBO_0671",
+        "SBO_0672",
+        "SBO_0716",
+        "SBO_0717",
+        "SBO_2554",
+        "SBO_3869"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iSBO_1134"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "SDY_0009",
+        "SDY_0760",
+        "SDY_0761",
+        "SDY_0821",
+        "SDY_0822",
+        "SDY_0823",
+        "SDY_0825",
+        "SDY_3888"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iSDY_1059"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "SF0010",
+        "SF0539",
+        "SF0540",
+        "SF0541",
+        "SF0731",
+        "SF0733",
+        "SF0734",
+        "SF0735",
+        "SF0776",
+        "SF0777",
+        "SF3928"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iSF_1195"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "SFV_0008",
+        "SFV_0764",
+        "SFV_0766",
+        "SFV_0767",
+        "SFV_0768",
+        "SFV_0809",
+        "SFV_0810",
+        "SFV_3644"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iSFV_1184"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "SFxv_0008",
+        "SFxv_0797",
+        "SFxv_0799",
+        "SFxv_0800",
+        "SFxv_0801",
+        "SFxv_0846",
+        "SFxv_0847",
+        "SFxv_4283"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iSFxv_1172"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "SSON_0010",
+        "SSON_0760",
+        "SSON_0762",
+        "SSON_0763",
+        "SSON_0764",
+        "SSON_0808",
+        "SSON_0809",
+        "SSON_4029"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iSSON_1240"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "SbBS512_E0009",
+        "SbBS512_E2521",
+        "SbBS512_E2522",
+        "SbBS512_E2567",
+        "SbBS512_E2568",
+        "SbBS512_E2569",
+        "SbBS512_E2571",
+        "SbBS512_E4329"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iSbBS512_1146"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "UM146_13515",
+        "UM146_13520",
+        "UM146_13720",
+        "UM146_13725",
+        "UM146_13730",
+        "UM146_13740",
+        "UM146_19515",
+        "UM146_22820"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iUMN146_1321"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "UMNK88_4686",
+        "UMNK88_8",
+        "UMNK88_821",
+        "UMNK88_823",
+        "UMNK88_824",
+        "UMNK88_825",
+        "UMNK88_867",
+        "UMNK88_868"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iUMNK88_1353"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "UTI89_C0010",
+        "UTI89_C0780",
+        "UTI89_C0783",
+        "UTI89_C0784",
+        "UTI89_C0785",
+        "UTI89_C0829",
+        "UTI89_C0830",
+        "UTI89_C4444"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iUTI89_1310"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "Z0009",
+        "Z1000",
+        "Z1002",
+        "Z1003",
+        "Z1004",
+        "Z1049",
+        "Z1050",
+        "Z5389"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iZ_1308"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "b0009",
+        "b0781",
+        "b0783",
+        "b0784",
+        "b0785",
+        "b0826",
+        "b0827",
+        "b3857"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iJO1366"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "locus_118",
+        "locus_119",
+        "locus_2383",
+        "locus_4257",
+        "locus_73",
+        "locus_75",
+        "locus_76",
+        "locus_77"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEC1368_DH5a"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "locus_137",
+        "locus_138",
+        "locus_1978",
+        "locus_2957",
+        "locus_92",
+        "locus_94",
+        "locus_95",
+        "locus_96"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iEC1344_C"
+      ]
+    },
+    {
+      "flipped_gene_ids": [
+        "modA",
+        "sll0739"
+      ],
+      "n_model_accessions": 1,
+      "model_ids": [
+        "iJN678"
+      ]
+    }
+  ],
+  "limits": "Genus from stated organism label is a rough proxy, not a reconstruction ancestry tree. Repeated gene-ID strings may have shared naming and reaction templates; unique IDs across genera need not be independent genes or wet-lab calls. Outcomes and strata known before this audit. No condition-matched phenotype test or G2 repair."
+}
