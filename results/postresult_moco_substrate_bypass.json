@@ -1,0 +1,433 @@
+{
+  "genes": [
+    "PP_0735",
+    "PP_1292",
+    "PP_1293",
+    "PP_1294",
+    "PP_2123",
+    "PP_3457"
+  ],
+  "limits": "Positive-coefficient cytosolic supply is an artificial internal model reaction not a nutrient or demonstrated biological intervention. Only one reconstruction and preselected targets. Original G2 FAIL.",
+  "native_biomass_coefficients": {
+    "bmocogdp_c": -0.000223,
+    "mocogdp_c": -0.000223
+  },
+  "native_wt_growth": 0.5861175448479794,
+  "pathway_source_reactions": {
+    "bmoco1gdp_c": {
+      "existing_supply_reactions": [],
+      "reactions": [
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "PP_3457",
+          "id": "BMOGDS1",
+          "stoichiometric_coefficient": 1.0
+        },
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "PP_3457",
+          "id": "BMOGDS2",
+          "stoichiometric_coefficient": -1.0
+        }
+      ]
+    },
+    "bmocogdp_c": {
+      "existing_supply_reactions": [],
+      "reactions": [
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "",
+          "id": "BIOMASS_KT2440_WT3",
+          "stoichiometric_coefficient": -0.000223
+        },
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "PP_3457",
+          "id": "BMOGDS2",
+          "stoichiometric_coefficient": 1.0
+        }
+      ]
+    },
+    "moco_c": {
+      "existing_supply_reactions": [],
+      "reactions": [
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "PP_2123",
+          "id": "BMOCOS",
+          "stoichiometric_coefficient": -1.0
+        },
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "PP_2123",
+          "id": "MOCOS",
+          "stoichiometric_coefficient": 1.0
+        },
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "PP_3457",
+          "id": "MOGDS",
+          "stoichiometric_coefficient": -1.0
+        }
+      ]
+    },
+    "mocogdp_c": {
+      "existing_supply_reactions": [],
+      "reactions": [
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "",
+          "id": "BIOMASS_KT2440_WT3",
+          "stoichiometric_coefficient": -0.000223
+        },
+        {
+          "bounds": [
+            0.0,
+            999999.0
+          ],
+          "gene_rule": "PP_3457",
+          "id": "MOGDS",
+          "stoichiometric_coefficient": 1.0
+        }
+      ]
+    }
+  },
+  "protocol": "notes/postresult_moco_substrate_bypass_protocol.md",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "status": "post-result artificial-supply LP diagnostic, not biological phenotype",
+  "variants": [
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 1.5651369089653144e-13,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {}
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 4.266031972122164e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {}
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 5.725975249504245e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {}
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 4.421463195569686e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {}
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 2.303302134524371e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {}
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 1.113475631142613e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {}
+        }
+      },
+      "n_rescued_95pct": 0,
+      "name": "native",
+      "virtual_supplies": [],
+      "wild_type": {
+        "growth": 0.5861175448479812,
+        "mass_balance_max_abs": 3.956993695382327e-14,
+        "ratio_to_native_wt": 1.000000000000003,
+        "rescued_95pct": true,
+        "status": "optimal",
+        "virtual_supply_fluxes": {}
+      }
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 9.9253938401489e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_moco_c": 0.0
+          }
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 4.3360063803343785e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_moco_c": 0.0
+          }
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 4.6629367034256575e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_moco_c": 0.0
+          }
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 2.8199664825478976e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_moco_c": 0.0
+          }
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 5.0182080713057076e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_moco_c": 0.0
+          }
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 2.0872192862952943e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_moco_c": 0.0
+          }
+        }
+      },
+      "n_rescued_95pct": 0,
+      "name": "virtual_moco_c",
+      "virtual_supplies": [
+        "moco_c"
+      ],
+      "wild_type": {
+        "growth": 0.5861932285515766,
+        "mass_balance_max_abs": 1.2073198343842684e-13,
+        "ratio_to_native_wt": 1.0001291271763872,
+        "rescued_95pct": true,
+        "status": "optimal",
+        "virtual_supply_fluxes": {
+          "virtual_supply_moco_c": 0.0002614421799340032
+        }
+      }
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 3.957945082788683e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmoco1gdp_c": 0.0
+          }
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 3.234509150318657e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmoco1gdp_c": 0.0
+          }
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 4.929390229335695e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmoco1gdp_c": 0.0
+          }
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 6.861178292183467e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmoco1gdp_c": 0.0
+          }
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 4.618527782440651e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmoco1gdp_c": 0.0
+          }
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "mass_balance_max_abs": 5.706546346573305e-14,
+          "ratio_to_native_wt": 0.0,
+          "rescued_95pct": false,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmoco1gdp_c": 0.0
+          }
+        }
+      },
+      "n_rescued_95pct": 0,
+      "name": "virtual_bmoco1gdp_c",
+      "virtual_supplies": [
+        "bmoco1gdp_c"
+      ],
+      "wild_type": {
+        "growth": 0.5862168837174953,
+        "mass_balance_max_abs": 8.776407877351955e-14,
+        "ratio_to_native_wt": 1.000169486258156,
+        "rescued_95pct": true,
+        "status": "optimal",
+        "virtual_supply_fluxes": {
+          "virtual_supply_bmoco1gdp_c": 0.00013072636506900146
+        }
+      }
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.5863026497003845,
+          "mass_balance_max_abs": 5.820059603527106e-14,
+          "ratio_to_native_wt": 1.000315815238824,
+          "rescued_95pct": true,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmocogdp_c": 0.00013074549088318575,
+            "virtual_supply_mocogdp_c": 0.00013074549088318575
+          }
+        },
+        "PP_1292": {
+          "growth": 0.5863026497003845,
+          "mass_balance_max_abs": 5.820059603527106e-14,
+          "ratio_to_native_wt": 1.000315815238824,
+          "rescued_95pct": true,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmocogdp_c": 0.00013074549088318575,
+            "virtual_supply_mocogdp_c": 0.00013074549088318575
+          }
+        },
+        "PP_1293": {
+          "growth": 0.5863026497003845,
+          "mass_balance_max_abs": 5.820059603527106e-14,
+          "ratio_to_native_wt": 1.000315815238824,
+          "rescued_95pct": true,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmocogdp_c": 0.00013074549088318575,
+            "virtual_supply_mocogdp_c": 0.00013074549088318575
+          }
+        },
+        "PP_1294": {
+          "growth": 0.5863026497003845,
+          "mass_balance_max_abs": 5.820059603527106e-14,
+          "ratio_to_native_wt": 1.000315815238824,
+          "rescued_95pct": true,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmocogdp_c": 0.00013074549088318575,
+            "virtual_supply_mocogdp_c": 0.00013074549088318575
+          }
+        },
+        "PP_2123": {
+          "growth": 0.5863026497003845,
+          "mass_balance_max_abs": 5.820059603527106e-14,
+          "ratio_to_native_wt": 1.000315815238824,
+          "rescued_95pct": true,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmocogdp_c": 0.00013074549088318575,
+            "virtual_supply_mocogdp_c": 0.00013074549088318575
+          }
+        },
+        "PP_3457": {
+          "growth": 0.5863026497003845,
+          "mass_balance_max_abs": 5.820059603527106e-14,
+          "ratio_to_native_wt": 1.000315815238824,
+          "rescued_95pct": true,
+          "status": "optimal",
+          "virtual_supply_fluxes": {
+            "virtual_supply_bmocogdp_c": 0.00013074549088318575,
+            "virtual_supply_mocogdp_c": 0.00013074549088318575
+          }
+        }
+      },
+      "n_rescued_95pct": 6,
+      "name": "virtual_both_terminal_GDP",
+      "virtual_supplies": [
+        "mocogdp_c",
+        "bmocogdp_c"
+      ],
+      "wild_type": {
+        "growth": 0.5863026497003836,
+        "mass_balance_max_abs": 9.500470614202949e-14,
+        "ratio_to_native_wt": 1.0003158152388225,
+        "rescued_95pct": true,
+        "status": "optimal",
+        "virtual_supply_fluxes": {
+          "virtual_supply_bmocogdp_c": 0.00013074549088318554,
+          "virtual_supply_mocogdp_c": 0.00013074549088318554
+        }
+      }
+    }
+  ]
+}
