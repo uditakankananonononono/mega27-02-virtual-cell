@@ -76,13 +76,16 @@ def story_gate(story,R):
                 'tool_source_snapshot_verification.json).',BODY),
               P('Dataset gate: 108 distinct BiGG model IDs were fetched, hashed and analysed; 19 PaxDb '
                 'files have per-accession scores, collapsing to at least 15 source studies after technical '
-                'variants. The user accepted model accessions, so 108 + 15 = 123/120. This is not 123 '
-                'independent wet-lab studies. The older 124 study-key claim counted 44 organism files under '
-                'one figshare accession and must not be reused. See gate_audit.json and the accession ledgers.',BODY)]
+                'variants. A model-inclusive inventory would give 108 + 15 = 123 against a 120 target, but '
+                'the originating owner approval for counting model accessions has not been recovered; '
+                'this is not a verified gate pass. Nor are these 123 independent wet-lab studies. The older '
+                '124 study-key claim counted 44 organism files under one figshare accession and must not '
+                'be reused. See gate_audit.json for its historical verdict and '
+                'notes/gate_count_provenance_review_20260927.md for the dated provenance correction.',BODY)]
     story += tbl([['Gate','Observed','Decision'],
                   ['Science/data tools','40 substantial distinct uses / 48 linked','Pass: thin rows excluded; sources rechecked'],
-                  ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Pass: 123/120 under owner-approved model rule'],
+                  ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Conditional: 123/120 model-inclusive; owner rule unverified'],
                   ['Independent wet-lab screens','Far fewer than 120','No claim of 120 experimental studies']],
-                 'Table I3. Audit outcome as of 25 September 2026; thin rows excluded.')
+                 'Table I3. Historical 25 September inventory with 27 September owner-rule provenance correction; thin rows excluded.')
 
     return story
