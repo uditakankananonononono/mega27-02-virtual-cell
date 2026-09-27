@@ -24,3 +24,7 @@ Verdict: owner-provided, WhatsApp 11:15:17 IST, wamid.HBgMOTE4MTM0MDk4NTcxFQIAEh
 | 20 | defensive conclusion | OPEN-EXEC | rewrite conclusion around positive contribution (biomass machinery + leakage audit); keep honest limits |
 
 Execution order (frozen): A) archive+gate mark (done this commit) -> B) name-scrub + rebuild (same commit, owner 11:14 directive) -> C) restructure plan + conclusion/headline edits (#4 #5 #7 #20) -> D) negatives consolidation + layer-contribution table (#8 #9 #11 #13 #16) -> E) 12-slide story + exec summary (#17) -> F) nested threshold re-selection prereg + run (#6) -> G) Rousset sensitivity (#15) -> H) request items 1-3 and remap.
+
+## Execution status (27 September 2026)
+
+C: committed 2e4f4f1 (spine); D: committed b85955d (consolidated feature table). E: 12-slide story and executive summary drafted as notes in the subsequent commit. These are presentation layers only; the G2 failure and all original negative results remain locked. F/G/H remain open. Total PDF pages do not establish the owner's 50+ substantive text-body-page rule: references start around page 28 of the current 69-page PDF.
