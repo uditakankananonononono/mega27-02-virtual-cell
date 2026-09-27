@@ -134,6 +134,44 @@ def story_calibration(story,R):
               P('7.16 Pair interactions reveal an objective-stoichiometry trap',H2),
               P(f"A retrospective gene-set reconciliation checked whether each of the {pinter['n_pairs']} scored non-MoCo pairs rescued exactly the union of the knockout calls rescued by its two component deletions. {pinter['n_exact_single_union']} pairs matched that simple union; {pinter['n_pair_only']} had new pair-only genes and {pinter['n_lost_single_union']} lost calls present in a single-term outcome. This was computed only after all pair and single outcomes were visible, and does not create another independent experiment. Among the exceptions, deleting both heme O and protoheme objective coefficients rescued three genes (PP_0189, PP_0744, PP_5074) where either singleton rescued none; deleting both adenosylcobalamin and FAD rescued PP_0602 in addition to the adenosylcobalamin-only set of 21. The original two-term MoCo pair, whose singletons rescue zero, has six pair-only calls. The exact sets, including 250 ordinary pairs, are retained in results/postresult_pair_interactions.json.",BODY),
               P("The opposite exception matters even more for interpretation: deleting the [2Fe-2S] cluster coefficient alongside biotinyl 5-AMP eliminates the eight rescue calls seen for biotinyl 5-AMP alone. A fresh model reload for each unmodified, singleton and pair variant reproduced every candidate growth status as optimal and all recorded gene sets. The double-edited wild-type optimum fell from 0.586118 to 0.390006, whereas the biotinyl 5-AMP-only optimum was 0.586229. Thus editing two terms is NOT guaranteed to behave as merely relaxing two independent biomass requirements; the modified stoichiometric objective can change the LP feasible-growth balance in either direction. These are in-model interaction patterns, not measured molecular epistasis. The fresh statuses, gene growth values and source hash are in results/postresult_pair_interactions_fresh_check.json. No new hard-call gate or biological viability claim follows.",BODY),
+              P('7.16a Which pair interactions break the single-term union rule?',H2),
+              P('A useful operational null for biomass editing is set union: if removing each ingredient '
+                'separately rescues a set of gene deletions, would removing both rescue exactly the union? '
+                'This is not a theorem of linear programming because changing a biomass coefficient '
+                'changes the objective stoichiometry as well as the attainable optimum. The 253 scored '
+                'non-MoCo two-term edits give 250 exact gene-set unions and three exceptions. The '
+                'exceptions are not random samples and were identified after the scores were seen; '
+                'they are finite computational counterexamples to a tempting shortcut, not '
+                'population estimates of how often biochemical interactions occur.',BODY),
+              ]
+    exceptions=[x for x in pinter['rows'] if x['pair_only_genes'] or x['single_union_only_genes']]
+    assert len(exceptions)==3 and pinter['n_exact_single_union']==250
+    story += tbl([['removed pair','single A','single B','union','pair','new-only','lost-union']]
+                 + [[" + ".join(x['pair']),str(x['single_a_count']),str(x['single_b_count']),str(x['union_count']),
+                     str(x['pair_count']),str(len(x['pair_only_genes'])),str(len(x['single_union_only_genes']))] for x in exceptions],
+                 'Table 22. All three post-result deviations from single-term gene-set union among 253 enumerated non-MoCo pairs; gene IDs are in text and results/postresult_pair_interactions.json.',
+                 widths=[1.55*72,.62*72,.62*72,.52*72,.52*72,.68*72,.7*72])
+    story += [P('The heme O plus protoheme edit is a pure pair-only case: neither singleton rescues '
+                'a baseline-zero knockout, while the pair rescues PP_0189, PP_0744 and PP_5074. '
+                'Adenosylcobalamin alone rescues 21 calls; adding FAD brings PP_0602 beyond that '
+                'set. The converse case is [2Fe-2S] plus biotinyl 5-AMP: the biotinyl '
+                '5-AMP singleton rescues eight gene calls, but the pair rescues zero. A fresh '
+                'reload of the original and edited model for these three pairs reproduced '
+                'all saved solver statuses and knockout gene sets. In the suppressive case '
+                'the double-edited wild-type optimum is about 0.390006/h versus 0.586229/h '
+                'for the biotinyl 5-AMP singleton. The change in optimum is a direct reason '
+                'not to interpret every coefficient deletion as an independent relaxation '
+                'of a fixed growth program.',BODY),
+              P('This result changes the design of a transferable sensitivity audit. A simple '
+                'rank of individually fragile terms would miss the heme/protoheme rescue '
+                'and the six-gene MoCo pair. Conversely, summing singleton rescue counts '
+                'would falsely predict eight rescues in the [2Fe-2S]/biotinyl 5-AMP pair. '
+                'Reporting the exact affected gene sets, the original and edited wild-type '
+                'optima, solver status, and source hash is necessary to tell a network '
+                'constraint from an objective-stoichiometry interaction. It does not show '
+                'molecular epistasis in cells: all edits and knockouts are in silico, '
+                'the three exceptions were selected after enumeration, and matched-media '
+                'phenotype data remain missing.',BODY),
               P('7.17 Scope and next validation',H2),
 
 
