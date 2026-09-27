@@ -1,0 +1,34 @@
+{
+  "status": "provisional-accession reconciliation over frozen audit; rows failing any check stay provisional",
+  "n_provisional_before": 88,
+  "n_resolved": 65,
+  "n_still_provisional": 23,
+  "resolved_by_arm": {
+    "208964": 10,
+    "224308": 5,
+    "83332": 14,
+    "bigg": 5,
+    "cross": 9,
+    "ecoli": 19,
+    "kegg": 2,
+    "tcdb": 1
+  },
+  "still_provisional_kinds": {
+    "GO annotations": 1,
+    "essentiality labels, B. subtilis": 1,
+    "essentiality labels, Mtb": 1,
+    "essentiality labels, Mtb (label replication)": 1,
+    "essentiality labels, P. aeruginosa": 1,
+    "essentiality labels, P. aeruginosa (label replication)": 4,
+    "essentiality list": 1,
+    "external essentiality benchmark": 1,
+    "gene-pathway map": 6,
+    "metabolic model": 1,
+    "ontology": 1,
+    "orthologous groups": 1,
+    "orthology / conservation": 1,
+    "structure confidence": 1,
+    "transcriptome compendium": 1
+  },
+  "limits": "PaxDb dataset IDs and BiGG model IDs verified from local hashed files with scored-use evidence; this does not make technical replicates independent studies and does not change the owner-approved 123 model-inclusive gate floor. Remaining provisional rows need per-provider evidence."
+}

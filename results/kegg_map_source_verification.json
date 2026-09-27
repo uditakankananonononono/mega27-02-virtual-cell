@@ -1,0 +1,71 @@
+{
+ "source_template": "https://rest.kegg.jp/link/pathway/<code>",
+ "checked": "2026-09-27",
+ "per_code": {
+  "son": {
+   "live_sha256": "80691619b98bb1ab5b4013a9429fae635a0b28acd7c5bf21340d0361c4518cc6",
+   "saved_sha256": "80691619b98bb1ab5b4013a9429fae635a0b28acd7c5bf21340d0361c4518cc6",
+   "live_rows": 3805,
+   "saved_rows": 3805,
+   "exact_bytes": true,
+   "same_rows_ignoring_order": true
+  },
+  "ppu": {
+   "live_sha256": "9b877eb279de8db45bce872da2df60e9e1b24a5a267d50f5334a40522de53f3f",
+   "saved_sha256": "9b877eb279de8db45bce872da2df60e9e1b24a5a267d50f5334a40522de53f3f",
+   "live_rows": 5278,
+   "saved_rows": 5278,
+   "exact_bytes": true,
+   "same_rows_ignoring_order": true
+  },
+  "ccs": {
+   "live_sha256": "f3872211804a807992c95e4b1ac8355153f72c296545bbf87d43acd2d59d3a37",
+   "saved_sha256": "f3872211804a807992c95e4b1ac8355153f72c296545bbf87d43acd2d59d3a37",
+   "live_rows": 3880,
+   "saved_rows": 3880,
+   "exact_bytes": true,
+   "same_rows_ignoring_order": true
+  },
+  "evi": {
+   "live_sha256": "eaaa772677dfa3b499b0bdd91cc01f53cc473c05fab0f18ca97dca69482a4f0f",
+   "saved_sha256": "eaaa772677dfa3b499b0bdd91cc01f53cc473c05fab0f18ca97dca69482a4f0f",
+   "live_rows": 3429,
+   "saved_rows": 3429,
+   "exact_bytes": true,
+   "same_rows_ignoring_order": true
+  },
+  "dsu": {
+   "live_sha256": "06c2be2f2d0838a3d3a71689f49ad131144b68fb165e4c296d05ad06767bb730",
+   "saved_sha256": "06c2be2f2d0838a3d3a71689f49ad131144b68fb165e4c296d05ad06767bb730",
+   "live_rows": 3585,
+   "saved_rows": 3585,
+   "exact_bytes": true,
+   "same_rows_ignoring_order": true
+  },
+  "pact": {
+   "live_sha256": "d5f96817e913d25f2d25ef9d664e0c89a45830eb6ffb29d643679754b00405eb",
+   "saved_sha256": "d5f96817e913d25f2d25ef9d664e0c89a45830eb6ffb29d643679754b00405eb",
+   "live_rows": 3350,
+   "saved_rows": 3350,
+   "exact_bytes": true,
+   "same_rows_ignoring_order": true
+  },
+  "sme": {
+   "live_sha256": "72efe7ebcd47da17fecef0cd1bc37dc847778d572fb12994b09fe6c7540c0157",
+   "saved_sha256": "1cab186b186a7459a7e288317a98ce8789173ce006b9cbb5091d40f0739a0868",
+   "live_rows": 5841,
+   "saved_rows": 5843,
+   "exact_bytes": false,
+   "same_rows_ignoring_order": false
+  },
+  "psb": {
+   "live_sha256": "c2b9c90a871157f92f786499a52ece7a3e13312bbbd04b694717608bbc1ef5dc",
+   "saved_sha256": "c2b9c90a871157f92f786499a52ece7a3e13312bbbd04b694717608bbc1ef5dc",
+   "live_rows": 5033,
+   "saved_rows": 5033,
+   "exact_bytes": true,
+   "same_rows_ignoring_order": true
+  }
+ },
+ "caveat": "Current public source identity check; historical acquisition time cannot be reconstructed."
+}
