@@ -1,0 +1,5042 @@
+{
+  "status": "post-result saved single/pair set reconciliation; no prospective interaction test",
+  "sources": [
+    "results/biomass_single_term_sensitivity.json",
+    "results/postresult_equal_coefficient_pair_null.json",
+    "results/moco_subset_interaction_ijn1463.json"
+  ],
+  "model_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "n_pairs": 253,
+  "n_pair_only": 2,
+  "n_lost_single_union": 1,
+  "n_exact_single_union": 250,
+  "mo_pair_saved": {
+    "removed": [
+      "bmocogdp_c",
+      "mocogdp_c"
+    ],
+    "single_union_count": 0,
+    "pair_count": 6,
+    "pair_only_genes": [
+      "PP_0735",
+      "PP_1292",
+      "PP_1293",
+      "PP_1294",
+      "PP_2123",
+      "PP_3457"
+    ]
+  },
+  "rows": [
+    {
+      "pair": [
+        "10fthf_c",
+        "2fe2s_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "4fe4s_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "5mthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "adocbl_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 21,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "amet_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "btamp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "chor_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "fad_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "10fthf_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "4fe4s_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "5mthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "adocbl_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 21,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "amet_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "btamp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "chor_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "fad_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "2fe2s_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "5mthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "adocbl_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 21,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "amet_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "btamp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "chor_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "fad_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "4fe4s_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "adocbl_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 21,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "amet_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "btamp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "chor_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "fad_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "5mthf_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "amet_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "btamp_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 8,
+      "union_count": 29,
+      "pair_count": 29,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "chor_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "fad_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 22,
+      "pair_only_genes": [
+        "PP_0602"
+      ],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 1,
+      "union_count": 22,
+      "pair_count": 22,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862",
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 2,
+      "union_count": 23,
+      "pair_count": 23,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4800",
+        "PP_4801",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "pheme_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 4,
+      "union_count": 25,
+      "pair_count": 25,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 5,
+      "union_count": 26,
+      "pair_count": 26,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_2117",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 14,
+      "union_count": 35,
+      "pair_count": 35,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 6,
+      "union_count": 27,
+      "pair_count": 27,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_0687",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_1765",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "sheme_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 1,
+      "union_count": 22,
+      "pair_count": 22,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_3999",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "thf_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 0,
+      "union_count": 21,
+      "pair_count": 21,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 21,
+      "single_b_count": 8,
+      "union_count": 29,
+      "pair_count": 29,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0321",
+        "PP_0519",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3357",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4782",
+        "PP_4783",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "btamp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "chor_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "fad_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "amet_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "amet_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "chor_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "fad_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 1,
+      "union_count": 9,
+      "pair_count": 9,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984",
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 2,
+      "union_count": 10,
+      "pair_count": 10,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4800",
+        "PP_4801",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "pheme_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 4,
+      "union_count": 12,
+      "pair_count": 12,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 5,
+      "union_count": 13,
+      "pair_count": 13,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0402",
+        "PP_0437",
+        "PP_1129",
+        "PP_1436",
+        "PP_1602",
+        "PP_2117",
+        "PP_4964",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 14,
+      "union_count": 22,
+      "pair_count": 22,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 6,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_0687",
+        "PP_1602",
+        "PP_1765",
+        "PP_4984",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "sheme_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 1,
+      "union_count": 9,
+      "pair_count": 9,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_3999",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "thf_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 0,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ]
+    },
+    {
+      "pair": [
+        "btamp_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 8,
+      "single_b_count": 8,
+      "union_count": 16,
+      "pair_count": 16,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_0519",
+        "PP_1602",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_4984",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "fad_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "chor_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "chor_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "chor_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "chor_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "chor_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "chor_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "chor_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "chor_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "gthrd_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "fad_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "fad_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "fad_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "fad_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "fad_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "fad_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "fad_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "hemeO_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 2,
+      "union_count": 3,
+      "pair_count": 3,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801",
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "pheme_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 4,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 5,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964",
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 14,
+      "union_count": 15,
+      "pair_count": 15,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243",
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 6,
+      "union_count": 7,
+      "pair_count": 7,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_4993",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "sheme_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 1,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999",
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "thf_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4993"
+      ]
+    },
+    {
+      "pair": [
+        "gthrd_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 8,
+      "union_count": 9,
+      "pair_count": 9,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_4993",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "lipopb_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 2,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 3,
+      "pair_only_genes": [
+        "PP_0189",
+        "PP_0744",
+        "PP_5074"
+      ],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "mlthf_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 0,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "pheme_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 0,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 4,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 5,
+      "union_count": 7,
+      "pair_count": 7,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4800",
+        "PP_4801",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 14,
+      "union_count": 16,
+      "pair_count": 16,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243",
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 6,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_4800",
+        "PP_4801",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 0,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "sheme_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 1,
+      "union_count": 3,
+      "pair_count": 3,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999",
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "thf_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 0,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 0,
+      "union_count": 2,
+      "pair_count": 2,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_4800",
+        "PP_4801"
+      ]
+    },
+    {
+      "pair": [
+        "lipopb_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 2,
+      "single_b_count": 8,
+      "union_count": 10,
+      "pair_count": 10,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4800",
+        "PP_4801",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "pheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "mlthf_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "pqqh2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 4,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 5,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 14,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 6,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "pheme_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "pydx5p_c"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 5,
+      "union_count": 9,
+      "pair_count": 9,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 14,
+      "union_count": 18,
+      "pair_count": 18,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 6,
+      "union_count": 10,
+      "pair_count": 10,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 0,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "sheme_c"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 1,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "thf_c"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 0,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 0,
+      "union_count": 4,
+      "pair_count": 4,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381"
+      ]
+    },
+    {
+      "pair": [
+        "pqqh2_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 4,
+      "single_b_count": 8,
+      "union_count": 12,
+      "pair_count": 12,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0376",
+        "PP_0378",
+        "PP_0380",
+        "PP_0381",
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "pydx5p_c",
+        "pyovd_kt_e"
+      ],
+      "single_a_count": 5,
+      "single_b_count": 14,
+      "union_count": 19,
+      "pair_count": 19,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "pydx5p_c",
+        "q8h2_c"
+      ],
+      "single_a_count": 5,
+      "single_b_count": 6,
+      "union_count": 11,
+      "pair_count": 11,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_0687",
+        "PP_1129",
+        "PP_1436",
+        "PP_1765",
+        "PP_2117",
+        "PP_4964",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "pydx5p_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 5,
+      "single_b_count": 0,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "pydx5p_c",
+        "sheme_c"
+      ],
+      "single_a_count": 5,
+      "single_b_count": 1,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_3999",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "pydx5p_c",
+        "thf_c"
+      ],
+      "single_a_count": 5,
+      "single_b_count": 0,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "pydx5p_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 5,
+      "single_b_count": 0,
+      "union_count": 5,
+      "pair_count": 5,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_4964"
+      ]
+    },
+    {
+      "pair": [
+        "pydx5p_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 5,
+      "single_b_count": 8,
+      "union_count": 13,
+      "pair_count": 13,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0402",
+        "PP_0519",
+        "PP_1129",
+        "PP_1436",
+        "PP_2117",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_4964",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "pyovd_kt_e",
+        "q8h2_c"
+      ],
+      "single_a_count": 14,
+      "single_b_count": 6,
+      "union_count": 20,
+      "pair_count": 20,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "pyovd_kt_e",
+        "ribflv_c"
+      ],
+      "single_a_count": 14,
+      "single_b_count": 0,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "pyovd_kt_e",
+        "sheme_c"
+      ],
+      "single_a_count": 14,
+      "single_b_count": 1,
+      "union_count": 15,
+      "pair_count": 15,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_3999",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "pyovd_kt_e",
+        "thf_c"
+      ],
+      "single_a_count": 14,
+      "single_b_count": 0,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "pyovd_kt_e",
+        "thmnp_c"
+      ],
+      "single_a_count": 14,
+      "single_b_count": 0,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243"
+      ]
+    },
+    {
+      "pair": [
+        "pyovd_kt_e",
+        "thmpp_c"
+      ],
+      "single_a_count": 14,
+      "single_b_count": 8,
+      "union_count": 22,
+      "pair_count": 22,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_3796",
+        "PP_4209",
+        "PP_4210",
+        "PP_4211",
+        "PP_4212",
+        "PP_4213",
+        "PP_4214",
+        "PP_4215",
+        "PP_4216",
+        "PP_4219",
+        "PP_4220",
+        "PP_4221",
+        "PP_4222",
+        "PP_4243",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "q8h2_c",
+        "ribflv_c"
+      ],
+      "single_a_count": 6,
+      "single_b_count": 0,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "q8h2_c",
+        "sheme_c"
+      ],
+      "single_a_count": 6,
+      "single_b_count": 1,
+      "union_count": 7,
+      "pair_count": 7,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_3999",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "q8h2_c",
+        "thf_c"
+      ],
+      "single_a_count": 6,
+      "single_b_count": 0,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "q8h2_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 6,
+      "single_b_count": 0,
+      "union_count": 6,
+      "pair_count": 6,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0687",
+        "PP_1765",
+        "PP_5011",
+        "PP_5013",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "q8h2_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 6,
+      "single_b_count": 8,
+      "union_count": 14,
+      "pair_count": 14,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_0687",
+        "PP_1765",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5011",
+        "PP_5013",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105",
+        "PP_5199",
+        "PP_5318"
+      ]
+    },
+    {
+      "pair": [
+        "ribflv_c",
+        "sheme_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 1,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "ribflv_c",
+        "thf_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "ribflv_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "ribflv_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "sheme_c",
+        "thf_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "sheme_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 0,
+      "union_count": 1,
+      "pair_count": 1,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_3999"
+      ]
+    },
+    {
+      "pair": [
+        "sheme_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 1,
+      "single_b_count": 8,
+      "union_count": 9,
+      "pair_count": 9,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_3999",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "thf_c",
+        "thmnp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 0,
+      "union_count": 0,
+      "pair_count": 0,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": []
+    },
+    {
+      "pair": [
+        "thf_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    },
+    {
+      "pair": [
+        "thmnp_c",
+        "thmpp_c"
+      ],
+      "single_a_count": 0,
+      "single_b_count": 8,
+      "union_count": 8,
+      "pair_count": 8,
+      "pair_only_genes": [],
+      "single_union_only_genes": [],
+      "shared_genes": [
+        "PP_0519",
+        "PP_3357",
+        "PP_4782",
+        "PP_4783",
+        "PP_4922",
+        "PP_5045",
+        "PP_5104",
+        "PP_5105"
+      ]
+    }
+  ],
+  "limits": "All outcomes and top patterns seen before protocol; objective-stoichiometry intervention, not measured biochemical epistasis or biological rescue; inspect unexpected loss with fresh LPs."
+}

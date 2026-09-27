@@ -1,0 +1,693 @@
+{
+  "status": "fresh independent model reload of three outcome-known pair interactions; not new gate",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "rescue_predicate": "KO growth >= .95 * original WT growth .5861175448479794",
+  "pairs": [
+    {
+      "pair": [
+        "2fe2s_c",
+        "btamp_c"
+      ],
+      "candidate_genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ],
+      "variants": [
+        {
+          "removed": [],
+          "wt_growth": 0.5861175448479806,
+          "gene_knockouts": {
+            "PP_0362": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0363": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0364": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0365": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0366": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0437": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1602": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4984": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        },
+        {
+          "removed": [
+            "2fe2s_c"
+          ],
+          "wt_growth": 0.5861308472082454,
+          "gene_knockouts": {
+            "PP_0362": {
+              "status": "optimal",
+              "growth": 4.0566012908018305e-16
+            },
+            "PP_0363": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0364": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0365": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0366": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0437": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1602": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4984": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        },
+        {
+          "removed": [
+            "btamp_c"
+          ],
+          "wt_growth": 0.5862294513009358,
+          "gene_knockouts": {
+            "PP_0362": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            },
+            "PP_0363": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            },
+            "PP_0364": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            },
+            "PP_0365": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            },
+            "PP_0366": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            },
+            "PP_0437": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            },
+            "PP_1602": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            },
+            "PP_4984": {
+              "status": "optimal",
+              "growth": 0.586229451300934
+            }
+          }
+        },
+        {
+          "removed": [
+            "2fe2s_c",
+            "btamp_c"
+          ],
+          "wt_growth": 0.39000612055380035,
+          "gene_knockouts": {
+            "PP_0362": {
+              "status": "optimal",
+              "growth": -2.671685546735999e-16
+            },
+            "PP_0363": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0364": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0365": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0366": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0437": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1602": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4984": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pair": [
+        "hemeO_c",
+        "pheme_c"
+      ],
+      "candidate_genes": [
+        "PP_0189",
+        "PP_0744",
+        "PP_5074"
+      ],
+      "variants": [
+        {
+          "removed": [],
+          "wt_growth": 0.5861175448479806,
+          "gene_knockouts": {
+            "PP_0189": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0744": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_5074": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        },
+        {
+          "removed": [
+            "hemeO_c"
+          ],
+          "wt_growth": 0.5862642737145831,
+          "gene_knockouts": {
+            "PP_0189": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0744": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_5074": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        },
+        {
+          "removed": [
+            "pheme_c"
+          ],
+          "wt_growth": 0.5862145920397803,
+          "gene_knockouts": {
+            "PP_0189": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0744": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_5074": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        },
+        {
+          "removed": [
+            "hemeO_c",
+            "pheme_c"
+          ],
+          "wt_growth": 0.5863613695061434,
+          "gene_knockouts": {
+            "PP_0189": {
+              "status": "optimal",
+              "growth": 0.5863613695061416
+            },
+            "PP_0744": {
+              "status": "optimal",
+              "growth": 0.5863613695061416
+            },
+            "PP_5074": {
+              "status": "optimal",
+              "growth": 0.5863613695061416
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pair": [
+        "adocbl_c",
+        "fad_c"
+      ],
+      "candidate_genes": [
+        "PP_0321",
+        "PP_0602",
+        "PP_1672",
+        "PP_1673",
+        "PP_1674",
+        "PP_1675",
+        "PP_1676",
+        "PP_1677",
+        "PP_1678",
+        "PP_1679",
+        "PP_1680",
+        "PP_1681",
+        "PP_3410",
+        "PP_3507",
+        "PP_3763",
+        "PP_4826",
+        "PP_4827",
+        "PP_4828",
+        "PP_4829",
+        "PP_4830",
+        "PP_4832",
+        "PP_4862"
+      ],
+      "variants": [
+        {
+          "removed": [],
+          "wt_growth": 0.5861175448479806,
+          "gene_knockouts": {
+            "PP_0321": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0602": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1672": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1673": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1674": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1675": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1676": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1677": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1678": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1679": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1680": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1681": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_3410": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_3507": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_3763": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4826": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4827": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4828": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4829": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4830": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4832": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4862": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        },
+        {
+          "removed": [
+            "adocbl_c"
+          ],
+          "wt_growth": 0.5863393297116222,
+          "gene_knockouts": {
+            "PP_0321": {
+              "status": "optimal",
+              "growth": 0.5837764173759187
+            },
+            "PP_0602": {
+              "status": "optimal",
+              "growth": -3.042450968101373e-16
+            },
+            "PP_1672": {
+              "status": "optimal",
+              "growth": 0.5863393297116208
+            },
+            "PP_1673": {
+              "status": "optimal",
+              "growth": 0.5863393297116208
+            },
+            "PP_1674": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_1675": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_1676": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_1677": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_1678": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_1679": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_1680": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_1681": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_3410": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_3507": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_3763": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_4826": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_4827": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_4828": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_4829": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_4830": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_4832": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            },
+            "PP_4862": {
+              "status": "optimal",
+              "growth": 0.5863393297116218
+            }
+          }
+        },
+        {
+          "removed": [
+            "fad_c"
+          ],
+          "wt_growth": 0.5861882020747584,
+          "gene_knockouts": {
+            "PP_0321": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_0602": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1672": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1673": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1674": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1675": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1676": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1677": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1678": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1679": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1680": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_1681": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_3410": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_3507": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_3763": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4826": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4827": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4828": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4829": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4830": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4832": {
+              "status": "optimal",
+              "growth": 0.0
+            },
+            "PP_4862": {
+              "status": "optimal",
+              "growth": 0.0
+            }
+          }
+        },
+        {
+          "removed": [
+            "adocbl_c",
+            "fad_c"
+          ],
+          "wt_growth": 0.5864100404246473,
+          "gene_knockouts": {
+            "PP_0321": {
+              "status": "optimal",
+              "growth": 0.5838472445327765
+            },
+            "PP_0602": {
+              "status": "optimal",
+              "growth": 0.5864100404246467
+            },
+            "PP_1672": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1673": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1674": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1675": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1676": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1677": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1678": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1679": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1680": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_1681": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_3410": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_3507": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_3763": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_4826": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_4827": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_4828": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_4829": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_4830": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_4832": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            },
+            "PP_4862": {
+              "status": "optimal",
+              "growth": 0.5864100404246457
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "limits": "Objective coefficients are changed, which may change feasible growth non-monotonically; no biochemical epistasis or biological viability inferred."
+}
