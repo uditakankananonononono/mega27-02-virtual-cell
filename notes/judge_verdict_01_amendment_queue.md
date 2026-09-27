@@ -30,3 +30,5 @@ Execution order (frozen): A) archive+gate mark (done this commit) -> B) name-scr
 C: committed 2e4f4f1 (spine); D: committed b85955d (consolidated feature table). E: 12-slide story and executive summary drafted as notes in the subsequent commit. These are presentation layers only; the G2 failure and all original negative results remain locked. F/G/H remain open. Total PDF pages do not establish the owner's 50+ substantive text-body-page rule: references start around page 28 of the current 69-page PDF.
 
 Owner waiver provenance: direct WhatsApp 27 Sep 2026 11:46:16 IST, wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMDczNzU1OEJBNDcxOENGNTUwNQA= ("... NO NEED 1-3 ..."). This waives the missing pasted lines, not any science/length/benchmark requirements.
+
+Owner 12:02:56 IST directive (WhatsApp wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMEFGRDY4MzY4OTkxNzFEQURGRAA=): "IGNORE ABOUT ISEF DELIVERABLES, IMPROVE PAGE COUNT". E (slide story) was produced as a historical draft, but is now OWNER-CANCELLED as a deliverable. Do not extend/render slides; grow substantive paper text. Executive summary may remain repository context, not a completion claim.
