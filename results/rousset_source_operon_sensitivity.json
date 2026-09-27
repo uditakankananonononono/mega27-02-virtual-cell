@@ -1,0 +1,36 @@
+{
+  "status": "post-result exploratory source-operon dependence sensitivity, no new gate",
+  "protocol": "notes/prereg_rousset_operon_sensitivity.md",
+  "source_sha256": {
+    "data/external/rousset2018/pgen.1007749.s012.csv": "89c170375718d983b5ba623507ce0cd727a39ce490ea4e8aa9f259195c5c6b15",
+    "data/external/uniprot_ecoli.tsv": "01d4537f12da50a434b44fd7c07a2306dba56bd37c7b35fd55b9e526681446c9",
+    "results/ensemble_v2_oof.csv": "48c00fad4fce24019c0c8ca965cfef29ef756e65e10fbecb0e993c9925843574",
+    "results/aligned_predictions_all_models.csv": "a218ff7442e4667a71766b69b627ec75e4e449037f73150472e7f6819a95ce9b"
+  },
+  "n_genes": 1214,
+  "n_positives": 70,
+  "n_missing_operon": 0,
+  "n_source_operon_groups": 714,
+  "n_multigene_groups": 248,
+  "n_groups_with_positive": 51,
+  "gene_level_difference": 0.18136238761238765,
+  "group_bootstrap": {
+    "n_draws_valid": 3000,
+    "diff_ci95": [
+      0.0974744800743508,
+      0.2804040474187765
+    ],
+    "frac_diff_le_zero": 0.0,
+    "median_diff": 0.18335354015730776
+  },
+  "one_gene_per_operon": {
+    "n_draws_valid": 3000,
+    "diff_ci95": [
+      0.20327086701646271,
+      0.2755721608256659
+    ],
+    "frac_diff_le_zero": 0.0,
+    "median_diff": 0.2377130718190147
+  },
+  "limits": "Operon strings are source annotations, not verified expressed/polar units in this assay; same Gerdes-trained scores and Rousset accession, no independent training or wet-lab validation."
+}
