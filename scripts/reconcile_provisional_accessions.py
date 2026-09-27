@@ -84,6 +84,6 @@ summary={'status':'provisional-accession reconciliation over frozen audit; rows 
  'n_provisional_before':88,'n_resolved':len(resolved),'n_still_provisional':len(still),
  'resolved_by_arm':{a:sum(1 for x in resolved if x['arm']==a) for a in sorted({x['arm'] for x in resolved})},
  'still_provisional_kinds':{k:sum(1 for x in still if x['kind']==k) for k in sorted({x['kind'] for x in still})},
- 'limits':'PaxDb dataset IDs and BiGG model IDs verified from local hashed files with scored-use evidence; this does not make technical replicates independent studies and does not change the owner-approved model-inclusive counting unit or imply 123 independent wet-lab studies. See notes/gate_count_provenance_review_20260927.md. Remaining provisional rows need per-provider evidence.'}
+ 'limits':'PaxDb dataset IDs and BiGG model IDs verified from local hashed files with scored-use evidence; this does not make technical replicates independent studies and does not decide whether this inventory passes a separate science or independence gate. See notes/gate_count_provenance_review_20260927.md. Remaining provisional rows need per-provider evidence.'}
 (res/'provisional_accession_reconciliation.json').write_text(json.dumps(summary,indent=2)+'\n')
 print(json.dumps(summary,indent=2))

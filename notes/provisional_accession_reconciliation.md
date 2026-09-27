@@ -18,4 +18,4 @@ label replications), Griffin 2011 Table 2.
   result; resolving them would require fetching sources the analyses never consumed.
 
 Resolution = provider identity + hashed local copy + cited in-repo use. It does not upgrade technical
-replicates to independent studies and does not change the owner-approved model-inclusive counting rule or imply 123 independent wet-lab studies; see notes/gate_count_provenance_review_20260927.md.
+replicates to independent studies and does not decide whether the verified local count passes any other science or independence gate; see notes/gate_count_provenance_review_20260927.md.
