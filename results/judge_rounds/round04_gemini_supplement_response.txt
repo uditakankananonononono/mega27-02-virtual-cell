@@ -1,0 +1,52 @@
+Judge's Critique & Proposed Falsification Test
+
+The manuscript correctly acknowledges that model-family transfer across different species is not equivalent to wet-lab validation, and that post-hoc baseline comparisons (e.g., degree-based or coefficient-only rankings) weaken claims of five-feature dominance. Additionally, the presence of non-monotonic pair interactions and non-unique rescue counts indicates that the observed phenotype shifts under objective relaxation may be artifactual properties of the stoichiometric matrix network topology rather than specific biological mechanisms.
+
+To narrow the mechanistic interpretation of the MoCo coefficient bundle rescue without introducing new wet-lab datasets or altering architecture, you need to test whether the MoCo pair rescue (6 genes) is driven by specific cofactor pathway topology or merely by generic mass-balance stoichiometry release (e.g., relieving tight flux constraints on high-turnover metabolic bottlenecks).
+
+Proposed Test: Stoichiometric Equivalent Flux-Distribution Controls
+1. Hypothesis & Mechanism
+
+Hypothesis: The MoCo pair rescue (bmocogdp_c + mocogdp_c) acts via a specific functional pathway link to those 6 target genes rather than acting as a non-specific flux sink/source relaxation.
+
+Falsifiable Metric: If randomly selected, non-cofactor biomass terms with equivalent molecular weight or flux-carrying capacity in the S-matrix rescue the exact same structural subnetwork topology, the MoCo-specific mechanistic narrative is falsified.
+
+2. Experimental Procedure
+
+Target MoCo Pair: Take the saved bmocogdp_c + mocogdp_c perturbation matrix and identify the 6 exact rescued gene IDs.
+
+In-Silico Perturbation Controls (Uniform Mass/Flux-Matched Random Sampling):
+
+Sample 1,000 non-MoCo biomass coefficient pairs from the already hashed BiGG reconstructions.
+
+Bin the candidate pairs by their steady-state flux-carrying capacity (WT v
+min
+	​
+
+,v
+max
+	​
+
+ ranges under default FBA bounds) to match the MoCo pair's flux impact within ±5%.
+
+Negative Control (Structural Null Model):
+
+Construct a randomized S-matrix control: Permute the non-zero biomass column entries of iJN1463 while preserving node degree and total biomass molecular weight (stoichiometric shuffling).
+
+Run the exact same objective-relaxation script on this shuffled-biomass model.
+
+Source & Provenance Check:
+
+Audit the BiGG reaction identifiers and lineage hashes for bmocogdp_c across the 63/68 MoCo-positive census models. Verify whether the rescued genes share direct reaction-adjacency (1-hop distance in the hypergraph) to MoCo-dependent enzymes vs. being distributed globally across unrelated pathways.
+
+Analysis & Interpretation Framework
+
+If the test is NEGATIVE (i.e., mass-matched random pairs or degree-preserved shuffled biomass models achieve equivalent rescue patterns for those 6 genes or similar topological subnetworks):
+
+What it CAN show: It demonstrates that the rescue effect is an artifact of general stoichiometric constraint relaxation (e.g., unblocking shared precursor pools or internal loop bottlenecks in FBA) rather than a pathway-specific biological mechanism tied to molybdenum cofactor synthesis.
+
+What it CANNOT show: It cannot prove that molybdenum cofactor biosynthesis is irrelevant in vivo; it only proves that the in-silico FBA rescue signal carries no specific mechanistic information about MoCo biology beyond generic matrix algebra dynamics.
+
+Independent Validation Disclaimer:
+
+Because independent biological/wet-lab essentiality validation is unavailable for these specific conditional knockout contexts, these in-silico controls can only evaluate internal model self-consistency and topological specificity. They cannot establish true positive biological predictive power.
