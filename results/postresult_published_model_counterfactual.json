@@ -1,0 +1,358 @@
+{
+  "bigg_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "models": {
+    "BiGG_iJN1463": {
+      "baseline": {
+        "growth": 0.5861175448479794,
+        "status": "optimal"
+      },
+      "model_id": "iJN1463",
+      "objective": "BIOMASS_KT2440_WT3",
+      "panels": {
+        "MoCo": {
+          "edited_genes": {
+            "PP_0735": {
+              "growth": 0.5863026497003856,
+              "status": "optimal"
+            },
+            "PP_1292": {
+              "growth": 0.5863026497003856,
+              "status": "optimal"
+            },
+            "PP_1293": {
+              "growth": 0.5863026497003856,
+              "status": "optimal"
+            },
+            "PP_1294": {
+              "growth": 0.5863026497003856,
+              "status": "optimal"
+            },
+            "PP_2123": {
+              "growth": 0.5863026497003856,
+              "status": "optimal"
+            },
+            "PP_3457": {
+              "growth": 0.5863026497003856,
+              "status": "optimal"
+            }
+          },
+          "edited_wt": {
+            "growth": 0.5863026497003841,
+            "status": "optimal"
+          },
+          "removed_coefficients": {
+            "bmocogdp_c": -0.000223,
+            "mocogdp_c": -0.000223
+          },
+          "rescued_over_95pct_original_wt": [
+            "PP_0735",
+            "PP_1292",
+            "PP_1293",
+            "PP_1294",
+            "PP_2123",
+            "PP_3457"
+          ],
+          "unedited_genes": {
+            "PP_0735": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1292": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1293": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1294": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_2123": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_3457": {
+              "growth": 0.0,
+              "status": "optimal"
+            }
+          }
+        },
+        "suppressive_pair": {
+          "edited_genes": {
+            "PP_0362": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0363": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0364": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0365": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0366": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0437": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1602": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_4984": {
+              "growth": 0.0,
+              "status": "optimal"
+            }
+          },
+          "edited_wt": {
+            "growth": 0.3900061205538018,
+            "status": "optimal"
+          },
+          "removed_coefficients": {
+            "2fe2s_c": -0.000223,
+            "btamp_c": -0.000223
+          },
+          "rescued_over_95pct_original_wt": [],
+          "unedited_genes": {
+            "PP_0362": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0363": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0364": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0365": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0366": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0437": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1602": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_4984": {
+              "growth": 0.0,
+              "status": "optimal"
+            }
+          }
+        }
+      }
+    },
+    "published_iJN1462": {
+      "baseline": {
+        "growth": 0.6156314897479104,
+        "status": "optimal"
+      },
+      "model_id": "iJN1462",
+      "objective": "BiomassKT2440_WT3",
+      "panels": {
+        "MoCo": {
+          "edited_genes": {
+            "PP_0735": {
+              "growth": 0.6158259155538721,
+              "status": "optimal"
+            },
+            "PP_1292": {
+              "growth": 0.6158259155538721,
+              "status": "optimal"
+            },
+            "PP_1293": {
+              "growth": 0.6158259155538721,
+              "status": "optimal"
+            },
+            "PP_1294": {
+              "growth": 0.6158259155538721,
+              "status": "optimal"
+            },
+            "PP_2123": {
+              "growth": 0.6158259155538721,
+              "status": "optimal"
+            },
+            "PP_3457": {
+              "growth": 0.6158259155538721,
+              "status": "optimal"
+            }
+          },
+          "edited_wt": {
+            "growth": 0.615825915553871,
+            "status": "optimal"
+          },
+          "removed_coefficients": {
+            "bmocogdp_c": -0.000223,
+            "mocogdp_c": -0.000223
+          },
+          "rescued_over_95pct_original_wt": [
+            "PP_0735",
+            "PP_1292",
+            "PP_1293",
+            "PP_1294",
+            "PP_2123",
+            "PP_3457"
+          ],
+          "unedited_genes": {
+            "PP_0735": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1292": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1293": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1294": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_2123": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_3457": {
+              "growth": 0.0,
+              "status": "optimal"
+            }
+          }
+        },
+        "suppressive_pair": {
+          "edited_genes": {
+            "PP_0362": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0363": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0364": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0365": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0366": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0437": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1602": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_4984": {
+              "growth": 0.0,
+              "status": "optimal"
+            }
+          },
+          "edited_wt": {
+            "growth": 0.4096448760454925,
+            "status": "optimal"
+          },
+          "removed_coefficients": {
+            "2fe2s_c": -0.000223,
+            "btamp_c": -0.000223
+          },
+          "rescued_over_95pct_original_wt": [],
+          "unedited_genes": {
+            "PP_0362": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0363": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0364": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0365": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0366": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_0437": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_1602": {
+              "growth": 0.0,
+              "status": "optimal"
+            },
+            "PP_4984": {
+              "growth": 0.0,
+              "status": "optimal"
+            }
+          }
+        }
+      }
+    }
+  },
+  "original_published_sha256": "0c8113ee6412c21df1afbd0682d1e89e73a515b558a2cab29ee8213bb5afb5f0",
+  "panels": {
+    "MoCo": {
+      "genes": [
+        "PP_0735",
+        "PP_1292",
+        "PP_1293",
+        "PP_1294",
+        "PP_2123",
+        "PP_3457"
+      ],
+      "remove": [
+        "bmocogdp_c",
+        "mocogdp_c"
+      ]
+    },
+    "suppressive_pair": {
+      "genes": [
+        "PP_0362",
+        "PP_0363",
+        "PP_0364",
+        "PP_0365",
+        "PP_0366",
+        "PP_0437",
+        "PP_1602",
+        "PP_4984"
+      ],
+      "remove": [
+        "2fe2s_c",
+        "btamp_c"
+      ]
+    }
+  },
+  "protocol": "notes/postresult_published_model_counterfactual_protocol.md",
+  "status": "post-result reconstruction version transfer; no independent phenotype"
+}
