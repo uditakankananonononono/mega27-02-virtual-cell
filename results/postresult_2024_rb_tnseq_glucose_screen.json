@@ -1,0 +1,1394 @@
+{
+  "limits": "2020 assay independence from 2019 reconstruction curation/validation unverified; 2022 set101 has internal date conflict; 2017 set5 predates reconstruction; no growth survival endpoint; library polarity and gene coverage remain considerations. -2.7 was outcome-tuned in older published S7 and must not be ported as a validated threshold.",
+  "missing_panel_genes": [
+    "PP_0437",
+    "PP_1602",
+    "PP_3457"
+  ],
+  "panels": {
+    "moco": {
+      "PP_0735": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -0.575,
+            "t_like_values": [
+              0.179,
+              0.862,
+              0.589
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.228,
+            "t_like_values": [
+              0.29,
+              0.048,
+              0.386
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.1285,
+            "t_like_values": [
+              0.385,
+              -0.748
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": 0.3365,
+            "t_like_values": [
+              0.404,
+              0.538
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": 0.045500000000000006,
+            "t_like_values": [
+              -0.093,
+              0.206
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -2.691,
+            "t_like_values": [
+              -2.144
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -0.172,
+            "set100IT009": -0.575,
+            "set100IT010": -0.582,
+            "set101IT007": -0.228,
+            "set101IT008": 0.042,
+            "set101IT009": -0.295,
+            "set1IT078": 0.376,
+            "set1IT079": 0.297,
+            "set1IT080": 0.182,
+            "set1IT081": -0.439,
+            "set5IT075": -0.044,
+            "set5IT076": 0.135,
+            "set6IT057": -2.691
+          },
+          "t_like": {
+            "set100IT008": 0.179,
+            "set100IT009": 0.862,
+            "set100IT010": 0.589,
+            "set101IT007": 0.29,
+            "set101IT008": 0.048,
+            "set101IT009": 0.386,
+            "set1IT078": 0.404,
+            "set1IT079": 0.538,
+            "set1IT080": 0.385,
+            "set1IT081": -0.748,
+            "set5IT075": -0.093,
+            "set5IT076": 0.206,
+            "set6IT057": -2.144
+          }
+        }
+      },
+      "PP_1292": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": 0.088,
+            "t_like_values": [
+              1.718,
+              0.629,
+              0.613
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.222,
+            "t_like_values": [
+              1.655,
+              0.661,
+              1.254
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.1215,
+            "t_like_values": [
+              -0.613,
+              -0.685
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": -0.175,
+            "t_like_values": [
+              -0.69,
+              -1.099
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.3295,
+            "t_like_values": [
+              -2.38,
+              -1.105
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": 0.407,
+            "t_like_values": [
+              2.214
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": 0.318,
+            "set100IT009": -0.109,
+            "set100IT010": 0.088,
+            "set101IT007": -0.291,
+            "set101IT008": 0.123,
+            "set101IT009": -0.222,
+            "set1IT078": -0.134,
+            "set1IT079": -0.216,
+            "set1IT080": -0.112,
+            "set1IT081": -0.131,
+            "set5IT075": -0.435,
+            "set5IT076": -0.224,
+            "set6IT057": 0.407
+          },
+          "t_like": {
+            "set100IT008": 1.718,
+            "set100IT009": 0.629,
+            "set100IT010": 0.613,
+            "set101IT007": 1.655,
+            "set101IT008": 0.661,
+            "set101IT009": 1.254,
+            "set1IT078": -0.69,
+            "set1IT079": -1.099,
+            "set1IT080": -0.613,
+            "set1IT081": -0.685,
+            "set5IT075": -2.38,
+            "set5IT076": -1.105,
+            "set6IT057": 2.214
+          }
+        }
+      },
+      "PP_1293": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": 0.098,
+            "t_like_values": [
+              0.295,
+              0.465,
+              0.062
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.378,
+            "t_like_values": [
+              0.103,
+              1.019,
+              0.745
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.6005,
+            "t_like_values": [
+              -1.294,
+              -1.194
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": -0.193,
+            "t_like_values": [
+              -0.172,
+              -0.686
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.3635,
+            "t_like_values": [
+              -0.855,
+              -0.64
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": 0.157,
+            "t_like_values": [
+              0.403
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": 0.098,
+            "set100IT009": 0.223,
+            "set100IT010": -0.023,
+            "set101IT007": -0.066,
+            "set101IT008": -0.593,
+            "set101IT009": -0.378,
+            "set1IT078": -0.071,
+            "set1IT079": -0.315,
+            "set1IT080": -0.622,
+            "set1IT081": -0.579,
+            "set5IT075": -0.3,
+            "set5IT076": -0.427,
+            "set6IT057": 0.157
+          },
+          "t_like": {
+            "set100IT008": 0.295,
+            "set100IT009": 0.465,
+            "set100IT010": 0.062,
+            "set101IT007": 0.103,
+            "set101IT008": 1.019,
+            "set101IT009": 0.745,
+            "set1IT078": -0.172,
+            "set1IT079": -0.686,
+            "set1IT080": -1.294,
+            "set1IT081": -1.194,
+            "set5IT075": -0.855,
+            "set5IT076": -0.64,
+            "set6IT057": 0.403
+          }
+        }
+      },
+      "PP_1294": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -0.062,
+            "t_like_values": [
+              0.327,
+              0.303,
+              0.944
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": 0.259,
+            "t_like_values": [
+              0.275,
+              1.378,
+              1.488
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.273,
+            "t_like_values": [
+              -0.689,
+              -1.155
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": 0.1275,
+            "t_like_values": [
+              1.051,
+              0.056
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.175,
+            "t_like_values": [
+              -0.435,
+              -0.944
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -0.237,
+            "t_like_values": [
+              -1.161
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -0.065,
+            "set100IT009": -0.062,
+            "set100IT010": 0.154,
+            "set101IT007": 0.06,
+            "set101IT008": 0.38,
+            "set101IT009": 0.259,
+            "set1IT078": 0.236,
+            "set1IT079": 0.019,
+            "set1IT080": -0.193,
+            "set1IT081": -0.353,
+            "set5IT075": -0.135,
+            "set5IT076": -0.215,
+            "set6IT057": -0.237
+          },
+          "t_like": {
+            "set100IT008": 0.327,
+            "set100IT009": 0.303,
+            "set100IT010": 0.944,
+            "set101IT007": 0.275,
+            "set101IT008": 1.378,
+            "set101IT009": 1.488,
+            "set1IT078": 1.051,
+            "set1IT079": 0.056,
+            "set1IT080": -0.689,
+            "set1IT081": -1.155,
+            "set5IT075": -0.435,
+            "set5IT076": -0.944,
+            "set6IT057": -1.161
+          }
+        }
+      },
+      "PP_2123": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": 0.11,
+            "t_like_values": [
+              0.775,
+              2.025,
+              1.269
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": 0.032,
+            "t_like_values": [
+              0.635,
+              0.016,
+              0.204
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.126,
+            "t_like_values": [
+              -0.217,
+              -1.123
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": -0.14550000000000002,
+            "t_like_values": [
+              -0.826,
+              -0.935
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.15,
+            "t_like_values": [
+              -1.482,
+              -0.432
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": 0.06,
+            "t_like_values": [
+              0.41
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": 0.11,
+            "set100IT009": -0.265,
+            "set100IT010": 0.16,
+            "set101IT007": 0.105,
+            "set101IT008": -0.003,
+            "set101IT009": 0.032,
+            "set1IT078": -0.135,
+            "set1IT079": -0.156,
+            "set1IT080": -0.034,
+            "set1IT081": -0.218,
+            "set5IT075": -0.237,
+            "set5IT076": -0.063,
+            "set6IT057": 0.06
+          },
+          "t_like": {
+            "set100IT008": 0.775,
+            "set100IT009": 2.025,
+            "set100IT010": 1.269,
+            "set101IT007": 0.635,
+            "set101IT008": 0.016,
+            "set101IT009": 0.204,
+            "set1IT078": -0.826,
+            "set1IT079": -0.935,
+            "set1IT080": -0.217,
+            "set1IT081": -1.123,
+            "set5IT075": -1.482,
+            "set5IT076": -0.432,
+            "set6IT057": 0.41
+          }
+        }
+      },
+      "PP_3457": {
+        "status": "not represented in workbook"
+      }
+    },
+    "suppressive_pair": {
+      "PP_0362": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -1.751,
+            "t_like_values": [
+              10.576,
+              11.48,
+              10.773
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -1.862,
+            "t_like_values": [
+              8.878,
+              9.826,
+              9.123
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": 0.0525,
+            "t_like_values": [
+              0.65,
+              0.123
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": -0.0285,
+            "t_like_values": [
+              -0.593,
+              0.167
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.0435,
+            "t_like_values": [
+              -0.687,
+              0.053
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -1.555,
+            "t_like_values": [
+              -9.42
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -1.751,
+            "set100IT009": -1.837,
+            "set100IT010": -1.723,
+            "set101IT007": -1.862,
+            "set101IT008": -1.966,
+            "set101IT009": -1.786,
+            "set1IT078": -0.082,
+            "set1IT079": 0.025,
+            "set1IT080": 0.088,
+            "set1IT081": 0.017,
+            "set5IT075": -0.094,
+            "set5IT076": 0.007,
+            "set6IT057": -1.555
+          },
+          "t_like": {
+            "set100IT008": 10.576,
+            "set100IT009": 11.48,
+            "set100IT010": 10.773,
+            "set101IT007": 8.878,
+            "set101IT008": 9.826,
+            "set101IT009": 9.123,
+            "set1IT078": -0.593,
+            "set1IT079": 0.167,
+            "set1IT080": 0.65,
+            "set1IT081": 0.123,
+            "set5IT075": -0.687,
+            "set5IT076": 0.053,
+            "set6IT057": -9.42
+          }
+        }
+      },
+      "PP_0363": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -0.785,
+            "t_like_values": [
+              7.156,
+              5.959,
+              6.23
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.449,
+            "t_like_values": [
+              4.092,
+              0.128,
+              3.456
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.14750000000000002,
+            "t_like_values": [
+              -0.689,
+              -1.432
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": -0.066,
+            "t_like_values": [
+              -0.443,
+              -0.483
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.052,
+            "t_like_values": [
+              -0.897,
+              0.146
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -0.873,
+            "t_like_values": [
+              -6.029
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -0.896,
+            "set100IT009": -0.738,
+            "set100IT010": -0.785,
+            "set101IT007": -0.558,
+            "set101IT008": -0.017,
+            "set101IT009": -0.449,
+            "set1IT078": -0.064,
+            "set1IT079": -0.068,
+            "set1IT080": -0.093,
+            "set1IT081": -0.202,
+            "set5IT075": -0.123,
+            "set5IT076": 0.019,
+            "set6IT057": -0.873
+          },
+          "t_like": {
+            "set100IT008": 7.156,
+            "set100IT009": 5.959,
+            "set100IT010": 6.23,
+            "set101IT007": 4.092,
+            "set101IT008": 0.128,
+            "set101IT009": 3.456,
+            "set1IT078": -0.443,
+            "set1IT079": -0.483,
+            "set1IT080": -0.689,
+            "set1IT081": -1.432,
+            "set5IT075": -0.897,
+            "set5IT076": 0.146,
+            "set6IT057": -6.029
+          }
+        }
+      },
+      "PP_0364": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -0.761,
+            "t_like_values": [
+              5.361,
+              4.948,
+              4.902
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.155,
+            "t_like_values": [
+              4.069,
+              1.04,
+              0.222
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.031,
+            "t_like_values": [
+              -0.331,
+              -0.045
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": -0.004,
+            "t_like_values": [
+              0.07,
+              -0.123
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.1515,
+            "t_like_values": [
+              -0.688,
+              -1.398
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -1.231,
+            "t_like_values": [
+              -6.567
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -0.761,
+            "set100IT009": -0.814,
+            "set100IT010": -0.657,
+            "set101IT007": -0.674,
+            "set101IT008": -0.155,
+            "set101IT009": -0.041,
+            "set1IT078": 0.012,
+            "set1IT079": -0.02,
+            "set1IT080": -0.054,
+            "set1IT081": -0.008,
+            "set5IT075": -0.099,
+            "set5IT076": -0.204,
+            "set6IT057": -1.231
+          },
+          "t_like": {
+            "set100IT008": 5.361,
+            "set100IT009": 4.948,
+            "set100IT010": 4.902,
+            "set101IT007": 4.069,
+            "set101IT008": 1.04,
+            "set101IT009": 0.222,
+            "set1IT078": 0.07,
+            "set1IT079": -0.123,
+            "set1IT080": -0.331,
+            "set1IT081": -0.045,
+            "set5IT075": -0.688,
+            "set5IT076": -1.398,
+            "set6IT057": -6.567
+          }
+        }
+      },
+      "PP_0365": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -0.707,
+            "t_like_values": [
+              5.841,
+              5.907,
+              5.491
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.444,
+            "t_like_values": [
+              4.035,
+              1.354,
+              3.535
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": -0.03949999999999999,
+            "t_like_values": [
+              0.233,
+              -0.707
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": -0.0275,
+            "t_like_values": [
+              0.35,
+              -0.709
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": -0.011000000000000003,
+            "t_like_values": [
+              0.584,
+              -0.856
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -0.961,
+            "t_like_values": [
+              -6.032
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -0.707,
+            "set100IT009": -0.746,
+            "set100IT010": -0.678,
+            "set101IT007": -0.529,
+            "set101IT008": -0.181,
+            "set101IT009": -0.444,
+            "set1IT078": 0.055,
+            "set1IT079": -0.11,
+            "set1IT080": 0.039,
+            "set1IT081": -0.118,
+            "set5IT075": 0.091,
+            "set5IT076": -0.113,
+            "set6IT057": -0.961
+          },
+          "t_like": {
+            "set100IT008": 5.841,
+            "set100IT009": 5.907,
+            "set100IT010": 5.491,
+            "set101IT007": 4.035,
+            "set101IT008": 1.354,
+            "set101IT009": 3.535,
+            "set1IT078": 0.35,
+            "set1IT079": -0.709,
+            "set1IT080": 0.233,
+            "set1IT081": -0.707,
+            "set5IT075": 0.584,
+            "set5IT076": -0.856,
+            "set6IT057": -6.032
+          }
+        }
+      },
+      "PP_0366": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -0.65,
+            "t_like_values": [
+              1.762,
+              4.207,
+              2.951
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.403,
+            "t_like_values": [
+              2.326,
+              1.27,
+              2.483
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": 0.20600000000000002,
+            "t_like_values": [
+              0.753,
+              1.512
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": 0.096,
+            "t_like_values": [
+              0.48,
+              0.524
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": 0.038,
+            "t_like_values": [
+              -0.144,
+              0.51
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -1.45,
+            "t_like_values": [
+              -6.247
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -0.405,
+            "set100IT009": -0.763,
+            "set100IT010": -0.65,
+            "set101IT007": -0.403,
+            "set101IT008": 0.242,
+            "set101IT009": -0.489,
+            "set1IT078": 0.09,
+            "set1IT079": 0.102,
+            "set1IT080": 0.135,
+            "set1IT081": 0.277,
+            "set5IT075": -0.026,
+            "set5IT076": 0.102,
+            "set6IT057": -1.45
+          },
+          "t_like": {
+            "set100IT008": 1.762,
+            "set100IT009": 4.207,
+            "set100IT010": 2.951,
+            "set101IT007": 2.326,
+            "set101IT008": 1.27,
+            "set101IT009": 2.483,
+            "set1IT078": 0.48,
+            "set1IT079": 0.524,
+            "set1IT080": 0.753,
+            "set1IT081": 1.512,
+            "set5IT075": -0.144,
+            "set5IT076": 0.51,
+            "set6IT057": -6.247
+          }
+        }
+      },
+      "PP_0437": {
+        "status": "not represented in workbook"
+      },
+      "PP_1602": {
+        "status": "not represented in workbook"
+      },
+      "PP_4984": {
+        "groups": {
+          "set100_20mM_M9_medium": {
+            "exp_names": [
+              "set100IT008",
+              "set100IT009",
+              "set100IT010"
+            ],
+            "fitness_median": -0.725,
+            "t_like_values": [
+              5.184,
+              4.204,
+              5.414
+            ]
+          },
+          "set101_20mM_M9_medium": {
+            "exp_names": [
+              "set101IT007",
+              "set101IT008",
+              "set101IT009"
+            ],
+            "fitness_median": -0.612,
+            "t_like_values": [
+              4.619,
+              2.026,
+              4.078
+            ]
+          },
+          "set1_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT080",
+              "set1IT081"
+            ],
+            "fitness_median": 0.3055,
+            "t_like_values": [
+              2.194,
+              1.843
+            ]
+          },
+          "set1_40mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set1IT078",
+              "set1IT079"
+            ],
+            "fitness_median": 0.1545,
+            "t_like_values": [
+              0.509,
+              1.598
+            ]
+          },
+          "set5_20mM_RCH2_defined_noCarbon": {
+            "exp_names": [
+              "set5IT075",
+              "set5IT076"
+            ],
+            "fitness_median": 0.048,
+            "t_like_values": [
+              0.146,
+              0.553
+            ]
+          },
+          "set6_10mM_MOPS minimal media_noCarbon": {
+            "exp_names": [
+              "set6IT057"
+            ],
+            "fitness_median": -1.068,
+            "t_like_values": [
+              -5.942
+            ]
+          }
+        },
+        "measurements": {
+          "fitness": {
+            "set100IT008": -0.778,
+            "set100IT009": -0.585,
+            "set100IT010": -0.725,
+            "set101IT007": -0.732,
+            "set101IT008": -0.3,
+            "set101IT009": -0.612,
+            "set1IT078": 0.075,
+            "set1IT079": 0.234,
+            "set1IT080": 0.319,
+            "set1IT081": 0.292,
+            "set5IT075": 0.02,
+            "set5IT076": 0.076,
+            "set6IT057": -1.068
+          },
+          "t_like": {
+            "set100IT008": 5.184,
+            "set100IT009": 4.204,
+            "set100IT010": 5.414,
+            "set101IT007": 4.619,
+            "set101IT008": 2.026,
+            "set101IT009": 4.078,
+            "set1IT078": 0.509,
+            "set1IT079": 1.598,
+            "set1IT080": 2.194,
+            "set1IT081": 1.843,
+            "set5IT075": 0.146,
+            "set5IT076": 0.553,
+            "set6IT057": -5.942
+          }
+        }
+      }
+    }
+  },
+  "protocol": "notes/prereg_2024_rb_tnseq_condition_ledger.md",
+  "samples": [
+    {
+      "Inoculum media type": "None",
+      "concentration_1": "40",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "7/20/20",
+      "expDesc": "Glucose (C) (40mM)",
+      "expDescLong": "Glucose carbon source (40mM)",
+      "expName": "set1IT078",
+      "media": "RCH2_defined_noCarbon",
+      "mutantLibrary": "Putida_ML5",
+      "person": "Kelly",
+      "rep": "1",
+      "set": "set1",
+      "timeZeroSet": "7/20/20 Putida_ML5_set1",
+      "total_rep": "2"
+    },
+    {
+      "Inoculum media type": "None",
+      "concentration_1": "40",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "7/20/20",
+      "expDesc": "Glucose (C) (40mM)",
+      "expDescLong": "Glucose carbon source (40mM)",
+      "expName": "set1IT079",
+      "media": "RCH2_defined_noCarbon",
+      "mutantLibrary": "Putida_ML5",
+      "person": "Kelly",
+      "rep": "2",
+      "set": "set1",
+      "timeZeroSet": "7/20/20 Putida_ML5_set1",
+      "total_rep": "2"
+    },
+    {
+      "Inoculum media type": "None",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "7/20/20",
+      "expDesc": "Glucose (C) (20mM)",
+      "expDescLong": "Glucose carbon source (20mM)",
+      "expName": "set1IT080",
+      "media": "RCH2_defined_noCarbon",
+      "mutantLibrary": "Putida_ML5",
+      "person": "Kelly",
+      "rep": "1",
+      "set": "set1",
+      "timeZeroSet": "7/20/20 Putida_ML5_set1",
+      "total_rep": "2"
+    },
+    {
+      "Inoculum media type": "None",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "7/20/20",
+      "expDesc": "Glucose (C) (20mM)",
+      "expDescLong": "Glucose carbon source (20mM)",
+      "expName": "set1IT081",
+      "media": "RCH2_defined_noCarbon",
+      "mutantLibrary": "Putida_ML5",
+      "person": "Kelly",
+      "rep": "2",
+      "set": "set1",
+      "timeZeroSet": "7/20/20 Putida_ML5_set1",
+      "total_rep": "2"
+    },
+    {
+      "Inoculum media type": "None",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "2017-02-27 00:00:00",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set5IT075",
+      "media": "RCH2_defined_noCarbon",
+      "mutantLibrary": "Putida_ML5",
+      "person": "Jayashree",
+      "rep": "1",
+      "set": "set5",
+      "timeZeroSet": "27-Feb-17 Putida_ML5_set5",
+      "total_rep": "2"
+    },
+    {
+      "Inoculum media type": "None",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "2017-02-27 00:00:00",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set5IT076",
+      "media": "RCH2_defined_noCarbon",
+      "mutantLibrary": "Putida_ML5",
+      "person": "Jayashree",
+      "rep": "2",
+      "set": "set5",
+      "timeZeroSet": "27-Feb-17 Putida_ML5_set5",
+      "total_rep": "2"
+    },
+    {
+      "Inoculum media type": "None",
+      "concentration_1": "10",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "8/17/12",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set6IT057",
+      "media": "MOPS minimal media_noCarbon",
+      "mutantLibrary": "Putida_ML5",
+      "person": "Mitch",
+      "rep": "1",
+      "set": "set6",
+      "timeZeroSet": "12/8/17 Putida_ML5_set6",
+      "total_rep": "1"
+    },
+    {
+      "Inoculum media type": "M9 + 20 mM D-glucose",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "3/22/20",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set100IT008",
+      "media": "M9_medium",
+      "mutantLibrary": "Putida_ML5_JBEI",
+      "person": "Andrew Borchert",
+      "rep": "1",
+      "set": "set100",
+      "timeZeroSet": "3/22/2020 Putida_ML5_set100",
+      "total_rep": "3"
+    },
+    {
+      "Inoculum media type": "M9 + 20 mM D-glucose",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "3/22/20",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set100IT009",
+      "media": "M9_medium",
+      "mutantLibrary": "Putida_ML5_JBEI",
+      "person": "Andrew Borchert",
+      "rep": "2",
+      "set": "set100",
+      "timeZeroSet": "3/22/2020 Putida_ML5_set100",
+      "total_rep": "3"
+    },
+    {
+      "Inoculum media type": "M9 + 20 mM D-glucose",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "3/22/20",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set100IT010",
+      "media": "M9_medium",
+      "mutantLibrary": "Putida_ML5_JBEI",
+      "person": "Andrew Borchert",
+      "rep": "3",
+      "set": "set100",
+      "timeZeroSet": "3/22/2020 Putida_ML5_set100",
+      "total_rep": "3"
+    },
+    {
+      "Inoculum media type": "M9 + 20 mM D-glucose",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "7/22/12",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set101IT007",
+      "media": "M9_medium",
+      "mutantLibrary": "Putida_ML5_JBEI",
+      "person": "Andrew Borchert",
+      "rep": "1",
+      "set": "set101",
+      "timeZeroSet": "12/07/2022 Putida_ML5_set101",
+      "total_rep": "3"
+    },
+    {
+      "Inoculum media type": "M9 + 20 mM D-glucose",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "7/22/12",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set101IT008",
+      "media": "M9_medium",
+      "mutantLibrary": "Putida_ML5_JBEI",
+      "person": "Andrew Borchert",
+      "rep": "2",
+      "set": "set101",
+      "timeZeroSet": "12/07/2022 Putida_ML5_set101",
+      "total_rep": "3"
+    },
+    {
+      "Inoculum media type": "M9 + 20 mM D-glucose",
+      "concentration_1": "20",
+      "condition_1": "D-Glucose",
+      "condition_2": "None",
+      "dateStarted": "7/22/12",
+      "expDesc": "D-Glucose (C)",
+      "expDescLong": "D-Glucose carbon source",
+      "expName": "set101IT009",
+      "media": "M9_medium",
+      "mutantLibrary": "Putida_ML5_JBEI",
+      "person": "Andrew Borchert",
+      "rep": "3",
+      "set": "set101",
+      "timeZeroSet": "12/07/2022 Putida_ML5_set101",
+      "total_rep": "3"
+    }
+  ],
+  "source": "https://github.com/beckham-lab/fModule",
+  "source_sha256": "4d649385ac06684482396a125f135df22a2a5060da73485b2cd14468f8cc8be1",
+  "status": "exploratory post-result cohort screen, NOT independent validation or G2 pass"
+}
