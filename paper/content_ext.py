@@ -56,7 +56,7 @@ def story_ext(story, R):
     story += [P('Fold-to-fold spread (Figure 8) is about 0.05 AUROC for the GCN and 0.02 for the CNN. The GCN spread '
                 'is comparable to the gap between the GCN and FBA, so the ordering GCN &gt; FBA-rich in Table 1 '
                 'should be read as a tie within fold noise. The ensemble gain (+0.057 over FBA minimal) is larger '
-                'than both spreads and survives the paired bootstrap of Appendix C.10.', BODY)]
+                'than both spreads in this historical comparison, but rescaling and the later score-lineage audit limit causal and hard-call inference.', BODY)]
     story += fig(F('fig9_threshold.png'), 4.4 * inch,
                  'Figure 9. F1 and number of predicted essential genes versus the growth-fraction threshold.')
     story += [P('Figure 9 is the graphical form of the bimodality result (eq. C23): both curves are flat, since exactly '

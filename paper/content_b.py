@@ -208,6 +208,44 @@ def story_b(story, R):
           'by uptake in rich medium) and ubiC (ubiquinone for aerobic respiration).', BODY),
         PageBreak()]
 
+    # ---------------- concise verdict-facing synthesis ----------------
+    v4 = R('ensemble_v4_esm.json')
+    v5 = R('ensemble_v5_go.json')
+    v6 = R('v6_structure_domain.json')
+    v7 = R('v7_oma.json')
+    v8 = R('v8_cog_pdb.json')
+    v9 = R('v9_precise1k.json')
+    concise = [
+        ['Additional feature block', 'Primary AUROC difference', 'Reading'],
+        ['ESM-2 embeddings', f"{v4['paired_v4lr_vs_v2lr']['mean']:+.3f}", 'No gain; fold-internal PCA'],
+        ['GO error flag', f"{v5['paired_v5_vs_v2']['mean']:+.3f}", 'Negative; training-fold selection'],
+        ['pLDDT/Pfam', f"{v6['primary_auroc_v6_minus_v2']['diff']:+.3f}", 'No significant gain'],
+        ['OMA conservation', f"{v7['primary_auroc_v7_minus_v2']['diff']:+.3f}", 'No significant gain'],
+        ['COG/phyletic/PDB', f"{v8['primary_auroc_v8_minus_v2']['diff']:+.3f}", 'CI includes zero'],
+        ['PRECISE-1K expression', f"{v9['primary_auroc_v9_minus_v2']['diff']:+.3f}", 'Primary CI includes zero; secondary signals'],
+    ]
+    story += [P('4.4 What each additional layer contributed', H2),
+              P('The mechanistic FBA model provides the highest individual Gerdes AUROC in Table 1 '
+                '(0.666 on the aligned screen); the graph GCN reaches 0.660 and the sequence CNN '
+                '0.643 versus 0.628 for the full-set 3-mer baseline (0.641 on the aligned set). '
+                'These are not interchangeable gene universes. The historical stacked ranking '
+                'improvement (+0.057 against FBA) includes a separate feature-scaling correction. '
+                'The later v2 leakage-controlled feature gain (+0.024) compares against the '
+                'reproduced, rescaled v1 model, not against FBA, and does not clear the locked '
+                'hard-call gate. dFBA with a Boolean repression rule reproduces diauxie as '
+                'an implementation check, not a new biological mechanism.', BODY),
+              P('Six further pre-registered feature tests are consolidated here; their full '
+                'estimates, confidence intervals, data provenance and caveats remain in '
+                'Appendix H. These deltas are computed against the corresponding v2 control '
+                'on the same test folds; do not sum them as independent contributions.', BODY)]
+    story += tbl(concise, 'Table 7A. Primary added-feature tests, rounded AUROC differences against the corresponding v2 comparison. Full paired intervals and secondary endpoints are in Appendix H.',
+                 widths=[1.75*72,1.58*72,2.2*72])
+    story += [P('Cross-reconstruction transfer is also mixed: the model-objective perturbation '
+                'shows specific counterfactual call changes, while learned rescue rankings '
+                'do not generalize reliably to Bacillus or yeast. Appendix H retains the '
+                'organism-specific failures, and Section 7 records the post-result pair controls. '
+                'No pooled cross-species predictor or phenotype-level rescue is claimed.', BODY)]
+
     # ---------------- discussion ----------------
     story += [P('5. Discussion', H1),
         P('5.1 What the virtual cell is, and is not', H2),
@@ -216,9 +254,10 @@ def story_b(story, R):
           'is the direct, measurable price of that scope. Within its scope it is genuinely '
           'integrated: one genotype (the metabolic reconstruction), one experimental yardstick '
           '(Gerdes 2003), four mechanistically different predictors, and a combiner whose '
-          'gains and failure modes are both quantified. The ensemble\'s +0.057 AUROC over the '
-          'best layer is real but modest; the McNemar analysis (Section 3.3) is the guardrail '
-          'against reading more into it than exists.', BODY),
+          'gains and failure modes are both quantified. The historical +0.057 AUROC ranking '
+          'gain over FBA includes a feature-scaling correction; it is not a clean held-out '
+          'hard-call result. The later v2 leakage-controlled gain uses a different comparator. '
+          'Section 7 preserves the failed G2 gate and score-lineage limits.', BODY),
         P('5.2 Comparison to published leaders', H2),
         P('The iJO1366 publication [3] reported strong agreement with knockout screens when '
           'medium conditions were matched to the experiment; our genome-scale FBA numbers are '
@@ -238,7 +277,7 @@ def story_b(story, R):
           'uptake rates mapping to negative lower bounds), which zeroed all growth; (iii) '
           'infeasible-knockout NaN fluxes, which mislabeled two core-model genes until '
           'infeasible was mapped to zero growth. Each would have produced plausible-looking, '
-          'wrong results. The 18-test hermetic suite that caught them runs in about five '
+          'wrong results. The current 26-test hermetic suite, expanded since the original bugs, runs in about five '
           'seconds with no network access.', BODY),
         P('5.4 Limitations', H2),
         P('(1) One experimental label set (Gerdes 2003); adding the Keio deletion collection '
