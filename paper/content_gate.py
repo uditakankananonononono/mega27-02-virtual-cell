@@ -74,22 +74,15 @@ def story_gate(story,R):
                 'is 40. KEGG source bytes and TCDB source rows match current public tables, though '
                 'historical acquisition times are unknown (tool_execution_summary.json; '
                 'tool_source_snapshot_verification.json).',BODY),
-              P('Dataset gate: 108 distinct BiGG model IDs were fetched, hashed and analysed; 19 PaxDb '
-                'files have per-accession scores, collapsing to at least 15 source studies after technical '
-                'variants. In the recovered 25 September owner WhatsApp exchange (provenance in '
-                'notes/gate_count_provenance_review_20260927.md), BiGG model accessions were accepted as '
-                'eligible datasets toward the 120-count gate. The separate accession/use ledgers report 108 model '
-                'IDs plus 15 study-collapsed PaxDb sources, totaling 123 under that rule; the owner decision '
-                'alone does not certify those 123 as a verified gate pass. This is not 123 independent wet-lab '
-                'studies, and it does not repair failed science gates or '
-                'the 50+ substantive body-page rule. The older 124 study-key claim counted 44 organism files '
-                'under one figshare accession and must not be reused. The stricter provisional manifest overlay '
-                'still has eight unresolved source/use rows, recorded separately. A read-only local ledger '
-                'check verifies the 108 unique model file hashes and 19 PaxDb file hashes plus saved score '
-                'use; 16 distinct source-link strings are observed for the PaxDb files, while the carried '
-                '15-source floor is conservative rather than a proof of independent wet-lab studies '
-                '(results/model_inclusive_inventory_local_verification.json). Provider-currentness was not '
-                'rechecked by this local test.',BODY)]
+              P('Dataset count: the owner accepted BiGG model accessions toward the 120-dataset gate '
+                '(25 September WhatsApp, notes/gate_count_provenance_review_20260927.md). The source ledgers '
+                'report 108 unique BiGG IDs and a conservative 15-source floor from 19 PaxDb files, yielding '
+                '123 under that rule. A separate local check matched all 108 model and 19 PaxDb file hashes '
+                'and the 19 saved PaxDb scores (results/model_inclusive_inventory_local_verification.json). '
+                'Owner permission alone does not certify the count: provider freshness was not rechecked, '
+                'and eight other provisional manifest rows remain unresolved. Nor are these 123 independent '
+                'wet-lab studies. The old 124 count double-counted 44 files under one figshare accession. '
+                'The original G2 and 50+ substantive body-page gates remain failed.',BODY)]
     story += tbl([['Gate','Observed','Decision'],
                   ['Science/data tools','40 substantial distinct uses / 48 linked','Pass: thin rows excluded; sources rechecked'],
                   ['Accessioned datasets','108 BiGG models + 15 study-collapsed PaxDb','Count basis approved; 123 inventory requires own verification'],
