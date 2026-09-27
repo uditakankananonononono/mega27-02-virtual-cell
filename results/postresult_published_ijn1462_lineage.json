@@ -1,0 +1,1276 @@
+{
+  "S4_essentiality": {
+    "sha256": "73afee37058fab4ef254f3d0acd83fd9eeac9f48939d832a7f94c78b5bd7e7ab",
+    "sheet_columns": 30,
+    "sheet_rows": 2894,
+    "target_occurrence_columns": {
+      "PP_0362": [
+        [
+          7
+        ],
+        [
+          24
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "PP_0363": [
+        [
+          7
+        ],
+        [
+          24
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "PP_0364": [
+        [
+          7
+        ],
+        [
+          24
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "PP_0365": [
+        [
+          7
+        ],
+        [
+          24
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "PP_0366": [
+        [
+          7
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "PP_0437": [
+        [
+          5
+        ],
+        [
+          3
+        ]
+      ],
+      "PP_0735": [
+        [
+          3
+        ]
+      ],
+      "PP_1292": [
+        [
+          3
+        ]
+      ],
+      "PP_1293": [
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "PP_1294": [
+        [
+          3
+        ]
+      ],
+      "PP_1602": [
+        [
+          7
+        ],
+        [
+          3
+        ]
+      ],
+      "PP_2123": [
+        [
+          3
+        ]
+      ],
+      "PP_3457": [
+        [
+          3
+        ]
+      ],
+      "PP_4984": [
+        [
+          24
+        ],
+        [
+          7
+        ],
+        [
+          4
+        ],
+        [
+          3
+        ],
+        [
+          2
+        ]
+      ]
+    }
+  },
+  "S7_barseq": {
+    "sha256": "3788cb2009b295c54301fa939cb28d107e317b90f1835737d465860b49cca322",
+    "sheet_columns": 7,
+    "sheet_rows": 1149,
+    "target_occurrence_columns": {
+      "PP_0362": [
+        [
+          1
+        ]
+      ],
+      "PP_0363": [
+        [
+          1
+        ]
+      ],
+      "PP_0364": [
+        [
+          1
+        ]
+      ],
+      "PP_0365": [
+        [
+          1
+        ]
+      ],
+      "PP_0366": [
+        [
+          1
+        ]
+      ],
+      "PP_0735": [
+        [
+          1
+        ]
+      ],
+      "PP_1292": [
+        [
+          1
+        ]
+      ],
+      "PP_1293": [
+        [
+          1
+        ]
+      ],
+      "PP_1294": [
+        [
+          1
+        ]
+      ],
+      "PP_2123": [
+        [
+          1
+        ]
+      ],
+      "PP_4984": [
+        [
+          1
+        ]
+      ]
+    }
+  },
+  "bigg_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "bigg_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "biomass_objective": {
+    "bigg_bounds": [
+      0.0,
+      999999.0
+    ],
+    "bigg_id": "BIOMASS_KT2440_WT3",
+    "diff": {},
+    "exact_same_stoichiometry": true,
+    "published_bounds": [
+      0.0,
+      999999.0
+    ],
+    "published_id": "BiomassKT2440_WT3"
+  },
+  "limits": "Reused published validation tables and close but nonidentical model lineage; no independent phenotype score; no G2 gate change.",
+  "models": [
+    {
+      "genes": 1462,
+      "id": "iJN1462",
+      "metabolites": 2155,
+      "reactions": 2929
+    },
+    {
+      "genes": 1462,
+      "id": "iJN1463",
+      "metabolites": 2153,
+      "reactions": 2927
+    }
+  ],
+  "protocol": "notes/postresult_published_ijn1462_lineage_audit.md",
+  "published_s3_sha256": "0c8113ee6412c21df1afbd0682d1e89e73a515b558a2cab29ee8213bb5afb5f0",
+  "published_s3_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7078882/supplementaryFiles",
+  "published_s4_sha256": "73afee37058fab4ef254f3d0acd83fd9eeac9f48939d832a7f94c78b5bd7e7ab",
+  "published_s7_sha256": "3788cb2009b295c54301fa939cb28d107e317b90f1835737d465860b49cca322",
+  "s3_read_fix": "Removed only one empty unreferenced XML compartment from temporary copy; original source unmodified.",
+  "sets": {
+    "genes": {
+      "bigg_only": [],
+      "published_only": [],
+      "shared": 1462
+    },
+    "metabolites": {
+      "bigg_only": [
+        "ggala_B_c",
+        "prealginate_G_e",
+        "prealginate_G_p"
+      ],
+      "published_only": [
+        "4h2oxov_c",
+        "chpd_c",
+        "ggala__B_c",
+        "prealginate__G_e",
+        "prealginate__G_p"
+      ],
+      "shared": 2150
+    },
+    "reactions": {
+      "bigg_only": [
+        "13PPDH2_1",
+        "3OXOADPt_ex",
+        "3OXOADPt_pp",
+        "3_4DHBZ1t_pp",
+        "ACACT10",
+        "ACACT11",
+        "ACACT12",
+        "ACACT13",
+        "ACACT8",
+        "ACACT9",
+        "AEPtex",
+        "AHCi",
+        "AKGDb_copy1",
+        "AKGDb_copy2",
+        "ALDD3y_copy1",
+        "ALDD3y_copy2",
+        "AROAT",
+        "BIOMASS_KT2440_Core2",
+        "BIOMASS_KT2440_WT3",
+        "CHLP",
+        "CHOLS_ex",
+        "CITt4pp_1",
+        "COt_1",
+        "CUt2pp",
+        "CYTOM",
+        "Cotpp",
+        "DHAD1_copy1",
+        "DHAD1_copy2",
+        "DHQTi_copy1",
+        "DHQTi_copy2",
+        "DM_C100aPHA_c",
+        "DM_C100pPHA_c",
+        "DM_C101PAH_c",
+        "DM_C120aPHA_c",
+        "DM_C121aPHA_c",
+        "DM_C121d6PHA_c",
+        "DM_C140aPHA_c",
+        "DM_C141aPHA_c",
+        "DM_C141d5PHA_c",
+        "DM_C142PHA_c",
+        "DM_C40aPHA_c",
+        "DM_C40atPHA_c",
+        "DM_C40pPHA_c",
+        "DM_C50aPHA_c",
+        "DM_C50pPHA_c",
+        "DM_C60aPHA_c",
+        "DM_C60atPHA_c",
+        "DM_C60pPHA_c",
+        "DM_C70aPHA_c",
+        "DM_C70pPHA_c",
+        "DM_C80aPHA_c",
+        "DM_C80pPHA_c",
+        "DM_C90aPHA_c",
+        "DM_C90pPHA_c",
+        "DM_acgam_c",
+        "DM_acmum6p_c",
+        "DM_doxopa_c",
+        "DM_ppi50_c",
+        "DM_tripeptide_c",
+        "ETHP",
+        "EX_prealginate_G_e",
+        "EX_zn2_e",
+        "FMNRx2_copy1",
+        "FMNRx2_copy2",
+        "G5SD_copy1",
+        "G5SD_copy2",
+        "GLCS3_1",
+        "GLNS_copy1",
+        "GLNS_copy2",
+        "GLUCYS_copy1",
+        "GLUCYS_copy2",
+        "GLUDxi",
+        "HBCE",
+        "HBCHLR",
+        "HBRCH",
+        "HIUH_c",
+        "HMR_0180_copy1",
+        "HMR_0180_copy2",
+        "HPYRRx",
+        "HVCD",
+        "IDPh_1",
+        "ILEDHr_1",
+        "LLEUDr",
+        "LPADSS2_1",
+        "MAK",
+        "MECDPS_copy1",
+        "MECDPS_copy2",
+        "MEPCT_1",
+        "METDtex",
+        "NAt3pp_copy1",
+        "NAt3pp_copy2",
+        "PACt1",
+        "PHET",
+        "PPItex_1",
+        "PPK",
+        "PPK2",
+        "PRAIi_copy1",
+        "PRAIi_copy2",
+        "PRAMPC_copy1",
+        "PRAMPC_copy2",
+        "PRASCSi_copy1",
+        "PRASCSi_copy2",
+        "PRMICI_copy1",
+        "PRMICI_copy2",
+        "PSCVT_copy1",
+        "PSCVT_copy2",
+        "QUIN2tex",
+        "R05217_nad",
+        "RDXR",
+        "SERAT_copy1",
+        "SERAT_copy2",
+        "SK_PHAg_c",
+        "SK_pqqA_kt_c",
+        "THRA",
+        "THRA2",
+        "THRD_L",
+        "TRPS1_copy1",
+        "TRPS1_copy2",
+        "U23GAAT2_1",
+        "UAGAAT2_1",
+        "UDCPGT_1",
+        "UHBZ1t_pp",
+        "UHGADA2_1",
+        "URIt2pp",
+        "VALTRS_copy1",
+        "VALTRS_copy2",
+        "VCACT"
+      ],
+      "published_only": [
+        "13PPDH2",
+        "3HBCD",
+        "3OXOADPt_ex_",
+        "3OXOADPt_pp_",
+        "3_4DHBZ1t_pp_",
+        "AEPtpp",
+        "AHC",
+        "AKGDb",
+        "AKGDbr",
+        "ALDD3y",
+        "ALDD3y2",
+        "BiomassKT2440_Core2",
+        "BiomassKT2440_WT3",
+        "CHLPi",
+        "CHOLS_ex_",
+        "CITt4pp",
+        "CMS",
+        "CMT2",
+        "COBG",
+        "COtex",
+        "COtpp",
+        "CUtpp",
+        "DAAD6",
+        "DHAD1",
+        "DHAD_3mob_h",
+        "DHQD",
+        "DHQTi",
+        "DMETtex",
+        "DM_C100aPHA",
+        "DM_C100pPHA",
+        "DM_C101PHA",
+        "DM_C120aPHA",
+        "DM_C121aPHA",
+        "DM_C121d6PHA",
+        "DM_C140aPHA",
+        "DM_C141aPHA",
+        "DM_C141d5PHA",
+        "DM_C142PHA",
+        "DM_C40aPHA",
+        "DM_C40atPHA",
+        "DM_C40pPHA",
+        "DM_C50aPHA",
+        "DM_C50pPHA",
+        "DM_C60aPHA",
+        "DM_C60atPHA",
+        "DM_C60pPHA",
+        "DM_C70aPHA",
+        "DM_C70pPHA",
+        "DM_C80aPHA",
+        "DM_C80pPHA",
+        "DM_C90aPHA",
+        "DM_C90pPHA",
+        "DM__acmum6p",
+        "DM__ppi50",
+        "DM_acgam",
+        "DM_doxopa",
+        "DM_tripeptide_c_",
+        "ECOAE",
+        "ETHPi",
+        "EX_prealginate__G_e",
+        "EX_zn2_e_",
+        "FACOAL100p",
+        "FMNR2r",
+        "FMNRx2",
+        "G5DHx",
+        "G5SD",
+        "GALh",
+        "GCL",
+        "GLCS3",
+        "GLNS",
+        "GLUCYS",
+        "GLUDx",
+        "GLYD",
+        "HACD9i",
+        "HIUHY",
+        "HMR_0180",
+        "HOPNTAL3",
+        "IDPh",
+        "ILEDHr",
+        "KAT2",
+        "KAT3",
+        "KAT4",
+        "KAT5",
+        "KAT6",
+        "KAT7",
+        "KAT9",
+        "LEUDHr",
+        "LPADSS2",
+        "MAL1K",
+        "MCS",
+        "MECDPS",
+        "NAt3_1pp",
+        "NAt3pp",
+        "OP4ENH3",
+        "PACtex",
+        "PPHNTA",
+        "PPItex",
+        "PPK2r",
+        "PPKr",
+        "PRACHh",
+        "PRAI",
+        "PRAISh",
+        "PRAIi",
+        "PRAMPC",
+        "PRASCSi",
+        "PRICIh",
+        "PRMICI",
+        "PSCIT",
+        "PSCVT",
+        "QUINtex",
+        "RDXRr",
+        "RHACOAE40",
+        "SAT",
+        "SERAT",
+        "SERH",
+        "TAL",
+        "THRA2r",
+        "THRAr",
+        "TRPS1",
+        "U23GAAT2",
+        "UAGAAT2",
+        "UDCPGT",
+        "UHBZ1t_pp_",
+        "UHGADA2",
+        "URIt2rpp",
+        "VALTLh",
+        "VALTRS",
+        "sink_PHAg",
+        "sink_pqqA_kt_c_"
+      ],
+      "shared": 2800
+    }
+  },
+  "shared_reaction_change_counts": {
+    "bounds": 38,
+    "stoichiometry": 6
+  },
+  "shared_reaction_changes": [
+    {
+      "bigg_bounds": [
+        -999999.0,
+        999999.0
+      ],
+      "bigg_gpr": "PP_1283",
+      "fields": [
+        "stoichiometry"
+      ],
+      "id": "ALGE5",
+      "published_bounds": [
+        -999999.0,
+        999999.0
+      ],
+      "published_gpr": "PP_1283"
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "PP_1284",
+      "fields": [
+        "stoichiometry"
+      ],
+      "id": "ALGSex5",
+      "published_bounds": [
+        0.0,
+        999999.0
+      ],
+      "published_gpr": "PP_1284"
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_4abut_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_4hbz_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_5aptn_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_T4hcinnm_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_ac_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_akg_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_ala__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_arg__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_asp__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_bz_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_cit_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_dca_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_ddca_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_etoh_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_fer_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_fru_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        -6.0,
+        1000.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_glc__D_e",
+      "published_bounds": [
+        -6.3,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_glcur_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_gln__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_glu__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_glutar_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_his__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_hpta_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_hxa_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_ile__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_leu__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_lys__D_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_lys__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_man_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_nona_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_octa_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_pro__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_pta_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_pyr_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_ser__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_succ_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_val__L_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "",
+      "fields": [
+        "bounds"
+      ],
+      "id": "EX_vanln_e",
+      "published_bounds": [
+        0.0,
+        1000.0
+      ],
+      "published_gpr": ""
+    },
+    {
+      "bigg_bounds": [
+        -1000.0,
+        1000.0
+      ],
+      "bigg_gpr": "PP_0665 or PP_3443",
+      "fields": [
+        "stoichiometry"
+      ],
+      "id": "GAPDi_nadp",
+      "published_bounds": [
+        -1000.0,
+        1000.0
+      ],
+      "published_gpr": "PP_0665 or PP_3443"
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "PP_3598 or PP_2179 or PP_1842 or PP_5298",
+      "fields": [
+        "stoichiometry"
+      ],
+      "id": "GGDAPAH",
+      "published_bounds": [
+        0.0,
+        999999.0
+      ],
+      "published_gpr": "PP_3598 or PP_2179 or PP_1842 or PP_5298"
+    },
+    {
+      "bigg_bounds": [
+        -999999.0,
+        999999.0
+      ],
+      "bigg_gpr": "PP_5278",
+      "fields": [
+        "stoichiometry"
+      ],
+      "id": "GGDAPDxr",
+      "published_bounds": [
+        -999999.0,
+        999999.0
+      ],
+      "published_gpr": "PP_5278"
+    },
+    {
+      "bigg_bounds": [
+        0.0,
+        999999.0
+      ],
+      "bigg_gpr": "pWW0_095",
+      "fields": [
+        "stoichiometry"
+      ],
+      "id": "HMSH3",
+      "published_bounds": [
+        0.0,
+        999999.0
+      ],
+      "published_gpr": "pWW0_095"
+    }
+  ],
+  "status": "post-result source-lineage audit, not prospective validation",
+  "target_gene_presence": {
+    "all_fourteen_in_published": true,
+    "moco_six": [
+      "PP_0735",
+      "PP_1292",
+      "PP_1293",
+      "PP_1294",
+      "PP_2123",
+      "PP_3457"
+    ],
+    "suppressive_eight": [
+      "PP_0362",
+      "PP_0363",
+      "PP_0364",
+      "PP_0365",
+      "PP_0366",
+      "PP_0437",
+      "PP_1602",
+      "PP_4984"
+    ]
+  }
+}
