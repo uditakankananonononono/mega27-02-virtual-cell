@@ -259,14 +259,19 @@ def story_b(story, R):
           'architecture to non-model organisms with sparse labels, where the layer '
           'diversity argument should matter most.', BODY),
         P('6. Conclusion', H1),
-        P('A four-layer virtual E. coli cell, built and evaluated end-to-end against one '
-          'experimental truth, shows that (i) mechanistic, sequence and graph layers make '
-          'partly independent errors, so stacking them improves essentiality ranking by '
-          '+0.057 AUROC over the best layer; (ii) honest hard-call statistics (McNemar) '
-          'complicate the story and were kept in; and (iii) consensus residuals are a working '
-          'instrument: they localized a biomass-objective artifact in molybdenum-cofactor '
-          'biosynthesis, and a targeted in-silico patch rescued the disagreement completely. '
-          'The most useful output of a virtual cell may be where it breaks.', BODY),
+        P('The positive contribution is a reproducible audit for two failure-prone choices '
+          'in virtual-cell benchmarking: biomass composition and predictive score lineage. '
+          'Objective perturbations changed essentiality calls across related model snapshots, '
+          'and independently checked <i>Pseudomonas</i> counterfactuals showed that both '
+          'single-term demands and term combinations can determine a call. The result is a '
+          'model-curation and sensitivity finding, not evidence that those knockout strains '
+          'live in a laboratory. The score-lineage audit distinguishes a historical ranking '
+          'gain from the smaller, differently compared leakage-controlled v2 gain and blocks '
+          'a clean held-out hard-call claim. The pre-registered G2 gate failed on every rung; '
+          'medium mismatch, assay dependence and weak contributions from some learning layers '
+          'remain explicit limits. The runnable audit gives future condition-matched studies '
+          'a way to test which model predictions survive objective and evaluation choices '
+          'before treating them as biological hypotheses.', BODY),
         PageBreak(),
         P('References', H1)]
     refs = [

@@ -103,11 +103,11 @@ def story_calibration(story,R):
 
 
 
-              P('The historical abstract reports the 0.7225 v1 AUROC and 27:50 hard-call loss, which is accurate for '
+              P('The original v1 report gave 0.7225 AUROC and a 27:50 hard-call loss, which is accurate for '
                 'its original eval-inclusive threshold exercise but not the end of the project. The later MoCo census '
                 'adds cross-reconstruction structural scope, and the v2 OOF AUROC is approximately 0.7967, yet a '
                 'repeated-label score-lineage audit limits the calibration gate. Therefore the defensible headline '
-                'today is: a modular model made testable predictions and exposed a biomass-objective artifact; the '
+                'today is: objective-sensitivity and score-lineage audits expose model-dependent calls and evaluation limits; the '
                 'later hard-call improvement is suggestive, not a clean held-out win. An independent phenotypic '
                 'screen and condition-matched carbon-source evaluation remain needed for the strongest claim.',BODY)]
     return story

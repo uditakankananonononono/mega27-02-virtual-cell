@@ -6,9 +6,8 @@ from build_paper import P, H1, H2, BODY, EQ, TITLE, PageBreak, Spacer
 def story_a(story, R):
     # ---------------- title page ----------------
     story += [Spacer(1, 120),
-        P('VC-2: A Modular Virtual Cell for <i>Escherichia coli</i> K-12 Integrating '
-          'Constraint-Based Metabolism, Sequence and Graph Deep Learning, and '
-          'Dynamic Simulation, Benchmarked Against Experimental Gene Essentiality', TITLE),
+        P('VC-2: Auditing Biomass-Objective Sensitivity and Score Leakage in an '
+          '<i>Escherichia coli</i> Virtual-Cell Benchmark', TITLE),
         Spacer(1, 24),
         P('MEGA-PROGRAM-27, Item 2 - Virtual Cell', H1),
         P('Author: Udita Phookan', BODY),
@@ -16,32 +15,39 @@ def story_a(story, R):
         Spacer(1, 60),
         P('<b>Repository:</b> mega27-02-virtual-cell &nbsp;&nbsp;|&nbsp;&nbsp; '
           '<b>Code:</b> Python 3.10, COBRApy, PyTorch 2.14 (CPU), scikit-learn &nbsp;&nbsp;|&nbsp;&nbsp; '
-          '<b>Tests:</b> 23/23 hermetic tests passing', BODY),
+          '<b>Tests:</b> 26/26 hermetic tests passing', BODY),
         PageBreak()]
 
     # ---------------- abstract ----------------
     story += [P('Abstract', H1),
-        P('We built VC-2 as a modular in-silico <i>Escherichia coli</i> K-12 MG1655 cell: '
-          'constraint-based metabolism (iJO1366 and e_coli_core), sequence and metabolic-graph '
-          'learning, and rule-augmented dynamic flux balance analysis. Its original stacked '
-          'essentiality ranking gave out-of-fold AUROC 0.7225 against the Gerdes 2003 transposon '
-          'screen; a later v2 score gave 0.7967 on 1,249 aligned genes and ranked an independent '
-          'Rousset 2018 CRISPRi assay (1,214 overlap genes, 70 positives) at AUROC 0.8761 versus '
-          '0.6947 for minimal-medium FBA. The latter is a different-assay ranking test, not an '
-          'independent training cohort or a hard-call benchmark repair. The locked Gerdes hard-call '
-          'G2 gate failed on all five rungs, and a later audit found upstream label leakage in the '
-          'threshold score lineage; no clean held-out hard-call win is claimed.', BODY),
-        P('The clearest computational finding is that biomass objective composition materially '
-          'changes predicted essentiality. Removing MoCo constituents flipped at least one gene '
-          'call in 63 of 68 scorable MoCo-positive BiGG reconstructions. An independently coded '
-          'Pseudomonas iJN1463 counterfactual restored growth to seven originally zero-growth '
-          'gene knockouts when its three MoCo coefficients were removed together. In a further '
-          'one-model analysis of all 102 negative biomass terms, 23 single-term removals rescued '
-          'at least one original essential call, while each individual MoCo term rescued none. '
-          'This supports a general, sometimes combinatorial objective-sensitivity mechanism, '
-          'not MoCo uniqueness or wet-lab viability. The runnable audit and full negative-control '
-          'record ship with the paper. Independent condition-matched phenotypic validation and a '
-          'properly nested model comparison remain open.', BODY),
+        P('A virtual-cell benchmark is only as reliable as its biomass objective and its evaluation '
+          'lineage. We built an executable <i>Escherichia coli</i> model with flux balance analysis, '
+          'sequence and graph learners, a stacked score, and dynamic simulation, then asked two '
+          'audit questions: which essentiality calls change when individual or combined biomass '
+          'demands are perturbed, and which predictive comparisons survive scrutiny of training '
+          'folds, thresholds, and experimental conditions? The contribution is an auditable '
+          'model-sensitivity and leakage-control workflow, not a new biological viability claim. '
+          'In 68 scorable MoCo-positive BiGG model snapshots, 63 changed at least one predicted '
+          'gene-essentiality call after the named coefficients were removed. Those snapshots '
+          'are not 68 independent organisms or phenotype replications. A separately coded '
+          '<i>Pseudomonas</i> iJN1463 counterfactual rescued seven originally zero-growth '
+          'knockouts after its three MoCo coefficients were removed together; its 102-term '
+          'single-removal audit found 23 terms rescuing at least one call, while no individual '
+          'MoCo term did. Pairwise controls further limit any claim of MoCo uniqueness. These '
+          'results expose combinatorial objective sensitivity inside reconstructions, not '
+          'experimental survival.', BODY),
+        P('The original Gerdes 2003 hard-call G2 gate failed on all five locked rungs. A later '
+          'score-lineage audit found that threshold selection reused out-of-fold scores whose '
+          'training complements could contain evaluation labels; the hard-call counts are '
+          'descriptive, not clean held-out evidence. Gerdes transposon labels also come from '
+          'a different medium than the glucose-minimal simulation. The historical stacked '
+          'ranking gain of +0.057 AUROC over FBA is not a leakage-controlled gain. In the '
+          'separate v2 analysis, the leakage-controlled feature set gained +0.024 AUROC over '
+          'the reproduced, rescaled v1 score, a different comparator. We retain these '
+          'comparisons with their distinct denominators and limitations rather than claim '
+          'a benchmark-beating hard-call predictor. The model and audits run on two CPU '
+          'cores; condition-matched phenotype, fully nested refits and independent '
+          'validation remain open.', BODY),
         P('<b>Keywords:</b> virtual cell, flux balance analysis, gene essentiality, graph '
           'convolutional network, convolutional neural network, dynamic FBA, model ensemble, '
           '<i>Escherichia coli</i>, biomass objective function', BODY),
@@ -49,48 +55,32 @@ def story_a(story, R):
 
     # ---------------- introduction ----------------
     story += [P('1. Introduction', H1),
-        P('The dream of a whole-cell computational model - a program that takes a genotype and '
-          'an environment and returns the phenotype of a living cell - is decades old and still '
-          'largely unmet. The strongest existence proof remains the Karr et al. whole-cell model '
-          'of <i>Mycoplasma genitalium</i> [5], which coupled 28 submodels to simulate one cell '
-          'cycle. For <i>Escherichia coli</i>, the best-developed layer is metabolism: the '
-          'iJO1366 reconstruction [3] accounts for 1,366 genes, 2,251 metabolic reactions and '
-          '1,136 unique metabolites, and flux balance analysis on it makes phenotypic '
-          'predictions that agree well with knockout and growth screens under matched '
-          'conditions. Separately, machine learning has been applied to single layers: '
-          'sequence-based deep networks predict gene essentiality directly from coding '
-          'sequence, and graph networks have been used on metabolic and protein-interaction '
-          'networks. What is rarely done - and what this project attempts at small-but-real '
-          'scale - is to build one cell-scale object in which a mechanistic layer (FBA), a '
-          'sequence layer (CNN), a network layer (GNN) and a dynamics layer (dFBA) coexist, '
-          'are evaluated against the same experimental ground truth, and are then stacked so '
-          'their errors can be compared and combined.', BODY),
-        P('Three questions drive the work. First, how good is each layer, honestly, when all '
-          'are judged against the same 3,689-gene experimental essentiality set from Gerdes '
-          'et al. 2003 [2]? Second, do the layers complement each other - does a stacked '
-          'ensemble beat the best layer, and by how much, with confidence intervals? Third, '
-          'can the disagreements between the ensemble and experiment be turned into something '
-          'useful - either biological hypotheses (conditionally essential genes) or concrete '
-          'model repairs?', BODY),
-        P('The answers are, respectively: individually mediocre (AUROC 0.63-0.67); yes for '
-          'ranking (ensemble AUROC 0.7225, +0.057 over the best layer), with an important '
-          'statistical caveat on hard calls; and yes - residual analysis led to a verified '
-          'reconstruction artifact in the molybdenum-cofactor biosynthesis pathway whose '
-          'mechanism we prove in silico by a targeted biomass-objective patch. Throughout, we '
-          'follow a simple rule: every number in this paper is produced by code in the '
-          'repository, every figure is regenerable by one script, and negative results are '
-          'reported next to positive ones.', BODY),
+        P('A constraint-based virtual cell turns reaction stoichiometry and a biomass objective '
+          'into growth predictions. Those predictions may shift when the objective demands '
+          'different metabolites, even though no measured phenotype changes. This project '
+          'tests that dependence explicitly, with per-accession model snapshots, knockout '
+          'counterfactuals, individual-term and pairwise perturbations, and independent '
+          'linear-program checks. The mechanistic output is a map of which calls are forced '
+          'by objective choices and which are robust to those changes.', BODY),
+        P('The second problem is evaluation integrity. We implemented metabolic, sequence, '
+          'graph and dynamic layers and compared essentiality scores with published Gerdes '
+          '2003 labels and a distinct CRISPRi assay. Different media and assay mechanisms '
+          'make those yardsticks useful but not interchangeable. Rescaling a stack can improve '
+          'performance without adding information; upstream label reuse can make threshold '
+          'selection appear independent when it is not. The score-lineage and comparator '
+          'audits therefore accompany every ranking or hard-call result. The failed locked '
+          'hard-call gate remains failed. Sections 2-4 describe the model, Section 7 the '
+          'cross-reconstruction objective sensitivity and calibration audit, and the '
+          'appendices retain full positive and negative checks.', BODY),
         P('1.1 Why essentiality is the right first benchmark', H2),
-        P('Gene essentiality is the rare phenotype that is simultaneously binary, '
-          'genome-wide, mechanistically interpretable and experimentally measured at scale. '
-          'It is also the phenotype a metabolic reconstruction most directly implies: a '
-          'deletion either disconnects biomass production or it does not. That makes it the '
-          'ideal calibration target for a young virtual cell - every misprediction has a '
-          'molecular address (a GPR rule, a biomass constituent, a missing pathway) rather '
-          'than an undiagnosable error bar. Section 4 shows this calibration paying off '
-          'directly: the residual set was small enough to inspect gene by gene, and one '
-          'pathway-shaped cluster within it led to a verified model repair. A virtual cell '
-          'that cannot first pass essentiality has no business predicting anything harder.', BODY),
+        P('A gene-deletion call gives each model disagreement a traceable address: a reaction '
+          'rule, a biomass ingredient, a medium assumption or a score threshold. It does not '
+          'give a condition-independent truth. Gerdes transposon labels were measured in a '
+          'rich-medium setting, whereas the principal genome-scale FBA screen used a '
+          'glucose-minimal simulation. We use the labels to locate discrepancies and compare '
+          'ranking methods, but do not treat their disagreement as proof that a particular '
+          'model biomass term is erroneous. Objective perturbations identify model-dependent '
+          'calls; phenotype experiments would have to decide which predictions hold in vivo.', BODY),
         P('2. Methods', H1),
         P('2.1 Models and experimental ground truth', H2),
         P('Two published constraint-based reconstructions were used exactly as distributed by '

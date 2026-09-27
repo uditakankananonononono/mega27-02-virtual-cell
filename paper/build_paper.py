@@ -77,7 +77,7 @@ def main():
                             pagesize=letter,
                             leftMargin=0.9*inch, rightMargin=0.9*inch,
                             topMargin=0.9*inch, bottomMargin=0.9*inch,
-                            title='VC-2: A Modular Virtual Cell for E. coli K-12')
+                            title='VC-2: Biomass-objective sensitivity and score-lineage audit')
     from reportlab.pdfgen.canvas import Canvas
     class TNRCanvas(Canvas):
         def __init__(self, *a, **k):
