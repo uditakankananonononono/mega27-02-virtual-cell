@@ -277,8 +277,9 @@ def story_b(story, R):
           'uptake rates mapping to negative lower bounds), which zeroed all growth; (iii) '
           'infeasible-knockout NaN fluxes, which mislabeled two core-model genes until '
           'infeasible was mapped to zero growth. Each would have produced plausible-looking, '
-          'wrong results. The current 26-test hermetic suite, expanded since the original bugs, runs in about five '
-          'seconds with no network access.', BODY),
+          'wrong results. The current 27-test suite, expanded since the original bugs, passed locally '
+          'without network access (43 optional/legacy dependency warnings); the historic '
+          'hermetic baseline comprised 18 cases.', BODY),
         P('5.4 Limitations', H2),
         P('(1) One experimental label set (Gerdes 2003); adding the Keio deletion collection '
           '[1] as a second, independent yardstick is queued. (2) The CNN sees only the first '

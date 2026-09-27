@@ -51,7 +51,7 @@ sequential utilization. Both runs preserved.
 - `vcell/` - package: metabolism, data, seqcnn, graphgnn, dynamics, benchmark
 - `scripts/` - pipelines: run_ijo1366_scan.py, run_ijo1366_rich_scan.py,
   run_seqcnn.py, run_gnn.py, make_figures.py
-- `tests/` - 23 hermetic pytest cases, ~5 s, no network
+- `tests/` - 27 pytest cases at the current working release; local run needs no network (historic hermetic baseline: 18 cases)
 - `results/` - every intermediate score (CSV/JSON/NPZ)
 - `figures/` - 5 paper figures (regenerate: python scripts/make_figures.py)
 - `paper/` - VC2_virtual_cell_paper.pdf (page count varies with source updates;
