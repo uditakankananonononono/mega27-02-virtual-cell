@@ -1,0 +1,860 @@
+{
+  "candidate_genes": [
+    "PP_0362",
+    "PP_0363",
+    "PP_0364",
+    "PP_0365",
+    "PP_0366",
+    "PP_0437",
+    "PP_1602",
+    "PP_4984"
+  ],
+  "conclusion": "The double edit has lower WT optimum and all eight previously rescued KO objectives return to zero, not just below a relative rescue threshold. These are model LP outcomes; not unique flux mechanisms or cell phenotypes.",
+  "pair": [
+    "2fe2s_c",
+    "btamp_c"
+  ],
+  "protocol": "notes/postresult_suppressive_pair_flux_audit.md",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "specific_reactions": {
+    "BACCL": {
+      "bounds": [
+        0.0,
+        999999.0
+      ],
+      "gpr": "PP_0437",
+      "reaction": "atp_c + btn_c + h_c --> btamp_c + ppi_c"
+    },
+    "BTS5": {
+      "bounds": [
+        0.0,
+        999999.0
+      ],
+      "gpr": "PP_0362",
+      "reaction": "2fe2s_c + amet_c + dtbt_c --> 2fe1s_c + btn_c + dad_5_c + h_c + met__L_c"
+    },
+    "I2FE2ST": {
+      "bounds": [
+        0.0,
+        999999.0
+      ],
+      "gpr": "PP_0844 and PP_0843",
+      "reaction": "4.0 h_c + iscu_2fe2s_c --> 2fe2s_c + iscu_c"
+    },
+    "LIPOS": {
+      "bounds": [
+        0.0,
+        999999.0
+      ],
+      "gpr": "PP_4800",
+      "reaction": "4fe4s_c + 2.0 amet_c + h_c + nad_c + octapb_c --> 2fe2s_c + 2.0 dad_5_c + 2.0 fe2_c + lipopb_c + 2.0 met__L_c + nadh_c"
+    }
+  },
+  "status": "post-result model-internal diagnosis; no gate update",
+  "variants": [
+    {
+      "knockouts": {
+        "PP_0362": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 4.835021272242557e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894738,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105253,
+            "EX_lpspput_e": 0.12631578947368421,
+            "EX_nh4_e": -1.5947368421052381,
+            "EX_o2_e": -6.323684210526302,
+            "EX_pi_e": -3.230558539205065
+          },
+          "status": "optimal"
+        },
+        "PP_0363": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 3.3084646133829665e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894736,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052635,
+            "EX_lpspput_e": 0.12631578947368427,
+            "EX_nh4_e": -1.5947368421052688,
+            "EX_o2_e": -6.323684210526317,
+            "EX_pi_e": -3.230558539205149
+          },
+          "status": "optimal"
+        },
+        "PP_0364": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 7.038813976123492e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894735,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105266,
+            "EX_lpspput_e": 0.12631578947368433,
+            "EX_nh4_e": -1.5947368421052663,
+            "EX_o2_e": -6.323684210526316,
+            "EX_pi_e": -3.230558539205181
+          },
+          "status": "optimal"
+        },
+        "PP_0365": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.1823875212257917e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894735,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052624,
+            "EX_lpspput_e": 0.12631578947368433,
+            "EX_nh4_e": -1.5947368421052688,
+            "EX_o2_e": -6.323684210526317,
+            "EX_pi_e": -3.2305585392051226
+          },
+          "status": "optimal"
+        },
+        "PP_0366": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.354472090042691e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894736,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052624,
+            "EX_lpspput_e": 0.12631578947368433,
+            "EX_nh4_e": -1.5947368421052661,
+            "EX_o2_e": -6.323684210526316,
+            "EX_pi_e": -3.230558539205136
+          },
+          "status": "optimal"
+        },
+        "PP_0437": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 3.597122599785507e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894735,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.0473684210526,
+            "EX_lpspput_e": 0.12631578947368413,
+            "EX_nh4_e": -1.594736842105254,
+            "EX_o2_e": -6.3236842105263085,
+            "EX_pi_e": -3.2305585392051106
+          },
+          "status": "optimal"
+        },
+        "PP_1602": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.1962653090336062e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894736,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052585,
+            "EX_lpspput_e": 0.1263157894736841,
+            "EX_nh4_e": -1.5947368421052526,
+            "EX_o2_e": -6.3236842105263085,
+            "EX_pi_e": -3.2305585392051426
+          },
+          "status": "optimal"
+        },
+        "PP_4984": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 4.907185768843192e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894735,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052667,
+            "EX_lpspput_e": 0.12631578947368427,
+            "EX_nh4_e": -1.5947368421052672,
+            "EX_o2_e": -6.323684210526316,
+            "EX_pi_e": -3.2305585392051555
+          },
+          "status": "optimal"
+        }
+      },
+      "original_coefficients": {
+        "2fe2s_c": -0.000223,
+        "btamp_c": -0.000223
+      },
+      "removed": [],
+      "wild_type": {
+        "biomass_flux": 0.5861175448479806,
+        "growth": 0.5861175448479806,
+        "max_mass_balance_residual": 2.6913286052879237e-14,
+        "nonzero_exchanges": {
+          "EX_ca2_e": -0.002476932744527566,
+          "EX_cl_e": -0.002476932744527566,
+          "EX_co2_e": 12.396610983635968,
+          "EX_cobalt2_e": -0.0017817973363378615,
+          "EX_cu2_e": -0.0016510931238367622,
+          "EX_fe2_e": -0.008608308381182294,
+          "EX_glc__D_e": -6.0,
+          "EX_h2o_e": 27.760685142823302,
+          "EX_h_e": 5.738009293723024,
+          "EX_k_e": -0.09290490591630857,
+          "EX_mg2_e": -0.004128611985909176,
+          "EX_mn2_e": -0.0016510931238367618,
+          "EX_mobd_e": -0.001912501548838961,
+          "EX_na1_e": -0.002064305992954588,
+          "EX_nh4_e": -6.238732442874382,
+          "EX_ni2_e": -0.0016510931238367618,
+          "EX_o2_e": -11.422870315148845,
+          "EX_pi_e": -0.5391472570389594,
+          "EX_so4_e": -0.10901434663645511,
+          "EX_zn2_e": -0.0016510931238367618
+        },
+        "status": "optimal"
+      }
+    },
+    {
+      "knockouts": {
+        "PP_0362": {
+          "biomass_flux": 4.0566012908018305e-16,
+          "growth": 4.0566012908018305e-16,
+          "growth_over_original_wt": 6.921139499166465e-16,
+          "growth_over_variant_wt": 6.920982422480433e-16,
+          "max_mass_balance_residual": 4.662927657204779e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894731,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105274,
+            "EX_lpspput_e": 0.12631578947368405,
+            "EX_nh4_e": -1.5947368421052925,
+            "EX_o2_e": -6.3236842105263245,
+            "EX_pi_e": -3.2305585392051723
+          },
+          "status": "optimal"
+        },
+        "PP_0363": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 2.19824158875781e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894731,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052564,
+            "EX_lpspput_e": 0.12631578947368421,
+            "EX_nh4_e": -1.5947368421052488,
+            "EX_o2_e": -6.323684210526308,
+            "EX_pi_e": -3.230558539205116
+          },
+          "status": "optimal"
+        },
+        "PP_0364": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 3.594347042223944e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894738,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105263,
+            "EX_lpspput_e": 0.1263157894736842,
+            "EX_nh4_e": -1.5947368421052621,
+            "EX_o2_e": -6.323684210526316,
+            "EX_pi_e": -3.2305585392051226
+          },
+          "status": "optimal"
+        },
+        "PP_0365": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 9.826208161405735e-15,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894738,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052635,
+            "EX_lpspput_e": 0.12631578947368435,
+            "EX_nh4_e": -1.5947368421052674,
+            "EX_o2_e": -6.323684210526319,
+            "EX_pi_e": -3.2305585392051555
+          },
+          "status": "optimal"
+        },
+        "PP_0366": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 2.500777362968165e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894735,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052578,
+            "EX_lpspput_e": 0.12631578947368421,
+            "EX_nh4_e": -1.5947368421052617,
+            "EX_o2_e": -6.323684210526312,
+            "EX_pi_e": -3.230558539205104
+          },
+          "status": "optimal"
+        },
+        "PP_0437": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.1934897514720434e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894738,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105268,
+            "EX_lpspput_e": 0.12631578947368435,
+            "EX_nh4_e": -1.5947368421052805,
+            "EX_o2_e": -6.323684210526323,
+            "EX_pi_e": -3.2305585392051617
+          },
+          "status": "optimal"
+        },
+        "PP_1602": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 7.815970093361102e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894742,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105269,
+            "EX_lpspput_e": 0.12631578947368427,
+            "EX_nh4_e": -1.5947368421052683,
+            "EX_o2_e": -6.323684210526317,
+            "EX_pi_e": -3.2305585392051683
+          },
+          "status": "optimal"
+        },
+        "PP_4984": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.6264767310758543e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894738,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105259,
+            "EX_lpspput_e": 0.12631578947368433,
+            "EX_nh4_e": -1.5947368421052557,
+            "EX_o2_e": -6.323684210526313,
+            "EX_pi_e": -3.230558539205116
+          },
+          "status": "optimal"
+        }
+      },
+      "original_coefficients": {
+        "2fe2s_c": -0.000223,
+        "btamp_c": -0.000223
+      },
+      "removed": [
+        "2fe2s_c"
+      ],
+      "wild_type": {
+        "biomass_flux": 0.5861308472082454,
+        "growth": 0.5861308472082454,
+        "max_mass_balance_residual": 8.354165341277475e-14,
+        "nonzero_exchanges": {
+          "EX_ca2_e": -0.0024769889603020448,
+          "EX_cl_e": -0.002476988960302045,
+          "EX_co2_e": 12.39607528770441,
+          "EX_cobalt2_e": -0.0017818377755130666,
+          "EX_cu2_e": -0.0016511305965856277,
+          "EX_fe2_e": -0.008347089395092626,
+          "EX_glc__D_e": -6.0,
+          "EX_h2o_e": 27.760367438453134,
+          "EX_h_e": 5.7384009363389294,
+          "EX_k_e": -0.09290701446013178,
+          "EX_mg2_e": -0.00412870568773488,
+          "EX_mn2_e": -0.0016511305965856277,
+          "EX_mobd_e": -0.0019125449544405049,
+          "EX_na1_e": -0.00206435284386744,
+          "EX_nh4_e": -6.238874035405217,
+          "EX_ni2_e": -0.0016511305965856277,
+          "EX_o2_e": -11.422769994597008,
+          "EX_pi_e": -0.5391594933746656,
+          "EX_so4_e": -0.10875540643779535,
+          "EX_zn2_e": -0.0016511305965856277
+        },
+        "status": "optimal"
+      }
+    },
+    {
+      "knockouts": {
+        "PP_0362": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        },
+        "PP_0363": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        },
+        "PP_0364": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        },
+        "PP_0365": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        },
+        "PP_0366": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        },
+        "PP_0437": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        },
+        "PP_1602": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        },
+        "PP_4984": {
+          "biomass_flux": 0.586229451300934,
+          "growth": 0.586229451300934,
+          "growth_over_original_wt": 1.000190928345239,
+          "growth_over_variant_wt": 0.9999999999999968,
+          "max_mass_balance_residual": 7.184324749692772e-14,
+          "nonzero_exchanges": {
+            "EX_ca2_e": -0.0024774056611977465,
+            "EX_cl_e": -0.0024774056611977465,
+            "EX_co2_e": 12.397333594334675,
+            "EX_cobalt2_e": -0.0017821375319548392,
+            "EX_cu2_e": -0.0016514083643147308,
+            "EX_fe2_e": -0.00860995195125682,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 27.760027128245152,
+            "EX_h_e": 5.737928279833709,
+            "EX_k_e": -0.09292264409625973,
+            "EX_mg2_e": -0.0041294002549637785,
+            "EX_mn2_e": -0.0016514083643147308,
+            "EX_mobd_e": -0.0019128666995949473,
+            "EX_na1_e": -0.002064700127481889,
+            "EX_nh4_e": -6.238354843724371,
+            "EX_ni2_e": -0.0016514083643147308,
+            "EX_o2_e": -11.423407011153026,
+            "EX_pi_e": -0.5391194663649418,
+            "EX_so4_e": -0.10877370222998586,
+            "EX_zn2_e": -0.0016514083643147308
+          },
+          "status": "optimal"
+        }
+      },
+      "original_coefficients": {
+        "2fe2s_c": -0.000223,
+        "btamp_c": -0.000223
+      },
+      "removed": [
+        "btamp_c"
+      ],
+      "wild_type": {
+        "biomass_flux": 0.5862294513009358,
+        "growth": 0.5862294513009358,
+        "max_mass_balance_residual": 1.7881282934374687e-13,
+        "nonzero_exchanges": {
+          "EX_ca2_e": -0.0024774056611977548,
+          "EX_cl_e": -0.0024774056611977548,
+          "EX_co2_e": 12.397333594334691,
+          "EX_cobalt2_e": -0.0017821375319548452,
+          "EX_cu2_e": -0.001651408364314737,
+          "EX_fe2_e": -0.008609951951256847,
+          "EX_glc__D_e": -6.0,
+          "EX_h2o_e": 27.76002712824508,
+          "EX_h_e": 5.7379282798337625,
+          "EX_k_e": -0.09292264409626004,
+          "EX_mg2_e": -0.004129400254963792,
+          "EX_mn2_e": -0.0016514083643147366,
+          "EX_mobd_e": -0.0019128666995949536,
+          "EX_na1_e": -0.0020647001274818953,
+          "EX_nh4_e": -6.238354843724348,
+          "EX_ni2_e": -0.0016514083643147366,
+          "EX_o2_e": -11.423407011153023,
+          "EX_pi_e": -0.5391194663649073,
+          "EX_so4_e": -0.1087737022299843,
+          "EX_zn2_e": -0.0016514083643147364
+        },
+        "status": "optimal"
+      }
+    },
+    {
+      "knockouts": {
+        "PP_0362": {
+          "biomass_flux": -2.671685546735999e-16,
+          "growth": -2.671685546735999e-16,
+          "growth_over_original_wt": -4.558276015144617e-16,
+          "growth_over_variant_wt": -6.850368253047574e-16,
+          "max_mass_balance_residual": 7.310818617156656e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894726,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052546,
+            "EX_lpspput_e": 0.12631578947368424,
+            "EX_nh4_e": -1.5947368421052404,
+            "EX_o2_e": -6.323684210526304,
+            "EX_pi_e": -3.230558539205131
+          },
+          "status": "optimal"
+        },
+        "PP_0363": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.509903313490213e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894745,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052592,
+            "EX_lpspput_e": 0.12631578947368424,
+            "EX_nh4_e": -1.5947368421052515,
+            "EX_o2_e": -6.323684210526312,
+            "EX_pi_e": -3.2305585392051426
+          },
+          "status": "optimal"
+        },
+        "PP_0364": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.5765166949677223e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894735,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052653,
+            "EX_lpspput_e": 0.12631578947368427,
+            "EX_nh4_e": -1.594736842105272,
+            "EX_o2_e": -6.323684210526317,
+            "EX_pi_e": -3.230558539205149
+          },
+          "status": "optimal"
+        },
+        "PP_0365": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 2.90878432451791e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894736,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052596,
+            "EX_lpspput_e": 0.1263157894736842,
+            "EX_nh4_e": -1.5947368421052606,
+            "EX_o2_e": -6.323684210526312,
+            "EX_pi_e": -3.2305585392051315
+          },
+          "status": "optimal"
+        },
+        "PP_0366": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 3.375077994860476e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894735,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052624,
+            "EX_lpspput_e": 0.12631578947368421,
+            "EX_nh4_e": -1.5947368421052617,
+            "EX_o2_e": -6.323684210526313,
+            "EX_pi_e": -3.2305585392051386
+          },
+          "status": "optimal"
+        },
+        "PP_0437": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.4654943925052066e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894738,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105263,
+            "EX_lpspput_e": 0.12631578947368433,
+            "EX_nh4_e": -1.5947368421052612,
+            "EX_o2_e": -6.323684210526316,
+            "EX_pi_e": -3.230558539205149
+          },
+          "status": "optimal"
+        },
+        "PP_1602": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.2656542480726785e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894742,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.04736842105259,
+            "EX_lpspput_e": 0.12631578947368424,
+            "EX_nh4_e": -1.5947368421052555,
+            "EX_o2_e": -6.323684210526312,
+            "EX_pi_e": -3.230558539205136
+          },
+          "status": "optimal"
+        },
+        "PP_4984": {
+          "biomass_flux": 0.0,
+          "growth": 0.0,
+          "growth_over_original_wt": 0.0,
+          "growth_over_variant_wt": 0.0,
+          "max_mass_balance_residual": 1.5765166949677223e-14,
+          "nonzero_exchanges": {
+            "EX_co2_e": 9.355263157894727,
+            "EX_glc__D_e": -6.0,
+            "EX_h2o_e": 18.047368421052692,
+            "EX_lpspput_e": 0.12631578947368424,
+            "EX_nh4_e": -1.594736842105284,
+            "EX_o2_e": -6.323684210526323,
+            "EX_pi_e": -3.2305585392051794
+          },
+          "status": "optimal"
+        }
+      },
+      "original_coefficients": {
+        "2fe2s_c": -0.000223,
+        "btamp_c": -0.000223
+      },
+      "removed": [
+        "2fe2s_c",
+        "btamp_c"
+      ],
+      "wild_type": {
+        "biomass_flux": 0.39000612055380035,
+        "growth": 0.39000612055380035,
+        "max_mass_balance_residual": 4.540203662247583e-14,
+        "nonzero_exchanges": {
+          "EX_ca2_e": -0.0024778294952519184,
+          "EX_cl_e": -0.0024778294952519184,
+          "EX_co2_e": 12.406336058984696,
+          "EX_cobalt2_e": -0.0017386622518036714,
+          "EX_cu2_e": -0.0016516908869201744,
+          "EX_fe2_e": -0.008437482210309898,
+          "EX_glc__D_e": -6.0,
+          "EX_h2o_e": 27.76211935799144,
+          "EX_h_e": 5.735521770349341,
+          "EX_k_e": -0.09293854128321968,
+          "EX_mg2_e": -0.004130106711915408,
+          "EX_mn2_e": -0.0010986472416000556,
+          "EX_mobd_e": -0.0018256336166871691,
+          "EX_na1_e": -0.002065053355957704,
+          "EX_nh4_e": -6.23632313181074,
+          "EX_ni2_e": -0.001651690886920174,
+          "EX_o2_e": -11.421568201382744,
+          "EX_pi_e": -0.5419977273436863,
+          "EX_so4_e": -0.10826930508169495,
+          "EX_zn2_e": -0.0016516908869201737
+        },
+        "status": "optimal"
+      }
+    }
+  ]
+}
