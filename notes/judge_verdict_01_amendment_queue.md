@@ -4,7 +4,7 @@ Verdict: owner-provided, WhatsApp 11:15:17 IST, wamid.HBgMOTE4MTM0MDk4NTcxFQIAEh
 
 | # | verdict item | class | map vs 9474ea0 |
 |---|---|---|---|
-| 1-3 | not pasted | MISSING | requested from owner |
+| 1-3 | not pasted | OWNER-WAIVED | Owner WhatsApp 11:46:16 IST said "NO NEED 1-3"; close without inventing content. |
 | 4 | core novelty unclear; biomass sensitivity buried | OPEN-EXEC | restructure spine: lead with biomass-objective sensitivity machinery + leakage-control audit as the positive methods contribution (owner spine directive 11:15). No new science claimed. |
 | 5 | G2 hard-call gate failed | LOCKED-FAIL + OPEN-EXEC | gate outcome preserved as FAIL; stop leading with hard-call claims, lead with ranking + biomass machinery |
 | 6 | label leakage in threshold selection | PARTIAL + OPEN-EXEC | score-lineage audit already in paper (descriptive); add fully nested threshold re-selection or independent-fold test as new pre-registered analysis |
@@ -23,8 +23,10 @@ Verdict: owner-provided, WhatsApp 11:15:17 IST, wamid.HBgMOTE4MTM0MDk4NTcxFQIAEh
 | 19 | minimal compute (2 CPU, no GPU) | PARTIAL | already stated; recast as reproducibility-on-minimal-hardware feature |
 | 20 | defensive conclusion | OPEN-EXEC | rewrite conclusion around positive contribution (biomass machinery + leakage audit); keep honest limits |
 
-Execution order (frozen): A) archive+gate mark (done this commit) -> B) name-scrub + rebuild (same commit, owner 11:14 directive) -> C) restructure plan + conclusion/headline edits (#4 #5 #7 #20) -> D) negatives consolidation + layer-contribution table (#8 #9 #11 #13 #16) -> E) 12-slide story + exec summary (#17) -> F) nested threshold re-selection prereg + run (#6) -> G) Rousset sensitivity (#15) -> H) request items 1-3 and remap.
+Execution order (frozen): A) archive+gate mark (done this commit) -> B) name-scrub + rebuild (same commit, owner 11:14 directive) -> C) restructure plan + conclusion/headline edits (#4 #5 #7 #20) -> D) negatives consolidation + layer-contribution table (#8 #9 #11 #13 #16) -> E) 12-slide story + exec summary (#17) -> F) nested threshold re-selection prereg + run (#6) -> G) Rousset sensitivity (#15) -> H) items 1-3 owner-waived 11:46:16 IST; no remap needed.
 
 ## Execution status (27 September 2026)
 
 C: committed 2e4f4f1 (spine); D: committed b85955d (consolidated feature table). E: 12-slide story and executive summary drafted as notes in the subsequent commit. These are presentation layers only; the G2 failure and all original negative results remain locked. F/G/H remain open. Total PDF pages do not establish the owner's 50+ substantive text-body-page rule: references start around page 28 of the current 69-page PDF.
+
+Owner waiver provenance: direct WhatsApp 27 Sep 2026 11:46:16 IST, wamid.HBgMOTE4MTM0MDk4NTcxFQIAEhgWM0VCMDczNzU1OEJBNDcxOENGNTUwNQA= ("... NO NEED 1-3 ..."). This waives the missing pasted lines, not any science/length/benchmark requirements.
