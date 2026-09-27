@@ -1,6 +1,6 @@
-# VC2 verdict-01 12-slide story, 27 September 2026
+# VC2 verdict-01 12-slide research story, 27 September 2026
 
-Presentation layer for the owner to review. It is not a scored gate, new experiment, or revision of the failed G2 outcome. Figures should come from committed results, not invented artwork. Detailed negatives and exception cases belong in backup slides, but remain in the paper and repository.
+Research-presentation layer for the owner to review. It uses judging-style clarity as a quality target, not an assumption that she is entering a competition. It is not a scored gate, new experiment, or revision of the failed G2 outcome. Figures should come from committed results, not invented artwork. Detailed negatives and exception cases belong in backup slides, but remain in the paper and repository.
 
 1. Title: "Which virtual-cell knockout calls are forced by the biomass objective?" Subtitle: an executable sensitivity and score-lineage audit of *E. coli* models. Authorship is the owner's to set.
 2. The problem: FBA requires a biomass objective; when an ingredient is obligatory in that objective, a knockout that blocks its synthesis may look lethal even if real cells have an alternative. A different problem is evaluating predictor thresholds on label-contaminated scores.
@@ -13,6 +13,6 @@ Presentation layer for the owner to review. It is not a scored gate, new experim
 9. The hard-call result: the locked G2 gate failed on all five rungs. Threshold score lineage allowed upstream label reuse, so favorable discordance counts are descriptive and cannot establish held-out hard-call superiority (results/calibration_gate.json; results/calibration_lineage_audit.json).
 10. The usable contribution: an auditable route from surprising calls to objective perturbations and score provenance. It runs on two CPU cores. dFBA diauxie with a hand-coded rule validates simulation plumbing but does not discover a new mechanism.
 11. The major limit: related reconstructions, Gerdes medium mismatch, distinct assay mechanisms, no condition-matched external phenotype for the key gene rescues, no wet-lab validation, and no fully nested predictor comparison. Cross-species rank transfer is inconsistent.
-12. Future discriminating test: lock matched-media controls and nested folds before scoring, assay the implicated knockouts with their true media and objective composition, and compare within reconstruction families and independent cohorts. Do not call this project a benchmark-beating biological predictor today.
+12. Future discriminating test: lock matched-media controls and nested folds before scoring, assay the implicated knockouts with their true media and objective composition, and compare within reconstruction families and independent cohorts. Do not call this project a benchmark-beating biological predictor today; no competition entry is implied.
 
 Backup: six feature-block nulls, organism-specific transfer results, SAM bypass scope, Rousset CRISPRi polar-effect audit, full five-rung gate ledger, pair-control exception cases, all original preregistrations.
