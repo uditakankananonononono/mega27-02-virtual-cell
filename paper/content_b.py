@@ -350,7 +350,7 @@ def story_b(story, R):
           'scripts/run_seqcnn.py (CNN + baseline), scripts/run_gnn.py (graph GCN), '
           'scripts/make_figures.py (all figures), paper/build_paper.py (this document). '
           'Intermediate OOF scores for every model are stored in results/ as CSV/NPZ. '
-          'Tests: 18 hermetic pytest cases, ~5 s, no network. Live network calls are made '
+          'Current full suite: 27 pytest cases passing with 43 warnings from optional/legacy dependencies, run locally without network; historic baseline was 18 hermetic cases. Live network calls are made '
           'only by fetch scripts, never by tests.', BODY)]
     story += tbl([['Artifact', 'Path', 'Verified by'],
              ['Condition matrix', 'results/core_condition_matrix.csv', 'TestMetabolism'],

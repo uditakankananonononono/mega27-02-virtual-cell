@@ -15,7 +15,7 @@ def story_a(story, R):
         Spacer(1, 60),
         P('<b>Repository:</b> mega27-02-virtual-cell &nbsp;&nbsp;|&nbsp;&nbsp; '
           '<b>Code:</b> Python 3.10, COBRApy, PyTorch 2.14 (CPU), scikit-learn &nbsp;&nbsp;|&nbsp;&nbsp; '
-          '<b>Tests:</b> 26/26 hermetic tests passing', BODY),
+          '<b>Tests:</b> 27/27 tests passing at the current working release', BODY),
         PageBreak()]
 
     # ---------------- abstract ----------------
