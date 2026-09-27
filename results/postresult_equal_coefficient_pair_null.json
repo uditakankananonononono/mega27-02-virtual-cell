@@ -1,0 +1,4826 @@
+{
+  "status": "retrospective equal-coefficient pair null; not exchangeable biological control",
+  "protocol": "notes/postresult_equal_coefficient_pair_null.md",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "objective": "BIOMASS_KT2440_WT3",
+  "original_wt_growth": 0.5861175448479794,
+  "coefficient": -0.000223,
+  "n_original_zero_growth_genes": 262,
+  "eligible_non_moco_terms": [
+    "10fthf_c",
+    "2fe2s_c",
+    "4fe4s_c",
+    "5mthf_c",
+    "adocbl_c",
+    "amet_c",
+    "btamp_c",
+    "chor_c",
+    "fad_c",
+    "gthrd_c",
+    "hemeO_c",
+    "lipopb_c",
+    "mlthf_c",
+    "pheme_c",
+    "pqqh2_c",
+    "pydx5p_c",
+    "pyovd_kt_e",
+    "q8h2_c",
+    "ribflv_c",
+    "sheme_c",
+    "thf_c",
+    "thmnp_c",
+    "thmpp_c"
+  ],
+  "n_pairs": 253,
+  "rescue_threshold": "edited KO growth >= .95 * unedited WT growth",
+  "mo_pair_ids": [
+    "bmocogdp_c",
+    "mocogdp_c"
+  ],
+  "mo_pair_prior_rescued": [
+    "PP_0735",
+    "PP_1292",
+    "PP_1293",
+    "PP_1294",
+    "PP_2123",
+    "PP_3457"
+  ],
+  "pairs": [
+    {
+      "removed": [
+        "10fthf_c",
+        "2fe2s_c"
+      ],
+      "edited_wt_growth": 0.5861820669331118,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "4fe4s_c"
+      ],
+      "edited_wt_growth": 0.5861967027844657,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "5mthf_c"
+      ],
+      "edited_wt_growth": 0.586221910686209,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "adocbl_c"
+      ],
+      "edited_wt_growth": 0.5863905858815335,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838279596602092,
+        "PP_1672": 0.5863905858815316,
+        "PP_1673": 0.5863905858815328,
+        "PP_1674": 0.5863905858815328,
+        "PP_1675": 0.5863905858815328,
+        "PP_1676": 0.5863905858815328,
+        "PP_1677": 0.5863905858815328,
+        "PP_1678": 0.5863905858815328,
+        "PP_1679": 0.5863905858815328,
+        "PP_1680": 0.5863905858815328,
+        "PP_1681": 0.5863905858815328,
+        "PP_3410": 0.58639058588153,
+        "PP_3507": 0.5863905858815329,
+        "PP_3763": 0.5863905858815285,
+        "PP_4826": 0.5863905858815304,
+        "PP_4827": 0.5863905858815288,
+        "PP_4828": 0.5863905858815288,
+        "PP_4829": 0.5863905858815288,
+        "PP_4830": 0.5863905858815288,
+        "PP_4832": 0.5863905858815288,
+        "PP_4862": 0.5863905858815288
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "amet_c"
+      ],
+      "edited_wt_growth": 0.5862111915187734,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "btamp_c"
+      ],
+      "edited_wt_growth": 0.5862806882612653,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862806882612671,
+        "PP_0363": 0.5862806882612671,
+        "PP_0364": 0.5862806882612671,
+        "PP_0365": 0.5862806882612671,
+        "PP_0366": 0.5862806882612671,
+        "PP_0437": 0.5862806882612703,
+        "PP_1602": 0.5862806882612644,
+        "PP_4984": 0.5862806882612678
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "chor_c"
+      ],
+      "edited_wt_growth": 0.5861921936816546,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.5862394318245954,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5861956679022724,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861956679022778
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.586315516762383,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5862302645160674,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862302645160699,
+        "PP_4801": 0.5862302645160705
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5862210235678175,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862658264026103,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861690579010005,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861690579009898,
+        "PP_0378": 0.5861690579009955,
+        "PP_0380": 0.5861690579009955,
+        "PP_0381": 0.5861690579009955
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861895326043521,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.58618953260435,
+        "PP_1129": 0.5861895326043536,
+        "PP_1436": 0.5861895326043481,
+        "PP_2117": 0.5861895326043518,
+        "PP_4964": 0.5861895326043504
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862344045553868,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862344045553866,
+        "PP_4209": 0.5862344045553859,
+        "PP_4210": 0.5862344045553822,
+        "PP_4211": 0.5862344045553822,
+        "PP_4212": 0.5862344045553822,
+        "PP_4213": 0.5862344045553822,
+        "PP_4214": 0.5862344045553822,
+        "PP_4215": 0.5862344045553822,
+        "PP_4216": 0.5862344045553822,
+        "PP_4219": 0.5862344045553822,
+        "PP_4220": 0.5862344045553822,
+        "PP_4221": 0.5862344045553822,
+        "PP_4222": 0.5862344045553822,
+        "PP_4243": 0.5862344045553822
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863249085952132,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.586324908595211,
+        "PP_1765": 0.5863249085952034,
+        "PP_5011": 0.5863249085952156,
+        "PP_5013": 0.5863249085952125,
+        "PP_5199": 0.5863249085952112,
+        "PP_5318": 0.5863249085952124
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862142963407359,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862742554239899,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862742554239897
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862189536353496,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861928589547478,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "10fthf_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862086781155585,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862086781155583,
+        "PP_3357": 0.5862086781155578,
+        "PP_4782": 0.586208678115558,
+        "PP_4783": 0.5862086781155568,
+        "PP_4922": 0.5862086781155614,
+        "PP_5045": 0.5862086781155579,
+        "PP_5104": 0.5862086781155617,
+        "PP_5105": 0.5862086781155579
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "4fe4s_c"
+      ],
+      "edited_wt_growth": 0.5861587841303058,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "5mthf_c"
+      ],
+      "edited_wt_growth": 0.5861839887708883,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "adocbl_c"
+      ],
+      "edited_wt_growth": 0.5863526421410401,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5837884406510955,
+        "PP_1672": 0.5863526421410422,
+        "PP_1673": 0.586352642141041,
+        "PP_1674": 0.586352642141041,
+        "PP_1675": 0.586352642141041,
+        "PP_1676": 0.586352642141041,
+        "PP_1677": 0.586352642141041,
+        "PP_1678": 0.586352642141041,
+        "PP_1679": 0.586352642141041,
+        "PP_1680": 0.586352642141041,
+        "PP_1681": 0.586352642141041,
+        "PP_3410": 0.5863526421410419,
+        "PP_3507": 0.5863526421410419,
+        "PP_3763": 0.5863526421410379,
+        "PP_4826": 0.586352642141041,
+        "PP_4827": 0.5863526421410397,
+        "PP_4828": 0.5863526421410397,
+        "PP_4829": 0.5863526421410397,
+        "PP_4830": 0.5863526421410397,
+        "PP_4832": 0.5863526421410397,
+        "PP_4862": 0.5863526421410397
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "amet_c"
+      ],
+      "edited_wt_growth": 0.5861732709902223,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "btamp_c"
+      ],
+      "edited_wt_growth": 0.3900061205537992,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "chor_c"
+      ],
+      "edited_wt_growth": 0.5861542756108316,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.5862015076424862,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5861577493819998,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861577493820013
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.586277582735989,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5861923415199901,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5861923415199913,
+        "PP_4801": 0.5861923415199924
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5861831017672773,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862278988055704,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861311428231122,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861311428231091,
+        "PP_0378": 0.5861311428231104,
+        "PP_0380": 0.5861311428231104,
+        "PP_0381": 0.5861311428231104
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861516148777786,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861516148777801,
+        "PP_1129": 0.5861516148777814,
+        "PP_1436": 0.5861516148777772,
+        "PP_2117": 0.5861516148777768,
+        "PP_4964": 0.5861516148777786
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5861964810236852,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5861964810236853,
+        "PP_4209": 0.5861964810236868,
+        "PP_4210": 0.5861964810236876,
+        "PP_4211": 0.5861964810236876,
+        "PP_4212": 0.5861964810236876,
+        "PP_4213": 0.5861964810236876,
+        "PP_4214": 0.5861964810236876,
+        "PP_4215": 0.5861964810236876,
+        "PP_4216": 0.5861964810236876,
+        "PP_4219": 0.5861964810236876,
+        "PP_4220": 0.5861964810236876,
+        "PP_4221": 0.5861964810236876,
+        "PP_4222": 0.5861964810236876,
+        "PP_4243": 0.5861964810236876
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5862869733535762,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5862869733535662,
+        "PP_1765": 0.586286973353569,
+        "PP_5011": 0.5862869733535638,
+        "PP_5013": 0.5862869733535683,
+        "PP_5199": 0.5862869733535698,
+        "PP_5318": 0.5862869733535693
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.586176375410512,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862363267363739,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862363267363717
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5861810321026004,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861549407978663,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "2fe2s_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.58617075791217,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.586170757912166,
+        "PP_3357": 0.5861707579121681,
+        "PP_4782": 0.5861707579121692,
+        "PP_4783": 0.5861707579121666,
+        "PP_4922": 0.5861707579121694,
+        "PP_5045": 0.5861707579121699,
+        "PP_5104": 0.5861707579121681,
+        "PP_5105": 0.5861707579121678
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "5mthf_c"
+      ],
+      "edited_wt_growth": 0.5861986247182204,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "adocbl_c"
+      ],
+      "edited_wt_growth": 0.5863672865116172,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838017841338234,
+        "PP_1672": 0.586367286511621,
+        "PP_1673": 0.5863672865116166,
+        "PP_1674": 0.5863672865116166,
+        "PP_1675": 0.5863672865116166,
+        "PP_1676": 0.5863672865116166,
+        "PP_1677": 0.5863672865116166,
+        "PP_1678": 0.5863672865116166,
+        "PP_1679": 0.5863672865116166,
+        "PP_1680": 0.5863672865116166,
+        "PP_1681": 0.5863672865116166,
+        "PP_3410": 0.5863672865116154,
+        "PP_3507": 0.5863672865116154,
+        "PP_3763": 0.5863672865116153,
+        "PP_4826": 0.5863672865116182,
+        "PP_4827": 0.58636728651162,
+        "PP_4828": 0.58636728651162,
+        "PP_4829": 0.58636728651162,
+        "PP_4830": 0.58636728651162,
+        "PP_4832": 0.58636728651162,
+        "PP_4862": 0.58636728651162
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "amet_c"
+      ],
+      "edited_wt_growth": 0.5861879064023388,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "btamp_c"
+      ],
+      "edited_wt_growth": 0.5862573976236017,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862573976235985,
+        "PP_0363": 0.5862573976236004,
+        "PP_0364": 0.5862573976236004,
+        "PP_0365": 0.5862573976236004,
+        "PP_0366": 0.5862573976236004,
+        "PP_0437": 0.586257397623602,
+        "PP_1602": 0.5862573976236087,
+        "PP_4984": 0.5862573976236027
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "chor_c"
+      ],
+      "edited_wt_growth": 0.5861689100744042,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.5862161444646616,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5861723840190366,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861723840190403
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.5862922233574862,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5862069778844289,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862069778844284,
+        "PP_4801": 0.5862069778844282
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5861977376703045,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862425369457122,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861457761315872,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861457761315804,
+        "PP_0378": 0.586145776131583,
+        "PP_0380": 0.586145776131583,
+        "PP_0381": 0.586145776131583
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861662492084947,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861662492084915,
+        "PP_1129": 0.5861662492084949,
+        "PP_1436": 0.5861662492084941,
+        "PP_2117": 0.5861662492084898,
+        "PP_4964": 0.5861662492084919
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862111175948377,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.586211117594845,
+        "PP_4209": 0.5862111175948426,
+        "PP_4210": 0.5862111175948415,
+        "PP_4211": 0.5862111175948415,
+        "PP_4212": 0.5862111175948415,
+        "PP_4213": 0.5862111175948415,
+        "PP_4214": 0.5862111175948415,
+        "PP_4215": 0.5862111175948415,
+        "PP_4216": 0.5862111175948415,
+        "PP_4219": 0.5862111175948415,
+        "PP_4220": 0.5862111175948415,
+        "PP_4221": 0.5862111175948415,
+        "PP_4222": 0.5862111175948415,
+        "PP_4243": 0.5862111175948415
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863016144440828,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.586301614444083,
+        "PP_1765": 0.5863016144440765,
+        "PP_5011": 0.586301614444081,
+        "PP_5013": 0.5863016144440817,
+        "PP_5199": 0.5863016144440808,
+        "PP_5318": 0.5863016144440815
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5861910109776493,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862509652974108,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862509652974106
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5861956679022755,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861695752946555,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "4fe4s_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5861853931987897,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5861853931987918,
+        "PP_3357": 0.5861853931987905,
+        "PP_4782": 0.5861853931987889,
+        "PP_4783": 0.5861853931987905,
+        "PP_4922": 0.5861853931987884,
+        "PP_5045": 0.5861853931987883,
+        "PP_5104": 0.5861853931987852,
+        "PP_5105": 0.5861853931987895
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "adocbl_c"
+      ],
+      "edited_wt_growth": 0.5863925090868513,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838298660927628,
+        "PP_1672": 0.5863925090868514,
+        "PP_1673": 0.5863925090868511,
+        "PP_1674": 0.5863925090868511,
+        "PP_1675": 0.5863925090868511,
+        "PP_1676": 0.5863925090868511,
+        "PP_1677": 0.5863925090868511,
+        "PP_1678": 0.5863925090868511,
+        "PP_1679": 0.5863925090868511,
+        "PP_1680": 0.5863925090868511,
+        "PP_1681": 0.5863925090868511,
+        "PP_3410": 0.5863925090868506,
+        "PP_3507": 0.5863925090868509,
+        "PP_3763": 0.5863925090868509,
+        "PP_4826": 0.5863925090868511,
+        "PP_4827": 0.5863925090868511,
+        "PP_4828": 0.5863925090868511,
+        "PP_4829": 0.5863925090868511,
+        "PP_4830": 0.5863925090868511,
+        "PP_4832": 0.5863925090868511,
+        "PP_4862": 0.5863925090868511
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "amet_c"
+      ],
+      "edited_wt_growth": 0.5862131135475389,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "btamp_c"
+      ],
+      "edited_wt_growth": 0.5862826107457818,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862826107457846,
+        "PP_0363": 0.5862826107457839,
+        "PP_0364": 0.5862826107457839,
+        "PP_0365": 0.5862826107457839,
+        "PP_0366": 0.5862826107457839,
+        "PP_0437": 0.5862826107457839,
+        "PP_1602": 0.5862826107457807,
+        "PP_4984": 0.5862826107457851
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "chor_c"
+      ],
+      "edited_wt_growth": 0.5861941155858466,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.5862413540385497,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5861975898292472,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861975898292474
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.5863174394753139,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5862321866699096,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.586232186669911,
+        "PP_4801": 0.5862321866699094
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5862229456610575,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862677487896589,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861709796534814,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861709796534814,
+        "PP_0378": 0.5861709796534806,
+        "PP_0380": 0.5861709796534806,
+        "PP_0381": 0.5861709796534806
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861914544910902,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.586191454491093,
+        "PP_1129": 0.5861914544910918,
+        "PP_1436": 0.5861914544910946,
+        "PP_2117": 0.5861914544910511,
+        "PP_4964": 0.5861914544910909
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862363267363723,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862363267363706,
+        "PP_4209": 0.5862363267363692,
+        "PP_4210": 0.5862363267363729,
+        "PP_4211": 0.5862363267363729,
+        "PP_4212": 0.5862363267363729,
+        "PP_4213": 0.5862363267363729,
+        "PP_4214": 0.5862363267363729,
+        "PP_4215": 0.5862363267363729,
+        "PP_4216": 0.5862363267363729,
+        "PP_4219": 0.5862363267363729,
+        "PP_4220": 0.5862363267363729,
+        "PP_4221": 0.5862363267363729,
+        "PP_4222": 0.5862363267363729,
+        "PP_4243": 0.5862363267363729
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863268313697462,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863268313697476,
+        "PP_1765": 0.586326831369746,
+        "PP_5011": 0.5863268313697487,
+        "PP_5013": 0.5863268313697483,
+        "PP_5199": 0.5863268313697471,
+        "PP_5318": 0.5863268313697448
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862162183898626,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862761778663164,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.586276177866315
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862208757150146,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861947808633069,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "5mthf_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862106001278411,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862106001278388,
+        "PP_3357": 0.5862106001278415,
+        "PP_4782": 0.5862106001278372,
+        "PP_4783": 0.5862106001278417,
+        "PP_4922": 0.5862106001278418,
+        "PP_5045": 0.5862106001278381,
+        "PP_5104": 0.5862106001278415,
+        "PP_5105": 0.5862106001278434
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "amet_c"
+      ],
+      "edited_wt_growth": 0.5863817836797233,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838192342239467,
+        "PP_1672": 0.5863817836797222,
+        "PP_1673": 0.5863817836797228,
+        "PP_1674": 0.5863817836797228,
+        "PP_1675": 0.5863817836797228,
+        "PP_1676": 0.5863817836797228,
+        "PP_1677": 0.5863817836797228,
+        "PP_1678": 0.5863817836797228,
+        "PP_1679": 0.5863817836797228,
+        "PP_1680": 0.5863817836797228,
+        "PP_1681": 0.5863817836797228,
+        "PP_3410": 0.5863817836797225,
+        "PP_3507": 0.5863817836797239,
+        "PP_3763": 0.5863817836797227,
+        "PP_4826": 0.5863817836797259,
+        "PP_4827": 0.5863817836797239,
+        "PP_4828": 0.5863817836797239,
+        "PP_4829": 0.5863817836797239,
+        "PP_4830": 0.5863817836797239,
+        "PP_4832": 0.5863817836797239,
+        "PP_4862": 0.5863817836797239
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "btamp_c"
+      ],
+      "edited_wt_growth": 0.5864513208787223,
+      "n_rescued": 29,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838883116240912,
+        "PP_0362": 0.5864513208787222,
+        "PP_0363": 0.5864513208787221,
+        "PP_0364": 0.5864513208787221,
+        "PP_0365": 0.5864513208787221,
+        "PP_0366": 0.5864513208787221,
+        "PP_0437": 0.5864513208787243,
+        "PP_1602": 0.5864513208787245,
+        "PP_1672": 0.5864513208787232,
+        "PP_1673": 0.5864513208787218,
+        "PP_1674": 0.5864513208787218,
+        "PP_1675": 0.5864513208787218,
+        "PP_1676": 0.5864513208787218,
+        "PP_1677": 0.5864513208787218,
+        "PP_1678": 0.5864513208787218,
+        "PP_1679": 0.5864513208787218,
+        "PP_1680": 0.5864513208787218,
+        "PP_1681": 0.5864513208787218,
+        "PP_3410": 0.5864513208787258,
+        "PP_3507": 0.586451320878723,
+        "PP_3763": 0.5864513208787234,
+        "PP_4826": 0.5864513208787248,
+        "PP_4827": 0.5864513208787218,
+        "PP_4828": 0.5864513208787218,
+        "PP_4829": 0.5864513208787218,
+        "PP_4830": 0.5864513208787218,
+        "PP_4832": 0.5864513208787218,
+        "PP_4862": 0.5864513208787218,
+        "PP_4984": 0.586451320878724
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "chor_c"
+      ],
+      "edited_wt_growth": 0.5863627747841291,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5837996579336324,
+        "PP_1672": 0.5863627747841295,
+        "PP_1673": 0.5863627747841303,
+        "PP_1674": 0.5863627747841303,
+        "PP_1675": 0.5863627747841303,
+        "PP_1676": 0.5863627747841303,
+        "PP_1677": 0.5863627747841303,
+        "PP_1678": 0.5863627747841303,
+        "PP_1679": 0.5863627747841303,
+        "PP_1680": 0.5863627747841303,
+        "PP_1681": 0.5863627747841303,
+        "PP_3410": 0.5863627747841295,
+        "PP_3507": 0.5863627747841171,
+        "PP_3763": 0.5863627747841268,
+        "PP_4826": 0.5863627747841319,
+        "PP_4827": 0.5863627747841278,
+        "PP_4828": 0.5863627747841278,
+        "PP_4829": 0.5863627747841278,
+        "PP_4830": 0.5863627747841278,
+        "PP_4832": 0.5863627747841278,
+        "PP_4862": 0.5863627747841278
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.5864100404246457,
+      "n_rescued": 22,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838472445327796,
+        "PP_0602": 0.5864100404246477,
+        "PP_1672": 0.5864100404246455,
+        "PP_1673": 0.5864100404246448,
+        "PP_1674": 0.5864100404246448,
+        "PP_1675": 0.5864100404246448,
+        "PP_1676": 0.5864100404246448,
+        "PP_1677": 0.5864100404246448,
+        "PP_1678": 0.5864100404246448,
+        "PP_1679": 0.5864100404246448,
+        "PP_1680": 0.5864100404246448,
+        "PP_1681": 0.5864100404246448,
+        "PP_3410": 0.5864100404246452,
+        "PP_3507": 0.5864100404246545,
+        "PP_3763": 0.586410040424645,
+        "PP_4826": 0.5864100404246484,
+        "PP_4827": 0.5864100404246462,
+        "PP_4828": 0.5864100404246462,
+        "PP_4829": 0.5864100404246462,
+        "PP_4830": 0.5864100404246462,
+        "PP_4832": 0.5864100404246462,
+        "PP_4862": 0.5864100404246462
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5863662510270382,
+      "n_rescued": 22,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838021507216282,
+        "PP_1672": 0.5863662510270391,
+        "PP_1673": 0.5863662510270364,
+        "PP_1674": 0.5863662510270364,
+        "PP_1675": 0.5863662510270364,
+        "PP_1676": 0.5863662510270364,
+        "PP_1677": 0.5863662510270364,
+        "PP_1678": 0.5863662510270364,
+        "PP_1679": 0.5863662510270364,
+        "PP_1680": 0.5863662510270364,
+        "PP_1681": 0.5863662510270364,
+        "PP_3410": 0.5863662510270388,
+        "PP_3507": 0.5863662510270367,
+        "PP_3763": 0.5863662510270377,
+        "PP_4826": 0.586366251027039,
+        "PP_4827": 0.5863662510270369,
+        "PP_4828": 0.5863662510270369,
+        "PP_4829": 0.5863662510270369,
+        "PP_4830": 0.5863662510270369,
+        "PP_4832": 0.5863662510270369,
+        "PP_4862": 0.5863662510270369,
+        "PP_4993": 0.586366251027037
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.5864861696565408,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5839219762806376,
+        "PP_1672": 0.5864861696565395,
+        "PP_1673": 0.5864861696565398,
+        "PP_1674": 0.5864861696565398,
+        "PP_1675": 0.5864861696565398,
+        "PP_1676": 0.5864861696565398,
+        "PP_1677": 0.5864861696565398,
+        "PP_1678": 0.5864861696565398,
+        "PP_1679": 0.5864861696565398,
+        "PP_1680": 0.5864861696565398,
+        "PP_1681": 0.5864861696565398,
+        "PP_3410": 0.5864861696565399,
+        "PP_3507": 0.5864861696565391,
+        "PP_3763": 0.5864861696565403,
+        "PP_4826": 0.5864861696565379,
+        "PP_4827": 0.5864861696565384,
+        "PP_4828": 0.5864861696565384,
+        "PP_4829": 0.5864861696565384,
+        "PP_4830": 0.5864861696565384,
+        "PP_4832": 0.5864861696565384,
+        "PP_4862": 0.5864861696565384
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5864008677796075,
+      "n_rescued": 23,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838362453999278,
+        "PP_1672": 0.5864008677796123,
+        "PP_1673": 0.5864008677796122,
+        "PP_1674": 0.5864008677796122,
+        "PP_1675": 0.5864008677796122,
+        "PP_1676": 0.5864008677796122,
+        "PP_1677": 0.5864008677796122,
+        "PP_1678": 0.5864008677796122,
+        "PP_1679": 0.5864008677796122,
+        "PP_1680": 0.5864008677796122,
+        "PP_1681": 0.5864008677796122,
+        "PP_3410": 0.5864008677796114,
+        "PP_3507": 0.5864008677796054,
+        "PP_3763": 0.5864008677796048,
+        "PP_4800": 0.5864008677796114,
+        "PP_4801": 0.5864008677796075,
+        "PP_4826": 0.5864008677796093,
+        "PP_4827": 0.5864008677796085,
+        "PP_4828": 0.5864008677796085,
+        "PP_4829": 0.5864008677796085,
+        "PP_4830": 0.5864008677796085,
+        "PP_4832": 0.5864008677796085,
+        "PP_4862": 0.5864008677796085
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5863916214520629,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838289861992697,
+        "PP_1672": 0.5863916214520604,
+        "PP_1673": 0.5863916214520588,
+        "PP_1674": 0.5863916214520588,
+        "PP_1675": 0.5863916214520588,
+        "PP_1676": 0.5863916214520588,
+        "PP_1677": 0.5863916214520588,
+        "PP_1678": 0.5863916214520588,
+        "PP_1679": 0.5863916214520588,
+        "PP_1680": 0.5863916214520588,
+        "PP_1681": 0.5863916214520588,
+        "PP_3410": 0.5863916214520591,
+        "PP_3507": 0.5863916214520569,
+        "PP_3763": 0.5863916214520568,
+        "PP_4826": 0.5863916214520606,
+        "PP_4827": 0.5863916214520599,
+        "PP_4828": 0.5863916214520599,
+        "PP_4829": 0.5863916214520599,
+        "PP_4830": 0.5863916214520599,
+        "PP_4832": 0.5863916214520599,
+        "PP_4862": 0.5863916214520599
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5864364503680477,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.58387269078179,
+        "PP_1672": 0.5864364503680469,
+        "PP_1673": 0.5864364503680489,
+        "PP_1674": 0.5864364503680489,
+        "PP_1675": 0.5864364503680489,
+        "PP_1676": 0.5864364503680489,
+        "PP_1677": 0.5864364503680489,
+        "PP_1678": 0.5864364503680489,
+        "PP_1679": 0.5864364503680489,
+        "PP_1680": 0.5864364503680489,
+        "PP_1681": 0.5864364503680489,
+        "PP_3410": 0.586436450368051,
+        "PP_3507": 0.5864364503680524,
+        "PP_3763": 0.5864364503680527,
+        "PP_4826": 0.5864364503680495,
+        "PP_4827": 0.586436450368051,
+        "PP_4828": 0.586436450368051,
+        "PP_4829": 0.586436450368051,
+        "PP_4830": 0.586436450368051,
+        "PP_4832": 0.586436450368051,
+        "PP_4862": 0.586436450368051
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5863396255368185,
+      "n_rescued": 25,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5837767106206428,
+        "PP_0376": 0.5863396255368202,
+        "PP_0378": 0.5863396255368194,
+        "PP_0380": 0.5863396255368194,
+        "PP_0381": 0.5863396255368194,
+        "PP_1672": 0.586339625536821,
+        "PP_1673": 0.5863396255368194,
+        "PP_1674": 0.5863396255368194,
+        "PP_1675": 0.5863396255368194,
+        "PP_1676": 0.5863396255368194,
+        "PP_1677": 0.5863396255368194,
+        "PP_1678": 0.5863396255368194,
+        "PP_1679": 0.5863396255368194,
+        "PP_1680": 0.5863396255368194,
+        "PP_1681": 0.5863396255368194,
+        "PP_3410": 0.5863396255368207,
+        "PP_3507": 0.586339625536824,
+        "PP_3763": 0.5863396255368205,
+        "PP_4826": 0.5863396255368196,
+        "PP_4827": 0.5863396255368204,
+        "PP_4828": 0.5863396255368204,
+        "PP_4829": 0.5863396255368204,
+        "PP_4830": 0.5863396255368204,
+        "PP_4832": 0.5863396255368204,
+        "PP_4862": 0.5863396255368204
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5863601121578659,
+      "n_rescued": 26,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5837970185342534,
+        "PP_0402": 0.5863601121578649,
+        "PP_1129": 0.5863601121578657,
+        "PP_1436": 0.5863601121578649,
+        "PP_1672": 0.5863601121578629,
+        "PP_1673": 0.5863601121578643,
+        "PP_1674": 0.5863601121578643,
+        "PP_1675": 0.5863601121578643,
+        "PP_1676": 0.5863601121578643,
+        "PP_1677": 0.5863601121578643,
+        "PP_1678": 0.5863601121578643,
+        "PP_1679": 0.5863601121578643,
+        "PP_1680": 0.5863601121578643,
+        "PP_1681": 0.5863601121578643,
+        "PP_2117": 0.586360112157865,
+        "PP_3410": 0.5863601121578633,
+        "PP_3507": 0.5863601121578643,
+        "PP_3763": 0.5863601121578653,
+        "PP_4826": 0.5863601121578619,
+        "PP_4827": 0.5863601121578658,
+        "PP_4828": 0.5863601121578658,
+        "PP_4829": 0.5863601121578658,
+        "PP_4830": 0.5863601121578658,
+        "PP_4832": 0.5863601121578658,
+        "PP_4862": 0.5863601121578658,
+        "PP_4964": 0.586360112157866
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5864050102289293,
+      "n_rescued": 35,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838411582947178,
+        "PP_1672": 0.5864050102289312,
+        "PP_1673": 0.5864050102289285,
+        "PP_1674": 0.5864050102289285,
+        "PP_1675": 0.5864050102289285,
+        "PP_1676": 0.5864050102289285,
+        "PP_1677": 0.5864050102289285,
+        "PP_1678": 0.5864050102289285,
+        "PP_1679": 0.5864050102289285,
+        "PP_1680": 0.5864050102289285,
+        "PP_1681": 0.5864050102289285,
+        "PP_3410": 0.5864050102289297,
+        "PP_3507": 0.5864050102289309,
+        "PP_3763": 0.5864050102289297,
+        "PP_3796": 0.5864050102289297,
+        "PP_4209": 0.5864050102289309,
+        "PP_4210": 0.5864050102289285,
+        "PP_4211": 0.5864050102289285,
+        "PP_4212": 0.5864050102289285,
+        "PP_4213": 0.5864050102289285,
+        "PP_4214": 0.5864050102289285,
+        "PP_4215": 0.5864050102289285,
+        "PP_4216": 0.5864050102289285,
+        "PP_4219": 0.5864050102289285,
+        "PP_4220": 0.5864050102289285,
+        "PP_4221": 0.5864050102289285,
+        "PP_4222": 0.5864050102289285,
+        "PP_4243": 0.5864050102289285,
+        "PP_4826": 0.5864050102289277,
+        "PP_4827": 0.5864050102289311,
+        "PP_4828": 0.5864050102289311,
+        "PP_4829": 0.5864050102289311,
+        "PP_4830": 0.5864050102289311,
+        "PP_4832": 0.5864050102289311,
+        "PP_4862": 0.5864050102289311
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5864955669573817,
+      "n_rescued": 27,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5839323918408165,
+        "PP_0687": 0.5864955669573818,
+        "PP_1672": 0.5864955669573825,
+        "PP_1673": 0.5864955669573799,
+        "PP_1674": 0.5864955669573799,
+        "PP_1675": 0.5864955669573799,
+        "PP_1676": 0.5864955669573799,
+        "PP_1677": 0.5864955669573799,
+        "PP_1678": 0.5864955669573799,
+        "PP_1679": 0.5864955669573799,
+        "PP_1680": 0.5864955669573799,
+        "PP_1681": 0.5864955669573799,
+        "PP_1765": 0.5864955669573848,
+        "PP_3410": 0.5864955669573817,
+        "PP_3507": 0.5864955669573848,
+        "PP_3763": 0.5864955669573809,
+        "PP_4826": 0.5864955669573807,
+        "PP_4827": 0.5864955669573809,
+        "PP_4828": 0.5864955669573809,
+        "PP_4829": 0.5864955669573809,
+        "PP_4830": 0.5864955669573809,
+        "PP_4832": 0.5864955669573809,
+        "PP_4862": 0.5864955669573809,
+        "PP_5011": 0.5864955669573813,
+        "PP_5013": 0.5864955669573809,
+        "PP_5199": 0.5864955669573828,
+        "PP_5318": 0.5864955669573865
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5863848903089133,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838219471467819,
+        "PP_1672": 0.5863848903090074,
+        "PP_1673": 0.5863848903090092,
+        "PP_1674": 0.5863848903090092,
+        "PP_1675": 0.5863848903090092,
+        "PP_1676": 0.5863848903090092,
+        "PP_1677": 0.5863848903090092,
+        "PP_1678": 0.5863848903090092,
+        "PP_1679": 0.5863848903090092,
+        "PP_1680": 0.5863848903090092,
+        "PP_1681": 0.5863848903090092,
+        "PP_3410": 0.5863848903090104,
+        "PP_3507": 0.5863848903090122,
+        "PP_3763": 0.5863848903090098,
+        "PP_4826": 0.5863848903090136,
+        "PP_4827": 0.586384890309009,
+        "PP_4828": 0.586384890309009,
+        "PP_4829": 0.586384890309009,
+        "PP_4830": 0.586384890309009,
+        "PP_4832": 0.586384890309009,
+        "PP_4862": 0.586384890309009
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.586444884296463,
+      "n_rescued": 22,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838817845038239,
+        "PP_1672": 0.5864448842964636,
+        "PP_1673": 0.5864448842964605,
+        "PP_1674": 0.5864448842964605,
+        "PP_1675": 0.5864448842964605,
+        "PP_1676": 0.5864448842964605,
+        "PP_1677": 0.5864448842964605,
+        "PP_1678": 0.5864448842964605,
+        "PP_1679": 0.5864448842964605,
+        "PP_1680": 0.5864448842964605,
+        "PP_1681": 0.5864448842964605,
+        "PP_3410": 0.5864448842964587,
+        "PP_3507": 0.5864448842964494,
+        "PP_3763": 0.5864448842964594,
+        "PP_3999": 0.5864448842964638,
+        "PP_4826": 0.586444884296462,
+        "PP_4827": 0.5864448842964609,
+        "PP_4828": 0.5864448842964609,
+        "PP_4829": 0.5864448842964609,
+        "PP_4830": 0.5864448842964609,
+        "PP_4832": 0.5864448842964609,
+        "PP_4862": 0.5864448842964609
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5863895503146624,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838265665058296,
+        "PP_1672": 0.5863895503146614,
+        "PP_1673": 0.5863895503146634,
+        "PP_1674": 0.5863895503146634,
+        "PP_1675": 0.5863895503146634,
+        "PP_1676": 0.5863895503146634,
+        "PP_1677": 0.5863895503146634,
+        "PP_1678": 0.5863895503146634,
+        "PP_1679": 0.5863895503146634,
+        "PP_1680": 0.5863895503146634,
+        "PP_1681": 0.5863895503146634,
+        "PP_3410": 0.5863895503146612,
+        "PP_3507": 0.586389550314661,
+        "PP_3763": 0.5863895503146624,
+        "PP_4826": 0.5863895503146598,
+        "PP_4827": 0.5863895503146621,
+        "PP_4828": 0.5863895503146621,
+        "PP_4829": 0.5863895503146621,
+        "PP_4830": 0.5863895503146621,
+        "PP_4832": 0.5863895503146621,
+        "PP_4862": 0.5863895503146621
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5863634404444755,
+      "n_rescued": 21,
+      "rescued_ko_growth": {
+        "PP_0321": 0.583800684373168,
+        "PP_1672": 0.5863634404444767,
+        "PP_1673": 0.5863634404444739,
+        "PP_1674": 0.5863634404444739,
+        "PP_1675": 0.5863634404444739,
+        "PP_1676": 0.5863634404444739,
+        "PP_1677": 0.5863634404444739,
+        "PP_1678": 0.5863634404444739,
+        "PP_1679": 0.5863634404444739,
+        "PP_1680": 0.5863634404444739,
+        "PP_1681": 0.5863634404444739,
+        "PP_3410": 0.5863634404444731,
+        "PP_3507": 0.5863634404444782,
+        "PP_3763": 0.5863634404444741,
+        "PP_4826": 0.5863634404444771,
+        "PP_4827": 0.5863634404444718,
+        "PP_4828": 0.5863634404444718,
+        "PP_4829": 0.5863634404444718,
+        "PP_4830": 0.5863634404444718,
+        "PP_4832": 0.5863634404444718,
+        "PP_4862": 0.5863634404444718
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "adocbl_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5863792688134591,
+      "n_rescued": 29,
+      "rescued_ko_growth": {
+        "PP_0321": 0.5838154215101551,
+        "PP_0519": 0.5863792688134654,
+        "PP_1672": 0.5863792688134577,
+        "PP_1673": 0.5863792688134584,
+        "PP_1674": 0.5863792688134584,
+        "PP_1675": 0.5863792688134584,
+        "PP_1676": 0.5863792688134584,
+        "PP_1677": 0.5863792688134584,
+        "PP_1678": 0.5863792688134584,
+        "PP_1679": 0.5863792688134584,
+        "PP_1680": 0.5863792688134584,
+        "PP_1681": 0.5863792688134584,
+        "PP_3357": 0.5863792688134563,
+        "PP_3410": 0.5863792688134575,
+        "PP_3507": 0.5863792688134549,
+        "PP_3763": 0.5863792688134581,
+        "PP_4782": 0.5863792688134591,
+        "PP_4783": 0.5863792688134574,
+        "PP_4826": 0.5863792688134619,
+        "PP_4827": 0.5863792688134584,
+        "PP_4828": 0.5863792688134584,
+        "PP_4829": 0.5863792688134584,
+        "PP_4830": 0.5863792688134584,
+        "PP_4832": 0.5863792688134584,
+        "PP_4862": 0.5863792688134584,
+        "PP_4922": 0.5863792688134591,
+        "PP_5045": 0.5863792688134554,
+        "PP_5104": 0.5863792688134597,
+        "PP_5105": 0.5863792688134569
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "btamp_c"
+      ],
+      "edited_wt_growth": 0.586271889358433,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862718893584331,
+        "PP_0363": 0.5862718893584341,
+        "PP_0364": 0.5862718893584341,
+        "PP_0365": 0.5862718893584341,
+        "PP_0366": 0.5862718893584341,
+        "PP_0437": 0.5862718893584329,
+        "PP_1602": 0.5862718893584328,
+        "PP_4984": 0.5862718893584329
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "chor_c"
+      ],
+      "edited_wt_growth": 0.5861833974348534,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.586230634160061,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5861868715512043,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861868715512044
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.5863067168141096,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5862214671266773,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862214671266779,
+        "PP_4801": 0.5862214671266779
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5862122264557724,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862570279458597,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.586160262348514,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861602623485164,
+        "PP_0378": 0.5861602623485132,
+        "PP_0380": 0.5861602623485132,
+        "PP_0381": 0.5861602623485132
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861807364374136,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861807364374081,
+        "PP_1129": 0.5861807364374109,
+        "PP_1436": 0.58618073643741,
+        "PP_2117": 0.5861807364374129,
+        "PP_4964": 0.5861807364374122
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862256070417357,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862256070417374,
+        "PP_4209": 0.5862256070417363,
+        "PP_4210": 0.5862256070417392,
+        "PP_4211": 0.5862256070417392,
+        "PP_4212": 0.5862256070417392,
+        "PP_4213": 0.5862256070417392,
+        "PP_4214": 0.5862256070417392,
+        "PP_4215": 0.5862256070417392,
+        "PP_4216": 0.5862256070417392,
+        "PP_4219": 0.5862256070417392,
+        "PP_4220": 0.5862256070417392,
+        "PP_4221": 0.5862256070417392,
+        "PP_4222": 0.5862256070417392,
+        "PP_4243": 0.5862256070417392
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863161083650149,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863161083650188,
+        "PP_1765": 0.5863161083650184,
+        "PP_5011": 0.5863161083650178,
+        "PP_5013": 0.5863161083650184,
+        "PP_5199": 0.5863161083650197,
+        "PP_5318": 0.5863161083650209
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862054994305862,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862654567142398,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862654567142416
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862101565854264,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861840626879881,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "amet_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5861998813740279,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5861998813740292,
+        "PP_3357": 0.586199881374032,
+        "PP_4782": 0.5861998813740292,
+        "PP_4783": 0.5861998813740298,
+        "PP_4922": 0.5861998813740292,
+        "PP_5045": 0.5861998813740287,
+        "PP_5104": 0.5861998813740287,
+        "PP_5105": 0.5861998813740308
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "chor_c"
+      ],
+      "edited_wt_growth": 0.5862528875870028,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862528875869999,
+        "PP_0363": 0.586252887587003,
+        "PP_0364": 0.586252887587003,
+        "PP_0365": 0.586252887587003,
+        "PP_0366": 0.586252887587003,
+        "PP_0437": 0.5862528875870022,
+        "PP_1602": 0.5862528875870019,
+        "PP_4984": 0.5862528875869987
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.5863001355128502,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5863001355128501,
+        "PP_0363": 0.5863001355128501,
+        "PP_0364": 0.5863001355128501,
+        "PP_0365": 0.5863001355128501,
+        "PP_0366": 0.5863001355128501,
+        "PP_0437": 0.5863001355128488,
+        "PP_1602": 0.5863001355128501,
+        "PP_4984": 0.586300135512848
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5862563625271,
+      "n_rescued": 9,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862563625270998,
+        "PP_0363": 0.5862563625270988,
+        "PP_0364": 0.5862563625270988,
+        "PP_0365": 0.5862563625270988,
+        "PP_0366": 0.5862563625270988,
+        "PP_0437": 0.5862563625270998,
+        "PP_1602": 0.5862563625271001,
+        "PP_4984": 0.5862563625270998,
+        "PP_4993": 0.5862563625270981
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.5863762362092986,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5863762362093001,
+        "PP_0363": 0.5863762362092992,
+        "PP_0364": 0.5863762362092992,
+        "PP_0365": 0.5863762362092992,
+        "PP_0366": 0.5863762362092992,
+        "PP_0437": 0.5863762362093005,
+        "PP_1602": 0.586376236209298,
+        "PP_4984": 0.5863762362092996
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5862909663057257,
+      "n_rescued": 10,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862909663057366,
+        "PP_0363": 0.5862909663057341,
+        "PP_0364": 0.5862909663057341,
+        "PP_0365": 0.5862909663057341,
+        "PP_0366": 0.5862909663057341,
+        "PP_0437": 0.5862909663057336,
+        "PP_1602": 0.5862909663057335,
+        "PP_4800": 0.5862909663057322,
+        "PP_4801": 0.5862909663057339,
+        "PP_4984": 0.5862909663057312
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.586281723443672,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862817234436736,
+        "PP_0363": 0.5862817234436707,
+        "PP_0364": 0.5862817234436707,
+        "PP_0365": 0.5862817234436707,
+        "PP_0366": 0.5862817234436707,
+        "PP_0437": 0.5862817234436715,
+        "PP_1602": 0.5862817234436728,
+        "PP_4984": 0.5862817234436696
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5863265355574602,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5863265355574601,
+        "PP_0363": 0.5863265355574586,
+        "PP_0364": 0.5863265355574586,
+        "PP_0365": 0.5863265355574586,
+        "PP_0366": 0.5863265355574586,
+        "PP_0437": 0.5863265355574606,
+        "PP_1602": 0.5863265355574588,
+        "PP_4984": 0.5863265355574524
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5862297470152682,
+      "n_rescued": 12,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862297470152708,
+        "PP_0363": 0.5862297470152673,
+        "PP_0364": 0.5862297470152673,
+        "PP_0365": 0.5862297470152673,
+        "PP_0366": 0.5862297470152673,
+        "PP_0376": 0.5862297470152673,
+        "PP_0378": 0.5862297470152673,
+        "PP_0380": 0.5862297470152673,
+        "PP_0381": 0.5862297470152673,
+        "PP_0437": 0.5862297470152703,
+        "PP_1602": 0.5862297470152684,
+        "PP_4984": 0.5862297470152676
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5862502259586161,
+      "n_rescued": 13,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862502259586186,
+        "PP_0363": 0.5862502259586189,
+        "PP_0364": 0.5862502259586189,
+        "PP_0365": 0.5862502259586189,
+        "PP_0366": 0.5862502259586189,
+        "PP_0402": 0.58625022595862,
+        "PP_0437": 0.5862502259586153,
+        "PP_1129": 0.5862502259586176,
+        "PP_1436": 0.58625022595862,
+        "PP_1602": 0.5862502259586203,
+        "PP_2117": 0.5862502259586214,
+        "PP_4964": 0.5862502259586164,
+        "PP_4984": 0.5862502259586194
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862951072024661,
+      "n_rescued": 22,
+      "rescued_ko_growth": {
+        "PP_0362": 0.586295107202463,
+        "PP_0363": 0.5862951072024657,
+        "PP_0364": 0.5862951072024657,
+        "PP_0365": 0.5862951072024657,
+        "PP_0366": 0.5862951072024657,
+        "PP_0437": 0.5862951072024651,
+        "PP_1602": 0.5862951072024661,
+        "PP_3796": 0.5862951072024699,
+        "PP_4209": 0.5862951072024629,
+        "PP_4210": 0.5862951072024641,
+        "PP_4211": 0.5862951072024641,
+        "PP_4212": 0.5862951072024641,
+        "PP_4213": 0.5862951072024641,
+        "PP_4214": 0.5862951072024641,
+        "PP_4215": 0.5862951072024641,
+        "PP_4216": 0.5862951072024641,
+        "PP_4219": 0.5862951072024641,
+        "PP_4220": 0.5862951072024641,
+        "PP_4221": 0.5862951072024641,
+        "PP_4222": 0.5862951072024641,
+        "PP_4243": 0.5862951072024641,
+        "PP_4984": 0.5862951072024611
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.586385629987507,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5863856299875044,
+        "PP_0363": 0.5863856299875035,
+        "PP_0364": 0.5863856299875035,
+        "PP_0365": 0.5863856299875035,
+        "PP_0366": 0.5863856299875035,
+        "PP_0437": 0.5863856299875013,
+        "PP_0687": 0.5863856299875032,
+        "PP_1602": 0.5863856299875004,
+        "PP_1765": 0.586385629987504,
+        "PP_4984": 0.586385629987503,
+        "PP_5011": 0.5863856299875012,
+        "PP_5013": 0.5863856299875018,
+        "PP_5199": 0.586385629987499,
+        "PP_5318": 0.5863856299875083
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862749948233928,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862749948233935,
+        "PP_0363": 0.5862749948233936,
+        "PP_0364": 0.5862749948233936,
+        "PP_0365": 0.5862749948233936,
+        "PP_0366": 0.5862749948233936,
+        "PP_0437": 0.5862749948233913,
+        "PP_1602": 0.5862749948233917,
+        "PP_4984": 0.5862749948233953
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5863349663246302,
+      "n_rescued": 9,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5863349663246372,
+        "PP_0363": 0.5863349663246298,
+        "PP_0364": 0.5863349663246298,
+        "PP_0365": 0.5863349663246298,
+        "PP_0366": 0.5863349663246298,
+        "PP_0437": 0.5863349663246288,
+        "PP_1602": 0.5863349663246288,
+        "PP_3999": 0.5863349663246296,
+        "PP_4984": 0.5863349663246303
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862796530825208,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862796530825197,
+        "PP_0363": 0.5862796530825196,
+        "PP_0364": 0.5862796530825196,
+        "PP_0365": 0.5862796530825196,
+        "PP_0366": 0.5862796530825196,
+        "PP_0437": 0.5862796530825201,
+        "PP_1602": 0.5862796530825185,
+        "PP_4984": 0.5862796530825172
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5862535529978746,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862535529978753,
+        "PP_0363": 0.5862535529978735,
+        "PP_0364": 0.5862535529978735,
+        "PP_0365": 0.5862535529978735,
+        "PP_0366": 0.5862535529978735,
+        "PP_0437": 0.5862535529978753,
+        "PP_1602": 0.5862535529978699,
+        "PP_4984": 0.5862535529978734
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "btamp_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862693754347029,
+      "n_rescued": 16,
+      "rescued_ko_growth": {
+        "PP_0362": 0.5862693754346991,
+        "PP_0363": 0.5862693754347013,
+        "PP_0364": 0.5862693754347013,
+        "PP_0365": 0.5862693754347013,
+        "PP_0366": 0.5862693754347013,
+        "PP_0437": 0.5862693754347024,
+        "PP_0519": 0.5862693754347035,
+        "PP_1602": 0.5862693754347045,
+        "PP_3357": 0.5862693754347011,
+        "PP_4782": 0.5862693754347008,
+        "PP_4783": 0.5862693754347011,
+        "PP_4922": 0.5862693754346966,
+        "PP_4984": 0.5862693754347017,
+        "PP_5045": 0.5862693754347011,
+        "PP_5104": 0.5862693754347011,
+        "PP_5105": 0.5862693754347019
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "fad_c"
+      ],
+      "edited_wt_growth": 0.5862116350627524,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5861678752903391,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861678752903411
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.5862877127850517,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5862024686235486,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862024686235445,
+        "PP_4801": 0.5862024686235469
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5861932285515788,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862380271377575,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861412678122069,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861412678122069,
+        "PP_0378": 0.5861412678122069,
+        "PP_0380": 0.5861412678122069,
+        "PP_0381": 0.5861412678122069
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.586161740574176,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861617405741775,
+        "PP_1129": 0.5861617405741756,
+        "PP_1436": 0.5861617405741738,
+        "PP_2117": 0.5861617405741752,
+        "PP_4964": 0.5861617405741755
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862066082702675,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862066082702704,
+        "PP_4209": 0.5862066082702695,
+        "PP_4210": 0.5862066082702684,
+        "PP_4211": 0.5862066082702684,
+        "PP_4212": 0.5862066082702684,
+        "PP_4213": 0.5862066082702684,
+        "PP_4214": 0.5862066082702684,
+        "PP_4215": 0.5862066082702684,
+        "PP_4216": 0.5862066082702684,
+        "PP_4219": 0.5862066082702684,
+        "PP_4220": 0.5862066082702684,
+        "PP_4221": 0.5862066082702684,
+        "PP_4222": 0.5862066082702684,
+        "PP_4243": 0.5862066082702684
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5862971037271424,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5862971037271483,
+        "PP_1765": 0.5862971037271448,
+        "PP_5011": 0.5862971037271432,
+        "PP_5013": 0.5862971037271419,
+        "PP_5199": 0.5862971037271464,
+        "PP_5318": 0.5862971037271519
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5861865019624043,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862464553597794,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862464553597777
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.586191158815387,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861650666091741,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "chor_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5861808842699673,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5861808842699672,
+        "PP_3357": 0.5861808842699658,
+        "PP_4782": 0.5861808842699688,
+        "PP_4783": 0.5861808842699658,
+        "PP_4922": 0.5861808842699677,
+        "PP_5045": 0.5861808842699674,
+        "PP_5104": 0.5861808842699665,
+        "PP_5105": 0.5861808842699688
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "gthrd_c"
+      ],
+      "edited_wt_growth": 0.5862151095138293,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5862151095138277
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.586334966324629,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5862497084225751,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862497084225743,
+        "PP_4801": 0.5862497084225741
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5862404668613138,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862852726682349,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861884977474794,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861884977474802,
+        "PP_0378": 0.5861884977474775,
+        "PP_0380": 0.5861884977474775,
+        "PP_0381": 0.5861884977474775
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5862089738089343,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5862089738089347,
+        "PP_1129": 0.5862089738089353,
+        "PP_1436": 0.5862089738089388,
+        "PP_2117": 0.5862089738089359,
+        "PP_4964": 0.5862089738089353
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862538487365172,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862538487365255,
+        "PP_4209": 0.5862538487365243,
+        "PP_4210": 0.5862538487365255,
+        "PP_4211": 0.5862538487365255,
+        "PP_4212": 0.5862538487365255,
+        "PP_4213": 0.5862538487365255,
+        "PP_4214": 0.5862538487365255,
+        "PP_4215": 0.5862538487365255,
+        "PP_4216": 0.5862538487365255,
+        "PP_4219": 0.5862538487365255,
+        "PP_4220": 0.5862538487365255,
+        "PP_4221": 0.5862538487365255,
+        "PP_4222": 0.5862538487365255,
+        "PP_4243": 0.5862538487365255
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863443587805767,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863443587805761,
+        "PP_1765": 0.5863443587805739,
+        "PP_5011": 0.5863443587805773,
+        "PP_5013": 0.5863443587805781,
+        "PP_5199": 0.586344358780579,
+        "PP_5318": 0.5863443587806111
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862337391879797,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862937022488052,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862937022488027
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862383967915318,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5862123003799846,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "fad_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862281205901225,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862281205901209,
+        "PP_3357": 0.5862281205901249,
+        "PP_4782": 0.5862281205901209,
+        "PP_4783": 0.5862281205901222,
+        "PP_4922": 0.586228120590121,
+        "PP_5045": 0.5862281205901199,
+        "PP_5104": 0.5862281205901198,
+        "PP_5105": 0.5862281205901214
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "hemeO_c"
+      ],
+      "edited_wt_growth": 0.5862911881376808,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5862911881380041
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.586205942965959,
+      "n_rescued": 3,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862059429659605,
+        "PP_4801": 0.5862059429659612,
+        "PP_4993": 0.586205942965959
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5861967027844626,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861967027844637
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862415019016867,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5862415019016838
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861447414292008,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861447414292009,
+        "PP_0378": 0.5861447414292009,
+        "PP_0380": 0.5861447414292009,
+        "PP_0381": 0.5861447414292009,
+        "PP_4993": 0.5861447414292015
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861652144338293,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861652144338291,
+        "PP_1129": 0.5861652144338296,
+        "PP_1436": 0.5861652144338285,
+        "PP_2117": 0.5861652144338309,
+        "PP_4964": 0.5861652144338293,
+        "PP_4993": 0.5861652144338313
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862100826617557,
+      "n_rescued": 15,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862100826617566,
+        "PP_4209": 0.5862100826617552,
+        "PP_4210": 0.5862100826617559,
+        "PP_4211": 0.5862100826617559,
+        "PP_4212": 0.5862100826617559,
+        "PP_4213": 0.5862100826617559,
+        "PP_4214": 0.5862100826617559,
+        "PP_4215": 0.5862100826617559,
+        "PP_4216": 0.5862100826617559,
+        "PP_4219": 0.5862100826617559,
+        "PP_4220": 0.5862100826617559,
+        "PP_4221": 0.5862100826617559,
+        "PP_4222": 0.5862100826617559,
+        "PP_4243": 0.5862100826617559,
+        "PP_4993": 0.5862100826617602
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863005791914356,
+      "n_rescued": 7,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863005791914356,
+        "PP_1765": 0.586300579191434,
+        "PP_4993": 0.5863005791914372,
+        "PP_5011": 0.5863005791914351,
+        "PP_5013": 0.5863005791914362,
+        "PP_5199": 0.5863005791914349,
+        "PP_5318": 0.5863005791914365
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5861899761155565,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861899761155581
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862499302236234,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862499302236257,
+        "PP_4993": 0.5862499302236248
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5861946330237371,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861946330237421
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861685405082487,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_4993": 0.5861685405082488
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "gthrd_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5861843583565316,
+      "n_rescued": 9,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5861843583565345,
+        "PP_3357": 0.5861843583565333,
+        "PP_4782": 0.5861843583565333,
+        "PP_4783": 0.5861843583565329,
+        "PP_4922": 0.5861843583565306,
+        "PP_4993": 0.586184358356531,
+        "PP_5045": 0.5861843583565337,
+        "PP_5104": 0.586184358356533,
+        "PP_5105": 0.5861843583565334
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "lipopb_c"
+      ],
+      "edited_wt_growth": 0.5863257960280434,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.586325796028047,
+        "PP_4801": 0.5863257960280476
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.5863165520677779,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5863613695061443,
+      "n_rescued": 3,
+      "rescued_ko_growth": {
+        "PP_0189": 0.5863613695061426,
+        "PP_0744": 0.5863613695061416,
+        "PP_5074": 0.586361369506143
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5862645694640436,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5862645694640453,
+        "PP_0378": 0.5862645694640477,
+        "PP_0380": 0.5862645694640477,
+        "PP_0381": 0.5862645694640477
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.586285050840443,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5862850508404418,
+        "PP_1129": 0.58628505084044,
+        "PP_1436": 0.5862850508404395,
+        "PP_2117": 0.5862850508404434,
+        "PP_4964": 0.5862850508404408
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5863299374167887,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5863299374167915,
+        "PP_4209": 0.586329937416788,
+        "PP_4210": 0.58632993741679,
+        "PP_4211": 0.58632993741679,
+        "PP_4212": 0.58632993741679,
+        "PP_4213": 0.58632993741679,
+        "PP_4214": 0.58632993741679,
+        "PP_4215": 0.58632993741679,
+        "PP_4216": 0.58632993741679,
+        "PP_4219": 0.58632993741679,
+        "PP_4220": 0.58632993741679,
+        "PP_4221": 0.58632993741679,
+        "PP_4222": 0.58632993741679,
+        "PP_4243": 0.58632993741679
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5864204709584079,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5864204709584064,
+        "PP_1765": 0.5864204709584092,
+        "PP_5011": 0.5864204709584082,
+        "PP_5013": 0.586420470958406,
+        "PP_5199": 0.5864204709584021,
+        "PP_5318": 0.5864204709584084
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5863098226480403,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5863698012751015,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5863698012751005
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5863144814606374,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.58628837827498,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "hemeO_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5863042025916894,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5863042025916946,
+        "PP_3357": 0.5863042025916952,
+        "PP_4782": 0.5863042025917033,
+        "PP_4783": 0.586304202591691,
+        "PP_4922": 0.586304202591691,
+        "PP_5045": 0.5863042025916901,
+        "PP_5104": 0.5863042025916984,
+        "PP_5105": 0.5863042025916925
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "mlthf_c"
+      ],
+      "edited_wt_growth": 0.586231299520416,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862312995204167,
+        "PP_4801": 0.5862312995204161
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862761039259963,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862761039259949,
+        "PP_4801": 0.5862761039259933
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861793320318331,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861793320318339,
+        "PP_0378": 0.5861793320318348,
+        "PP_0380": 0.5861793320318348,
+        "PP_0381": 0.5861793320318348,
+        "PP_4800": 0.5861793320318334,
+        "PP_4801": 0.5861793320318323
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861998074529492,
+      "n_rescued": 7,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861998074529517,
+        "PP_1129": 0.5861998074529492,
+        "PP_1436": 0.5861998074529524,
+        "PP_2117": 0.5861998074529492,
+        "PP_4800": 0.5861998074529491,
+        "PP_4801": 0.5861998074529516,
+        "PP_4964": 0.5861998074529493
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862446809771099,
+      "n_rescued": 16,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862446809771098,
+        "PP_4209": 0.5862446809771082,
+        "PP_4210": 0.5862446809771095,
+        "PP_4211": 0.5862446809771095,
+        "PP_4212": 0.5862446809771095,
+        "PP_4213": 0.5862446809771095,
+        "PP_4214": 0.5862446809771095,
+        "PP_4215": 0.5862446809771095,
+        "PP_4216": 0.5862446809771095,
+        "PP_4219": 0.5862446809771095,
+        "PP_4220": 0.5862446809771095,
+        "PP_4221": 0.5862446809771095,
+        "PP_4222": 0.5862446809771095,
+        "PP_4243": 0.5862446809771095,
+        "PP_4800": 0.58624468097711,
+        "PP_4801": 0.586244680977109
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863351881901976,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863351881901996,
+        "PP_1765": 0.5863351881901963,
+        "PP_4800": 0.5863351881901955,
+        "PP_4801": 0.5863351881901985,
+        "PP_5011": 0.5863351881901995,
+        "PP_5013": 0.5863351881901976,
+        "PP_5199": 0.5863351881901981,
+        "PP_5318": 0.5863351881902124
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862245720574887,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862245720574897,
+        "PP_4801": 0.5862245720574891
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.586284533242911,
+      "n_rescued": 3,
+      "rescued_ko_growth": {
+        "PP_3999": 0.586284533242904,
+        "PP_4800": 0.5862845332429074,
+        "PP_4801": 0.5862845332429074
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862292295153795,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862292295153758,
+        "PP_4801": 0.5862292295153817
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5862031339199668,
+      "n_rescued": 2,
+      "rescued_ko_growth": {
+        "PP_4800": 0.5862031339199688,
+        "PP_4801": 0.5862031339199667
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "lipopb_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862189536353447,
+      "n_rescued": 10,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862189536353483,
+        "PP_3357": 0.5862189536353496,
+        "PP_4782": 0.5862189536353456,
+        "PP_4783": 0.5862189536353472,
+        "PP_4800": 0.5862189536353482,
+        "PP_4801": 0.5862189536353482,
+        "PP_4922": 0.5862189536353486,
+        "PP_5045": 0.5862189536353493,
+        "PP_5104": 0.5862189536353475,
+        "PP_5105": 0.5862189536353466
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "pheme_c"
+      ],
+      "edited_wt_growth": 0.5862668615325232,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5861700926892299,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.58617009268923,
+        "PP_0378": 0.5861700926892303,
+        "PP_0380": 0.5861700926892303,
+        "PP_0381": 0.5861700926892303
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861905674648771,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861905674648745,
+        "PP_1129": 0.5861905674648743,
+        "PP_1436": 0.5861905674648767,
+        "PP_2117": 0.5861905674648752,
+        "PP_4964": 0.5861905674648743
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.586235439574351,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.586235439574351,
+        "PP_4209": 0.5862354395743583,
+        "PP_4210": 0.5862354395743504,
+        "PP_4211": 0.5862354395743504,
+        "PP_4212": 0.5862354395743504,
+        "PP_4213": 0.5862354395743504,
+        "PP_4214": 0.5862354395743504,
+        "PP_4215": 0.5862354395743504,
+        "PP_4216": 0.5862354395743504,
+        "PP_4219": 0.5862354395743504,
+        "PP_4220": 0.5862354395743504,
+        "PP_4221": 0.5862354395743504,
+        "PP_4222": 0.5862354395743504,
+        "PP_4243": 0.5862354395743504
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863259439337805,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.586325943933781,
+        "PP_1765": 0.5863259439337796,
+        "PP_5011": 0.58632594393378,
+        "PP_5013": 0.5863259439337797,
+        "PP_5199": 0.5863259439337822,
+        "PP_5318": 0.5863259439337805
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862153312886978,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862752905836753,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862752905836744
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862199885997561,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861938938270291,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "mlthf_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862097130436843,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862097130436801,
+        "PP_3357": 0.5862097130436851,
+        "PP_4782": 0.5862097130436815,
+        "PP_4783": 0.5862097130436847,
+        "PP_4922": 0.5862097130436845,
+        "PP_5045": 0.586209713043685,
+        "PP_5104": 0.5862097130436815,
+        "PP_5105": 0.5862097130436839
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "pqqh2_c"
+      ],
+      "edited_wt_growth": 0.5862148877391218,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5862148877391272,
+        "PP_0378": 0.5862148877391233,
+        "PP_0380": 0.5862148877391233,
+        "PP_0381": 0.5862148877391233
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5862353656443028,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5862353656443073,
+        "PP_1129": 0.5862353656443007,
+        "PP_1436": 0.5862353656442996,
+        "PP_2117": 0.5862353656443029,
+        "PP_4964": 0.5862353656443051
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862802446127846,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862802446127857,
+        "PP_4209": 0.5862802446127845,
+        "PP_4210": 0.5862802446127843,
+        "PP_4211": 0.5862802446127843,
+        "PP_4212": 0.5862802446127843,
+        "PP_4213": 0.5862802446127843,
+        "PP_4214": 0.5862802446127843,
+        "PP_4215": 0.5862802446127843,
+        "PP_4216": 0.5862802446127843,
+        "PP_4219": 0.5862802446127843,
+        "PP_4220": 0.5862802446127843,
+        "PP_4221": 0.5862802446127843,
+        "PP_4222": 0.5862802446127843,
+        "PP_4243": 0.5862802446127843
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863707628080183,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863707628080183,
+        "PP_1765": 0.5863707628080166,
+        "PP_5011": 0.5863707628080186,
+        "PP_5013": 0.586370762808019,
+        "PP_5199": 0.5863707628080171,
+        "PP_5318": 0.5863707628080201
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5862601332533786,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5863201017140479,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5863201017140475
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862647912763436,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5862386925148917,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pheme_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862545141495756,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862545141495755,
+        "PP_3357": 0.586254514149579,
+        "PP_4782": 0.5862545141495802,
+        "PP_4783": 0.5862545141495767,
+        "PP_4922": 0.5862545141495755,
+        "PP_5045": 0.5862545141495749,
+        "PP_5104": 0.5862545141495697,
+        "PP_5105": 0.5862545141495777
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "pydx5p_c"
+      ],
+      "edited_wt_growth": 0.5861386071972462,
+      "n_rescued": 9,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861386071972466,
+        "PP_0378": 0.586138607197248,
+        "PP_0380": 0.586138607197248,
+        "PP_0381": 0.586138607197248,
+        "PP_0402": 0.5861386071972482,
+        "PP_1129": 0.5861386071972495,
+        "PP_1436": 0.5861386071972474,
+        "PP_2117": 0.5861386071972474,
+        "PP_4964": 0.5861386071972479
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5861834713517929,
+      "n_rescued": 18,
+      "rescued_ko_growth": {
+        "PP_0376": 0.586183471351792,
+        "PP_0378": 0.5861834713517934,
+        "PP_0380": 0.5861834713517934,
+        "PP_0381": 0.5861834713517934,
+        "PP_3796": 0.5861834713517944,
+        "PP_4209": 0.5861834713517846,
+        "PP_4210": 0.5861834713517928,
+        "PP_4211": 0.5861834713517928,
+        "PP_4212": 0.5861834713517928,
+        "PP_4213": 0.5861834713517928,
+        "PP_4214": 0.5861834713517928,
+        "PP_4215": 0.5861834713517928,
+        "PP_4216": 0.5861834713517928,
+        "PP_4219": 0.5861834713517928,
+        "PP_4220": 0.5861834713517928,
+        "PP_4221": 0.5861834713517928,
+        "PP_4222": 0.5861834713517928,
+        "PP_4243": 0.5861834713517928
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.58627395966475,
+      "n_rescued": 10,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5862739596647507,
+        "PP_0378": 0.5862739596647492,
+        "PP_0380": 0.5862739596647492,
+        "PP_0381": 0.5862739596647492,
+        "PP_0687": 0.5862739596647518,
+        "PP_1765": 0.5862739596647444,
+        "PP_5011": 0.5862739596647507,
+        "PP_5013": 0.5862739596647497,
+        "PP_5199": 0.5862739596647504,
+        "PP_5318": 0.5862739596647518
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5861633666310141,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861633666310135,
+        "PP_0378": 0.5861633666310146,
+        "PP_0380": 0.5861633666310146,
+        "PP_0381": 0.5861633666310146
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862233152958164,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0376": 0.586223315295821,
+        "PP_0378": 0.5862233152958156,
+        "PP_0380": 0.5862233152958156,
+        "PP_0381": 0.5862233152958156,
+        "PP_3999": 0.5862233152958156
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5861680231164128,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861680231164169,
+        "PP_0378": 0.5861680231164156,
+        "PP_0380": 0.5861680231164156,
+        "PP_0381": 0.5861680231164156
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861419329697225,
+      "n_rescued": 4,
+      "rescued_ko_growth": {
+        "PP_0376": 0.5861419329697196,
+        "PP_0378": 0.5861419329697217,
+        "PP_0380": 0.5861419329697217,
+        "PP_0381": 0.5861419329697217
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pqqh2_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5861577493820002,
+      "n_rescued": 12,
+      "rescued_ko_growth": {
+        "PP_0376": 0.586157749382003,
+        "PP_0378": 0.5861577493819996,
+        "PP_0380": 0.5861577493819996,
+        "PP_0381": 0.5861577493819996,
+        "PP_0519": 0.5861577493820022,
+        "PP_3357": 0.5861577493820019,
+        "PP_4782": 0.5861577493819999,
+        "PP_4783": 0.5861577493819994,
+        "PP_4922": 0.586157749382119,
+        "PP_5045": 0.5861577493820014,
+        "PP_5104": 0.5861577493820043,
+        "PP_5105": 0.5861577493819988
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pydx5p_c",
+        "pyovd_kt_e"
+      ],
+      "edited_wt_growth": 0.5862039470620954,
+      "n_rescued": 19,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5862039470620904,
+        "PP_1129": 0.5862039470620934,
+        "PP_1436": 0.5862039470620947,
+        "PP_2117": 0.5862039470620907,
+        "PP_3796": 0.5862039470620912,
+        "PP_4209": 0.586203947062093,
+        "PP_4210": 0.5862039470620916,
+        "PP_4211": 0.5862039470620916,
+        "PP_4212": 0.5862039470620916,
+        "PP_4213": 0.5862039470620916,
+        "PP_4214": 0.5862039470620916,
+        "PP_4215": 0.5862039470620916,
+        "PP_4216": 0.5862039470620916,
+        "PP_4219": 0.5862039470620916,
+        "PP_4220": 0.5862039470620916,
+        "PP_4221": 0.5862039470620916,
+        "PP_4222": 0.5862039470620916,
+        "PP_4243": 0.5862039470620916,
+        "PP_4964": 0.5862039470620911
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pydx5p_c",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5862944416972595,
+      "n_rescued": 11,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5862944416972599,
+        "PP_0687": 0.5862944416972583,
+        "PP_1129": 0.5862944416972589,
+        "PP_1436": 0.5862944416972603,
+        "PP_1765": 0.5862944416972606,
+        "PP_2117": 0.5862944416972607,
+        "PP_4964": 0.586294441697261,
+        "PP_5011": 0.5862944416972595,
+        "PP_5013": 0.5862944416972595,
+        "PP_5199": 0.5862944416972576,
+        "PP_5318": 0.5862944416972614
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pydx5p_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.586183840936774,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.586183840936775,
+        "PP_1129": 0.586183840936775,
+        "PP_1436": 0.5861838409367759,
+        "PP_2117": 0.5861838409367711,
+        "PP_4964": 0.5861838409367734
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pydx5p_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862437937898024,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5862437937898005,
+        "PP_1129": 0.5862437937898025,
+        "PP_1436": 0.5862437937898011,
+        "PP_2117": 0.5862437937898035,
+        "PP_3999": 0.5862437937897992,
+        "PP_4964": 0.5862437937898028
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pydx5p_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5861884977474775,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861884977474786,
+        "PP_1129": 0.5861884977474777,
+        "PP_1436": 0.5861884977474762,
+        "PP_2117": 0.5861884977474794,
+        "PP_4964": 0.5861884977474813
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pydx5p_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861624057781494,
+      "n_rescued": 5,
+      "rescued_ko_growth": {
+        "PP_0402": 0.5861624057781533,
+        "PP_1129": 0.5861624057781588,
+        "PP_1436": 0.5861624057781515,
+        "PP_2117": 0.5861624057781581,
+        "PP_4964": 0.5861624057781513
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pydx5p_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5861782232953433,
+      "n_rescued": 13,
+      "rescued_ko_growth": {
+        "PP_0402": 0.586178223295344,
+        "PP_0519": 0.5861782232953412,
+        "PP_1129": 0.5861782232953413,
+        "PP_1436": 0.5861782232953424,
+        "PP_2117": 0.5861782232953442,
+        "PP_3357": 0.5861782232953406,
+        "PP_4782": 0.5861782232953435,
+        "PP_4783": 0.5861782232953443,
+        "PP_4922": 0.5861782232953414,
+        "PP_4964": 0.5861782232953419,
+        "PP_5045": 0.5861782232953433,
+        "PP_5104": 0.5861782232953421,
+        "PP_5105": 0.5861782232953444
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pyovd_kt_e",
+        "q8h2_c"
+      ],
+      "edited_wt_growth": 0.5863393297116238,
+      "n_rescued": 20,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863393297116247,
+        "PP_1765": 0.5863393297116218,
+        "PP_3796": 0.5863393297116226,
+        "PP_4209": 0.5863393297116218,
+        "PP_4210": 0.5863393297116236,
+        "PP_4211": 0.5863393297116236,
+        "PP_4212": 0.5863393297116236,
+        "PP_4213": 0.5863393297116236,
+        "PP_4214": 0.5863393297116236,
+        "PP_4215": 0.5863393297116236,
+        "PP_4216": 0.5863393297116236,
+        "PP_4219": 0.5863393297116236,
+        "PP_4220": 0.5863393297116236,
+        "PP_4221": 0.5863393297116236,
+        "PP_4222": 0.5863393297116236,
+        "PP_4243": 0.5863393297116236,
+        "PP_5011": 0.5863393297116226,
+        "PP_5013": 0.5863393297116207,
+        "PP_5199": 0.5863393297116231,
+        "PP_5318": 0.5863393297116034
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pyovd_kt_e",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.586228712016403,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862287120164006,
+        "PP_4209": 0.5862287120164039,
+        "PP_4210": 0.5862287120164023,
+        "PP_4211": 0.5862287120164023,
+        "PP_4212": 0.5862287120164023,
+        "PP_4213": 0.5862287120164023,
+        "PP_4214": 0.5862287120164023,
+        "PP_4215": 0.5862287120164023,
+        "PP_4216": 0.5862287120164023,
+        "PP_4219": 0.5862287120164023,
+        "PP_4220": 0.5862287120164023,
+        "PP_4221": 0.5862287120164023,
+        "PP_4222": 0.5862287120164023,
+        "PP_4243": 0.5862287120164023
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pyovd_kt_e",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862886740487685,
+      "n_rescued": 15,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862886740487655,
+        "PP_3999": 0.5862886740487671,
+        "PP_4209": 0.5862886740487674,
+        "PP_4210": 0.5862886740487664,
+        "PP_4211": 0.5862886740487664,
+        "PP_4212": 0.5862886740487664,
+        "PP_4213": 0.5862886740487664,
+        "PP_4214": 0.5862886740487664,
+        "PP_4215": 0.5862886740487664,
+        "PP_4216": 0.5862886740487664,
+        "PP_4219": 0.5862886740487664,
+        "PP_4220": 0.5862886740487664,
+        "PP_4221": 0.5862886740487664,
+        "PP_4222": 0.5862886740487664,
+        "PP_4243": 0.5862886740487664
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pyovd_kt_e",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862333695400791,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.586233369540073,
+        "PP_4209": 0.5862333695400749,
+        "PP_4210": 0.5862333695400752,
+        "PP_4211": 0.5862333695400752,
+        "PP_4212": 0.5862333695400752,
+        "PP_4213": 0.5862333695400752,
+        "PP_4214": 0.5862333695400752,
+        "PP_4215": 0.5862333695400752,
+        "PP_4216": 0.5862333695400752,
+        "PP_4219": 0.5862333695400752,
+        "PP_4220": 0.5862333695400752,
+        "PP_4221": 0.5862333695400752,
+        "PP_4222": 0.5862333695400752,
+        "PP_4243": 0.5862333695400752
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pyovd_kt_e",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5862072735760938,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_3796": 0.5862072735760888,
+        "PP_4209": 0.586207273576088,
+        "PP_4210": 0.5862072735760903,
+        "PP_4211": 0.5862072735760903,
+        "PP_4212": 0.5862072735760903,
+        "PP_4213": 0.5862072735760903,
+        "PP_4214": 0.5862072735760903,
+        "PP_4215": 0.5862072735760903,
+        "PP_4216": 0.5862072735760903,
+        "PP_4219": 0.5862072735760903,
+        "PP_4220": 0.5862072735760903,
+        "PP_4221": 0.5862072735760903,
+        "PP_4222": 0.5862072735760903,
+        "PP_4243": 0.5862072735760903
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "pyovd_kt_e",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862230935149069,
+      "n_rescued": 22,
+      "rescued_ko_growth": {
+        "PP_0519": 0.586223093514906,
+        "PP_3357": 0.586223093514904,
+        "PP_3796": 0.5862230935149024,
+        "PP_4209": 0.5862230935149024,
+        "PP_4210": 0.5862230935149063,
+        "PP_4211": 0.5862230935149063,
+        "PP_4212": 0.5862230935149063,
+        "PP_4213": 0.5862230935149063,
+        "PP_4214": 0.5862230935149063,
+        "PP_4215": 0.5862230935149063,
+        "PP_4216": 0.5862230935149063,
+        "PP_4219": 0.5862230935149063,
+        "PP_4220": 0.5862230935149063,
+        "PP_4221": 0.5862230935149063,
+        "PP_4222": 0.5862230935149063,
+        "PP_4243": 0.5862230935149063,
+        "PP_4782": 0.586223093514906,
+        "PP_4783": 0.5862230935149064,
+        "PP_4922": 0.586223093514901,
+        "PP_5045": 0.5862230935149048,
+        "PP_5104": 0.5862230935149046,
+        "PP_5105": 0.5862230935149063
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "q8h2_c",
+        "ribflv_c"
+      ],
+      "edited_wt_growth": 0.5863192142984526,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863192142984519,
+        "PP_1765": 0.5863192142984524,
+        "PP_5011": 0.5863192142984509,
+        "PP_5013": 0.586319214298451,
+        "PP_5199": 0.5863192142984509,
+        "PP_5318": 0.5863192142984536
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "q8h2_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5863791948471283,
+      "n_rescued": 7,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863791948471284,
+        "PP_1765": 0.5863791948471244,
+        "PP_3999": 0.5863791948471307,
+        "PP_5011": 0.5863791948471294,
+        "PP_5013": 0.5863791948471297,
+        "PP_5199": 0.5863791948471272,
+        "PP_5318": 0.5863791948471274
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "q8h2_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5863238732603037,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5863238732603026,
+        "PP_1765": 0.5863238732603037,
+        "PP_5011": 0.586323873260301,
+        "PP_5013": 0.5863238732603013,
+        "PP_5199": 0.586323873260302,
+        "PP_5318": 0.5863238732603008
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "q8h2_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5862977692383946,
+      "n_rescued": 6,
+      "rescued_ko_growth": {
+        "PP_0687": 0.5862977692383945,
+        "PP_1765": 0.5862977692383955,
+        "PP_5011": 0.5862977692383984,
+        "PP_5013": 0.5862977692383949,
+        "PP_5199": 0.5862977692383935,
+        "PP_5318": 0.5862977692383962
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "q8h2_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5863206193743862,
+      "n_rescued": 14,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5863206193743892,
+        "PP_0687": 0.5863206193743867,
+        "PP_1765": 0.5863206193743867,
+        "PP_3357": 0.5863206193743878,
+        "PP_4782": 0.5863206193743864,
+        "PP_4783": 0.5863206193743863,
+        "PP_4922": 0.5863206193743882,
+        "PP_5011": 0.5863206193743854,
+        "PP_5013": 0.5863206193743862,
+        "PP_5045": 0.5863206193743871,
+        "PP_5104": 0.5863206193743843,
+        "PP_5105": 0.586320619374386,
+        "PP_5199": 0.5863206193743856,
+        "PP_5318": 0.586320619374387
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "ribflv_c",
+        "sheme_c"
+      ],
+      "edited_wt_growth": 0.5862685621110536,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862685621110532
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "ribflv_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862132613964235,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "ribflv_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5861871672225862,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "ribflv_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862029860761871,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862029860761871,
+        "PP_3357": 0.5862029860761869,
+        "PP_4782": 0.5862029860761878,
+        "PP_4783": 0.5862029860761856,
+        "PP_4922": 0.5862029860761863,
+        "PP_5045": 0.5862029860761866,
+        "PP_5104": 0.5862029860761885,
+        "PP_5105": 0.5862029860761875
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "sheme_c",
+        "thf_c"
+      ],
+      "edited_wt_growth": 0.5862732202679586,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862732202679576
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "sheme_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.5862471207560511,
+      "n_rescued": 1,
+      "rescued_ko_growth": {
+        "PP_3999": 0.5862471207560498
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "sheme_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862629428456725,
+      "n_rescued": 9,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862629428456747,
+        "PP_3357": 0.5862629428456745,
+        "PP_3999": 0.586262942845676,
+        "PP_4782": 0.5862629428456785,
+        "PP_4783": 0.5862629428456732,
+        "PP_4922": 0.5862629428456754,
+        "PP_5045": 0.5862629428456744,
+        "PP_5104": 0.5862629428456778,
+        "PP_5105": 0.5862629428456736
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "thf_c",
+        "thmnp_c"
+      ],
+      "edited_wt_growth": 0.586191824086142,
+      "n_rescued": 0,
+      "rescued_ko_growth": {},
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "thf_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5862076431910861,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5862076431910865,
+        "PP_3357": 0.5862076431910865,
+        "PP_4782": 0.5862076431910873,
+        "PP_4783": 0.5862076431910843,
+        "PP_4922": 0.5862076431910875,
+        "PP_5045": 0.5862076431910885,
+        "PP_5104": 0.5862076431910873,
+        "PP_5105": 0.5862076431910875
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    },
+    {
+      "removed": [
+        "thmnp_c",
+        "thmpp_c"
+      ],
+      "edited_wt_growth": 0.5861815495173984,
+      "n_rescued": 8,
+      "rescued_ko_growth": {
+        "PP_0519": 0.5861815495173968,
+        "PP_3357": 0.5861815495173966,
+        "PP_4782": 0.5861815495173983,
+        "PP_4783": 0.586181549517399,
+        "PP_4922": 0.5861815495173998,
+        "PP_5045": 0.5861815495173992,
+        "PP_5104": 0.5861815495174008,
+        "PP_5105": 0.5861815495174
+      },
+      "solver_failure_genes": [],
+      "borderline_genes": [],
+      "overlap_with_mo_pair": []
+    }
+  ],
+  "summary": {
+    "n_pairs_ge_mo_six": 104,
+    "n_pairs_gt_mo_six": 88,
+    "zero_rescue_pairs": 78,
+    "max_non_moco_rescues": 35,
+    "any_solver_failure_pairs": 0,
+    "mo_gene_overlap_counts": {
+      "PP_0735": 0,
+      "PP_1292": 0,
+      "PP_1293": 0,
+      "PP_1294": 0,
+      "PP_2123": 0,
+      "PP_3457": 0
+    },
+    "interpretation": "descriptive enumeration after MoCo-pair outcome exposure; not a randomization p-value or biological validation"
+  },
+  "mo_pair_fresh_checksum": {
+    "edited_wt_growth": 0.5863026497003848,
+    "rescued_ko_growth": {
+      "PP_0735": 0.5863026497003849,
+      "PP_1292": 0.5863026497003837,
+      "PP_1293": 0.5863026497003847,
+      "PP_1294": 0.5863026497003847,
+      "PP_2123": 0.5863026497003851,
+      "PP_3457": 0.5863026497003845
+    },
+    "matches_prior": true
+  }
+}

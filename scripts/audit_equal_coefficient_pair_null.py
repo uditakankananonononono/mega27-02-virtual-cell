@@ -15,9 +15,21 @@ pairs=list(itertools.combinations(eligible,2)); assert len(eligible)==23 and len
 wt=float(m.slim_optimize()); base=single_gene_deletion(m,processes=1)
 essential=sorted(next(iter(ids)) for ids,gr in zip(base['ids'],base['growth']) if gr is not None and gr<1e-6)
 assert len(essential)==262 and abs(wt-.5861175448479794)<1e-8
+with m:
+ ob=m.reactions.get_by_id(obj.id)
+ ob.subtract_metabolites({m.metabolites.get_by_id(z):coef[z] for z in mo})
+ mo_growth=float(m.slim_optimize()); mo_rescued={}; mo_failures=[]
+ for gene in essential:
+  with m:
+   m.genes.get_by_id(gene).knock_out(); growth=m.slim_optimize()
+   if growth is None: mo_failures.append(gene); continue
+   if float(growth)>=.95*wt: mo_rescued[gene]=float(growth)
+assert not mo_failures
 prior=json.load(open('results/moco_subset_interaction_ijn1463.json'))
 mo_prior=next(x for x in prior['subsets'] if tuple(x['removed'])==mo)
 assert mo_prior['n_rescued']==6
+assert sorted(mo_rescued)==sorted(mo_prior['rescued_ko_growth'])
+assert abs(mo_growth-mo_prior['edited_wt_growth'])<1e-8
 outpath=Path('results/postresult_equal_coefficient_pair_null.json')
 header={'status':'retrospective equal-coefficient pair null; not exchangeable biological control',
  'protocol':'notes/postresult_equal_coefficient_pair_null.md','source_url':row['source_url'],'source_sha256':sha,
@@ -51,6 +63,7 @@ for pair in pairs[start:start+n]:
  outpath.write_text(json.dumps(out,indent=2)+'\n')
  print(f"{len(out['pairs'])}/{len(pairs)} {pair} rescued {len(rescued)} failures {len(failures)}",flush=True)
 if len(out['pairs'])==len(pairs):
+ out['mo_pair_fresh_checksum']={'edited_wt_growth':mo_growth,'rescued_ko_growth':mo_rescued,'matches_prior':True}
  counts=[r['n_rescued'] for r in out['pairs']]; target_count=len(header['mo_pair_prior_rescued'])
  out['summary']={'n_pairs_ge_mo_six':sum(x>=target_count for x in counts),
   'n_pairs_gt_mo_six':sum(x>target_count for x in counts),
