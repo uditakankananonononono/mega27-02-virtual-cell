@@ -1,0 +1,337 @@
+{
+  "genes": [
+    "PP_0735",
+    "PP_1292",
+    "PP_1293",
+    "PP_1294",
+    "PP_2123",
+    "PP_3457"
+  ],
+  "limits": "Retains all other native model bounds, oxygen and nutrients. Increasing uptake is not a measured growth medium. Same model and preselected genes, not independent validation. G2 remains FAIL.",
+  "protocol": "notes/postresult_moco_uptake_tolerance_protocol.md",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "status": "post-result same-model medium-bound sensitivity; not phenotype or new gate",
+  "uptake_variants": {
+    "0.5": {
+      "glucose_exchange_lower_bound": -3.0,
+      "patched_gene_knockouts": {
+        "PP_0735": {
+          "growth": 0.29106999116550236,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.29106999116550236,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.29106999116550236,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.29106999116550236,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.29106999116550236,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.29106999116550236,
+          "status": "optimal"
+        }
+      },
+      "patched_over_unedited_wt": {
+        "PP_0735": 1.0003158152388263,
+        "PP_1292": 1.0003158152388263,
+        "PP_1293": 1.0003158152388263,
+        "PP_1294": 1.0003158152388263,
+        "PP_2123": 1.0003158152388263,
+        "PP_3457": 1.0003158152388263
+      },
+      "patched_wt": {
+        "growth": 0.2910699911655016,
+        "status": "optimal"
+      },
+      "ratio_defined": true,
+      "rescued_95pct": [
+        "PP_0735",
+        "PP_1292",
+        "PP_1293",
+        "PP_1294",
+        "PP_2123",
+        "PP_3457"
+      ],
+      "unedited_gene_knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "status": "optimal"
+        }
+      },
+      "unedited_wt": {
+        "growth": 0.2909780958486687,
+        "status": "optimal"
+      }
+    },
+    "1.0": {
+      "glucose_exchange_lower_bound": -6.0,
+      "patched_gene_knockouts": {
+        "PP_0735": {
+          "growth": 0.5863026497003856,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.5863026497003856,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.5863026497003856,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.5863026497003856,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.5863026497003856,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.5863026497003856,
+          "status": "optimal"
+        }
+      },
+      "patched_over_unedited_wt": {
+        "PP_0735": 1.0003158152388232,
+        "PP_1292": 1.0003158152388232,
+        "PP_1293": 1.0003158152388232,
+        "PP_1294": 1.0003158152388232,
+        "PP_2123": 1.0003158152388232,
+        "PP_3457": 1.0003158152388232
+      },
+      "patched_wt": {
+        "growth": 0.5863026497003841,
+        "status": "optimal"
+      },
+      "ratio_defined": true,
+      "rescued_95pct": [
+        "PP_0735",
+        "PP_1292",
+        "PP_1293",
+        "PP_1294",
+        "PP_2123",
+        "PP_3457"
+      ],
+      "unedited_gene_knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "status": "optimal"
+        }
+      },
+      "unedited_wt": {
+        "growth": 0.586117544847981,
+        "status": "optimal"
+      }
+    },
+    "1.5": {
+      "glucose_exchange_lower_bound": -9.0,
+      "patched_gene_knockouts": {
+        "PP_0735": {
+          "growth": 0.8815353082352679,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.8815353082352679,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.8815353082352679,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.8815353082352679,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.8815353082352679,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.8815353082352679,
+          "status": "optimal"
+        }
+      },
+      "patched_over_unedited_wt": {
+        "PP_0735": 1.0003158152388234,
+        "PP_1292": 1.0003158152388234,
+        "PP_1293": 1.0003158152388234,
+        "PP_1294": 1.0003158152388234,
+        "PP_2123": 1.0003158152388234,
+        "PP_3457": 1.0003158152388234
+      },
+      "patched_wt": {
+        "growth": 0.8815353082352672,
+        "status": "optimal"
+      },
+      "ratio_defined": true,
+      "rescued_95pct": [
+        "PP_0735",
+        "PP_1292",
+        "PP_1293",
+        "PP_1294",
+        "PP_2123",
+        "PP_3457"
+      ],
+      "unedited_gene_knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "status": "optimal"
+        }
+      },
+      "unedited_wt": {
+        "growth": 0.8812569938472913,
+        "status": "optimal"
+      }
+    },
+    "2.0": {
+      "glucose_exchange_lower_bound": -12.0,
+      "patched_gene_knockouts": {
+        "PP_0735": {
+          "growth": 1.1767679667701516,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 1.1767679667701516,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 1.1767679667701516,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 1.1767679667701516,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 1.1767679667701516,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 1.1767679667701516,
+          "status": "optimal"
+        }
+      },
+      "patched_over_unedited_wt": {
+        "PP_0735": 1.0003158152388225,
+        "PP_1292": 1.0003158152388225,
+        "PP_1293": 1.0003158152388225,
+        "PP_1294": 1.0003158152388225,
+        "PP_2123": 1.0003158152388225,
+        "PP_3457": 1.0003158152388225
+      },
+      "patched_wt": {
+        "growth": 1.176767966770149,
+        "status": "optimal"
+      },
+      "ratio_defined": true,
+      "rescued_95pct": [
+        "PP_0735",
+        "PP_1292",
+        "PP_1293",
+        "PP_1294",
+        "PP_2123",
+        "PP_3457"
+      ],
+      "unedited_gene_knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "status": "optimal"
+        }
+      },
+      "unedited_wt": {
+        "growth": 1.176396442846604,
+        "status": "optimal"
+      }
+    }
+  }
+}
