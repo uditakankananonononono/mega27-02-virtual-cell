@@ -1,8 +1,8 @@
 {
   "status": "provisional-accession reconciliation over frozen audit; rows failing any check stay provisional",
   "n_provisional_before": 88,
-  "n_resolved": 65,
-  "n_still_provisional": 23,
+  "n_resolved": 80,
+  "n_still_provisional": 8,
   "resolved_by_arm": {
     "208964": 10,
     "224308": 5,
@@ -30,5 +30,19 @@
     "structure confidence": 1,
     "transcriptome compendium": 1
   },
-  "limits": "PaxDb dataset IDs and BiGG model IDs verified from local hashed files with scored-use evidence; this does not make technical replicates independent studies and does not change the owner-approved 123 model-inclusive gate floor. Remaining provisional rows need per-provider evidence."
+  "limits": "PaxDb dataset IDs and BiGG model IDs verified from local hashed files with scored-use evidence; this does not make technical replicates independent studies and does not change the owner-approved 123 model-inclusive gate floor. Remaining provisional rows need per-provider evidence.",
+  "extension_pass": {
+    "n_added": 15,
+    "still_provisional_numbers": [
+      "11",
+      "22",
+      "31",
+      "33",
+      "35",
+      "37",
+      "39",
+      "41"
+    ],
+    "note": "EcoliWiki list and go-basic.obo have no local hashed file; unused KEGG codes ccs/evi/dsu/pact/sme/psb have no scored use in-repo. These stay provisional."
+  }
 }
