@@ -5,7 +5,7 @@ import cobra
 from cobra.flux_analysis import single_gene_deletion
 p=Path('data/bigg_survey/iJN1463.json')
 row=next(z for z in csv.DictReader(open('results/bigg_model_survey.csv')) if z['accession']=='iJN1463')
-sha=hashlib.sha256(p.read_bytes()).hexdigest();assert sha==row['sha256']=='8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca9c73a9adf7568bf'
+sha=hashlib.sha256(p.read_bytes()).hexdigest();assert sha==row['sha256']=='8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf'
 m=cobra.io.load_json_model(str(p)); obj=m.reactions.get_by_id('BIOMASS_KT2440_WT3')
 coef={z.id:float(c) for z,c in obj.metabolites.items() if c<0}
 mo=('bmocogdp_c','mocogdp_c');target=coef[mo[0]]
