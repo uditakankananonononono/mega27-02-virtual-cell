@@ -1,0 +1,382 @@
+{
+  "first_tested_positive_fraction_losing_rescue": {
+    "PP_0735": 0.1,
+    "PP_1292": 0.1,
+    "PP_1293": 0.1,
+    "PP_1294": 0.1,
+    "PP_2123": 0.1,
+    "PP_3457": 0.1
+  },
+  "genes": [
+    "PP_0735",
+    "PP_1292",
+    "PP_1293",
+    "PP_1294",
+    "PP_2123",
+    "PP_3457"
+  ],
+  "grid": [
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.586302649700383,
+          "ratio_to_native_wt": 1.000315815238819,
+          "rescued_at_95pct": true,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.586302649700383,
+          "ratio_to_native_wt": 1.000315815238819,
+          "rescued_at_95pct": true,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.586302649700383,
+          "ratio_to_native_wt": 1.000315815238819,
+          "rescued_at_95pct": true,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.586302649700383,
+          "ratio_to_native_wt": 1.000315815238819,
+          "rescued_at_95pct": true,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.586302649700383,
+          "ratio_to_native_wt": 1.000315815238819,
+          "rescued_at_95pct": true,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.586302649700383,
+          "ratio_to_native_wt": 1.000315815238819,
+          "rescued_at_95pct": true,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 6,
+      "remaining_fraction": 0,
+      "wt_growth": 0.5863026497003838,
+      "wt_ratio_to_native_wt": 1.00031581523882
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 0,
+      "remaining_fraction": 0.1,
+      "wt_growth": 0.5862841339540066,
+      "wt_ratio_to_native_wt": 1.0002842247386894
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 0,
+      "remaining_fraction": 0.25,
+      "wt_growth": 0.5862563625271002,
+      "wt_ratio_to_native_wt": 1.0002368427294823
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 0,
+      "remaining_fraction": 0.5,
+      "wt_growth": 0.5862100826617559,
+      "wt_ratio_to_native_wt": 1.0001578826885296
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 0,
+      "remaining_fraction": 0.75,
+      "wt_growth": 0.5861638101026272,
+      "wt_ratio_to_native_wt": 1.000078935113021
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 0,
+      "remaining_fraction": 0.9,
+      "wt_growth": 0.5861360500734131,
+      "wt_ratio_to_native_wt": 1.0000315725499003
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 0,
+      "remaining_fraction": 0.99,
+      "wt_growth": 0.5861193953179404,
+      "wt_ratio_to_native_wt": 1.0000031571652748
+    },
+    {
+      "knockouts": {
+        "PP_0735": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1292": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1293": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_1294": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_2123": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        },
+        "PP_3457": {
+          "growth": 0.0,
+          "ratio_to_native_wt": 0.0,
+          "rescued_at_95pct": false,
+          "status": "optimal"
+        }
+      },
+      "n_rescued_95pct": 0,
+      "remaining_fraction": 1,
+      "wt_growth": 0.5861175448479614,
+      "wt_ratio_to_native_wt": 0.9999999999999667
+    }
+  ],
+  "limits": "Changing paired biomass coefficients in one model is not a feasible biological intervention; fractions chosen after original rescue seen. No continuous threshold or generality; original G2 FAIL.",
+  "native_coefficients": {
+    "bmocogdp_c": -0.000223,
+    "mocogdp_c": -0.000223
+  },
+  "native_wt_growth": 0.586117544847981,
+  "protocol": "notes/postresult_moco_rescue_coefficient_response_protocol.md",
+  "source_sha256": "8232a1ea39af9b9b0313601a3cefca1028e50e53b2ca2c06002c1a9adf7568bf",
+  "source_url": "https://bigg.ucsd.edu/static/models/iJN1463.json",
+  "status": "post-result same-model LP coefficient grid, no phenotype validation"
+}
