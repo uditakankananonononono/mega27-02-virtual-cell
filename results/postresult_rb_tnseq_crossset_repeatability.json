@@ -1,0 +1,144 @@
+{
+  "both_below_minus_one": 1,
+  "either_below_minus_one": 1,
+  "limits": "11 selected gene summaries across two related source assay sets, each summary uses three samples; neither 11 independent experiments nor direct knockout survival. Set100 accession unresolved, set101 IT-index/run mapping unresolved. No p-value, no essentiality threshold and original G2 FAIL.",
+  "median_absolute_difference": 0.31,
+  "missing": [
+    {
+      "gene": "PP_3457",
+      "panel": "moco",
+      "reason": "not represented in workbook"
+    },
+    {
+      "gene": "PP_0437",
+      "panel": "suppressive_pair",
+      "reason": "not represented in workbook"
+    },
+    {
+      "gene": "PP_1602",
+      "panel": "suppressive_pair",
+      "reason": "not represented in workbook"
+    }
+  ],
+  "n_complete_genes": 11,
+  "n_missing_genes": 3,
+  "pairs": [
+    {
+      "abs_median_difference": 0.347,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_0735",
+      "panel": "moco",
+      "set100_median": -0.575,
+      "set101_median": -0.228,
+      "strict_sign_agree": true
+    },
+    {
+      "abs_median_difference": 0.31,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_1292",
+      "panel": "moco",
+      "set100_median": 0.088,
+      "set101_median": -0.222,
+      "strict_sign_agree": false
+    },
+    {
+      "abs_median_difference": 0.476,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_1293",
+      "panel": "moco",
+      "set100_median": 0.098,
+      "set101_median": -0.378,
+      "strict_sign_agree": false
+    },
+    {
+      "abs_median_difference": 0.321,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_1294",
+      "panel": "moco",
+      "set100_median": -0.062,
+      "set101_median": 0.259,
+      "strict_sign_agree": false
+    },
+    {
+      "abs_median_difference": 0.078,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_2123",
+      "panel": "moco",
+      "set100_median": 0.11,
+      "set101_median": 0.032,
+      "strict_sign_agree": true
+    },
+    {
+      "abs_median_difference": 0.11100000000000021,
+      "both_below_minus_one": true,
+      "either_below_minus_one": true,
+      "gene": "PP_0362",
+      "panel": "suppressive_pair",
+      "set100_median": -1.751,
+      "set101_median": -1.862,
+      "strict_sign_agree": true
+    },
+    {
+      "abs_median_difference": 0.336,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_0363",
+      "panel": "suppressive_pair",
+      "set100_median": -0.785,
+      "set101_median": -0.449,
+      "strict_sign_agree": true
+    },
+    {
+      "abs_median_difference": 0.606,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_0364",
+      "panel": "suppressive_pair",
+      "set100_median": -0.761,
+      "set101_median": -0.155,
+      "strict_sign_agree": true
+    },
+    {
+      "abs_median_difference": 0.26299999999999996,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_0365",
+      "panel": "suppressive_pair",
+      "set100_median": -0.707,
+      "set101_median": -0.444,
+      "strict_sign_agree": true
+    },
+    {
+      "abs_median_difference": 0.247,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_0366",
+      "panel": "suppressive_pair",
+      "set100_median": -0.65,
+      "set101_median": -0.403,
+      "strict_sign_agree": true
+    },
+    {
+      "abs_median_difference": 0.11299999999999999,
+      "both_below_minus_one": false,
+      "either_below_minus_one": false,
+      "gene": "PP_4984",
+      "panel": "suppressive_pair",
+      "set100_median": -0.725,
+      "set101_median": -0.612,
+      "strict_sign_agree": true
+    }
+  ],
+  "pearson_r": 0.8271766617931573,
+  "protocol": "notes/postresult_rb_tnseq_crossset_repeatability_protocol.md",
+  "source_sha256": "4d649385ac06684482396a125f135df22a2a5060da73485b2cd14468f8cc8be1",
+  "source_url": "https://github.com/beckham-lab/fModule",
+  "spearman_rho": 0.6818181818181819,
+  "status": "post-result source-table cross-set concordance only, no phenotype pass",
+  "strict_sign_agreements": 8
+}
