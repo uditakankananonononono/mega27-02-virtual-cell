@@ -1,0 +1,74 @@
+{
+  "status": "new exploratory same-accession nested follow-up; original G2 FAIL retained; no benchmark gate repair",
+  "protocol": "notes/prereg_nested_threshold_followup.md",
+  "input_sha256": {
+    "results/aligned_predictions_all_models.csv": "a218ff7442e4667a71766b69b627ec75e4e449037f73150472e7f6819a95ce9b",
+    "results/external_features.csv": "88f6bdf4c105ce03a48c1b07cf9d703955d442d4458134629eefa871e3770fe4"
+  },
+  "n_genes": 1249,
+  "n_features": 16,
+  "feature_names": [
+    "fba_min",
+    "fba_rich",
+    "strctx_deg_all",
+    "strctx_wdeg_all",
+    "strctx_deg_hi",
+    "strctx_core",
+    "strctx_clust",
+    "strctx_pagerank",
+    "up_len",
+    "up_tm",
+    "up_cofactor",
+    "up_n_ec",
+    "up_cytoplasm",
+    "up_membrane",
+    "kegg_n_path",
+    "kegg_core"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "n_outer_train": 832,
+      "n_outer_eval": 417,
+      "inner_oof_n": 832,
+      "threshold": 0.6398108341175224,
+      "inner_mcc": 0.3747368765019398
+    },
+    {
+      "fold": 1,
+      "n_outer_train": 833,
+      "n_outer_eval": 416,
+      "inner_oof_n": 833,
+      "threshold": 0.5761739647656409,
+      "inner_mcc": 0.39809202356899603
+    },
+    {
+      "fold": 2,
+      "n_outer_train": 833,
+      "n_outer_eval": 416,
+      "inner_oof_n": 833,
+      "threshold": 0.7416725886829525,
+      "inner_mcc": 0.37406207897377813
+    }
+  ],
+  "model": {
+    "auroc": 0.771377805766722,
+    "auprc": 0.4589549052334588,
+    "f1": 0.4977578475336323,
+    "mcc": 0.3891380849408801
+  },
+  "fba_fixed": {
+    "auroc": 0.6657865143268409,
+    "f1": 0.40987654320987654,
+    "mcc": 0.2970112583431659
+  },
+  "discordance": {
+    "b_model_only_correct": 85,
+    "c_fba_only_correct": 70,
+    "p_exact_two_sided": 0.26073208800060277
+  },
+  "original_gate_verdict": {
+    "first_passing_rung": null,
+    "g2_overall": "FAIL - pivot per base prereg (rule 6)"
+  }
+}

@@ -51,6 +51,23 @@ def story_calibration(story,R):
                 'also need the lineage audit in the next section.',BODY),
               P('7.3 Limit on hard-call inference',H2),
               P('The literal G2 gate above failed. A later score-lineage audit found that threshold selection used other-fold OOF scores whose supervised training complements could include the evaluated fold labels; supervised base-layer scores add another nesting concern. Thus the favorable discordant counts are descriptive, not a clean held-out hard-call result. A fully nested refit or untouched cohort is needed. The FBA comparator thresholds yielded the same calls as fixed >0.5 for all 1,249 genes (results/calibration_lineage_audit.json). The locked gate and full fold-level audit remain in the repository; neither was revised after its result.',BODY),
+              P('7.3a New exploratory nested-threshold follow-up (not a gate repair)',H2),
+              P('After the lineage flaw was known, we locked a separate follow-up with an outer three-fold split, '
+                'inner-fold out-of-fold score generation for threshold selection, and fresh outer-training refits '
+                '(notes/prereg_nested_threshold_followup.md). The feature set excludes the previously reused '
+                'CNN/GNN/k-mer supervised OOF base scores and removes selected external annotation channels; '
+                'it is a restricted replacement model, not a nested rerun of the original stack. Each outer '
+                'fold chooses its threshold only from inner training scores and labels. The comparator is the '
+                'pre-specified label-free FBA minimal >0.5 call.',BODY),
+              P('On the same 1,249 Gerdes-overlap genes, this exploratory model obtains outer-fold OOF '
+                'AUROC 0.7714, AUPRC 0.4590, F1 0.4978 and MCC 0.3891; FBA minimal is AUROC 0.6658, '
+                'F1 0.4099 and MCC 0.2970 on those rows. There are 85 model-only-correct and 70 '
+                'FBA-only-correct calls (exact two-sided McNemar p=0.2607). Non-significance is not '
+                'equivalence, and these scores cannot be substituted into the old G2 gate, which remains FAIL '
+                'on all five rungs. The Gerdes cohort and external annotations are reused after prior '
+                'results were inspected; this is an exploratory leakage-reduced evaluation, not a new '
+                'untouched test or proof that all feature provenance is label-free. See '
+                'results/nested_threshold_followup.json and its gene-level OOF CSV.',BODY),
               P('7.4 Judge-informed research direction: where a virtual cell adds information',H2),
               P('The first recorded ChatGPT judge round was asked to critique the calibration paradox and propose a '
                 'testable novelty analysis. Its critique identified fold provenance, leakage, comparator-threshold '
