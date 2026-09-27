@@ -5,7 +5,7 @@ from build_paper import P,H1,H2,BODY,tbl,PageBreak,ROOT
 def story_gate(story,R):
     ga=R('gate_audit.json');bg=R('bigg_model_survey.json');delta=R('bigg_accession_delta.json')
     lr=R('learner_sensitivity.json');en=R('pathway_enrichment.json');ag=R('score_agreement.json')
-    story += [PageBreak(),P('Appendix I. New model survey and gate verification',H1),
+    story += [PageBreak(),P('Appendix I. New model survey and conditional gate accounting',H1),
               P('I.1 Cross-model biomass-objective survey',H2),
               P(f"We fetched {bg['fetched_and_analysed']} distinct model JSON snapshots from the public BiGG v2 index "
                 f"({bg['source_url']}); each model accession, source URL and SHA-256 is in results/bigg_model_survey.csv. "
