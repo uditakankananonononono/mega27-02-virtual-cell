@@ -27,7 +27,7 @@ header={'status':'retrospective equal-coefficient pair null; not exchangeable bi
  'mo_pair_ids':list(mo),'mo_pair_prior_rescued':sorted(mo_prior['rescued_ko_growth']),
  'pairs':[]}
 if outpath.exists():
- priorout=json.load(open(outpath)); assert {k:priorout[k] for k in header}==header
+ priorout=json.load(open(outpath)); assert {k:priorout[k] for k in header if k!='pairs'}=={k:v for k,v in header.items() if k!='pairs'}
  assert [x['removed'] for x in priorout['pairs']]==[list(t) for t in pairs[:len(priorout['pairs'])]]
  out=priorout
 else: out=header
