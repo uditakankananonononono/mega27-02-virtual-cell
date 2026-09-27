@@ -28,7 +28,7 @@ header={'status':'retrospective equal-coefficient pair null; not exchangeable bi
  'pairs':[]}
 if outpath.exists():
  priorout=json.load(open(outpath)); assert {k:priorout[k] for k in header}==header
- assert [x['removed'] for x in priorout['pairs']]==[list(t) for t in pairs[:len(priorout['pairs'])]]]
+ assert [x['removed'] for x in priorout['pairs']]==[list(t) for t in pairs[:len(priorout['pairs'])]]
  out=priorout
 else: out=header
 start=len(out['pairs']); n=int(sys.argv[1]) if len(sys.argv)>1 else 25
