@@ -1,6 +1,6 @@
 # Current judge requirement, 27 September 2026
 
-The owner changed the requirement at 10:00 IST to one ChatGPT check per project, provided through her courier route. The three already verified ChatGPT novelty-producing critique rounds remain in the historical ledger: **3 of 1, requirement met**. The old ten-round target and the "more needed" counts below are historical and superseded, not current blockers. A future courier verdict is assessed on its own contents; supplementary Gemini and DeepSeek are never counted as ChatGPT. Meeting this review-count requirement does not repair G2, independent validation, or paper-length gaps.
+The owner changed the requirement at 10:00 IST to one ChatGPT check per project, provided through her courier route. The three already verified ChatGPT novelty-producing critique rounds remain in the historical ledger: **3 of 1 historical ChatGPT critiques; judge gate PENDING her provided verdict**. The old ten-round target and the "more needed" counts below are historical and superseded, not current blockers. The existing rounds were agent-initiated, and Main is clarifying whether the owner meant only a verdict she personally provides. Do not call this gate met until that answer arrives. A future courier verdict is assessed on its own contents; supplementary Gemini and DeepSeek are never counted as ChatGPT. Even a met review-count requirement would not repair G2, independent validation, or paper-length gaps.
 
 
 ## Revival round 01 [ChatGPT] (2026-09-26): calibration paradox to mechanistic regime test
